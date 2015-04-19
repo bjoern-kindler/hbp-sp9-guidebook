@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classhaldls_1_1exception_1_1_invalid_configuration" kind="class" language="C++" prot="public">
+    <compoundname>haldls::exception::InvalidConfiguration</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::runtime_error</basecompoundref>
+    <includes refid="exceptions_8h" local="no">exceptions.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1exception_1_1_invalid_configuration_1a7605e68f2e3077ceed2e5ed2b3470111" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::exception::InvalidConfiguration::InvalidConfiguration</definition>
+        <argsstring>(std::string const &amp;what) SYMBOL_VISIBLE</argsstring>
+        <name>InvalidConfiguration</name>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>what</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/exception/exceptions.h" line="15" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>haldls-specific Exception type describing an invalid hardware configuration setting. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1055">
+        <label>haldls::exception::InvalidConfiguration</label>
+        <link refid="classhaldls_1_1exception_1_1_invalid_configuration"/>
+        <childnode refid="1056" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1056">
+        <label>std::runtime_error</label>
+        <childnode refid="1057" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1057">
+        <label>std::exception</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1058">
+        <label>haldls::exception::InvalidConfiguration</label>
+        <link refid="classhaldls_1_1exception_1_1_invalid_configuration"/>
+        <childnode refid="1059" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1059">
+        <label>std::runtime_error</label>
+        <childnode refid="1060" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1060">
+        <label>std::exception</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/exception/exceptions.h" line="13" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/exception/exceptions.h" bodystart="12" bodyend="16"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1exception_1_1_invalid_configuration_1a7605e68f2e3077ceed2e5ed2b3470111" prot="public" virt="non-virtual"><scope>haldls::exception::InvalidConfiguration</scope><name>InvalidConfiguration</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

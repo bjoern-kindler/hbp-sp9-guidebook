@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="ppu_8h" kind="file" language="C++">
+    <compoundname>ppu.h</compoundname>
+    <includes local="no">array</includes>
+    <includes local="no">ostream</includes>
+    <includes local="yes">halco/common/geometry.h</includes>
+    <includes local="yes">halco/common/iter_all.h</includes>
+    <includes local="yes">halco/common/typed_heap_array.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/ppu.h</includes>
+    <includes refid="common_8h" local="yes">haldls/vx/common.h</includes>
+    <includes refid="coordinate__to__container_8h" local="yes">haldls/vx/coordinate_to_container.h</includes>
+    <includes refid="genpybind_8h" local="yes">haldls/vx/genpybind.h</includes>
+    <includes refid="traits_8h" local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includedby refid="container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.h</includedby>
+    <includedby refid="ppu_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/ppu.h</includedby>
+    <incdepgraph>
+      <node id="901">
+        <label>fisch/vx/container.def</label>
+      </node>
+      <node id="894">
+        <label>haldls/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="894" relation="include">
+        </childnode>
+      </node>
+      <node id="887">
+        <label>halco/common/typed_heap_array.h</label>
+      </node>
+      <node id="889">
+        <label>haldls/vx/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="890" relation="include">
+        </childnode>
+        <childnode refid="891" relation="include">
+        </childnode>
+        <childnode refid="892" relation="include">
+        </childnode>
+      </node>
+      <node id="886">
+        <label>halco/common/iter_all.h</label>
+      </node>
+      <node id="895">
+        <label>haldls/vx/traits.h</label>
+        <link refid="traits_8h"/>
+        <childnode refid="890" relation="include">
+        </childnode>
+        <childnode refid="896" relation="include">
+        </childnode>
+        <childnode refid="897" relation="include">
+        </childnode>
+        <childnode refid="898" relation="include">
+        </childnode>
+        <childnode refid="894" relation="include">
+        </childnode>
+        <childnode refid="899" relation="include">
+        </childnode>
+        <childnode refid="900" relation="include">
+        </childnode>
+        <childnode refid="901" relation="include">
+        </childnode>
+      </node>
+      <node id="896">
+        <label>boost/variant.hpp</label>
+      </node>
+      <node id="888">
+        <label>halco/hicann-dls/vx/ppu.h</label>
+      </node>
+      <node id="884">
+        <label>ostream</label>
+      </node>
+      <node id="893">
+        <label>haldls/vx/coordinate_to_container.h</label>
+        <link refid="coordinate__to__container_8h"/>
+        <childnode refid="890" relation="include">
+        </childnode>
+      </node>
+      <node id="882">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/ppu.h</label>
+        <link refid="ppu_8h"/>
+        <childnode refid="883" relation="include">
+        </childnode>
+        <childnode refid="884" relation="include">
+        </childnode>
+        <childnode refid="885" relation="include">
+        </childnode>
+        <childnode refid="886" relation="include">
+        </childnode>
+        <childnode refid="887" relation="include">
+        </childnode>
+        <childnode refid="888" relation="include">
+        </childnode>
+        <childnode refid="889" relation="include">
+        </childnode>
+        <childnode refid="893" relation="include">
+        </childnode>
+        <childnode refid="894" relation="include">
+        </childnode>
+        <childnode refid="895" relation="include">
+        </childnode>
+        <childnode refid="900" relation="include">
+        </childnode>
+      </node>
+      <node id="891">
+        <label>utility</label>
+      </node>
+      <node id="883">
+        <label>array</label>
+      </node>
+      <node id="885">
+        <label>halco/common/geometry.h</label>
+      </node>
+      <node id="897">
+        <label>fisch/vx/container_fwd.h</label>
+      </node>
+      <node id="900">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="898">
+        <label>fisch/vx/container_ticket.h</label>
+      </node>
+      <node id="892">
+        <label>fisch/vx/omnibus_data.h</label>
+      </node>
+      <node id="890">
+        <label>type_traits</label>
+      </node>
+      <node id="899">
+        <label>hate/type_list.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="905">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/pyhaldls.h</label>
+        <link refid="pyhaldls_8h"/>
+      </node>
+      <node id="907">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_writereadable.h</label>
+        <link refid="is__writereadable_8h"/>
+      </node>
+      <node id="904">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/haldls.h</label>
+        <link refid="haldls_8h"/>
+        <childnode refid="905" relation="include">
+        </childnode>
+      </node>
+      <node id="908">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/ppu.h</label>
+        <link refid="ppu_8h"/>
+        <childnode refid="909" relation="include">
+        </childnode>
+      </node>
+      <node id="906">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_readable.h</label>
+        <link refid="is__readable_8h"/>
+        <childnode refid="907" relation="include">
+        </childnode>
+      </node>
+      <node id="909">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/container.h</label>
+        <link refid="container_8h"/>
+        <childnode refid="906" relation="include">
+        </childnode>
+      </node>
+      <node id="902">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/ppu.h</label>
+        <link refid="ppu_8h"/>
+        <childnode refid="903" relation="include">
+        </childnode>
+        <childnode refid="908" relation="include">
+        </childnode>
+      </node>
+      <node id="903">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.h</label>
+        <link refid="container_8h"/>
+        <childnode refid="904" relation="include">
+        </childnode>
+        <childnode refid="906" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_p_p_u_control_register_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PPUControlRegister &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_p_p_u_memory_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PPUMemory &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_p_p_u_memory_block_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PPUMemoryBlock &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_p_p_u_memory_word_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PPUMemoryWord &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_p_p_u_status_register_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PPUStatusRegister &gt;</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_p_p_u_control_register" prot="public">haldls::vx::PPUControlRegister</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_p_p_u_memory" prot="public">haldls::vx::PPUMemory</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_p_p_u_memory_block" prot="public">haldls::vx::PPUMemoryBlock</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_p_p_u_memory_word" prot="public">haldls::vx::PPUMemoryWord</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_p_p_u_status_register" prot="public">haldls::vx::PPUStatusRegister</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_p_p_u_memory_word_1_1_value" prot="public">haldls::vx::PPUMemoryWord::Value</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01_p_p_u_memory_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; PPUMemory &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01_p_p_u_memory_block_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; PPUMemoryBlock &gt;</innerclass>
+    <innernamespace refid="namespacecereal">cereal</innernamespace>
+    <innernamespace refid="namespacefisch">fisch</innernamespace>
+    <innernamespace refid="namespacefisch_1_1vx">fisch::vx</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <innernamespace refid="namespacestd">std</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/ppu.h"/>
+  </compounddef>
+</doxygen>

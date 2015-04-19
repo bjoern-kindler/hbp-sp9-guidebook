@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacestadls_1_1v2" kind="namespace" language="C++">
+    <compoundname>stadls::v2</compoundname>
+    <innerclass refid="classstadls_1_1v2_1_1_experiment_control" prot="public">stadls::v2::ExperimentControl</innerclass>
+    <innerclass refid="classstadls_1_1v2_1_1_local_board_control" prot="public">stadls::v2::LocalBoardControl</innerclass>
+    <innerclass refid="classstadls_1_1v2_1_1_quick_queue_client" prot="public">stadls::v2::QuickQueueClient</innerclass>
+    <innerclass refid="structstadls_1_1v2_1_1_quick_queue_request" prot="public">stadls::v2::QuickQueueRequest</innerclass>
+    <innerclass refid="structstadls_1_1v2_1_1_quick_queue_response" prot="public">stadls::v2::QuickQueueResponse</innerclass>
+    <innerclass refid="classstadls_1_1v2_1_1_quick_queue_worker" prot="public">stadls::v2::QuickQueueWorker</innerclass>
+    <innernamespace refid="namespacestadls_1_1v2_1_1detail">stadls::v2::detail</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacestadls_1_1v2_1a3b3f492145fddfc1b66d960b77e1e4de" prot="public" static="no">
+        <type>std::vector&lt; haldls::v2::ocp_address_type &gt;</type>
+        <definition>typedef std::vector&lt;haldls::v2::ocp_address_type&gt; stadls::v2::ocp_addresses_type</definition>
+        <argsstring></argsstring>
+        <name>ocp_addresses_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/quick_queue.h" line="25" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/quick_queue.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacestadls_1_1v2_1a803d0ddb76d453f26160c71c93a61ee8" prot="public" static="no">
+        <type>std::vector&lt; haldls::v2::ocp_word_type &gt;</type>
+        <definition>typedef std::vector&lt;haldls::v2::ocp_word_type&gt; stadls::v2::ocp_words_type</definition>
+        <argsstring></argsstring>
+        <name>ocp_words_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/quick_queue.h" line="26" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/quick_queue.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacestadls_1_1v2_1a08c897fa8c751af29043beb9e3aa7a74" prot="public" static="no">
+        <type>std::vector&lt; std::vector&lt; haldls::v2::instruction_word_type &gt; &gt;</type>
+        <definition>typedef std::vector&lt;std::vector&lt;haldls::v2::instruction_word_type&gt; &gt; stadls::v2::program_bytes_type</definition>
+        <argsstring></argsstring>
+        <name>program_bytes_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/quick_queue.h" line="27" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/quick_queue.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacestadls_1_1v2_1a675e9249a08ccf86a2d0e84dfe948cc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; stadls::v2::available_board_usb_serial_numbers</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>available_board_usb_serial_numbers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/local_board_control.h" line="135" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1v2_1ac104412c0da8113cf080d8567541a278" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structstadls_1_1v2_1_1_quick_queue_request" kindref="compound">QuickQueueRequest</ref></type>
+        <definition>QuickQueueRequest stadls::v2::create_request</definition>
+        <argsstring>(haldls::v2::Board const &amp;board, haldls::v2::Chip const &amp;chip, std::shared_ptr&lt; haldls::v2::PlaybackProgram &gt; const &amp;playback_program)</argsstring>
+        <name>create_request</name>
+        <param>
+          <type>haldls::v2::Board const &amp;</type>
+          <declname>board</declname>
+        </param>
+        <param>
+          <type>haldls::v2::Chip const &amp;</type>
+          <declname>chip</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; haldls::v2::PlaybackProgram &gt; const &amp;</type>
+          <declname>playback_program</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/quick_queue.h" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1v2_1a9a8ef60483e2d87de8773c95ae467c6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; haldls::v2::PlaybackProgram &gt;</type>
+        <definition>std::shared_ptr&lt; haldls::v2::PlaybackProgram &gt; stadls::v2::get_configure_program</definition>
+        <argsstring>(haldls::v2::Chip chip)</argsstring>
+        <name>get_configure_program</name>
+        <param>
+          <type>haldls::v2::Chip</type>
+          <declname>chip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/experiment.h" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1v2_1ae48e854c09a94a834a08549adaab26d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; haldls::v2::ocp_word_type &gt;</type>
+        <definition>std::vector&lt;haldls::v2::ocp_word_type&gt; stadls::v2::ocp_read</definition>
+        <argsstring>(rw_api::FlyspiCom &amp;com, std::vector&lt; haldls::v2::ocp_address_type &gt; const &amp;addresses)</argsstring>
+        <name>ocp_read</name>
+        <param>
+          <type>rw_api::FlyspiCom &amp;</type>
+          <declname>com</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; haldls::v2::ocp_address_type &gt; const &amp;</type>
+          <declname>addresses</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/ocp.h" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1v2_1a5261b36d7a0569c7fd458b20a85a8691" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T stadls::v2::ocp_read_container</definition>
+        <argsstring>(rw_api::FlyspiCom &amp;com, typename T::coordinate_type const &amp;coord)</argsstring>
+        <name>ocp_read_container</name>
+        <param>
+          <type>rw_api::FlyspiCom &amp;</type>
+          <declname>com</declname>
+        </param>
+        <param>
+          <type>typename T::coordinate_type const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/ocp.h" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1v2_1a86a488f432996c86f42710635c9af380" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::v2::ocp_write</definition>
+        <argsstring>(rw_api::FlyspiCom &amp;com, std::vector&lt; haldls::v2::ocp_word_type &gt; const &amp;words, std::vector&lt; haldls::v2::ocp_address_type &gt; const &amp;addresses)</argsstring>
+        <name>ocp_write</name>
+        <param>
+          <type>rw_api::FlyspiCom &amp;</type>
+          <declname>com</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; haldls::v2::ocp_word_type &gt; const &amp;</type>
+          <declname>words</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; haldls::v2::ocp_address_type &gt; const &amp;</type>
+          <declname>addresses</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/ocp.h" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1v2_1a7c63bc051d9cadcbd2b3c3a70d8790a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void stadls::v2::ocp_write_container</definition>
+        <argsstring>(rw_api::FlyspiCom &amp;com, typename T::coordinate_type const &amp;coord, T const &amp;container)</argsstring>
+        <name>ocp_write_container</name>
+        <param>
+          <type>rw_api::FlyspiCom &amp;</type>
+          <declname>com</declname>
+        </param>
+        <param>
+          <type>typename T::coordinate_type const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>T const &amp;</type>
+          <declname>container</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/ocp.h" line="25" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/experiment.h" line="15" column="1"/>
+  </compounddef>
+</doxygen>

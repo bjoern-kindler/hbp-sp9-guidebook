@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1ReferenceGeneratorConfig_1_1CapMemOffset" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::ReferenceGeneratorConfig::CapMemOffset</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; CapMemOffset, uint_fast8_t, 63, 0 &gt;</basecompoundref>
+    <includes refid="vx_2capmem_8h" local="no">capmem.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1ReferenceGeneratorConfig_1_1CapMemOffset_1a79fc817b42662f568c16c4e3c737d320" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::ReferenceGeneratorConfig::CapMemOffset::CapMemOffset</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>CapMemOffset</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/capmem.h" line="437" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/capmem.h" bodystart="437" bodyend="439"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="810">
+        <label>haldls::ReferenceGeneratorConfig::CapMemOffset</label>
+        <link refid="structhaldls_1_1ReferenceGeneratorConfig_1_1CapMemOffset"/>
+        <childnode refid="811" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="811">
+        <label>halco::common::detail::RantWrapper&lt; CapMemOffset, uint_fast8_t, 63, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="812">
+        <label>haldls::ReferenceGeneratorConfig::CapMemOffset</label>
+        <link refid="structhaldls_1_1ReferenceGeneratorConfig_1_1CapMemOffset"/>
+        <childnode refid="813" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="813">
+        <label>halco::common::detail::RantWrapper&lt; CapMemOffset, uint_fast8_t, 63, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/capmem.h" line="436" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/capmem.h" bodystart="434" bodyend="440"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1ReferenceGeneratorConfig_1_1CapMemOffset_1a79fc817b42662f568c16c4e3c737d320" prot="public" virt="non-virtual"><scope>haldls::ReferenceGeneratorConfig::CapMemOffset</scope><name>CapMemOffset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

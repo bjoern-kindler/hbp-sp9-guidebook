@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="container_8h" kind="file" language="C++">
+    <compoundname>container.h</compoundname>
+    <includes refid="cadc_8h" local="yes">lola/vx/cadc.h</includes>
+    <includes refid="dac_8h" local="yes">lola/vx/dac.h</includes>
+    <includes refid="neuron_8h" local="yes">lola/vx/neuron.h</includes>
+    <includes local="no">boost/hana/adapt_struct.hpp</includes>
+    <includes local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/common.h</includes>
+    <includes local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/neuron.h</includes>
+    <includes refid="ppu_8h" local="yes">lola/vx/ppu.h</includes>
+    <includes refid="synapse_8h" local="yes">lola/vx/synapse.h</includes>
+    <includedby refid="lola_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/lola.h</includedby>
+    <incdepgraph>
+      <node id="48">
+        <label>haldls/vx/ppu.h</label>
+      </node>
+      <node id="35">
+        <label>lola/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>halco/common/typed_heap_array.h</label>
+      </node>
+      <node id="40">
+        <label>lola/vx/neuron.h</label>
+        <link refid="neuron_8h"/>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>halco/hicann-dls/vx/dac.h</label>
+      </node>
+      <node id="46">
+        <label>lola/vx/ppu.h</label>
+        <link refid="ppu_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>haldls/vx/synapse.h</label>
+      </node>
+      <node id="44">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/common.h</label>
+      </node>
+      <node id="28">
+        <label>halco/common/iter_all.h</label>
+      </node>
+      <node id="45">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/neuron.h</label>
+      </node>
+      <node id="32">
+        <label>haldls/vx/common.h</label>
+      </node>
+      <node id="26">
+        <label>lola/vx/cadc.h</label>
+        <link refid="cadc_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>pybind11/numpy.h</label>
+      </node>
+      <node id="47">
+        <label>halco/hicann-dls/vx/coordinates.h</label>
+      </node>
+      <node id="25">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/container.h</label>
+        <link refid="container_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>lola/vx/synapse.h</label>
+        <link refid="synapse_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>lola/vx/dac.h</label>
+        <link refid="dac_8h"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>haldls/vx/cadc.h</label>
+      </node>
+      <node id="29">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="42">
+        <label>haldls/vx/neuron.h</label>
+      </node>
+      <node id="34">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="41">
+        <label>haldls/vx/capmem.h</label>
+      </node>
+      <node id="39">
+        <label>haldls/vx/spi.h</label>
+      </node>
+      <node id="33">
+        <label>haldls/vx/traits.h</label>
+      </node>
+      <node id="43">
+        <label>lola/vx/neuron.tcc</label>
+      </node>
+      <node id="27">
+        <label>boost/hana/adapt_struct.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="52">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/lola.h</label>
+        <link refid="lola_8h"/>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/pylola.h</label>
+        <link refid="pylola_8h"/>
+      </node>
+      <node id="51">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/container.h</label>
+        <link refid="container_8h"/>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/container.h"/>
+  </compounddef>
+</doxygen>

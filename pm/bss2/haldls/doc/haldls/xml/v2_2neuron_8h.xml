@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="v2_2neuron_8h" kind="file" language="C++">
+    <compoundname>neuron.h</compoundname>
+    <includes local="no">ostream</includes>
+    <includes local="yes">halco/hicann-dls/v2/coordinates.h</includes>
+    <includes local="yes">hate/passkey.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includes refid="v2_2common_8h" local="yes">haldls/v2/common.h</includes>
+    <includes refid="v2_2genpybind_8h" local="yes">haldls/v2/genpybind.h</includes>
+    <includedby refid="chip_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h</includedby>
+    <includedby refid="v2_2container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/container.h</includedby>
+    <incdepgraph>
+      <node id="369">
+        <label>cstdint</label>
+      </node>
+      <node id="372">
+        <label>haldls/v2/genpybind.h</label>
+        <link refid="v2_2genpybind_8h"/>
+        <childnode refid="372" relation="include">
+        </childnode>
+      </node>
+      <node id="366">
+        <label>hate/passkey.h</label>
+      </node>
+      <node id="364">
+        <label>ostream</label>
+      </node>
+      <node id="371">
+        <label>utility</label>
+      </node>
+      <node id="367">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="365">
+        <label>halco/hicann-dls/v2/coordinates.h</label>
+      </node>
+      <node id="368">
+        <label>haldls/v2/common.h</label>
+        <link refid="v2_2common_8h"/>
+        <childnode refid="369" relation="include">
+        </childnode>
+        <childnode refid="370" relation="include">
+        </childnode>
+        <childnode refid="371" relation="include">
+        </childnode>
+      </node>
+      <node id="370">
+        <label>type_traits</label>
+      </node>
+      <node id="363">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/neuron.h</label>
+        <link refid="v2_2neuron_8h"/>
+        <childnode refid="364" relation="include">
+        </childnode>
+        <childnode refid="365" relation="include">
+        </childnode>
+        <childnode refid="366" relation="include">
+        </childnode>
+        <childnode refid="367" relation="include">
+        </childnode>
+        <childnode refid="368" relation="include">
+        </childnode>
+        <childnode refid="372" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="374">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h</label>
+        <link refid="chip_8h"/>
+        <childnode refid="375" relation="include">
+        </childnode>
+        <childnode refid="376" relation="include">
+        </childnode>
+      </node>
+      <node id="376">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h</label>
+        <link refid="playback_8h"/>
+        <childnode refid="375" relation="include">
+        </childnode>
+      </node>
+      <node id="375">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/container.h</label>
+        <link refid="v2_2container_8h"/>
+      </node>
+      <node id="373">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/neuron.h</label>
+        <link refid="v2_2neuron_8h"/>
+        <childnode refid="374" relation="include">
+        </childnode>
+        <childnode refid="375" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classhaldls_1_1v2_1_1_common_neuron_config" prot="public">haldls::v2::CommonNeuronConfig</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_neuron_digital_config" prot="public">haldls::v2::NeuronDigitalConfig</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_common_neuron_config_1_1_post_correlation_signal_length" prot="public">haldls::v2::CommonNeuronConfig::PostCorrelationSignalLength</innerclass>
+    <innernamespace refid="namespacecereal">cereal</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1v2">haldls::v2</innernamespace>
+    <innernamespace refid="namespacestd">std</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/neuron.h"/>
+  </compounddef>
+</doxygen>

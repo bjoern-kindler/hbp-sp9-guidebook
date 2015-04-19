@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1v2_1_1SynapseBlock_1_1Synapse_1_1Address" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::v2::SynapseBlock::Synapse::Address</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; Address, uint_fast16_t, 63, 0 &gt;</basecompoundref>
+    <includes refid="v2_2synapse_8h" local="no">synapse.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1SynapseBlock_1_1Synapse_1_1Address_1a4ae2d30c1ad923e5967c1a6c1d88d89f" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::v2::SynapseBlock::Synapse::Address::Address</definition>
+        <argsstring>(uintmax_t const val=0) SYMBOL_VISIBLE</argsstring>
+        <name>Address</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapse.h" line="136" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapse.h" bodystart="136" bodyend="136"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>halco::common::detail::RantWrapper&lt; Address, uint_fast16_t, 63, 0 &gt;</label>
+      </node>
+      <node id="4">
+        <label>haldls::v2::SynapseBlock::Synapse::Address</label>
+        <link refid="structhaldls_1_1v2_1_1SynapseBlock_1_1Synapse_1_1Address"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="7">
+        <label>halco::common::detail::RantWrapper&lt; Address, uint_fast16_t, 63, 0 &gt;</label>
+      </node>
+      <node id="6">
+        <label>haldls::v2::SynapseBlock::Synapse::Address</label>
+        <link refid="structhaldls_1_1v2_1_1SynapseBlock_1_1Synapse_1_1Address"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapse.h" line="135" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapse.h" bodystart="134" bodyend="137"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1v2_1_1SynapseBlock_1_1Synapse_1_1Address_1a4ae2d30c1ad923e5967c1a6c1d88d89f" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseBlock::Synapse::Address</scope><name>Address</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

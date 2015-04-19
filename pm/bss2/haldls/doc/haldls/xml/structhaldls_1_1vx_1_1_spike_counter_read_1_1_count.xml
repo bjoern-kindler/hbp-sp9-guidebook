@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1_spike_counter_read_1_1_count" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::SpikeCounterRead::Count</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; Count, uint_fast16_t, 255, 0 &gt;</basecompoundref>
+    <includes refid="neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_spike_counter_read_1_1_count_1a3679840febd5927b3d67948bb733d218" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::SpikeCounterRead::Count::Count</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>Count</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/neuron.h" line="905" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/neuron.h" bodystart="905" bodyend="907"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="structhaldls_1_1vx_1_1_spike_counter_read_1_1_count" kindref="compound">Count</ref> of rate counter. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1003">
+        <label>halco::common::detail::RantWrapper&lt; Count, uint_fast16_t, 255, 0 &gt;</label>
+      </node>
+      <node id="1002">
+        <label>haldls::vx::SpikeCounterRead::Count</label>
+        <link refid="structhaldls_1_1vx_1_1_spike_counter_read_1_1_count"/>
+        <childnode refid="1003" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1005">
+        <label>halco::common::detail::RantWrapper&lt; Count, uint_fast16_t, 255, 0 &gt;</label>
+      </node>
+      <node id="1004">
+        <label>haldls::vx::SpikeCounterRead::Count</label>
+        <link refid="structhaldls_1_1vx_1_1_spike_counter_read_1_1_count"/>
+        <childnode refid="1005" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/neuron.h" line="904" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/neuron.h" bodystart="902" bodyend="908"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_spike_counter_read_1_1_count_1a3679840febd5927b3d67948bb733d218" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeCounterRead::Count</scope><name>Count</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

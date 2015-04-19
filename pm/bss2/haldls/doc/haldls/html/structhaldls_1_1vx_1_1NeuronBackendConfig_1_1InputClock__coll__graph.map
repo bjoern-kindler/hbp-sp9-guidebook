@@ -1,0 +1,4 @@
+<map id="haldls::vx::NeuronBackendConfig::InputClock" name="haldls::vx::NeuronBackendConfig::InputClock">
+<area shape="rect" id="node1" title="There are two independent but equivalent clocks available." alt="" coords="8,113,188,157"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,192,65"/>
+</map>

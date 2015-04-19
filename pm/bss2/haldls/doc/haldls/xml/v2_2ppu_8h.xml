@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="v2_2ppu_8h" kind="file" language="C++">
+    <compoundname>ppu.h</compoundname>
+    <includes local="no">array</includes>
+    <includes local="no">ostream</includes>
+    <includes local="yes">halco/hicann-dls/v2/coordinates.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includes refid="v2_2common_8h" local="yes">haldls/v2/common.h</includes>
+    <includes refid="v2_2genpybind_8h" local="yes">haldls/v2/genpybind.h</includes>
+    <includedby refid="chip_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h</includedby>
+    <includedby refid="v2_2container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/container.h</includedby>
+    <incdepgraph>
+      <node id="432">
+        <label>cstdint</label>
+      </node>
+      <node id="426">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/ppu.h</label>
+        <link refid="v2_2ppu_8h"/>
+        <childnode refid="427" relation="include">
+        </childnode>
+        <childnode refid="428" relation="include">
+        </childnode>
+        <childnode refid="429" relation="include">
+        </childnode>
+        <childnode refid="430" relation="include">
+        </childnode>
+        <childnode refid="431" relation="include">
+        </childnode>
+        <childnode refid="435" relation="include">
+        </childnode>
+      </node>
+      <node id="435">
+        <label>haldls/v2/genpybind.h</label>
+        <link refid="v2_2genpybind_8h"/>
+        <childnode refid="435" relation="include">
+        </childnode>
+      </node>
+      <node id="428">
+        <label>ostream</label>
+      </node>
+      <node id="434">
+        <label>utility</label>
+      </node>
+      <node id="427">
+        <label>array</label>
+      </node>
+      <node id="430">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="429">
+        <label>halco/hicann-dls/v2/coordinates.h</label>
+      </node>
+      <node id="431">
+        <label>haldls/v2/common.h</label>
+        <link refid="v2_2common_8h"/>
+        <childnode refid="432" relation="include">
+        </childnode>
+        <childnode refid="433" relation="include">
+        </childnode>
+        <childnode refid="434" relation="include">
+        </childnode>
+      </node>
+      <node id="433">
+        <label>type_traits</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="437">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h</label>
+        <link refid="chip_8h"/>
+        <childnode refid="438" relation="include">
+        </childnode>
+        <childnode refid="439" relation="include">
+        </childnode>
+      </node>
+      <node id="436">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/ppu.h</label>
+        <link refid="v2_2ppu_8h"/>
+        <childnode refid="437" relation="include">
+        </childnode>
+        <childnode refid="438" relation="include">
+        </childnode>
+      </node>
+      <node id="439">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h</label>
+        <link refid="playback_8h"/>
+        <childnode refid="438" relation="include">
+        </childnode>
+      </node>
+      <node id="438">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/container.h</label>
+        <link refid="v2_2container_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classhaldls_1_1v2_1_1_p_p_u_control_register" prot="public">haldls::v2::PPUControlRegister</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_p_p_u_memory" prot="public">haldls::v2::PPUMemory</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_p_p_u_memory_block" prot="public">haldls::v2::PPUMemoryBlock</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_p_p_u_memory_word" prot="public">haldls::v2::PPUMemoryWord</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_p_p_u_status_register" prot="public">haldls::v2::PPUStatusRegister</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_p_p_u_memory_word_1_1_value" prot="public">haldls::v2::PPUMemoryWord::Value</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1detail_1_1_visit_preorder_impl_3_01_p_p_u_memory_01_4" prot="public">haldls::v2::detail::VisitPreorderImpl&lt; PPUMemory &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1detail_1_1_visit_preorder_impl_3_01_p_p_u_memory_block_01_4" prot="public">haldls::v2::detail::VisitPreorderImpl&lt; PPUMemoryBlock &gt;</innerclass>
+    <innernamespace refid="namespacecereal">cereal</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1v2">haldls::v2</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1v2_1_1detail">haldls::v2::detail</innernamespace>
+    <innernamespace refid="namespacestd">std</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/ppu.h"/>
+  </compounddef>
+</doxygen>

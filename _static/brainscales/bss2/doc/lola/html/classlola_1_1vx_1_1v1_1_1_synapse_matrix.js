@@ -1,0 +1,28 @@
+var classlola_1_1vx_1_1v1_1_1_synapse_matrix =
+[
+    [ "_amp_calibs_row_type", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#a1b236032903341ccad0f519956f6fd56", null ],
+    [ "_amp_calibs_type", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#af00d4cefaf8bdaa8487674c2dc0369b4", null ],
+    [ "_labels_row_type", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#adcd01c14685f4ee29ef40ee88f4c52e0", null ],
+    [ "_labels_type", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#a9341927a8138c79762656d8faec41f5b", null ],
+    [ "_time_calibs_row_type", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#a1fba171d70d99f751f132aef7fb54d13", null ],
+    [ "_time_calibs_type", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#a043fd72b4a82086441de51e0c1a55e1b", null ],
+    [ "_weights_row_type", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#ad9bb36967124814fa9ff524cb42b6a78", null ],
+    [ "_weights_type", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#a56b79599e6bf565b90ce3b362fc07192", null ],
+    [ "AmpCalib", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#ad554552745368350d269ca86bc6a8d37", null ],
+    [ "coordinate_type", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#a09e502a7da6da5a17057265c46f085ac", null ],
+    [ "has_local_data", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#aec2feb97d85b4ec23b5b6ea3ddf12aba", null ],
+    [ "Label", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#a7e679f0159d6071d22da753af5ee999e", null ],
+    [ "matrix_type", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#abfeb04f97b7b3fbef32f9dd400d2b428", null ],
+    [ "row_type", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#a7cebca3bb938352acc05eed77ecdeb32", null ],
+    [ "TimeCalib", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#a4bf34d5908abacbf1286ae46db5d565b", null ],
+    [ "Weight", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#a3fb037da6939e481261ed150398c0c01", null ],
+    [ "SynapseMatrix", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#a4a04f4e8a4d9cf9cec3ccc197c02dab7", null ],
+    [ "operator!=", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#ac3e0caf24eca0fe51123bf4d54a0b7ce", null ],
+    [ "operator==", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#a210d1bf0db522a7e40398b910a07a7b1", null ],
+    [ "haldls::vx::detail::VisitPreorderImpl< SynapseMatrix >", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#a787eb882996983c67499f83b7ab0fc9d", null ],
+    [ "operator<<", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#a3901ebafcd0d8c9454333d88de30bfda", null ],
+    [ "amp_calibs", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#a9d0f667f6e5ded9b9480f0a1caa3cee1", null ],
+    [ "labels", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#aa09fbbc97e8073455128503ab47d4de8", null ],
+    [ "time_calibs", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#af5bcdd53a557cb3cdc79ae63f3ffe01a", null ],
+    [ "weights", "classlola_1_1vx_1_1v1_1_1_synapse_matrix.html#aeec16630df1fc6e1eed38590509e4eb7", null ]
+];

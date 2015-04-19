@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classhaldls_1_1v2_1_1_cap_mem_cell" kind="class" language="C++" prot="public">
+    <compoundname>haldls::v2::CapMemCell</compoundname>
+    <includes refid="v2_2capmem_8h" local="no">capmem.h</includes>
+    <innerclass refid="structhaldls_1_1v2_1_1_cap_mem_cell_1_1_value" prot="public">haldls::v2::CapMemCell::Value</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1_cap_mem_cell_1accf7f60663748cc3a68be15280419da1" prot="public" static="no">
+        <type>halco::hicann_dls::v2::CapMemCellOnDLS</type>
+        <definition>typedef halco::hicann_dls::v2::CapMemCellOnDLS haldls::v2::CapMemCell::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" line="22" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1_cap_mem_cell_1a5b6c194c5d93cace21e64f9d06b52524" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::v2::CapMemCell::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" line="23" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_cap_mem_cell_1a6f231ee16669ec80e1bf0e3e75301638" prot="public" static="yes" mutable="no">
+        <type>size_t constexpr</type>
+        <definition>size_t constexpr haldls::v2::CapMemCell::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" line="39" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1v2_1_1_cap_mem_cell_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" line="51" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_cap_mem_cell_1a0ef57d997abd0710b287e4021507d304" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1v2_1_1_cap_mem_cell_1_1_value" kindref="compound">Value</ref></type>
+        <definition>Value haldls::v2::CapMemCell::m_value</definition>
+        <argsstring></argsstring>
+        <name>m_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" line="55" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_cap_mem_cell_1a40e2a46140c37d0582c5f3466d445544" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::CapMemCell::CapMemCell</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>CapMemCell</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_cap_mem_cell_1afa2385476adc5a944617791a5d1cda97" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::CapMemCell::CapMemCell</definition>
+        <argsstring>(Value const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>CapMemCell</name>
+        <param>
+          <type><ref refid="structhaldls_1_1v2_1_1_cap_mem_cell_1_1_value" kindref="compound">Value</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_cap_mem_cell_1aa5c00e78d0293b4373e7c3987952f71c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; <ref refid="namespacehaldls_1_1v2_1a3b19ef886ae4efa44f3633a0fe7e8bdb" kindref="member">hardware_address_type</ref>, <ref refid="classhaldls_1_1v2_1_1_cap_mem_cell_1a6f231ee16669ec80e1bf0e3e75301638" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;hardware_address_type, config_size_in_words&gt; haldls::v2::CapMemCell::addresses</definition>
+        <argsstring>(coordinate_type const &amp;cell) const SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_cap_mem_cell_1accf7f60663748cc3a68be15280419da1" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>cell</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_cap_mem_cell_1a6516aa8f20a62465382b9860d5d17180" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::CapMemCell::decode</definition>
+        <argsstring>(std::array&lt; hardware_word_type, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; <ref refid="namespacehaldls_1_1v2_1a1cd09cb45aac9afc8a923535524121d9" kindref="member">hardware_word_type</ref>, <ref refid="classhaldls_1_1v2_1_1_cap_mem_cell_1a6f231ee16669ec80e1bf0e3e75301638" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_cap_mem_cell_1ab55f5341f4e76c5a077fa2e8ac91a896" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; <ref refid="namespacehaldls_1_1v2_1a1cd09cb45aac9afc8a923535524121d9" kindref="member">hardware_word_type</ref>, <ref refid="classhaldls_1_1v2_1_1_cap_mem_cell_1a6f231ee16669ec80e1bf0e3e75301638" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;hardware_word_type, config_size_in_words&gt; haldls::v2::CapMemCell::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_cap_mem_cell_1a6731e7ae53c2b3cdabe7c4ee3cb414c9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1v2_1_1_cap_mem_cell_1_1_value" kindref="compound">Value</ref></type>
+        <definition>Value haldls::v2::CapMemCell::get_value</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_cap_mem_cell_1a098a296b69773a8d3c1f73c67dbabfb2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::CapMemCell::operator!=</definition>
+        <argsstring>(CapMemCell const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_cap_mem_cell" kindref="compound">CapMemCell</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_cap_mem_cell_1a2794ef75e338ff8ccf010803add201d2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::CapMemCell::operator==</definition>
+        <argsstring>(CapMemCell const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_cap_mem_cell" kindref="compound">CapMemCell</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_cap_mem_cell_1a1175880da88fca7466100108a02d9a1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::CapMemCell::set_value</definition>
+        <argsstring>(Value const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_value</name>
+        <param>
+          <type><ref refid="structhaldls_1_1v2_1_1_cap_mem_cell_1_1_value" kindref="compound">Value</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" line="37" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_cap_mem_cell_1ad181140d3ca706ceca9306b1e37a9f70" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::v2::CapMemCell::serialize</definition>
+        <argsstring>(Archive &amp;ar) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" line="53" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" line="20" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" bodystart="19" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1v2_1_1_cap_mem_cell_1aa5c00e78d0293b4373e7c3987952f71c" prot="public" virt="non-virtual"><scope>haldls::v2::CapMemCell</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1v2_1_1_cap_mem_cell_1a40e2a46140c37d0582c5f3466d445544" prot="public" virt="non-virtual"><scope>haldls::v2::CapMemCell</scope><name>CapMemCell</name></member>
+      <member refid="classhaldls_1_1v2_1_1_cap_mem_cell_1afa2385476adc5a944617791a5d1cda97" prot="public" virt="non-virtual"><scope>haldls::v2::CapMemCell</scope><name>CapMemCell</name></member>
+      <member refid="classhaldls_1_1v2_1_1_cap_mem_cell_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::v2::CapMemCell</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1v2_1_1_cap_mem_cell_1a6f231ee16669ec80e1bf0e3e75301638" prot="public" virt="non-virtual"><scope>haldls::v2::CapMemCell</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1v2_1_1_cap_mem_cell_1accf7f60663748cc3a68be15280419da1" prot="public" virt="non-virtual"><scope>haldls::v2::CapMemCell</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1v2_1_1_cap_mem_cell_1a6516aa8f20a62465382b9860d5d17180" prot="public" virt="non-virtual"><scope>haldls::v2::CapMemCell</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1v2_1_1_cap_mem_cell_1ab55f5341f4e76c5a077fa2e8ac91a896" prot="public" virt="non-virtual"><scope>haldls::v2::CapMemCell</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1v2_1_1_cap_mem_cell_1a6731e7ae53c2b3cdabe7c4ee3cb414c9" prot="public" virt="non-virtual"><scope>haldls::v2::CapMemCell</scope><name>get_value</name></member>
+      <member refid="classhaldls_1_1v2_1_1_cap_mem_cell_1a5b6c194c5d93cace21e64f9d06b52524" prot="public" virt="non-virtual"><scope>haldls::v2::CapMemCell</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1v2_1_1_cap_mem_cell_1a0ef57d997abd0710b287e4021507d304" prot="private" virt="non-virtual"><scope>haldls::v2::CapMemCell</scope><name>m_value</name></member>
+      <member refid="classhaldls_1_1v2_1_1_cap_mem_cell_1a098a296b69773a8d3c1f73c67dbabfb2" prot="public" virt="non-virtual"><scope>haldls::v2::CapMemCell</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1v2_1_1_cap_mem_cell_1a2794ef75e338ff8ccf010803add201d2" prot="public" virt="non-virtual"><scope>haldls::v2::CapMemCell</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1v2_1_1_cap_mem_cell_1ad181140d3ca706ceca9306b1e37a9f70" prot="private" virt="non-virtual"><scope>haldls::v2::CapMemCell</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1v2_1_1_cap_mem_cell_1a1175880da88fca7466100108a02d9a1b" prot="public" virt="non-virtual"><scope>haldls::v2::CapMemCell</scope><name>set_value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

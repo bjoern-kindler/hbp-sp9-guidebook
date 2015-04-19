@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="event_8h" kind="file" language="C++">
+    <compoundname>event.h</compoundname>
+    <includes local="yes">fisch/vx/event.h</includes>
+    <includes local="yes">halco/common/geometry.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/event.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/highspeed_link.h</includes>
+    <includes refid="genpybind_8h" local="yes">haldls/vx/genpybind.h</includes>
+    <includes refid="neuron_8h" local="yes">haldls/vx/neuron.h</includes>
+    <includes refid="padi_8h" local="yes">haldls/vx/padi.h</includes>
+    <includes refid="synapse_8h" local="yes">haldls/vx/synapse.h</includes>
+    <includes refid="traits_8h" local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includedby refid="container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.h</includedby>
+    <incdepgraph>
+      <node id="312">
+        <label>fisch/vx/container.def</label>
+      </node>
+      <node id="320">
+        <label>halco/hicann-dls/vx/synapse.h</label>
+      </node>
+      <node id="295">
+        <label>haldls/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="295" relation="include">
+        </childnode>
+      </node>
+      <node id="300">
+        <label>halco/hicann-dls/vx/neuron.h</label>
+      </node>
+      <node id="315">
+        <label>haldls/vx/padi.h</label>
+        <link refid="padi_8h"/>
+        <childnode refid="297" relation="include">
+        </childnode>
+        <childnode refid="298" relation="include">
+        </childnode>
+        <childnode refid="292" relation="include">
+        </childnode>
+        <childnode refid="316" relation="include">
+        </childnode>
+        <childnode refid="295" relation="include">
+        </childnode>
+        <childnode refid="317" relation="include">
+        </childnode>
+        <childnode refid="306" relation="include">
+        </childnode>
+        <childnode refid="311" relation="include">
+        </childnode>
+        <childnode refid="314" relation="include">
+        </childnode>
+      </node>
+      <node id="302">
+        <label>haldls/vx/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="303" relation="include">
+        </childnode>
+        <childnode refid="304" relation="include">
+        </childnode>
+        <childnode refid="305" relation="include">
+        </childnode>
+      </node>
+      <node id="306">
+        <label>haldls/vx/traits.h</label>
+        <link refid="traits_8h"/>
+        <childnode refid="303" relation="include">
+        </childnode>
+        <childnode refid="307" relation="include">
+        </childnode>
+        <childnode refid="308" relation="include">
+        </childnode>
+        <childnode refid="309" relation="include">
+        </childnode>
+        <childnode refid="295" relation="include">
+        </childnode>
+        <childnode refid="310" relation="include">
+        </childnode>
+        <childnode refid="311" relation="include">
+        </childnode>
+        <childnode refid="312" relation="include">
+        </childnode>
+      </node>
+      <node id="296">
+        <label>haldls/vx/neuron.h</label>
+        <link refid="neuron_8h"/>
+        <childnode refid="297" relation="include">
+        </childnode>
+        <childnode refid="298" relation="include">
+        </childnode>
+        <childnode refid="292" relation="include">
+        </childnode>
+        <childnode refid="299" relation="include">
+        </childnode>
+        <childnode refid="300" relation="include">
+        </childnode>
+        <childnode refid="295" relation="include">
+        </childnode>
+        <childnode refid="301" relation="include">
+        </childnode>
+        <childnode refid="306" relation="include">
+        </childnode>
+        <childnode refid="311" relation="include">
+        </childnode>
+        <childnode refid="314" relation="include">
+        </childnode>
+      </node>
+      <node id="307">
+        <label>boost/variant.hpp</label>
+      </node>
+      <node id="298">
+        <label>ostream</label>
+      </node>
+      <node id="314">
+        <label>hxcomm/vx/target.h</label>
+      </node>
+      <node id="301">
+        <label>haldls/vx/sram_controller.h</label>
+        <link refid="sram__controller_8h"/>
+        <childnode refid="302" relation="include">
+        </childnode>
+        <childnode refid="295" relation="include">
+        </childnode>
+        <childnode refid="306" relation="include">
+        </childnode>
+        <childnode refid="313" relation="include">
+        </childnode>
+        <childnode refid="311" relation="include">
+        </childnode>
+      </node>
+      <node id="290">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h</label>
+        <link refid="event_8h"/>
+        <childnode refid="291" relation="include">
+        </childnode>
+        <childnode refid="292" relation="include">
+        </childnode>
+        <childnode refid="293" relation="include">
+        </childnode>
+        <childnode refid="294" relation="include">
+        </childnode>
+        <childnode refid="295" relation="include">
+        </childnode>
+        <childnode refid="296" relation="include">
+        </childnode>
+        <childnode refid="315" relation="include">
+        </childnode>
+        <childnode refid="317" relation="include">
+        </childnode>
+        <childnode refid="306" relation="include">
+        </childnode>
+        <childnode refid="311" relation="include">
+        </childnode>
+      </node>
+      <node id="299">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="304">
+        <label>utility</label>
+      </node>
+      <node id="297">
+        <label>array</label>
+      </node>
+      <node id="292">
+        <label>halco/common/geometry.h</label>
+      </node>
+      <node id="308">
+        <label>fisch/vx/container_fwd.h</label>
+      </node>
+      <node id="294">
+        <label>halco/hicann-dls/vx/highspeed_link.h</label>
+      </node>
+      <node id="311">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="309">
+        <label>fisch/vx/container_ticket.h</label>
+      </node>
+      <node id="316">
+        <label>halco/hicann-dls/vx/padi.h</label>
+      </node>
+      <node id="313">
+        <label>hate/math.h</label>
+      </node>
+      <node id="291">
+        <label>fisch/vx/event.h</label>
+      </node>
+      <node id="317">
+        <label>haldls/vx/synapse.h</label>
+        <link refid="synapse_8h"/>
+        <childnode refid="297" relation="include">
+        </childnode>
+        <childnode refid="298" relation="include">
+        </childnode>
+        <childnode refid="292" relation="include">
+        </childnode>
+        <childnode refid="299" relation="include">
+        </childnode>
+        <childnode refid="318" relation="include">
+        </childnode>
+        <childnode refid="319" relation="include">
+        </childnode>
+        <childnode refid="320" relation="include">
+        </childnode>
+        <childnode refid="302" relation="include">
+        </childnode>
+        <childnode refid="295" relation="include">
+        </childnode>
+        <childnode refid="306" relation="include">
+        </childnode>
+        <childnode refid="311" relation="include">
+        </childnode>
+      </node>
+      <node id="305">
+        <label>fisch/vx/omnibus_data.h</label>
+      </node>
+      <node id="303">
+        <label>type_traits</label>
+      </node>
+      <node id="319">
+        <label>halco/hicann-dls/vx/switch_rows.h</label>
+      </node>
+      <node id="318">
+        <label>halco/hicann-dls/vx/capmem.h</label>
+      </node>
+      <node id="310">
+        <label>hate/type_list.h</label>
+      </node>
+      <node id="293">
+        <label>halco/hicann-dls/vx/event.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="324">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/pyhaldls.h</label>
+        <link refid="pyhaldls_8h"/>
+      </node>
+      <node id="326">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_writereadable.h</label>
+        <link refid="is__writereadable_8h"/>
+      </node>
+      <node id="323">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/haldls.h</label>
+        <link refid="haldls_8h"/>
+        <childnode refid="324" relation="include">
+        </childnode>
+      </node>
+      <node id="325">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_readable.h</label>
+        <link refid="is__readable_8h"/>
+        <childnode refid="326" relation="include">
+        </childnode>
+      </node>
+      <node id="321">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h</label>
+        <link refid="event_8h"/>
+        <childnode refid="322" relation="include">
+        </childnode>
+      </node>
+      <node id="322">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.h</label>
+        <link refid="container_8h"/>
+        <childnode refid="323" relation="include">
+        </childnode>
+        <childnode refid="325" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_spike_pack1_to_chip_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SpikePack1ToChip &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_spike_pack2_to_chip_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SpikePack2ToChip &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_spike_pack3_to_chip_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SpikePack3ToChip &gt;</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_highspeed_link_notification" prot="public">haldls::vx::HighspeedLinkNotification</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip" prot="public">haldls::vx::MADCSampleFromChip</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_m_a_d_c_sample_from_chip_checker" prot="public">haldls::vx::detail::MADCSampleFromChipChecker</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_spike_label_1_1_p_a_d_i_label" prot="public">haldls::vx::SpikeLabel::PADILabel</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_spike_from_chip" prot="public">haldls::vx::SpikeFromChip</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_spike_from_chip_checker" prot="public">haldls::vx::detail::SpikeFromChipChecker</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_spike_label" prot="public">haldls::vx::SpikeLabel</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_spike_pack1_to_chip" prot="public">haldls::vx::SpikePack1ToChip</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_spike_pack2_to_chip" prot="public">haldls::vx::SpikePack2ToChip</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_spike_pack3_to_chip" prot="public">haldls::vx::SpikePack3ToChip</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1_1_value" prot="public">haldls::vx::MADCSampleFromChip::Value</innerclass>
+    <innernamespace refid="namespacecereal">cereal</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <innernamespace refid="namespacestd">std</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="event_8h_1aff7c0752b4c602c4691648b0776fe153" prot="public" static="no">
+        <name>SpikePackToChip</name>
+        <param><defname>Num</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" line="70" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h"/>
+  </compounddef>
+</doxygen>

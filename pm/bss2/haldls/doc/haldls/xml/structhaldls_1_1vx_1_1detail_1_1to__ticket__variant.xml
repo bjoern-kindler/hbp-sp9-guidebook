@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1to__ticket__variant" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::to_ticket_variant</compoundname>
+    <includes refid="traits_8h" local="no">traits.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename BackendContainerTypeList</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/traits.h" line="132" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/traits.h" bodystart="132" bodyend="-1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

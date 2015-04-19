@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="sram__controller_8h" kind="file" language="C++">
+    <compoundname>sram_controller.h</compoundname>
+    <includes refid="common_8h" local="yes">haldls/vx/common.h</includes>
+    <includes refid="genpybind_8h" local="yes">haldls/vx/genpybind.h</includes>
+    <includes refid="traits_8h" local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">hate/math.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includedby refid="cadc_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/cadc.h</includedby>
+    <includedby refid="neuron_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/neuron.h</includedby>
+    <includedby refid="container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.h</includedby>
+    <includedby refid="synapse__driver_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/synapse_driver.h</includedby>
+    <incdepgraph>
+      <node id="1110">
+        <label>fisch/vx/container.def</label>
+      </node>
+      <node id="1103">
+        <label>haldls/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="1103" relation="include">
+        </childnode>
+      </node>
+      <node id="1099">
+        <label>haldls/vx/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="1100" relation="include">
+        </childnode>
+        <childnode refid="1101" relation="include">
+        </childnode>
+        <childnode refid="1102" relation="include">
+        </childnode>
+      </node>
+      <node id="1104">
+        <label>haldls/vx/traits.h</label>
+        <link refid="traits_8h"/>
+        <childnode refid="1100" relation="include">
+        </childnode>
+        <childnode refid="1105" relation="include">
+        </childnode>
+        <childnode refid="1106" relation="include">
+        </childnode>
+        <childnode refid="1107" relation="include">
+        </childnode>
+        <childnode refid="1103" relation="include">
+        </childnode>
+        <childnode refid="1108" relation="include">
+        </childnode>
+        <childnode refid="1109" relation="include">
+        </childnode>
+        <childnode refid="1110" relation="include">
+        </childnode>
+      </node>
+      <node id="1105">
+        <label>boost/variant.hpp</label>
+      </node>
+      <node id="1098">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/sram_controller.h</label>
+        <link refid="sram__controller_8h"/>
+        <childnode refid="1099" relation="include">
+        </childnode>
+        <childnode refid="1103" relation="include">
+        </childnode>
+        <childnode refid="1104" relation="include">
+        </childnode>
+        <childnode refid="1111" relation="include">
+        </childnode>
+        <childnode refid="1109" relation="include">
+        </childnode>
+      </node>
+      <node id="1101">
+        <label>utility</label>
+      </node>
+      <node id="1106">
+        <label>fisch/vx/container_fwd.h</label>
+      </node>
+      <node id="1109">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="1107">
+        <label>fisch/vx/container_ticket.h</label>
+      </node>
+      <node id="1111">
+        <label>hate/math.h</label>
+      </node>
+      <node id="1102">
+        <label>fisch/vx/omnibus_data.h</label>
+      </node>
+      <node id="1100">
+        <label>type_traits</label>
+      </node>
+      <node id="1108">
+        <label>hate/type_list.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1116">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/pyhaldls.h</label>
+        <link refid="pyhaldls_8h"/>
+      </node>
+      <node id="1118">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_writereadable.h</label>
+        <link refid="is__writereadable_8h"/>
+      </node>
+      <node id="1124">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/synapse_driver.h</label>
+        <link refid="synapse__driver_8h"/>
+        <childnode refid="1114" relation="include">
+        </childnode>
+      </node>
+      <node id="1115">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/haldls.h</label>
+        <link refid="haldls_8h"/>
+        <childnode refid="1116" relation="include">
+        </childnode>
+      </node>
+      <node id="1123">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h</label>
+        <link refid="neuron_8h"/>
+        <childnode refid="1120" relation="include">
+        </childnode>
+      </node>
+      <node id="1117">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_readable.h</label>
+        <link refid="is__readable_8h"/>
+        <childnode refid="1118" relation="include">
+        </childnode>
+      </node>
+      <node id="1121">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/neuron.h</label>
+        <link refid="neuron_8h"/>
+        <childnode refid="1122" relation="include">
+        </childnode>
+        <childnode refid="1114" relation="include">
+        </childnode>
+        <childnode refid="1123" relation="include">
+        </childnode>
+      </node>
+      <node id="1119">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h</label>
+        <link refid="cadc_8h"/>
+        <childnode refid="1120" relation="include">
+        </childnode>
+      </node>
+      <node id="1112">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/sram_controller.h</label>
+        <link refid="sram__controller_8h"/>
+        <childnode refid="1113" relation="include">
+        </childnode>
+        <childnode refid="1121" relation="include">
+        </childnode>
+        <childnode refid="1114" relation="include">
+        </childnode>
+        <childnode refid="1124" relation="include">
+        </childnode>
+      </node>
+      <node id="1122">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h</label>
+        <link refid="event_8h"/>
+        <childnode refid="1114" relation="include">
+        </childnode>
+      </node>
+      <node id="1120">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/container.h</label>
+        <link refid="container_8h"/>
+        <childnode refid="1117" relation="include">
+        </childnode>
+      </node>
+      <node id="1114">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.h</label>
+        <link refid="container_8h"/>
+        <childnode refid="1115" relation="include">
+        </childnode>
+        <childnode refid="1117" relation="include">
+        </childnode>
+      </node>
+      <node id="1113">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/cadc.h</label>
+        <link refid="cadc_8h"/>
+        <childnode refid="1114" relation="include">
+        </childnode>
+        <childnode refid="1119" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_address_setup_time" prot="public">haldls::vx::detail::SRAMTimingConfig::AddressSetupTime</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_enable_width" prot="public">haldls::vx::detail::SRAMTimingConfig::EnableWidth</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config_1_1_read_delay" prot="public">haldls::vx::detail::SRAMTimingConfig::ReadDelay</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1detail_1_1_s_r_a_m_timing_config" prot="public">haldls::vx::detail::SRAMTimingConfig</innerclass>
+    <innernamespace refid="namespacecereal">cereal</innernamespace>
+    <innernamespace refid="namespacefisch">fisch</innernamespace>
+    <innernamespace refid="namespacefisch_1_1vx">fisch::vx</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/sram_controller.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,425 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="cadc_8h" kind="file" language="C++">
+    <compoundname>cadc.h</compoundname>
+    <includes local="no">boost/hana/adapt_struct.hpp</includes>
+    <includes local="yes">halco/common/iter_all.h</includes>
+    <includes local="yes">halco/common/typed_array.h</includes>
+    <includes local="yes">halco/common/typed_heap_array.h</includes>
+    <includes local="yes">haldls/vx/cadc.h</includes>
+    <includes local="yes">haldls/vx/common.h</includes>
+    <includes local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includes refid="genpybind_8h" local="yes">lola/vx/genpybind.h</includes>
+    <includes local="no">pybind11/numpy.h</includes>
+    <includedby refid="container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/container.h</includedby>
+    <incdepgraph>
+      <node id="9">
+        <label>lola/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>halco/common/typed_heap_array.h</label>
+      </node>
+      <node id="2">
+        <label>halco/common/iter_all.h</label>
+      </node>
+      <node id="6">
+        <label>haldls/vx/common.h</label>
+      </node>
+      <node id="0">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h</label>
+        <link refid="cadc_8h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>pybind11/numpy.h</label>
+      </node>
+      <node id="5">
+        <label>haldls/vx/cadc.h</label>
+      </node>
+      <node id="3">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="8">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="7">
+        <label>haldls/vx/traits.h</label>
+      </node>
+      <node id="1">
+        <label>boost/hana/adapt_struct.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="13">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/lola.h</label>
+        <link refid="lola_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/pylola.h</label>
+        <link refid="pylola_8h"/>
+      </node>
+      <node id="11">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h</label>
+        <link refid="cadc_8h"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/container.h</label>
+        <link refid="container_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_c_a_d_c_sample_row_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CADCSampleRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_c_a_d_c_samples_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CADCSamples &gt;</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_c_a_d_c_sample_row" prot="public">lola::vx::CADCSampleRow</innerclass>
+    <innerclass refid="classlola_1_1vx_1_1_c_a_d_c_samples" prot="public">lola::vx::CADCSamples</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_a_d_c_sample_row_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CADCSampleRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_a_d_c_samples_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CADCSamples &gt;</innerclass>
+    <innernamespace refid="namespacecereal">cereal</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <innernamespace refid="namespacelola">lola</innernamespace>
+    <innernamespace refid="namespacelola_1_1vx">lola::vx</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="cadc_8h_1a358ff1c145f4b83bf1e34ef0686315fa" prot="public" static="no">
+        <type>halco::common::typed_array&lt; halco::common::typed_heap_array&lt; <ref refid="cadc_8h_1a1fc54c57a77091d31377b9a43492ad57" kindref="member">Value</ref>, halco::hicann_dls::vx::SynapseOnSynapseRow &gt;, halco::hicann_dls::vx::SynramOnDLS &gt;</type>
+        <definition>typedef halco::common::typed_array&lt; halco::common::typed_heap_array&lt;Value, halco::hicann_dls::vx::SynapseOnSynapseRow&gt;, halco::hicann_dls::vx::SynramOnDLS&gt; _samples_type</definition>
+        <argsstring></argsstring>
+        <name>_samples_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" line="288" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="cadc_8h_1a8f1f88b4db98e777730e95ce09a886a6" prot="public" static="no">
+        <type>::<ref refid="classlola_1_1vx_1_1_c_a_d_c_samples_1afc662cd5375a4d0f5ed02ff26a3c63d9" kindref="member">lola::vx::CADCSamples::_samples_type</ref></type>
+        <definition>typedef ::lola::vx::CADCSamples::_samples_type _values_type</definition>
+        <argsstring></argsstring>
+        <name>_values_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" line="360" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="cadc_8h_1a7ed0ec71f0f53684553937d9b4bff0c1" prot="public" static="no">
+        <type>halco::hicann_dls::vx::CADCSamplesOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::CADCSamplesOnDLS coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" line="281" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="cadc_8h_1a91c918005a64a9655b7a3a38026371b2" prot="public" static="no">
+        <type>std::false_type</type>
+        <definition>typedef std::false_type has_local_data</definition>
+        <argsstring></argsstring>
+        <name>has_local_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" line="280" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="cadc_8h_1a1fc54c57a77091d31377b9a43492ad57" prot="public" static="no">
+        <type>haldls::vx::CADCSampleQuad::Value</type>
+        <definition>typedef haldls::vx::CADCSampleQuad::Value Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" line="283" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="cadc_8h_1a76a68ed9be3a46d4f653536d8136c13f" prot="public" static="no" mutable="no">
+        <type><ref refid="cadc_8h_1a358ff1c145f4b83bf1e34ef0686315fa" kindref="member">_samples_type</ref></type>
+        <definition>_samples_type acausal</definition>
+        <argsstring></argsstring>
+        <name>acausal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" line="294" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cadc_8h_1a5336936706030925bb72f50f6774b90a" prot="public" static="no" mutable="no">
+        <type>auto</type>
+        <definition>auto access</definition>
+        <argsstring></argsstring>
+        <name>access</name>
+        <initializer>= ret.mutable_unchecked()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" line="360" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cadc_8h_1ae876c2dfbfd671605f760b1d757d3f60" prot="public" static="no" mutable="no">
+        <type><ref refid="cadc_8h_1a358ff1c145f4b83bf1e34ef0686315fa" kindref="member">_samples_type</ref></type>
+        <definition>_samples_type causal</definition>
+        <argsstring></argsstring>
+        <name>causal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" line="293" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" bodystart="293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cadc_8h_1acc43a8d1721330f5c80f85c561267296" prot="public" static="no" mutable="no">
+        <type>auto</type>
+        <definition>auto from_numpy_template</definition>
+        <argsstring></argsstring>
+        <name>from_numpy_template</name>
+        <initializer>= [parent]( 		                               auto&amp; self, 		                               pybind11::array_t&lt;typename std::remove_reference&lt;decltype( 		                                   self)&gt;::type::value_type::value_type::value_type&gt; 		                                   array) { 			if (array.ndim() != 1) { 				throw std::runtime_error( 				    &quot;Number of dimensions to assign to typed_array must be one.&quot;); 			} 			if (array.size() != ::halco::hicann_dls::vx::SynapseOnSynapseRow::size * 2) { 				throw std::runtime_error(&quot;Input shape does not match number of neurons on DLS.&quot;); 			} 			auto <ref refid="cadc_8h_1a5336936706030925bb72f50f6774b90a" kindref="member">access</ref> = array.mutable_unchecked(); 			size_t <ref refid="cadc_8h_1a3f42f10d93f6edb91d7d3f6edad25921" kindref="member">index</ref> = 0; 			<ref refid="cadc_8h_1a025450a3c07660b6334bfbe558430021" kindref="member">for</ref> (auto coord : 			     ::halco::common::iter_all&lt;::halco::hicann_dls::vx::SynapseOnSynapseRow&gt;()) { 				self[::halco::hicann_dls::vx::SynramOnDLS(0)][coord] = 				    typename std::remove_reference&lt;decltype(self)&gt;::type::value_type::value_type( 				        <ref refid="cadc_8h_1a5336936706030925bb72f50f6774b90a" kindref="member">access</ref>[<ref refid="cadc_8h_1a3f42f10d93f6edb91d7d3f6edad25921" kindref="member">index</ref>]); 				self[::halco::hicann_dls::vx::SynramOnDLS(1)][coord] = 				    typename std::remove_reference&lt;decltype(self)&gt;::type::value_type::value_type( 				        <ref refid="cadc_8h_1a5336936706030925bb72f50f6774b90a" kindref="member">access</ref>[<ref refid="cadc_8h_1a3f42f10d93f6edb91d7d3f6edad25921" kindref="member">index</ref> + ::halco::hicann_dls::vx::SynapseOnSynapseRow::size]); 				<ref refid="cadc_8h_1a3f42f10d93f6edb91d7d3f6edad25921" kindref="member">index</ref>++; 			} 		}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" line="360" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cadc_8h_1a3f42f10d93f6edb91d7d3f6edad25921" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" line="360" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cadc_8h_1ab8e5b6563f6e0ca014e12f1f35fc4c6a" prot="public" static="no" mutable="no">
+        <type>auto</type>
+        <definition>auto ism</definition>
+        <argsstring></argsstring>
+        <name>ism</name>
+        <initializer>= parent-&gt;py::is_method(<ref refid="pylola_8h_1a3ae224f5a9892aaeefb469b1eb44f0da" kindref="member">attr</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" line="360" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="cadc_8h_1a339672ff94e6199019102f50d317c3d7" prot="public" static="no" mutable="no">
+        <type>auto</type>
+        <definition>return ret</definition>
+        <argsstring></argsstring>
+        <name>ret</name>
+        <initializer>= pybind11::array_t&lt;value_type&gt;( 			    ::halco::hicann_dls::vx::SynapseOnSynapseRow::size * 2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" line="360" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="cadc_8h_1abeb1c2f608b966f91045a1c351b1b6a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>attr</type>
+        <definition>attr operator::attr</definition>
+        <argsstring>(&quot;to_numpy&quot;)</argsstring>
+        <name>attr</name>
+        <param>
+          <type>&quot;to_numpy&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" line="360" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="cadc_8h_1a11d39af953ed88de620586a039318a16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>attr</type>
+        <definition>attr operator::attr</definition>
+        <argsstring>(&quot;from_numpy&quot;)</argsstring>
+        <name>attr</name>
+        <param>
+          <type>&quot;from_numpy&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" line="360" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="cadc_8h_1a21afdc2e40a987dff0b7747a3b19651d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BOOST_HANA_ADAPT_STRUCT</definition>
+        <argsstring>(lola::vx::CADCSampleRow, causal, acausal)</argsstring>
+        <name>BOOST_HANA_ADAPT_STRUCT</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_c_a_d_c_sample_row" kindref="compound">lola::vx::CADCSampleRow</ref></type>
+        </param>
+        <param>
+          <type><ref refid="cadc_8h_1ae876c2dfbfd671605f760b1d757d3f60" kindref="member">causal</ref></type>
+        </param>
+        <param>
+          <type><ref refid="cadc_8h_1a76a68ed9be3a46d4f653536d8136c13f" kindref="member">acausal</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" line="277" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="cadc_8h_1ab6a6bfaa19b8b2d7222a8d74ef1a0ac4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BOOST_HANA_ADAPT_STRUCT</definition>
+        <argsstring>(lola::vx::CADCSamples, causal, acausal)</argsstring>
+        <name>BOOST_HANA_ADAPT_STRUCT</name>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1_c_a_d_c_samples" kindref="compound">lola::vx::CADCSamples</ref></type>
+        </param>
+        <param>
+          <type><ref refid="cadc_8h_1ae876c2dfbfd671605f760b1d757d3f60" kindref="member">causal</ref></type>
+        </param>
+        <param>
+          <type><ref refid="cadc_8h_1a76a68ed9be3a46d4f653536d8136c13f" kindref="member">acausal</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" line="278" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="cadc_8h_1a88e749536978daff303480c38c06daaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>operator::CADCSamples</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>CADCSamples</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" line="291" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="cadc_8h_1a025450a3c07660b6334bfbe558430021" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>operator::for</definition>
+        <argsstring>(auto coord :::halco::common::iter_all&lt;::halco::hicann_dls::vx::SynapseOnSynapseRow &gt;())</argsstring>
+        <name>for</name>
+        <param>
+          <type>auto coord :::halco::common::iter_all&lt;::halco::hicann_dls::vx::SynapseOnSynapseRow &gt;</type>
+          <array>()</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" line="360" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" bodystart="360" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="cadc_8h_1a2712ad7b031eaf17cebab6b3010359a6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator::operator!=</definition>
+        <argsstring>(CADCSamples const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="cadc_8h_1a88e749536978daff303480c38c06daaf" kindref="member">CADCSamples</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" line="297" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="cadc_8h_1a3b407830a87747c77e97631c725889de" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator::operator==</definition>
+        <argsstring>(CADCSamples const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="cadc_8h_1a88e749536978daff303480c38c06daaf" kindref="member">CADCSamples</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" line="296" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,502 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="playback_8h" kind="file" language="C++">
+    <compoundname>playback.h</compoundname>
+    <includes local="no">atomic</includes>
+    <includes local="no">cstdint</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includes refid="chip_8h" local="yes">haldls/v2/chip.h</includes>
+    <includes refid="v2_2common_8h" local="yes">haldls/v2/common.h</includes>
+    <includes refid="v2_2genpybind_8h" local="yes">haldls/v2/genpybind.h</includes>
+    <includes refid="spike_8h" local="yes">haldls/v2/spike.h</includes>
+    <includes local="yes">hate/type_list.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includes local="yes">haldls/v2/container.def</includes>
+    <includedby refid="v2_2container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/container.h</includedby>
+    <incdepgraph>
+      <node id="397">
+        <label>atomic</label>
+      </node>
+      <node id="402">
+        <label>haldls/v2/chip.h</label>
+        <link refid="chip_8h"/>
+        <childnode refid="403" relation="include">
+        </childnode>
+        <childnode refid="404" relation="include">
+        </childnode>
+        <childnode refid="405" relation="include">
+        </childnode>
+        <childnode refid="406" relation="include">
+        </childnode>
+        <childnode refid="407" relation="include">
+        </childnode>
+        <childnode refid="408" relation="include">
+        </childnode>
+        <childnode refid="412" relation="include">
+        </childnode>
+        <childnode refid="411" relation="include">
+        </childnode>
+        <childnode refid="414" relation="include">
+        </childnode>
+        <childnode refid="416" relation="include">
+        </childnode>
+        <childnode refid="418" relation="include">
+        </childnode>
+        <childnode refid="419" relation="include">
+        </childnode>
+        <childnode refid="420" relation="include">
+        </childnode>
+      </node>
+      <node id="398">
+        <label>cstdint</label>
+      </node>
+      <node id="416">
+        <label>haldls/v2/ppu.h</label>
+        <link refid="v2_2ppu_8h"/>
+        <childnode refid="417" relation="include">
+        </childnode>
+        <childnode refid="413" relation="include">
+        </childnode>
+        <childnode refid="404" relation="include">
+        </childnode>
+        <childnode refid="406" relation="include">
+        </childnode>
+        <childnode refid="408" relation="include">
+        </childnode>
+        <childnode refid="411" relation="include">
+        </childnode>
+      </node>
+      <node id="411">
+        <label>haldls/v2/genpybind.h</label>
+        <link refid="v2_2genpybind_8h"/>
+        <childnode refid="411" relation="include">
+        </childnode>
+      </node>
+      <node id="396">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h</label>
+        <link refid="playback_8h"/>
+        <childnode refid="397" relation="include">
+        </childnode>
+        <childnode refid="398" relation="include">
+        </childnode>
+        <childnode refid="399" relation="include">
+        </childnode>
+        <childnode refid="400" relation="include">
+        </childnode>
+        <childnode refid="401" relation="include">
+        </childnode>
+        <childnode refid="402" relation="include">
+        </childnode>
+        <childnode refid="408" relation="include">
+        </childnode>
+        <childnode refid="411" relation="include">
+        </childnode>
+        <childnode refid="421" relation="include">
+        </childnode>
+        <childnode refid="422" relation="include">
+        </childnode>
+        <childnode refid="406" relation="include">
+        </childnode>
+        <childnode refid="423" relation="include">
+        </childnode>
+      </node>
+      <node id="415">
+        <label>hate/passkey.h</label>
+      </node>
+      <node id="400">
+        <label>string</label>
+      </node>
+      <node id="413">
+        <label>ostream</label>
+      </node>
+      <node id="421">
+        <label>haldls/v2/spike.h</label>
+        <link refid="spike_8h"/>
+        <childnode refid="413" relation="include">
+        </childnode>
+        <childnode refid="404" relation="include">
+        </childnode>
+        <childnode refid="406" relation="include">
+        </childnode>
+        <childnode refid="408" relation="include">
+        </childnode>
+        <childnode refid="419" relation="include">
+        </childnode>
+        <childnode refid="411" relation="include">
+        </childnode>
+      </node>
+      <node id="407">
+        <label>haldls/v2/capmem.h</label>
+        <link refid="v2_2capmem_8h"/>
+        <childnode refid="398" relation="include">
+        </childnode>
+        <childnode refid="403" relation="include">
+        </childnode>
+        <childnode refid="404" relation="include">
+        </childnode>
+        <childnode refid="406" relation="include">
+        </childnode>
+        <childnode refid="408" relation="include">
+        </childnode>
+        <childnode refid="411" relation="include">
+        </childnode>
+      </node>
+      <node id="401">
+        <label>vector</label>
+      </node>
+      <node id="419">
+        <label>haldls/v2/synapse.h</label>
+        <link refid="v2_2synapse_8h"/>
+        <childnode refid="413" relation="include">
+        </childnode>
+        <childnode refid="403" relation="include">
+        </childnode>
+        <childnode refid="404" relation="include">
+        </childnode>
+        <childnode refid="406" relation="include">
+        </childnode>
+        <childnode refid="408" relation="include">
+        </childnode>
+        <childnode refid="411" relation="include">
+        </childnode>
+      </node>
+      <node id="403">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="412">
+        <label>haldls/v2/correlation.h</label>
+        <link refid="v2_2correlation_8h"/>
+        <childnode refid="413" relation="include">
+        </childnode>
+        <childnode refid="403" relation="include">
+        </childnode>
+        <childnode refid="404" relation="include">
+        </childnode>
+        <childnode refid="406" relation="include">
+        </childnode>
+        <childnode refid="408" relation="include">
+        </childnode>
+        <childnode refid="411" relation="include">
+        </childnode>
+      </node>
+      <node id="410">
+        <label>utility</label>
+      </node>
+      <node id="417">
+        <label>array</label>
+      </node>
+      <node id="406">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="423">
+        <label>haldls/v2/container.def</label>
+      </node>
+      <node id="420">
+        <label>haldls/v2/synapsedriver.h</label>
+        <link refid="synapsedriver_8h"/>
+        <childnode refid="413" relation="include">
+        </childnode>
+        <childnode refid="404" relation="include">
+        </childnode>
+        <childnode refid="406" relation="include">
+        </childnode>
+        <childnode refid="408" relation="include">
+        </childnode>
+        <childnode refid="411" relation="include">
+        </childnode>
+      </node>
+      <node id="404">
+        <label>halco/hicann-dls/v2/coordinates.h</label>
+      </node>
+      <node id="408">
+        <label>haldls/v2/common.h</label>
+        <link refid="v2_2common_8h"/>
+        <childnode refid="398" relation="include">
+        </childnode>
+        <childnode refid="409" relation="include">
+        </childnode>
+        <childnode refid="410" relation="include">
+        </childnode>
+      </node>
+      <node id="409">
+        <label>type_traits</label>
+      </node>
+      <node id="414">
+        <label>haldls/v2/neuron.h</label>
+        <link refid="v2_2neuron_8h"/>
+        <childnode refid="413" relation="include">
+        </childnode>
+        <childnode refid="404" relation="include">
+        </childnode>
+        <childnode refid="415" relation="include">
+        </childnode>
+        <childnode refid="406" relation="include">
+        </childnode>
+        <childnode refid="408" relation="include">
+        </childnode>
+        <childnode refid="411" relation="include">
+        </childnode>
+      </node>
+      <node id="418">
+        <label>haldls/v2/rate_counter.h</label>
+        <link refid="rate__counter_8h"/>
+        <childnode refid="403" relation="include">
+        </childnode>
+        <childnode refid="404" relation="include">
+        </childnode>
+        <childnode refid="406" relation="include">
+        </childnode>
+        <childnode refid="408" relation="include">
+        </childnode>
+        <childnode refid="411" relation="include">
+        </childnode>
+      </node>
+      <node id="399">
+        <label>memory</label>
+      </node>
+      <node id="405">
+        <label>hate/optional.h</label>
+      </node>
+      <node id="422">
+        <label>hate/type_list.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="424">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h</label>
+        <link refid="playback_8h"/>
+        <childnode refid="425" relation="include">
+        </childnode>
+      </node>
+      <node id="425">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/container.h</label>
+        <link refid="v2_2container_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classhaldls_1_1v2_1_1_playback_program_1_1_container_ticket" prot="public">haldls::v2::PlaybackProgram::ContainerTicket</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1detail_1_1coordinate__type__to__container__type" prot="public">haldls::v2::detail::coordinate_type_to_container_type</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_playback_program" prot="public">haldls::v2::PlaybackProgram</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_playback_program_builder" prot="public">haldls::v2::PlaybackProgramBuilder</innerclass>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1v2">haldls::v2</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1v2_1_1detail">haldls::v2::detail</innernamespace>
+    <innernamespace refid="namespacestadls">stadls</innernamespace>
+    <innernamespace refid="namespacestadls_1_1v2">stadls::v2</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="playback_8h_1aa15fad99fdc0176449ba6857f9c0983e" prot="public" static="no">
+        <name>LAST_PLAYBACK_CONTAINER</name>
+        <param><defname>Name</defname></param>
+        <param><defname>Type</defname></param>
+        <initializer>Type</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" line="116" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="playback_8h_1aa15fad99fdc0176449ba6857f9c0983e" prot="public" static="no">
+        <name>LAST_PLAYBACK_CONTAINER</name>
+        <param><defname>Name</defname></param>
+        <param><defname>Type</defname></param>
+        <initializer>typename <ref refid="vx_2capmem_8h_1ae41b4257216a0a9911203211a8cad8d0" kindref="member">Type::coordinate_type</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" line="123" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="playback_8h_1a6d32ec951a492e6c29f32f7b856e2869" prot="public" static="no">
+        <name>PLAYBACK_CONTAINER</name>
+        <param><defname>Name</defname></param>
+        <param><defname>Type</defname></param>
+        <initializer><ref refid="traits_8h_1aa15fad99fdc0176449ba6857f9c0983e" kindref="member">LAST_PLAYBACK_CONTAINER</ref>(Name, Type),</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" line="117" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="playback_8h_1a6d32ec951a492e6c29f32f7b856e2869" prot="public" static="no">
+        <name>PLAYBACK_CONTAINER</name>
+        <param><defname>Name</defname></param>
+        <param><defname>Type</defname></param>
+        <initializer><ref refid="traits_8h_1aa15fad99fdc0176449ba6857f9c0983e" kindref="member">LAST_PLAYBACK_CONTAINER</ref>(Name, Type),</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" line="124" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="playback_8h_1abf2813a8cc80312dfe120c17fe4b2325" prot="public" static="no">
+        <type>v2::hardware_time_type</type>
+        <definition>typedef v2::hardware_time_type time_type</definition>
+        <argsstring></argsstring>
+        <name>time_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" line="213" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="playback_8h_1ae46bd26d7133dfe98f8cec7c5ac5c7a1" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t i</definition>
+        <argsstring></argsstring>
+        <name>i</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" line="240" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="playback_8h_1aa6cdccad3b42b089e1a004d2d3dda0f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void fire::fire</definition>
+        <argsstring>(std::bitset&lt; halco::hicann_dls::v2::SynapseDriverOnDLS::size &gt; const &amp;synapse_driver_mask, v2::SynapseBlock::Synapse::Address const &amp;address) SYMBOL_VISIBLE</argsstring>
+        <name>fire</name>
+        <param>
+          <type>std::bitset&lt; halco::hicann_dls::v2::SynapseDriverOnDLS::size &gt; const &amp;</type>
+          <declname>synapse_driver_mask</declname>
+        </param>
+        <param>
+          <type>v2::SynapseBlock::Synapse::Address const &amp;</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" line="220" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="playback_8h_1a36ce46fd80f650a3a39a9fbbc16ffc3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>self</type>
+        <definition>self fire::fire</definition>
+        <argsstring>(bitset.to_ulong(), address)</argsstring>
+        <name>fire</name>
+        <param>
+          <type>bitset.</type>
+          <declname>to_ulong</declname>
+          <array>()</array>
+        </param>
+        <param>
+          <type>address</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" line="240" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="playback_8h_1a76584ca59c292130de206bd7ead2689a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fire::for</definition>
+        <argsstring>(auto driver :synapse_driver_mask)</argsstring>
+        <name>for</name>
+        <param>
+          <type>auto driver :synapse_driver_mask</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" line="240" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" bodystart="240" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="playback_8h_1a28a53e52249bb0f6be37da5025b9385e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>fire::PlaybackProgramBuilder</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>PlaybackProgramBuilder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" line="215" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="playback_8h_1a9fda6237a24da8359dd4d62651b75317" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void fire::set_time</definition>
+        <argsstring>(time_type t) SYMBOL_VISIBLE</argsstring>
+        <name>set_time</name>
+        <param>
+          <type><ref refid="playback_8h_1abf2813a8cc80312dfe120c17fe4b2325" kindref="member">time_type</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" line="217" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="playback_8h_1a22935792c03a7422bac6faf288a559cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void fire::wait_for</definition>
+        <argsstring>(time_type t) SYMBOL_VISIBLE</argsstring>
+        <name>wait_for</name>
+        <param>
+          <type><ref refid="playback_8h_1abf2813a8cc80312dfe120c17fe4b2325" kindref="member">time_type</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" line="219" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="playback_8h_1a97e00a74dfe17e01936754277b26bebb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void fire::wait_until</definition>
+        <argsstring>(time_type t) SYMBOL_VISIBLE</argsstring>
+        <name>wait_until</name>
+        <param>
+          <type><ref refid="playback_8h_1abf2813a8cc80312dfe120c17fe4b2325" kindref="member">time_type</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" line="218" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h"/>
+  </compounddef>
+</doxygen>

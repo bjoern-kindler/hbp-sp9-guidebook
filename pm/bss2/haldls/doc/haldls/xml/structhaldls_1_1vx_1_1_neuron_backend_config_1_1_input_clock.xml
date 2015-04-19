@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_input_clock" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::NeuronBackendConfig::InputClock</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; InputClock, uint_fast8_t, 1, 0 &gt;</basecompoundref>
+    <includes refid="neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_input_clock_1ae9f396331be6712a960cfc4778392800" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::NeuronBackendConfig::InputClock::InputClock</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>InputClock</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/neuron.h" line="281" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/neuron.h" bodystart="281" bodyend="283"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>There are two independent but equivalent clocks available. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Both clocks can be configured as desired for the use case. See e.g. <ref refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_refractory_time" kindref="compound">RefractoryTime</ref> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1137">
+        <label>halco::common::detail::RantWrapper&lt; InputClock, uint_fast8_t, 1, 0 &gt;</label>
+      </node>
+      <node id="1136">
+        <label>haldls::vx::NeuronBackendConfig::InputClock</label>
+        <link refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_input_clock"/>
+        <childnode refid="1137" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1139">
+        <label>halco::common::detail::RantWrapper&lt; InputClock, uint_fast8_t, 1, 0 &gt;</label>
+      </node>
+      <node id="1138">
+        <label>haldls::vx::NeuronBackendConfig::InputClock</label>
+        <link refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_input_clock"/>
+        <childnode refid="1139" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/neuron.h" line="280" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/neuron.h" bodystart="278" bodyend="284"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_input_clock_1ae9f396331be6712a960cfc4778392800" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig::InputClock</scope><name>InputClock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

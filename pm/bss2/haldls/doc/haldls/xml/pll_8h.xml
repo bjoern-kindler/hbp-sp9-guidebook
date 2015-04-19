@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="pll_8h" kind="file" language="C++">
+    <compoundname>pll.h</compoundname>
+    <includes local="no">array</includes>
+    <includes local="no">ostream</includes>
+    <includes local="yes">halco/common/geometry.h</includes>
+    <includes local="yes">halco/common/typed_array.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/pll.h</includes>
+    <includes refid="genpybind_8h" local="yes">haldls/vx/genpybind.h</includes>
+    <includes refid="traits_8h" local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includedby refid="container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.h</includedby>
+    <incdepgraph>
+      <node id="875">
+        <label>fisch/vx/container.def</label>
+      </node>
+      <node id="867">
+        <label>haldls/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="867" relation="include">
+        </childnode>
+      </node>
+      <node id="861">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/pll.h</label>
+        <link refid="pll_8h"/>
+        <childnode refid="862" relation="include">
+        </childnode>
+        <childnode refid="863" relation="include">
+        </childnode>
+        <childnode refid="864" relation="include">
+        </childnode>
+        <childnode refid="865" relation="include">
+        </childnode>
+        <childnode refid="866" relation="include">
+        </childnode>
+        <childnode refid="867" relation="include">
+        </childnode>
+        <childnode refid="868" relation="include">
+        </childnode>
+        <childnode refid="874" relation="include">
+        </childnode>
+      </node>
+      <node id="868">
+        <label>haldls/vx/traits.h</label>
+        <link refid="traits_8h"/>
+        <childnode refid="869" relation="include">
+        </childnode>
+        <childnode refid="870" relation="include">
+        </childnode>
+        <childnode refid="871" relation="include">
+        </childnode>
+        <childnode refid="872" relation="include">
+        </childnode>
+        <childnode refid="867" relation="include">
+        </childnode>
+        <childnode refid="873" relation="include">
+        </childnode>
+        <childnode refid="874" relation="include">
+        </childnode>
+        <childnode refid="875" relation="include">
+        </childnode>
+      </node>
+      <node id="870">
+        <label>boost/variant.hpp</label>
+      </node>
+      <node id="863">
+        <label>ostream</label>
+      </node>
+      <node id="865">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="862">
+        <label>array</label>
+      </node>
+      <node id="864">
+        <label>halco/common/geometry.h</label>
+      </node>
+      <node id="871">
+        <label>fisch/vx/container_fwd.h</label>
+      </node>
+      <node id="874">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="872">
+        <label>fisch/vx/container_ticket.h</label>
+      </node>
+      <node id="866">
+        <label>halco/hicann-dls/vx/pll.h</label>
+      </node>
+      <node id="869">
+        <label>type_traits</label>
+      </node>
+      <node id="873">
+        <label>hate/type_list.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="879">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/pyhaldls.h</label>
+        <link refid="pyhaldls_8h"/>
+      </node>
+      <node id="881">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_writereadable.h</label>
+        <link refid="is__writereadable_8h"/>
+      </node>
+      <node id="876">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/pll.h</label>
+        <link refid="pll_8h"/>
+        <childnode refid="877" relation="include">
+        </childnode>
+      </node>
+      <node id="878">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/haldls.h</label>
+        <link refid="haldls_8h"/>
+        <childnode refid="879" relation="include">
+        </childnode>
+      </node>
+      <node id="880">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_readable.h</label>
+        <link refid="is__readable_8h"/>
+        <childnode refid="881" relation="include">
+        </childnode>
+      </node>
+      <node id="877">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.h</label>
+        <link refid="container_8h"/>
+        <childnode refid="878" relation="include">
+        </childnode>
+        <childnode refid="880" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classhaldls_1_1vx_1_1_a_d_p_l_l" prot="public">haldls::vx::ADPLL</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_a_d_p_l_l_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; ADPLL &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_p_l_l_clock_output_block_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PLLClockOutputBlock &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_p_l_l_self_test_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PLLSelfTest &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_p_l_l_self_test_status_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PLLSelfTestStatus &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_p_l_l_self_test_1_1_check_range" prot="public">haldls::vx::PLLSelfTest::CheckRange</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_p_l_l_self_test_1_1_check_value" prot="public">haldls::vx::PLLSelfTest::CheckValue</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_p_l_l_clock_output_block_1_1_clock_output" prot="public">haldls::vx::PLLClockOutputBlock::ClockOutput</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_core_div_m0" prot="public">haldls::vx::ADPLL::CoreDivM0</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_core_div_m1" prot="public">haldls::vx::ADPLL::CoreDivM1</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_p_l_l_self_test_status_1_1_counter_value" prot="public">haldls::vx::PLLSelfTestStatus::CounterValue</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_dco_power_switch" prot="public">haldls::vx::ADPLL::DcoPowerSwitch</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_filter_shift" prot="public">haldls::vx::ADPLL::FilterShift</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_div_n" prot="public">haldls::vx::ADPLL::LoopDivN</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_filter_int" prot="public">haldls::vx::ADPLL::LoopFilterInt</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_filter_prop" prot="public">haldls::vx::ADPLL::LoopFilterProp</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_p_l_l_clock_output_block" prot="public">haldls::vx::PLLClockOutputBlock</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_p_l_l_self_test" prot="public">haldls::vx::PLLSelfTest</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status" prot="public">haldls::vx::PLLSelfTestStatus</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_pre_div_p0" prot="public">haldls::vx::ADPLL::PreDivP0</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_pre_div_p1" prot="public">haldls::vx::ADPLL::PreDivP1</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_pre_div_p2" prot="public">haldls::vx::ADPLL::PreDivP2</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_p_l_l_self_test_1_1_pre_scaler_p" prot="public">haldls::vx::PLLSelfTest::PreScalerP</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_tune" prot="public">haldls::vx::ADPLL::Tune</innerclass>
+    <innernamespace refid="namespacecereal">cereal</innernamespace>
+    <innernamespace refid="namespacehalco">halco</innernamespace>
+    <innernamespace refid="namespacehalco_1_1hicann__dls">halco::hicann_dls</innernamespace>
+    <innernamespace refid="namespacehalco_1_1hicann__dls_1_1vx">halco::hicann_dls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <innernamespace refid="namespacestd">std</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/pll.h"/>
+  </compounddef>
+</doxygen>

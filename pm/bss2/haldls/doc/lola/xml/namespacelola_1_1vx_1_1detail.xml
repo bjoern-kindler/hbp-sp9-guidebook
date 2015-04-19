@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacelola_1_1vx_1_1detail" kind="namespace" language="C++">
+    <compoundname>lola::vx::detail</compoundname>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacelola_1_1vx_1_1detail_1ae8b69c1a91259c21e4156ea63f232a32" prot="public" static="no">
+        <type>hate::type_list&lt;# 1 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/container.def&quot; 1 lola::vx::DACControlBlock, <ref refid="classlola_1_1vx_1_1_d_a_c_channel_block" kindref="compound">lola::vx::DACChannelBlock</ref>, <ref refid="classlola_1_1vx_1_1_c_a_d_c_sample_row" kindref="compound">lola::vx::CADCSampleRow</ref>, <ref refid="classlola_1_1vx_1_1_c_a_d_c_samples" kindref="compound">lola::vx::CADCSamples</ref>, <ref refid="classlola_1_1vx_1_1_synapse_matrix" kindref="compound">lola::vx::SynapseMatrix</ref>, <ref refid="classlola_1_1vx_1_1_synapse_weight_matrix" kindref="compound">lola::vx::SynapseWeightMatrix</ref>, <ref refid="classlola_1_1vx_1_1_synapse_label_matrix" kindref="compound">lola::vx::SynapseLabelMatrix</ref>, <ref refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix" kindref="compound">lola::vx::SynapseCorrelationCalibMatrix</ref>, <ref refid="classlola_1_1vx_1_1_correlation_reset_row" kindref="compound">lola::vx::CorrelationResetRow</ref>, <ref refid="classlola_1_1vx_1_1_synapse_weight_row" kindref="compound">lola::vx::SynapseWeightRow</ref>, <ref refid="classlola_1_1vx_1_1_synapse_label_row" kindref="compound">lola::vx::SynapseLabelRow</ref>, <ref refid="classlola_1_1vx_1_1_synapse_correlation_calib_row" kindref="compound">lola::vx::SynapseCorrelationCalibRow</ref>, <ref refid="classlola_1_1vx_1_1_atomic_neuron" kindref="compound">lola::vx::AtomicNeuron</ref>, <ref refid="classlola_1_1vx_1_1_synapse_row" kindref="compound">lola::vx::SynapseRow</ref> # 33 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/pylola.h&quot; 2 &gt;</type>
+        <definition>typedef hate::type_list&lt;# 1 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/container.def&quot; 1 lola::vx::DACControlBlock , lola::vx::DACChannelBlock , lola::vx::CADCSampleRow , lola::vx::CADCSamples , lola::vx::SynapseMatrix , lola::vx::SynapseWeightMatrix , lola::vx::SynapseLabelMatrix , lola::vx::SynapseCorrelationCalibMatrix , lola::vx::CorrelationResetRow , lola::vx::SynapseWeightRow , lola::vx::SynapseLabelRow , lola::vx::SynapseCorrelationCalibRow , lola::vx::AtomicNeuron , lola::vx::SynapseRow # 33 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/pylola.h&quot; 2 &gt; lola::vx::detail::pickle_types</definition>
+        <argsstring></argsstring>
+        <name>pickle_types</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/pylola.h" line="61" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/pylola.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacelola_1_1vx_1_1detail_1ab3e2fdf00444134ac5e13707a1b384b2" prot="public" static="yes" mutable="no">
+        <type>std::vector&lt; std::string &gt; const</type>
+        <definition>std::vector&lt;std::string&gt; const lola::vx::detail::pickle_type_names</definition>
+        <argsstring></argsstring>
+        <name>pickle_type_names</name>
+        <initializer>= {
+
+
+
+
+
+
+
+
+ <ref refid="classlola_1_1vx_1_1_d_a_c_control_block" kindref="compound">DACControlBlock</ref> ,
+ <ref refid="classlola_1_1vx_1_1_d_a_c_channel_block" kindref="compound">DACChannelBlock</ref> ,
+ <ref refid="classlola_1_1vx_1_1_c_a_d_c_sample_row" kindref="compound">CADCSampleRow</ref> ,
+ <ref refid="classlola_1_1vx_1_1_c_a_d_c_samples" kindref="compound">CADCSamples</ref> ,
+ <ref refid="classlola_1_1vx_1_1_synapse_matrix" kindref="compound">SynapseMatrix</ref> ,
+ <ref refid="classlola_1_1vx_1_1_synapse_weight_matrix" kindref="compound">SynapseWeightMatrix</ref> ,
+ <ref refid="classlola_1_1vx_1_1_synapse_label_matrix" kindref="compound">SynapseLabelMatrix</ref> ,
+ <ref refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix" kindref="compound">SynapseCorrelationCalibMatrix</ref> ,
+ <ref refid="classlola_1_1vx_1_1_correlation_reset_row" kindref="compound">CorrelationResetRow</ref> ,
+ <ref refid="classlola_1_1vx_1_1_synapse_weight_row" kindref="compound">SynapseWeightRow</ref> ,
+ <ref refid="classlola_1_1vx_1_1_synapse_label_row" kindref="compound">SynapseLabelRow</ref> ,
+ <ref refid="classlola_1_1vx_1_1_synapse_correlation_calib_row" kindref="compound">SynapseCorrelationCalibRow</ref> ,
+ <ref refid="classlola_1_1vx_1_1_atomic_neuron" kindref="compound">AtomicNeuron</ref> ,
+ <ref refid="classlola_1_1vx_1_1_synapse_row" kindref="compound">SynapseRow</ref> 
+
+
+
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/pylola.h" line="26" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/pylola.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacelola_1_1vx_1_1detail_1a15425e5e7fa003b5296d71741edbc2d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>py::list</type>
+        <definition>py::list lola::vx::detail::get_containers_list</definition>
+        <argsstring>(py::module &amp;m)</argsstring>
+        <name>get_containers_list</name>
+        <param>
+          <type>py::module &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/pylola.h" line="63" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacelola_1_1vx_1_1detail_1a636fb0f96e709954f7fba85222670e37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string lola::vx::detail::gray_scale</definition>
+        <argsstring>(double value) SYMBOL_VISIBLE</argsstring>
+        <name>gray_scale</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Map bars of monotonously increasing height to visualize scalar positive values between zero and one. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The dot maps to zero. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value to visualize. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/gray_scale.h" line="12" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/gray_scale.h" line="5" column="1"/>
+  </compounddef>
+</doxygen>

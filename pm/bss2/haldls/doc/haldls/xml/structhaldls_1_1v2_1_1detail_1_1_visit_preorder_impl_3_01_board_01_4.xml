@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1v2_1_1detail_1_1_visit_preorder_impl_3_01_board_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::v2::detail::VisitPreorderImpl&lt; Board &gt;</compoundname>
+    <includes refid="board_8h" local="no">board.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1detail_1_1_visit_preorder_impl_3_01_board_01_4_1a370bebc6fe05edc8eb2ba60c7a2df45e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ContainerT</type>
+          </param>
+          <param>
+            <type>typename VisitorT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void haldls::v2::detail::VisitPreorderImpl&lt; Board &gt;::call</definition>
+        <argsstring>(ContainerT &amp;config, halco::hicann_dls::v2::BoardOnFPGA const &amp;coord, VisitorT &amp;&amp;visitor)</argsstring>
+        <name>call</name>
+        <param>
+          <type>ContainerT &amp;</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type>halco::hicann_dls::v2::BoardOnFPGA const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>VisitorT &amp;&amp;</type>
+          <declname>visitor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/board.h" line="85" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/board.h" bodystart="85" bodyend="111"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/board.h" line="83" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/board.h" bodystart="83" bodyend="112"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1v2_1_1detail_1_1_visit_preorder_impl_3_01_board_01_4_1a370bebc6fe05edc8eb2ba60c7a2df45e" prot="public" virt="non-virtual"><scope>haldls::v2::detail::VisitPreorderImpl&lt; Board &gt;</scope><name>call</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1v2_1_1detail_1_1_correlation_block_base_1_1_correlation" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::v2::detail::CorrelationBlockBase::Correlation</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; Correlation, uint_fast16_t, 255, 0 &gt;</basecompoundref>
+    <includes refid="v2_2correlation_8h" local="no">correlation.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1detail_1_1_correlation_block_base_1_1_correlation_1a40cf6083c1e6761419ea78d6208150e0" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::v2::detail::CorrelationBlockBase&lt; T &gt;::Correlation::Correlation</definition>
+        <argsstring>(uintmax_t const val=0) SYMBOL_VISIBLE</argsstring>
+        <name>Correlation</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/correlation.h" line="86" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/correlation.h" bodystart="86" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Ranged type for correlation values (0-255) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="902">
+        <label>haldls::v2::detail::CorrelationBlockBase&lt; T &gt;::Correlation</label>
+        <link refid="structhaldls_1_1v2_1_1detail_1_1_correlation_block_base_1_1_correlation"/>
+        <childnode refid="903" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="903">
+        <label>halco::common::detail::RantWrapper&lt; Correlation, uint_fast16_t, 255, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="904">
+        <label>haldls::v2::detail::CorrelationBlockBase&lt; T &gt;::Correlation</label>
+        <link refid="structhaldls_1_1v2_1_1detail_1_1_correlation_block_base_1_1_correlation"/>
+        <childnode refid="905" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="905">
+        <label>halco::common::detail::RantWrapper&lt; Correlation, uint_fast16_t, 255, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/correlation.h" line="85" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/correlation.h" bodystart="83" bodyend="90"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1v2_1_1detail_1_1_correlation_block_base_1_1_correlation_1a40cf6083c1e6761419ea78d6208150e0" prot="public" virt="non-virtual"><scope>haldls::v2::detail::CorrelationBlockBase::Correlation</scope><name>Correlation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

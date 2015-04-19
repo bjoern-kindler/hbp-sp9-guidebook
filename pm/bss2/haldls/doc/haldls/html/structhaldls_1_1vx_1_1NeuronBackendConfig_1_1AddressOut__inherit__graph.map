@@ -1,0 +1,4 @@
+<map id="haldls::vx::NeuronBackendConfig::AddressOut" name="haldls::vx::NeuronBackendConfig::AddressOut">
+<area shape="rect" id="node1" title="Address of the spikes sent out by a neuron." alt="" coords="12,113,192,157"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,199,65"/>
+</map>

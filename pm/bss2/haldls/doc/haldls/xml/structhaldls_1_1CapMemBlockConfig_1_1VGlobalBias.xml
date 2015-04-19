@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1CapMemBlockConfig_1_1VGlobalBias" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::CapMemBlockConfig::VGlobalBias</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; VGlobalBias, uint_fast16_t, 15, 0 &gt;</basecompoundref>
+    <includes refid="vx_2capmem_8h" local="no">capmem.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1CapMemBlockConfig_1_1VGlobalBias_1a113d7bfd702b16717340747d08db11ba" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::CapMemBlockConfig::VGlobalBias::VGlobalBias</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>VGlobalBias</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/capmem.h" line="177" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/capmem.h" bodystart="177" bodyend="179"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1560">
+        <label>haldls::CapMemBlockConfig::VGlobalBias</label>
+        <link refid="structhaldls_1_1CapMemBlockConfig_1_1VGlobalBias"/>
+        <childnode refid="1561" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1561">
+        <label>halco::common::detail::RantWrapper&lt; VGlobalBias, uint_fast16_t, 15, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1562">
+        <label>haldls::CapMemBlockConfig::VGlobalBias</label>
+        <link refid="structhaldls_1_1CapMemBlockConfig_1_1VGlobalBias"/>
+        <childnode refid="1563" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1563">
+        <label>halco::common::detail::RantWrapper&lt; VGlobalBias, uint_fast16_t, 15, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/capmem.h" line="176" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/capmem.h" bodystart="174" bodyend="180"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1CapMemBlockConfig_1_1VGlobalBias_1a113d7bfd702b16717340747d08db11ba" prot="public" virt="non-virtual"><scope>haldls::CapMemBlockConfig::VGlobalBias</scope><name>VGlobalBias</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

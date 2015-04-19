@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset" kind="struct" language="C++" prot="public">
+    <compoundname>lola::vx::AtomicNeuron::LeakReset::Reset</compoundname>
+    <includes refid="neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1ad3fbb399fdb3aeac2dfe5d4b365f1256" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::AtomicNeuron::LeakReset::Reset::enable_degeneration</definition>
+        <argsstring></argsstring>
+        <name>enable_degeneration</name>
+        <briefdescription>
+<para>Enable source degeneration of reset OTA. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="99" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1a0340da7e37ab581f13818d34f2707cd2" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::AtomicNeuron::LeakReset::Reset::enable_division</definition>
+        <argsstring></argsstring>
+        <name>enable_division</name>
+        <briefdescription>
+<para>Enable division (/8) of reset conductance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="102" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1a2654193d2bf97fdbfc5bb42db05f9e48" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::AtomicNeuron::LeakReset::Reset::enable_multiplication</definition>
+        <argsstring></argsstring>
+        <name>enable_multiplication</name>
+        <briefdescription>
+<para>Enable multiplication (*8) of reset conductance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="105" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1aa6ae0560a2a675592aaf1f04fa93c8d7" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1_atomic_neuron_1a258402859cbde528ef2a5d9cf23beae8" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant lola::vx::AtomicNeuron::LeakReset::Reset::i_bias</definition>
+        <argsstring></argsstring>
+        <name>i_bias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="96" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1adba2f6f8be8420bfdee3a4018fb54d0c" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1_atomic_neuron_1a258402859cbde528ef2a5d9cf23beae8" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant lola::vx::AtomicNeuron::LeakReset::Reset::v_reset</definition>
+        <argsstring></argsstring>
+        <name>v_reset</name>
+        <briefdescription>
+<para><ref refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset" kindref="compound">Reset</ref> potential. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="90" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1a9ffc1fa78cca5a70c60bfd247b58c50d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::AtomicNeuron::LeakReset::Reset::Reset</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="87" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1ae970a6f255a2bb87f133645860bff131" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::AtomicNeuron::LeakReset::Reset::operator!=</definition>
+        <argsstring>(Reset const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset" kindref="compound">Reset</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="108" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1afa3c295c29509d651b32cc364058aad0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::AtomicNeuron::LeakReset::Reset::operator==</definition>
+        <argsstring>(Reset const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset" kindref="compound">Reset</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="107" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1a9e47088244fd42e28743c54b37ec14f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, Reset const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset" kindref="compound">Reset</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="111" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="86" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="85" bodyend="112"/>
+    <listofallmembers>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1ad3fbb399fdb3aeac2dfe5d4b365f1256" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::LeakReset::Reset</scope><name>enable_degeneration</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1a0340da7e37ab581f13818d34f2707cd2" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::LeakReset::Reset</scope><name>enable_division</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1a2654193d2bf97fdbfc5bb42db05f9e48" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::LeakReset::Reset</scope><name>enable_multiplication</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1aa6ae0560a2a675592aaf1f04fa93c8d7" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::LeakReset::Reset</scope><name>i_bias</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1ae970a6f255a2bb87f133645860bff131" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::LeakReset::Reset</scope><name>operator!=</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1a9e47088244fd42e28743c54b37ec14f3" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::LeakReset::Reset</scope><name>operator&lt;&lt;</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1afa3c295c29509d651b32cc364058aad0" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::LeakReset::Reset</scope><name>operator==</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1a9ffc1fa78cca5a70c60bfd247b58c50d" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::LeakReset::Reset</scope><name>Reset</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1adba2f6f8be8420bfdee3a4018fb54d0c" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::LeakReset::Reset</scope><name>v_reset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

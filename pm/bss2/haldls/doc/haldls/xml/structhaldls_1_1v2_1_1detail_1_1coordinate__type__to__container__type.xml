@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1v2_1_1detail_1_1coordinate__type__to__container__type" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::v2::detail::coordinate_type_to_container_type</compoundname>
+    <includes refid="playback_8h" local="no">playback.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename CoordinateT</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structhaldls_1_1v2_1_1detail_1_1coordinate__type__to__container__type_1a7c782f9b97a202696c71414d9103d557" prot="public" static="no">
+        <type>hate::index_type_list_by_integer&lt; hate::index_type_list_by_type&lt; CoordinateT, <ref refid="namespacehaldls_1_1v2_1_1detail_1a2d56a0a1898b0aede6a5a26839b8865f" kindref="member">coordinate_list</ref> &gt;::value, <ref refid="namespacehaldls_1_1v2_1_1detail_1a4222fb1aff075c5a5ff82c50f5cfbad8" kindref="member">container_list</ref> &gt;::<ref refid="structhaldls_1_1v2_1_1detail_1_1coordinate__type__to__container__type_1a7c782f9b97a202696c71414d9103d557" kindref="member">type</ref></type>
+        <definition>typedef hate::index_type_list_by_integer&lt; hate::index_type_list_by_type&lt;CoordinateT, coordinate_list&gt;::value, container_list&gt;::type haldls::v2::detail::coordinate_type_to_container_type&lt; CoordinateT &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" line="205" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" line="202" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" bodystart="201" bodyend="206"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1v2_1_1detail_1_1coordinate__type__to__container__type_1a7c782f9b97a202696c71414d9103d557" prot="public" virt="non-virtual"><scope>haldls::v2::detail::coordinate_type_to_container_type</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

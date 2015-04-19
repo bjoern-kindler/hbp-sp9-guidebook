@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structstadls_1_1v2_1_1detail_1_1coordinate__type__to__container__type" kind="struct" language="C++" prot="public">
+    <compoundname>stadls::v2::detail::coordinate_type_to_container_type</compoundname>
+    <includes refid="local__board__control_8h" local="no">local_board_control.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>CoordinateT</declname>
+        <defname>CoordinateT</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structstadls_1_1v2_1_1detail_1_1coordinate__type__to__container__type_1a9b6423a9f7a5f8bfc41e299430449658" prot="public" static="no">
+        <type>hate::index_type_list_by_integer&lt; hate::index_type_list_by_type&lt; CoordinateT, <ref refid="namespacestadls_1_1v2_1_1detail_1a42c4dad34908d747fad5ee5a05d4271b" kindref="member">coordinate_list</ref> &gt;::value, <ref refid="namespacestadls_1_1v2_1_1detail_1ab818426be698272d2661ad131ede2408" kindref="member">container_list</ref> &gt;::<ref refid="structstadls_1_1v2_1_1detail_1_1coordinate__type__to__container__type_1a9b6423a9f7a5f8bfc41e299430449658" kindref="member">type</ref></type>
+        <definition>typedef hate::index_type_list_by_integer&lt; hate::index_type_list_by_type&lt;CoordinateT, coordinate_list&gt;::value, container_list&gt;::type stadls::v2::detail::coordinate_type_to_container_type&lt; CoordinateT &gt;::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/local_board_control.h" line="76" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/local_board_control.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/local_board_control.h" line="73" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/local_board_control.h" bodystart="72" bodyend="77"/>
+    <listofallmembers>
+      <member refid="structstadls_1_1v2_1_1detail_1_1coordinate__type__to__container__type_1a9b6423a9f7a5f8bfc41e299430449658" prot="public" virt="non-virtual"><scope>stadls::v2::detail::coordinate_type_to_container_type</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

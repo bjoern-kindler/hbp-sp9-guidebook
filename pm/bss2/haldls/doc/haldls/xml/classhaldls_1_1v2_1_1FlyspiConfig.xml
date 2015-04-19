@@ -1,0 +1,715 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classhaldls_1_1v2_1_1FlyspiConfig" kind="class" language="C++" prot="public">
+    <compoundname>haldls::v2::FlyspiConfig</compoundname>
+    <includes refid="v2_2fpga_8h" local="no">fpga.h</includes>
+    <innerclass refid="structhaldls_1_1v2_1_1FlyspiConfig_1_1TgControl" prot="public">haldls::v2::FlyspiConfig::TgControl</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1FlyspiConfig_1adb1543d95fc08bb41518f1c03405ee98" prot="public" static="no">
+        <type>halco::hicann_dls::v2::FlyspiConfigOnFPGA</type>
+        <definition>typedef halco::hicann_dls::v2::FlyspiConfigOnFPGA haldls::v2::FlyspiConfig::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="137" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1FlyspiConfig_1af1053213fd820ad7a31c5198ffc29c96" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::v2::FlyspiConfig::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="138" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiConfig_1a3b49ad790e8d016639078b2bfc4eaee4" prot="public" static="yes" mutable="no">
+        <type>size_t const constexpr</type>
+        <definition>size_t const constexpr haldls::v2::FlyspiConfig::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="210" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1v2_1_1FlyspiConfig_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="219" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiConfig_1a927ec2534a7f943d22cf1ad231b61b03" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiConfig::m_analog_power</definition>
+        <argsstring></argsstring>
+        <name>m_analog_power</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="232" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiConfig_1a46b140c839c32f27b47a70c70f84e490" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiConfig::m_dls_loopback</definition>
+        <argsstring></argsstring>
+        <name>m_dls_loopback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="233" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiConfig_1a29749ac1587a7a5628b30ae8ff1f0a0f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiConfig::m_dls_reset</definition>
+        <argsstring></argsstring>
+        <name>m_dls_reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="223" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiConfig_1a52765c00d7621a086a4024fed6237dad" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiConfig::m_i_phase_select</definition>
+        <argsstring></argsstring>
+        <name>m_i_phase_select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="227" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiConfig_1a791df24424c4a642d751f9b659c043cf" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiConfig::m_lvds</definition>
+        <argsstring></argsstring>
+        <name>m_lvds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="231" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiConfig_1aee355872e1764bfc16bf8ce85d24b100" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiConfig::m_o_phase_select</definition>
+        <argsstring></argsstring>
+        <name>m_o_phase_select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="228" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiConfig_1a6e5e3e5c4789fe2b31ca046571f3c088" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiConfig::m_soft_reset</definition>
+        <argsstring></argsstring>
+        <name>m_soft_reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="224" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiConfig_1ab69d889a4d179b4305dc03f93aceb853" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiConfig::m_spike_router</definition>
+        <argsstring></argsstring>
+        <name>m_spike_router</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="226" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiConfig_1a38ef84a01f422c8dd64e5bec4879b426" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1v2_1_1FlyspiConfig_1_1TgControl" kindref="compound">TgControl</ref></type>
+        <definition>TgControl haldls::v2::FlyspiConfig::m_tg_control</definition>
+        <argsstring></argsstring>
+        <name>m_tg_control</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="225" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiConfig_1afec1b7f72ab21bc905d63348237bd9e4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiConfig::m_train</definition>
+        <argsstring></argsstring>
+        <name>m_train</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="229" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiConfig_1a918f2d2d2e04ac1294e7a690383d53ed" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiConfig::m_transceiver</definition>
+        <argsstring></argsstring>
+        <name>m_transceiver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="230" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1a5859bc98d39ed27bff1bb880ae1657df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::FlyspiConfig::FlyspiConfig</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>FlyspiConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="146" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1a9e5892439c536e8fed0c159e471a062b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; <ref refid="structhaldls_1_1v2_1_1ocp__address__type" kindref="compound">ocp_address_type</ref>, <ref refid="classhaldls_1_1v2_1_1FlyspiConfig_1a3b49ad790e8d016639078b2bfc4eaee4" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;ocp_address_type, config_size_in_words&gt; haldls::v2::FlyspiConfig::addresses</definition>
+        <argsstring>(coordinate_type const &amp;) const SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1FlyspiConfig_1adb1543d95fc08bb41518f1c03405ee98" kindref="member">coordinate_type</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="211" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1acd13e12f6817057c5303974416360fd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::FlyspiConfig::decode</definition>
+        <argsstring>(std::array&lt; ocp_word_type, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; <ref refid="structhaldls_1_1v2_1_1ocp__word__type" kindref="compound">ocp_word_type</ref>, <ref refid="classhaldls_1_1v2_1_1FlyspiConfig_1a3b49ad790e8d016639078b2bfc4eaee4" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="215" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1acbea0cb055be62bd599da376527e67e1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; <ref refid="structhaldls_1_1v2_1_1ocp__word__type" kindref="compound">ocp_word_type</ref>, <ref refid="classhaldls_1_1v2_1_1FlyspiConfig_1a3b49ad790e8d016639078b2bfc4eaee4" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;ocp_word_type, config_size_in_words&gt; haldls::v2::FlyspiConfig::encode</definition>
+        <argsstring>(coordinate_type const &amp;) const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1FlyspiConfig_1adb1543d95fc08bb41518f1c03405ee98" kindref="member">coordinate_type</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="213" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1a1399804a5d2e645762aaa821fe3cde76" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiConfig::get_dls_reset</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_dls_reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="150" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1a55ba241710a838b7501981724b299c60" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiConfig::get_enable_analog_power</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_analog_power</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="196" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1aa99b9a0d0ae2797c422cf7c058d342dd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiConfig::get_enable_dls_loopback</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_dls_loopback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="201" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1a56cece7edf8e79f7210ebc0650d67927" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiConfig::get_enable_lvds</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_lvds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="191" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1a3baa156fa36cdb8bff3e129f135af2bf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiConfig::get_enable_spike_router</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_spike_router</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="166" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1a1a3a40fbfb1c20d246990bb16d38264c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiConfig::get_enable_train</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_train</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="181" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1a33a653d50293935c597fc85476178170" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiConfig::get_enable_transceiver</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_enable_transceiver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="186" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1ab176da8e47b173d9c02668a02e5e590c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiConfig::get_i_phase_select</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_i_phase_select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="171" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1aa528ae80ab7caab00fd1b8621a81b080" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiConfig::get_o_phase_select</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_o_phase_select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="176" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1aa3f9a3c4600685e1b727c7f6d89bcc69" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiConfig::get_soft_reset</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_soft_reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="155" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1a536bf3a33ca7a4ed46742ea0ac87d4d4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1v2_1_1FlyspiConfig_1_1TgControl" kindref="compound">TgControl</ref></type>
+        <definition>TgControl haldls::v2::FlyspiConfig::get_tg_control</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_tg_control</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="161" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1a07c83d8e22464c1da165077a1a63827d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiConfig::operator!=</definition>
+        <argsstring>(FlyspiConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1FlyspiConfig" kindref="compound">FlyspiConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="207" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1a778ae05c2acfcf8fa774fcdebc672557" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiConfig::operator==</definition>
+        <argsstring>(FlyspiConfig const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1FlyspiConfig" kindref="compound">FlyspiConfig</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="206" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1a2567553401d6221ed21f8990e8e02b76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::FlyspiConfig::set_dls_reset</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_dls_reset</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="152" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1a38c993e407a904ac557a638fe4ee3c62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::FlyspiConfig::set_enable_analog_power</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_analog_power</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="198" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1ab61edfdda485dc57e89b78d4c1d77038" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::FlyspiConfig::set_enable_dls_loopback</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_dls_loopback</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="203" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1af699288ecf44edd5899fe434b7af9452" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::FlyspiConfig::set_enable_lvds</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_lvds</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="193" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1a81aa30b4e8056be56782a44cb44e56b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::FlyspiConfig::set_enable_spike_router</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_spike_router</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="168" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1aacf471d09129b5ad3712f9818f65d54d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::FlyspiConfig::set_enable_train</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_train</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="183" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1a6eeef36cb838c01f588808e97e182e91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::FlyspiConfig::set_enable_transceiver</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_enable_transceiver</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="188" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1a7fcb041576b43d77de52bfd87096ca6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::FlyspiConfig::set_i_phase_select</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_i_phase_select</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="173" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1a8c6e36d58c61a26b45ba4698d276939d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::FlyspiConfig::set_o_phase_select</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_o_phase_select</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="178" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1a14f00fbc2eda161a86468ea555941594" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::FlyspiConfig::set_soft_reset</definition>
+        <argsstring>(bool const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_soft_reset</name>
+        <param>
+          <type>bool const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="157" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1a8ee450b7b8a469e459344a71e54f4454" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::FlyspiConfig::set_tg_control</definition>
+        <argsstring>(TgControl const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_tg_control</name>
+        <param>
+          <type><ref refid="structhaldls_1_1v2_1_1FlyspiConfig_1_1TgControl" kindref="compound">TgControl</ref> const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="163" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiConfig_1ae6989470b98d116bf6884d34c676aacb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::v2::FlyspiConfig::serialize</definition>
+        <argsstring>(Archive &amp;ar) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="221" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="135" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="134" bodyend="234"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a9e5892439c536e8fed0c159e471a062b" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a3b49ad790e8d016639078b2bfc4eaee4" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1adb1543d95fc08bb41518f1c03405ee98" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1acd13e12f6817057c5303974416360fd3" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1acbea0cb055be62bd599da376527e67e1" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a5859bc98d39ed27bff1bb880ae1657df" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>FlyspiConfig</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a1399804a5d2e645762aaa821fe3cde76" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>get_dls_reset</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a55ba241710a838b7501981724b299c60" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>get_enable_analog_power</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1aa99b9a0d0ae2797c422cf7c058d342dd" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>get_enable_dls_loopback</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a56cece7edf8e79f7210ebc0650d67927" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>get_enable_lvds</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a3baa156fa36cdb8bff3e129f135af2bf" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>get_enable_spike_router</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a1a3a40fbfb1c20d246990bb16d38264c" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>get_enable_train</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a33a653d50293935c597fc85476178170" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>get_enable_transceiver</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1ab176da8e47b173d9c02668a02e5e590c" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>get_i_phase_select</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1aa528ae80ab7caab00fd1b8621a81b080" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>get_o_phase_select</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1aa3f9a3c4600685e1b727c7f6d89bcc69" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>get_soft_reset</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a536bf3a33ca7a4ed46742ea0ac87d4d4" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>get_tg_control</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1af1053213fd820ad7a31c5198ffc29c96" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a927ec2534a7f943d22cf1ad231b61b03" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>m_analog_power</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a46b140c839c32f27b47a70c70f84e490" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>m_dls_loopback</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a29749ac1587a7a5628b30ae8ff1f0a0f" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>m_dls_reset</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a52765c00d7621a086a4024fed6237dad" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>m_i_phase_select</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a791df24424c4a642d751f9b659c043cf" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>m_lvds</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1aee355872e1764bfc16bf8ce85d24b100" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>m_o_phase_select</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a6e5e3e5c4789fe2b31ca046571f3c088" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>m_soft_reset</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1ab69d889a4d179b4305dc03f93aceb853" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>m_spike_router</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a38ef84a01f422c8dd64e5bec4879b426" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>m_tg_control</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1afec1b7f72ab21bc905d63348237bd9e4" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>m_train</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a918f2d2d2e04ac1294e7a690383d53ed" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>m_transceiver</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a07c83d8e22464c1da165077a1a63827d" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a778ae05c2acfcf8fa774fcdebc672557" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1ae6989470b98d116bf6884d34c676aacb" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a2567553401d6221ed21f8990e8e02b76" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>set_dls_reset</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a38c993e407a904ac557a638fe4ee3c62" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>set_enable_analog_power</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1ab61edfdda485dc57e89b78d4c1d77038" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>set_enable_dls_loopback</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1af699288ecf44edd5899fe434b7af9452" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>set_enable_lvds</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a81aa30b4e8056be56782a44cb44e56b4" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>set_enable_spike_router</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1aacf471d09129b5ad3712f9818f65d54d" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>set_enable_train</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a6eeef36cb838c01f588808e97e182e91" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>set_enable_transceiver</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a7fcb041576b43d77de52bfd87096ca6e" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>set_i_phase_select</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a8c6e36d58c61a26b45ba4698d276939d" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>set_o_phase_select</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a14f00fbc2eda161a86468ea555941594" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>set_soft_reset</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiConfig_1a8ee450b7b8a469e459344a71e54f4454" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig</scope><name>set_tg_control</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1_cap_mem_cell_1_1_disable_refresh" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::CapMemCell::DisableRefresh</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; DisableRefresh, uint_fast16_t, 1023, 1023 &gt;</basecompoundref>
+    <includes refid="capmem_8h" local="no">capmem.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_cap_mem_cell_1_1_disable_refresh_1af16db9cca8f0d414a69ca06d465d3810" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::CapMemCell::DisableRefresh::DisableRefresh</definition>
+        <argsstring>(uintmax_t const val=1023)</argsstring>
+        <name>DisableRefresh</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>1023</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="48" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1071">
+        <label>halco::common::detail::RantWrapper&lt; DisableRefresh, uint_fast16_t, 1023, 1023 &gt;</label>
+      </node>
+      <node id="1070">
+        <label>haldls::vx::CapMemCell::DisableRefresh</label>
+        <link refid="structhaldls_1_1vx_1_1_cap_mem_cell_1_1_disable_refresh"/>
+        <childnode refid="1071" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1073">
+        <label>halco::common::detail::RantWrapper&lt; DisableRefresh, uint_fast16_t, 1023, 1023 &gt;</label>
+      </node>
+      <node id="1072">
+        <label>haldls::vx::CapMemCell::DisableRefresh</label>
+        <link refid="structhaldls_1_1vx_1_1_cap_mem_cell_1_1_disable_refresh"/>
+        <childnode refid="1073" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="47" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" bodystart="45" bodyend="49"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_cap_mem_cell_1_1_disable_refresh_1af16db9cca8f0d414a69ca06d465d3810" prot="public" virt="non-virtual"><scope>haldls::vx::CapMemCell::DisableRefresh</scope><name>DisableRefresh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_214c291605b2b82e6c23c76289c596b4" kind="dir">
+    <compoundname>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx</compoundname>
+    <innerfile refid="cadc_8h">cadc.h</innerfile>
+    <innerfile refid="cerealization_8h">cerealization.h</innerfile>
+    <innerfile refid="container_8h">container.h</innerfile>
+    <innerfile refid="dac_8h">dac.h</innerfile>
+    <innerfile refid="genpybind_8h">genpybind.h</innerfile>
+    <innerfile refid="gray__scale_8h">gray_scale.h</innerfile>
+    <innerfile refid="hana_8h">hana.h</innerfile>
+    <innerfile refid="lola_8h">lola.h</innerfile>
+    <innerfile refid="neuron_8h">neuron.h</innerfile>
+    <innerfile refid="ppu_8h">ppu.h</innerfile>
+    <innerfile refid="pylola_8h">pylola.h</innerfile>
+    <innerfile refid="synapse_8h">synapse.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,993 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="pyhaldls_8h" kind="file" language="C++">
+    <compoundname>pyhaldls.h</compoundname>
+    <includes local="no">vector</includes>
+    <includes local="no">pybind11/pybind11.h</includes>
+    <includes refid="genpybind_8h" local="yes">haldls/vx/genpybind.h</includes>
+    <includes refid="cerealization_8h" local="yes">haldls/cerealization.h</includes>
+    <includes refid="barrier_8h" local="yes">haldls/vx/barrier.h</includes>
+    <includes refid="haldls_8h" local="yes">haldls/vx/haldls.h</includes>
+    <includes refid="pickle_8h" local="yes">haldls/vx/pickle.h</includes>
+    <includes local="yes">hate/type_list.h</includes>
+    <includes local="yes">haldls/vx/container.def</includes>
+    <incdepgraph>
+      <node id="933">
+        <label>fisch/vx/container.def</label>
+      </node>
+      <node id="972">
+        <label>halco/hicann-dls/vx/synapse.h</label>
+      </node>
+      <node id="916">
+        <label>haldls/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="916" relation="include">
+        </childnode>
+      </node>
+      <node id="976">
+        <label>limits</label>
+      </node>
+      <node id="913">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/pyhaldls.h</label>
+        <link refid="pyhaldls_8h"/>
+        <childnode refid="914" relation="include">
+        </childnode>
+        <childnode refid="915" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="917" relation="include">
+        </childnode>
+        <childnode refid="926" relation="include">
+        </childnode>
+        <childnode refid="934" relation="include">
+        </childnode>
+        <childnode refid="1006" relation="include">
+        </childnode>
+        <childnode refid="924" relation="include">
+        </childnode>
+        <childnode refid="1007" relation="include">
+        </childnode>
+      </node>
+      <node id="944">
+        <label>haldls/vx/background.h</label>
+        <link refid="background_8h"/>
+        <childnode refid="937" relation="include">
+        </childnode>
+        <childnode refid="927" relation="include">
+        </childnode>
+        <childnode refid="939" relation="include">
+        </childnode>
+        <childnode refid="945" relation="include">
+        </childnode>
+        <childnode refid="946" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="947" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+        <childnode refid="948" relation="include">
+        </childnode>
+      </node>
+      <node id="951">
+        <label>halco/hicann-dls/vx/cadc.h</label>
+      </node>
+      <node id="991">
+        <label>haldls/vx/pll.h</label>
+        <link refid="pll_8h"/>
+        <childnode refid="937" relation="include">
+        </childnode>
+        <childnode refid="927" relation="include">
+        </childnode>
+        <childnode refid="939" relation="include">
+        </childnode>
+        <childnode refid="950" relation="include">
+        </childnode>
+        <childnode refid="992" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+      </node>
+      <node id="957">
+        <label>cstdint</label>
+      </node>
+      <node id="960">
+        <label>halco/common/typed_heap_array.h</label>
+      </node>
+      <node id="989">
+        <label>fisch/vx/reset.h</label>
+      </node>
+      <node id="1003">
+        <label>haldls/vx/synapse_driver.h</label>
+        <link refid="synapse__driver_8h"/>
+        <childnode refid="937" relation="include">
+        </childnode>
+        <childnode refid="927" relation="include">
+        </childnode>
+        <childnode refid="939" relation="include">
+        </childnode>
+        <childnode refid="1004" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="952" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+        <childnode refid="948" relation="include">
+        </childnode>
+      </node>
+      <node id="945">
+        <label>halco/hicann-dls/vx/background.h</label>
+      </node>
+      <node id="919">
+        <label>cereal/archives/binary.hpp</label>
+      </node>
+      <node id="934">
+        <label>haldls/vx/haldls.h</label>
+        <link refid="haldls_8h"/>
+        <childnode refid="926" relation="include">
+        </childnode>
+        <childnode refid="935" relation="include">
+        </childnode>
+        <childnode refid="941" relation="include">
+        </childnode>
+      </node>
+      <node id="990">
+        <label>haldls/vx/phy.h</label>
+        <link refid="phy_8h"/>
+        <childnode refid="937" relation="include">
+        </childnode>
+        <childnode refid="927" relation="include">
+        </childnode>
+        <childnode refid="939" relation="include">
+        </childnode>
+        <childnode refid="950" relation="include">
+        </childnode>
+        <childnode refid="943" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+      </node>
+      <node id="958">
+        <label>variant</label>
+      </node>
+      <node id="1002">
+        <label>halco/hicann-dls/vx/dac.h</label>
+      </node>
+      <node id="967">
+        <label>halco/hicann-dls/vx/neuron.h</label>
+      </node>
+      <node id="968">
+        <label>haldls/vx/padi.h</label>
+        <link refid="padi_8h"/>
+        <childnode refid="937" relation="include">
+        </childnode>
+        <childnode refid="927" relation="include">
+        </childnode>
+        <childnode refid="939" relation="include">
+        </childnode>
+        <childnode refid="969" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="970" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+        <childnode refid="948" relation="include">
+        </childnode>
+      </node>
+      <node id="953">
+        <label>haldls/vx/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="929" relation="include">
+        </childnode>
+        <childnode refid="954" relation="include">
+        </childnode>
+        <childnode refid="955" relation="include">
+        </childnode>
+      </node>
+      <node id="959">
+        <label>halco/common/iter_all.h</label>
+      </node>
+      <node id="928">
+        <label>haldls/vx/traits.h</label>
+        <link refid="traits_8h"/>
+        <childnode refid="929" relation="include">
+        </childnode>
+        <childnode refid="930" relation="include">
+        </childnode>
+        <childnode refid="931" relation="include">
+        </childnode>
+        <childnode refid="932" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="924" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+        <childnode refid="933" relation="include">
+        </childnode>
+      </node>
+      <node id="966">
+        <label>haldls/vx/neuron.h</label>
+        <link refid="neuron_8h"/>
+        <childnode refid="937" relation="include">
+        </childnode>
+        <childnode refid="927" relation="include">
+        </childnode>
+        <childnode refid="939" relation="include">
+        </childnode>
+        <childnode refid="950" relation="include">
+        </childnode>
+        <childnode refid="967" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="952" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+        <childnode refid="948" relation="include">
+        </childnode>
+      </node>
+      <node id="981">
+        <label>fisch/vx/jtag.h</label>
+      </node>
+      <node id="930">
+        <label>boost/variant.hpp</label>
+      </node>
+      <node id="982">
+        <label>halco/hicann-dls/vx/jtag.h</label>
+      </node>
+      <node id="917">
+        <label>haldls/cerealization.h</label>
+        <link refid="cerealization_8h"/>
+        <childnode refid="918" relation="include">
+        </childnode>
+        <childnode refid="919" relation="include">
+        </childnode>
+        <childnode refid="920" relation="include">
+        </childnode>
+        <childnode refid="921" relation="include">
+        </childnode>
+        <childnode refid="922" relation="include">
+        </childnode>
+        <childnode refid="923" relation="include">
+        </childnode>
+        <childnode refid="924" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+      </node>
+      <node id="994">
+        <label>halco/hicann-dls/vx/ppu.h</label>
+      </node>
+      <node id="927">
+        <label>ostream</label>
+      </node>
+      <node id="922">
+        <label>cereal/archives/xml.hpp</label>
+      </node>
+      <node id="935">
+        <label>haldls/vx/constants.h</label>
+        <link refid="constants_8h"/>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="936" relation="include">
+        </childnode>
+      </node>
+      <node id="926">
+        <label>haldls/vx/barrier.h</label>
+        <link refid="barrier_8h"/>
+        <childnode refid="927" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+      </node>
+      <node id="998">
+        <label>halco/hicann-dls/vx/reset.h</label>
+      </node>
+      <node id="995">
+        <label>haldls/vx/coordinate_to_container.h</label>
+        <link refid="coordinate__to__container_8h"/>
+        <childnode refid="929" relation="include">
+        </childnode>
+      </node>
+      <node id="987">
+        <label>haldls/vx/null_payload_readable.h</label>
+        <link refid="null__payload__readable_8h"/>
+        <childnode refid="937" relation="include">
+        </childnode>
+        <childnode refid="927" relation="include">
+        </childnode>
+        <childnode refid="939" relation="include">
+        </childnode>
+        <childnode refid="974" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+      </node>
+      <node id="948">
+        <label>hxcomm/vx/target.h</label>
+      </node>
+      <node id="980">
+        <label>haldls/vx/jtag.h</label>
+        <link refid="jtag_8h"/>
+        <childnode refid="937" relation="include">
+        </childnode>
+        <childnode refid="927" relation="include">
+        </childnode>
+        <childnode refid="977" relation="include">
+        </childnode>
+        <childnode refid="981" relation="include">
+        </childnode>
+        <childnode refid="939" relation="include">
+        </childnode>
+        <childnode refid="982" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+      </node>
+      <node id="975">
+        <label>haldls/vx/i2c.h</label>
+        <link refid="i2c_8h"/>
+        <childnode refid="937" relation="include">
+        </childnode>
+        <childnode refid="976" relation="include">
+        </childnode>
+        <childnode refid="927" relation="include">
+        </childnode>
+        <childnode refid="977" relation="include">
+        </childnode>
+        <childnode refid="939" relation="include">
+        </childnode>
+        <childnode refid="978" relation="include">
+        </childnode>
+        <childnode refid="979" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="947" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+        <childnode refid="948" relation="include">
+        </childnode>
+      </node>
+      <node id="1006">
+        <label>haldls/vx/pickle.h</label>
+        <link refid="pickle_8h"/>
+        <childnode refid="918" relation="include">
+        </childnode>
+        <childnode refid="914" relation="include">
+        </childnode>
+        <childnode refid="919" relation="include">
+        </childnode>
+        <childnode refid="915" relation="include">
+        </childnode>
+        <childnode refid="924" relation="include">
+        </childnode>
+      </node>
+      <node id="996">
+        <label>haldls/vx/readout.h</label>
+        <link refid="readout_8h"/>
+        <childnode refid="927" relation="include">
+        </childnode>
+        <childnode refid="950" relation="include">
+        </childnode>
+        <childnode refid="961" relation="include">
+        </childnode>
+        <childnode refid="984" relation="include">
+        </childnode>
+        <childnode refid="986" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+      </node>
+      <node id="920">
+        <label>cereal/archives/json.hpp</label>
+      </node>
+      <node id="963">
+        <label>halco/hicann-dls/vx/correlation.h</label>
+      </node>
+      <node id="952">
+        <label>haldls/vx/sram_controller.h</label>
+        <link refid="sram__controller_8h"/>
+        <childnode refid="953" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="947" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+      </node>
+      <node id="964">
+        <label>haldls/vx/event.h</label>
+        <link refid="event_8h"/>
+        <childnode refid="965" relation="include">
+        </childnode>
+        <childnode refid="939" relation="include">
+        </childnode>
+        <childnode refid="946" relation="include">
+        </childnode>
+        <childnode refid="943" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="966" relation="include">
+        </childnode>
+        <childnode refid="968" relation="include">
+        </childnode>
+        <childnode refid="970" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+      </node>
+      <node id="914">
+        <label>vector</label>
+      </node>
+      <node id="993">
+        <label>haldls/vx/ppu.h</label>
+        <link refid="ppu_8h"/>
+        <childnode refid="937" relation="include">
+        </childnode>
+        <childnode refid="927" relation="include">
+        </childnode>
+        <childnode refid="939" relation="include">
+        </childnode>
+        <childnode refid="959" relation="include">
+        </childnode>
+        <childnode refid="960" relation="include">
+        </childnode>
+        <childnode refid="994" relation="include">
+        </childnode>
+        <childnode refid="953" relation="include">
+        </childnode>
+        <childnode refid="995" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+      </node>
+      <node id="974">
+        <label>halco/hicann-dls/vx/fpga.h</label>
+      </node>
+      <node id="938">
+        <label>fisch/vx/timer.h</label>
+      </node>
+      <node id="997">
+        <label>haldls/vx/reset.h</label>
+        <link refid="reset_8h"/>
+        <childnode refid="937" relation="include">
+        </childnode>
+        <childnode refid="927" relation="include">
+        </childnode>
+        <childnode refid="998" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+      </node>
+      <node id="950">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="954">
+        <label>utility</label>
+      </node>
+      <node id="979">
+        <label>halco/hicann-dls/vx/xboard.h</label>
+      </node>
+      <node id="937">
+        <label>array</label>
+      </node>
+      <node id="918">
+        <label>sstream</label>
+      </node>
+      <node id="984">
+        <label>halco/hicann-dls/vx/chip.h</label>
+      </node>
+      <node id="978">
+        <label>halco/hicann-dls/vx/i2c.h</label>
+      </node>
+      <node id="939">
+        <label>halco/common/geometry.h</label>
+      </node>
+      <node id="915">
+        <label>pybind11/pybind11.h</label>
+      </node>
+      <node id="943">
+        <label>halco/hicann-dls/vx/highspeed_link.h</label>
+      </node>
+      <node id="931">
+        <label>fisch/vx/container_fwd.h</label>
+      </node>
+      <node id="925">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="983">
+        <label>haldls/vx/madc.h</label>
+        <link refid="madc_8h"/>
+        <childnode refid="937" relation="include">
+        </childnode>
+        <childnode refid="927" relation="include">
+        </childnode>
+        <childnode refid="950" relation="include">
+        </childnode>
+        <childnode refid="984" relation="include">
+        </childnode>
+        <childnode refid="985" relation="include">
+        </childnode>
+        <childnode refid="986" relation="include">
+        </childnode>
+        <childnode refid="972" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+      </node>
+      <node id="923">
+        <label>cereal/cereal.hpp</label>
+      </node>
+      <node id="942">
+        <label>haldls/vx/arq.h</label>
+        <link refid="arq_8h"/>
+        <childnode refid="937" relation="include">
+        </childnode>
+        <childnode refid="927" relation="include">
+        </childnode>
+        <childnode refid="939" relation="include">
+        </childnode>
+        <childnode refid="943" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+      </node>
+      <node id="977">
+        <label>fisch/vx/constants.h</label>
+      </node>
+      <node id="932">
+        <label>fisch/vx/container_ticket.h</label>
+      </node>
+      <node id="941">
+        <label>haldls/vx/container.h</label>
+        <link refid="container_8h"/>
+        <childnode refid="942" relation="include">
+        </childnode>
+        <childnode refid="944" relation="include">
+        </childnode>
+        <childnode refid="949" relation="include">
+        </childnode>
+        <childnode refid="956" relation="include">
+        </childnode>
+        <childnode refid="962" relation="include">
+        </childnode>
+        <childnode refid="964" relation="include">
+        </childnode>
+        <childnode refid="973" relation="include">
+        </childnode>
+        <childnode refid="975" relation="include">
+        </childnode>
+        <childnode refid="980" relation="include">
+        </childnode>
+        <childnode refid="983" relation="include">
+        </childnode>
+        <childnode refid="966" relation="include">
+        </childnode>
+        <childnode refid="987" relation="include">
+        </childnode>
+        <childnode refid="968" relation="include">
+        </childnode>
+        <childnode refid="988" relation="include">
+        </childnode>
+        <childnode refid="990" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+        <childnode refid="993" relation="include">
+        </childnode>
+        <childnode refid="996" relation="include">
+        </childnode>
+        <childnode refid="997" relation="include">
+        </childnode>
+        <childnode refid="999" relation="include">
+        </childnode>
+        <childnode refid="1001" relation="include">
+        </childnode>
+        <childnode refid="952" relation="include">
+        </childnode>
+        <childnode refid="970" relation="include">
+        </childnode>
+        <childnode refid="1003" relation="include">
+        </childnode>
+        <childnode refid="1005" relation="include">
+        </childnode>
+        <childnode refid="936" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+      </node>
+      <node id="969">
+        <label>halco/hicann-dls/vx/padi.h</label>
+      </node>
+      <node id="956">
+        <label>haldls/vx/capmem.h</label>
+        <link refid="capmem_8h"/>
+        <childnode refid="937" relation="include">
+        </childnode>
+        <childnode refid="957" relation="include">
+        </childnode>
+        <childnode refid="927" relation="include">
+        </childnode>
+        <childnode refid="958" relation="include">
+        </childnode>
+        <childnode refid="939" relation="include">
+        </childnode>
+        <childnode refid="959" relation="include">
+        </childnode>
+        <childnode refid="960" relation="include">
+        </childnode>
+        <childnode refid="961" relation="include">
+        </childnode>
+        <childnode refid="953" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+        <childnode refid="948" relation="include">
+        </childnode>
+      </node>
+      <node id="986">
+        <label>halco/hicann-dls/vx/readout.h</label>
+      </node>
+      <node id="988">
+        <label>haldls/vx/perftest.h</label>
+        <link refid="perftest_8h"/>
+        <childnode refid="937" relation="include">
+        </childnode>
+        <childnode refid="927" relation="include">
+        </childnode>
+        <childnode refid="989" relation="include">
+        </childnode>
+        <childnode refid="939" relation="include">
+        </childnode>
+        <childnode refid="943" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+      </node>
+      <node id="949">
+        <label>haldls/vx/cadc.h</label>
+        <link refid="cadc_8h"/>
+        <childnode refid="939" relation="include">
+        </childnode>
+        <childnode refid="950" relation="include">
+        </childnode>
+        <childnode refid="951" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="952" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+        <childnode refid="948" relation="include">
+        </childnode>
+      </node>
+      <node id="965">
+        <label>fisch/vx/event.h</label>
+      </node>
+      <node id="947">
+        <label>hate/math.h</label>
+      </node>
+      <node id="940">
+        <label>halco/hicann-dls/vx/timing.h</label>
+      </node>
+      <node id="992">
+        <label>halco/hicann-dls/vx/pll.h</label>
+      </node>
+      <node id="970">
+        <label>haldls/vx/synapse.h</label>
+        <link refid="synapse_8h"/>
+        <childnode refid="937" relation="include">
+        </childnode>
+        <childnode refid="927" relation="include">
+        </childnode>
+        <childnode refid="939" relation="include">
+        </childnode>
+        <childnode refid="950" relation="include">
+        </childnode>
+        <childnode refid="961" relation="include">
+        </childnode>
+        <childnode refid="971" relation="include">
+        </childnode>
+        <childnode refid="972" relation="include">
+        </childnode>
+        <childnode refid="953" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+      </node>
+      <node id="962">
+        <label>haldls/vx/correlation.h</label>
+        <link refid="correlation_8h"/>
+        <childnode refid="939" relation="include">
+        </childnode>
+        <childnode refid="963" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="947" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+      </node>
+      <node id="999">
+        <label>haldls/vx/routing_crossbar.h</label>
+        <link refid="routing__crossbar_8h"/>
+        <childnode refid="937" relation="include">
+        </childnode>
+        <childnode refid="927" relation="include">
+        </childnode>
+        <childnode refid="939" relation="include">
+        </childnode>
+        <childnode refid="950" relation="include">
+        </childnode>
+        <childnode refid="946" relation="include">
+        </childnode>
+        <childnode refid="1000" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="947" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+        <childnode refid="948" relation="include">
+        </childnode>
+      </node>
+      <node id="955">
+        <label>fisch/vx/omnibus_data.h</label>
+      </node>
+      <node id="1000">
+        <label>halco/hicann-dls/vx/routing_crossbar.h</label>
+      </node>
+      <node id="929">
+        <label>type_traits</label>
+      </node>
+      <node id="1001">
+        <label>haldls/vx/spi.h</label>
+        <link refid="spi_8h"/>
+        <childnode refid="937" relation="include">
+        </childnode>
+        <childnode refid="927" relation="include">
+        </childnode>
+        <childnode refid="977" relation="include">
+        </childnode>
+        <childnode refid="939" relation="include">
+        </childnode>
+        <childnode refid="950" relation="include">
+        </childnode>
+        <childnode refid="1002" relation="include">
+        </childnode>
+        <childnode refid="979" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+      </node>
+      <node id="1005">
+        <label>haldls/vx/systime.h</label>
+        <link refid="systime_8h"/>
+        <childnode refid="937" relation="include">
+        </childnode>
+        <childnode refid="927" relation="include">
+        </childnode>
+        <childnode refid="940" relation="include">
+        </childnode>
+        <childnode refid="953" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+      </node>
+      <node id="985">
+        <label>halco/hicann-dls/vx/madc.h</label>
+      </node>
+      <node id="1004">
+        <label>halco/hicann-dls/vx/synapse_driver.h</label>
+      </node>
+      <node id="936">
+        <label>haldls/vx/timer.h</label>
+        <link refid="timer_8h"/>
+        <childnode refid="937" relation="include">
+        </childnode>
+        <childnode refid="927" relation="include">
+        </childnode>
+        <childnode refid="938" relation="include">
+        </childnode>
+        <childnode refid="939" relation="include">
+        </childnode>
+        <childnode refid="940" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+      </node>
+      <node id="973">
+        <label>haldls/vx/fpga.h</label>
+        <link refid="fpga_8h"/>
+        <childnode refid="937" relation="include">
+        </childnode>
+        <childnode refid="927" relation="include">
+        </childnode>
+        <childnode refid="939" relation="include">
+        </childnode>
+        <childnode refid="974" relation="include">
+        </childnode>
+        <childnode refid="916" relation="include">
+        </childnode>
+        <childnode refid="928" relation="include">
+        </childnode>
+        <childnode refid="925" relation="include">
+        </childnode>
+      </node>
+      <node id="1007">
+        <label>haldls/vx/container.def</label>
+      </node>
+      <node id="971">
+        <label>halco/hicann-dls/vx/switch_rows.h</label>
+      </node>
+      <node id="961">
+        <label>halco/hicann-dls/vx/capmem.h</label>
+      </node>
+      <node id="921">
+        <label>cereal/archives/portable_binary.hpp</label>
+      </node>
+      <node id="924">
+        <label>hate/type_list.h</label>
+      </node>
+      <node id="946">
+        <label>halco/hicann-dls/vx/event.h</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="pyhaldls_8h_1a6d32ec951a492e6c29f32f7b856e2869" prot="public" static="no">
+        <name>PLAYBACK_CONTAINER</name>
+        <param><defname>Name</defname></param>
+        <param><defname>Type</defname></param>
+        <initializer>#Name,</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/pyhaldls.h" line="25" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/pyhaldls.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pyhaldls_8h_1a6d32ec951a492e6c29f32f7b856e2869" prot="public" static="no">
+        <name>PLAYBACK_CONTAINER</name>
+        <param><defname>Name</defname></param>
+        <param><defname>Type</defname></param>
+        <initializer>Type,</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/pyhaldls.h" line="30" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/pyhaldls.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="pyhaldls_8h_1a3ae224f5a9892aaeefb469b1eb44f0da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>parent</type>
+        <definition>parent attr</definition>
+        <argsstring>(&quot;containers&quot;)</argsstring>
+        <name>attr</name>
+        <param>
+          <type>&quot;containers&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/pyhaldls.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/pyhaldls.h"/>
+  </compounddef>
+</doxygen>

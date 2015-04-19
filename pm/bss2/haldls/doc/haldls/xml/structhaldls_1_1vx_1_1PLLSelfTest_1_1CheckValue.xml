@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1PLLSelfTest_1_1CheckValue" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::PLLSelfTest::CheckValue</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail:: RantWrapper&lt; CheckValue, uint_fast16_t, 1048575, 0 &gt;</basecompoundref>
+    <includes refid="pll_8h" local="no">pll.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1PLLSelfTest_1_1CheckValue_1ab8177926d176824627afbc57777b813a" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::PLLSelfTest::CheckValue::CheckValue</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>CheckValue</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/pll.h" line="536" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/pll.h" bodystart="536" bodyend="536"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Expected counter value within the 2^(p + 2) reference cycles. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>counter_value = (f_clk / f ref) * 2^(p + 2) </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="832">
+        <label>haldls::vx::PLLSelfTest::CheckValue</label>
+        <link refid="structhaldls_1_1vx_1_1PLLSelfTest_1_1CheckValue"/>
+        <childnode refid="833" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="833">
+        <label>halco::common::detail:: RantWrapper&lt; CheckValue, uint_fast16_t, 1048575, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="834">
+        <label>haldls::vx::PLLSelfTest::CheckValue</label>
+        <link refid="structhaldls_1_1vx_1_1PLLSelfTest_1_1CheckValue"/>
+        <childnode refid="835" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="835">
+        <label>halco::common::detail:: RantWrapper&lt; CheckValue, uint_fast16_t, 1048575, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/pll.h" line="535" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/pll.h" bodystart="532" bodyend="537"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1PLLSelfTest_1_1CheckValue_1ab8177926d176824627afbc57777b813a" prot="public" virt="non-virtual"><scope>haldls::vx::PLLSelfTest::CheckValue</scope><name>CheckValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

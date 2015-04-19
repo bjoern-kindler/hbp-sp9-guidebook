@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance" kind="struct" language="C++" prot="public">
+    <compoundname>lola::vx::AtomicNeuron::MembraneCapacitance</compoundname>
+    <includes refid="neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance_1a31e8e1d24a533a67c3c3c3a32c662cf0" prot="public" static="no">
+        <type>haldls::vx::NeuronConfig::MembraneCapacitorSize</type>
+        <definition>typedef haldls::vx::NeuronConfig::MembraneCapacitorSize lola::vx::AtomicNeuron::MembraneCapacitance::CapacitorSize</definition>
+        <argsstring></argsstring>
+        <name>CapacitorSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="217" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance_1a9679a9eb8da653e7e8aa4409e93b342e" prot="public" static="no" mutable="no">
+        <type><ref refid="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance_1a31e8e1d24a533a67c3c3c3a32c662cf0" kindref="member">CapacitorSize</ref></type>
+        <definition>CapacitorSize lola::vx::AtomicNeuron::MembraneCapacitance::capacitance</definition>
+        <argsstring></argsstring>
+        <name>capacitance</name>
+        <briefdescription>
+<para>Select membrane capacitance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The maximum value at 63 is ~2.3pF. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="225" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance_1ad865a45c3465c72f0bb1ae0b5658a149" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::AtomicNeuron::MembraneCapacitance::enable_merge</definition>
+        <argsstring></argsstring>
+        <name>enable_merge</name>
+        <briefdescription>
+<para>Enable merging of membrane and adaptation capacitances. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="222" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance_1ae123088fff88c1774b9ec892fa677f9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::AtomicNeuron::MembraneCapacitance::MembraneCapacitance</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>MembraneCapacitance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="219" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance_1a1ad44dfa6c21439f22d806fcb25c1aef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::AtomicNeuron::MembraneCapacitance::operator!=</definition>
+        <argsstring>(MembraneCapacitance const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance" kindref="compound">MembraneCapacitance</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="228" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance_1a7bd08f1aabe7e7735660e79075fbaf35" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::AtomicNeuron::MembraneCapacitance::operator==</definition>
+        <argsstring>(MembraneCapacitance const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance" kindref="compound">MembraneCapacitance</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="227" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance_1ac242a2a781b7e80823bc71c1588a193f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, MembraneCapacitance const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance" kindref="compound">MembraneCapacitance</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="231" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="216" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="215" bodyend="233"/>
+    <listofallmembers>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance_1a9679a9eb8da653e7e8aa4409e93b342e" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::MembraneCapacitance</scope><name>capacitance</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance_1a31e8e1d24a533a67c3c3c3a32c662cf0" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::MembraneCapacitance</scope><name>CapacitorSize</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance_1ad865a45c3465c72f0bb1ae0b5658a149" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::MembraneCapacitance</scope><name>enable_merge</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance_1ae123088fff88c1774b9ec892fa677f9e" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::MembraneCapacitance</scope><name>MembraneCapacitance</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance_1a1ad44dfa6c21439f22d806fcb25c1aef" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::MembraneCapacitance</scope><name>operator!=</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance_1ac242a2a781b7e80823bc71c1588a193f" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::MembraneCapacitance</scope><name>operator&lt;&lt;</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance_1a7bd08f1aabe7e7735660e79075fbaf35" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::MembraneCapacitance</scope><name>operator==</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

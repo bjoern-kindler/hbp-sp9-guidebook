@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1ReferenceGeneratorConfig_1_1ResistorControl" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::ReferenceGeneratorConfig::ResistorControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; ResistorControl, uint_fast8_t, 63, 0 &gt;</basecompoundref>
+    <includes refid="vx_2capmem_8h" local="no">capmem.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1ReferenceGeneratorConfig_1_1ResistorControl_1a5ab88b629c053bd6de0333f28cf888f0" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::ReferenceGeneratorConfig::ResistorControl::ResistorControl</definition>
+        <argsstring>(uintmax_t const val=40)</argsstring>
+        <name>ResistorControl</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>40</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/capmem.h" line="462" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/capmem.h" bodystart="462" bodyend="465"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1355">
+        <label>halco::common::detail::RantWrapper&lt; ResistorControl, uint_fast8_t, 63, 0 &gt;</label>
+      </node>
+      <node id="1354">
+        <label>haldls::ReferenceGeneratorConfig::ResistorControl</label>
+        <link refid="structhaldls_1_1ReferenceGeneratorConfig_1_1ResistorControl"/>
+        <childnode refid="1355" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1357">
+        <label>halco::common::detail::RantWrapper&lt; ResistorControl, uint_fast8_t, 63, 0 &gt;</label>
+      </node>
+      <node id="1356">
+        <label>haldls::ReferenceGeneratorConfig::ResistorControl</label>
+        <link refid="structhaldls_1_1ReferenceGeneratorConfig_1_1ResistorControl"/>
+        <childnode refid="1357" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/capmem.h" line="461" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/capmem.h" bodystart="459" bodyend="466"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1ReferenceGeneratorConfig_1_1ResistorControl_1a5ab88b629c053bd6de0333f28cf888f0" prot="public" virt="non-virtual"><scope>haldls::ReferenceGeneratorConfig::ResistorControl</scope><name>ResistorControl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

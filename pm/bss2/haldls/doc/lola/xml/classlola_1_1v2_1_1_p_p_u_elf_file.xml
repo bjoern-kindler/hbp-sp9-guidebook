@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classlola_1_1v2_1_1_p_p_u_elf_file" kind="class" language="C++" prot="public">
+    <compoundname>lola::v2::PPUElfFile</compoundname>
+    <includes refid="v2_2ppu_8h" local="no">ppu.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classlola_1_1v2_1_1_p_p_u_elf_file_1ae05dab27575733e38df80b521e5f9d87" prot="public" static="no">
+        <type>std::map&lt; std::string, <ref refid="classlola_1_1v2_1_1_p_p_u_program_1_1_symbol" kindref="compound">PPUProgram::Symbol</ref> &gt;</type>
+        <definition>typedef std::map&lt;std::string, PPUProgram::Symbol&gt; lola::v2::PPUElfFile::symbols_type</definition>
+        <argsstring></argsstring>
+        <name>symbols_type</name>
+        <briefdescription>
+<para>Map of named symbols. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/lola/v2/ppu.h" line="83" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/lola/v2/ppu.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classlola_1_1v2_1_1_p_p_u_elf_file_1a7330d1e3dc118e0d01faf374f46104f0" prot="private" static="no" mutable="no">
+        <type>Elf *</type>
+        <definition>Elf* lola::v2::PPUElfFile::m_elf_ptr</definition>
+        <argsstring></argsstring>
+        <name>m_elf_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/lola/v2/ppu.h" line="111" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/lola/v2/ppu.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1v2_1_1_p_p_u_elf_file_1aaad364f03b72e1b85539095f8d507681" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int lola::v2::PPUElfFile::m_fd</definition>
+        <argsstring></argsstring>
+        <name>m_fd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/lola/v2/ppu.h" line="110" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/lola/v2/ppu.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlola_1_1v2_1_1_p_p_u_elf_file_1a98dc0460eb8723cad9aeae3a1e3e66cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::v2::PPUElfFile::PPUElfFile</definition>
+        <argsstring>(std::string const &amp;filename) SYMBOL_VISIBLE</argsstring>
+        <name>PPUElfFile</name>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+<para>Open file. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>File to open </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/lola/v2/ppu.h" line="89" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1v2_1_1_p_p_u_elf_file_1abef180ae6a55ca8e9a6228743f30e725" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::v2::PPUElfFile::~PPUElfFile</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>~PPUElfFile</name>
+        <briefdescription>
+<para>Close file. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/lola/v2/ppu.h" line="107" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1v2_1_1_p_p_u_elf_file_1a3fda506cb6d52d39c41ac0a7fa657ff3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>haldls::v2::PPUMemoryBlock</type>
+        <definition>haldls::v2::PPUMemoryBlock lola::v2::PPUElfFile::read_program</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>read_program</name>
+        <briefdescription>
+<para>Read program memory data, i.e. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>the data associated to all sections necessary for execution placed at their specified location in memory. <simplesect kind="return"><para>Continuous block of PPU memory data. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/lola/v2/ppu.h" line="102" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1v2_1_1_p_p_u_elf_file_1a8f500ed92aa1eb433f18e4071c8b40fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classlola_1_1v2_1_1_p_p_u_elf_file_1ae05dab27575733e38df80b521e5f9d87" kindref="member">symbols_type</ref></type>
+        <definition>symbols_type lola::v2::PPUElfFile::read_symbols</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>read_symbols</name>
+        <briefdescription>
+<para>Read symbol data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Map of named symbols. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/lola/v2/ppu.h" line="95" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Read-access to memory and symbol data of PPU program file in the ELF file format. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/lola/v2/ppu.h" line="78" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/lola/v2/ppu.h" bodystart="77" bodyend="112"/>
+    <listofallmembers>
+      <member refid="classlola_1_1v2_1_1_p_p_u_elf_file_1a7330d1e3dc118e0d01faf374f46104f0" prot="private" virt="non-virtual"><scope>lola::v2::PPUElfFile</scope><name>m_elf_ptr</name></member>
+      <member refid="classlola_1_1v2_1_1_p_p_u_elf_file_1aaad364f03b72e1b85539095f8d507681" prot="private" virt="non-virtual"><scope>lola::v2::PPUElfFile</scope><name>m_fd</name></member>
+      <member refid="classlola_1_1v2_1_1_p_p_u_elf_file_1a98dc0460eb8723cad9aeae3a1e3e66cf" prot="public" virt="non-virtual"><scope>lola::v2::PPUElfFile</scope><name>PPUElfFile</name></member>
+      <member refid="classlola_1_1v2_1_1_p_p_u_elf_file_1a3fda506cb6d52d39c41ac0a7fa657ff3" prot="public" virt="non-virtual"><scope>lola::v2::PPUElfFile</scope><name>read_program</name></member>
+      <member refid="classlola_1_1v2_1_1_p_p_u_elf_file_1a8f500ed92aa1eb433f18e4071c8b40fd" prot="public" virt="non-virtual"><scope>lola::v2::PPUElfFile</scope><name>read_symbols</name></member>
+      <member refid="classlola_1_1v2_1_1_p_p_u_elf_file_1ae05dab27575733e38df80b521e5f9d87" prot="public" virt="non-virtual"><scope>lola::v2::PPUElfFile</scope><name>symbols_type</name></member>
+      <member refid="classlola_1_1v2_1_1_p_p_u_elf_file_1abef180ae6a55ca8e9a6228743f30e725" prot="public" virt="non-virtual"><scope>lola::v2::PPUElfFile</scope><name>~PPUElfFile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

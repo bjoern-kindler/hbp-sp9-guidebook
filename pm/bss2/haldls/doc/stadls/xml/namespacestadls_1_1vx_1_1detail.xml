@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacestadls_1_1vx_1_1detail" kind="namespace" language="C++">
+    <compoundname>stadls::vx::detail</compoundname>
+    <innerclass refid="classstadls_1_1vx_1_1detail_1_1_init_generator" prot="public">stadls::vx::detail::InitGenerator</innerclass>
+    <innerclass refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter" prot="public">stadls::vx::detail::PlaybackProgramBuilderAdapter</innerclass>
+    <innerclass refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_impl" prot="public">stadls::vx::detail::PlaybackProgramBuilderAdapterImpl</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacestadls_1_1vx_1_1detail_1a53792440f7baa1a1276e6521b526b391" prot="private" static="no">
+        <type><ref refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter_impl" kindref="compound">detail::PlaybackProgramBuilderAdapterImpl</ref>&lt; BuilderStorage, DoneType &gt;</type>
+        <definition>Impl</definition>
+        <argsstring></argsstring>
+        <name>Impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program_builder.h" line="251" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program_builder.h" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacestadls_1_1vx_1_1detail_1a7799cad81b47176c7af804d4504f5818" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; BuilderStorage &gt;</type>
+        <definition>std::unique_ptr&lt;BuilderStorage&gt; stadls::vx::detail::m_builder_impl</definition>
+        <argsstring></argsstring>
+        <name>m_builder_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program_builder.h" line="258" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program_builder.h" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacestadls_1_1vx_1_1detail_1ac25cff478b4878bf110ac946d9d5caec" prot="private" static="no" mutable="no">
+        <type>std::unordered_set&lt; hxcomm::vx::Target &gt;</type>
+        <definition>std::unordered_set&lt;hxcomm::vx::Target&gt; stadls::vx::detail::m_unsupported_targets</definition>
+        <argsstring></argsstring>
+        <name>m_unsupported_targets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program_builder.h" line="260" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program_builder.h" bodystart="260" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacestadls_1_1vx_1_1detail_1a9e6b5b81e5ac074dca78a4e0609ef3f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>size_t</type>
+        <definition>size_t stadls::vx::detail::count_decoding_words</definition>
+        <argsstring>(T const &amp;config)</argsstring>
+        <name>count_decoding_words</name>
+        <param>
+          <type>T const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+<para>Get number of words expected for decoding. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Container type </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Container</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Number of words for default backend </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/decode.h" line="48" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/decode.h" bodystart="48" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1_1detail_1ac588eabd18188c7b411c15a0709a907f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename BuilderStorage</type>
+          </param>
+          <param>
+            <type>typename DoneType</type>
+          </param>
+        </templateparamlist>
+        <type>class SYMBOL_VISIBLE <ref refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter" kindref="compound">stadls::vx::detail::PlaybackProgramBuilderAdapter</ref></type>
+        <definition>class SYMBOL_VISIBLE stadls::vx::detail::PlaybackProgramBuilderAdapter stadls::vx::detail::empty</definition>
+        <argsstring>() const</argsstring>
+        <name>empty</name>
+        <briefdescription>
+<para>Get whether builder is empty, i.e. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>no instructions are embodied. <simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program_builder.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1_1detail_1a6de39b3738add5415dd7d616a87512ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T::coordinate_type</type>
+        <definition>T::coordinate_type stadls::vx::detail::get_coord</definition>
+        <argsstring>(T const &amp;config)</argsstring>
+        <name>get_coord</name>
+        <param>
+          <type>T const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+<para>Get coordinate matching container, e.g. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>with respect to size. <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Container type </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Container</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Coordinate </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/decode.h" line="26" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/decode.h" bodystart="26" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1_1detail_1a02df0cf4f2fb133e391ee3f9384b7d85" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool stadls::vx::detail::is_write_only</definition>
+        <argsstring>() const</argsstring>
+        <name>is_write_only</name>
+        <briefdescription>
+<para>Get whether builder only stores write instructions. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program_builder.h" line="248" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1_1detail_1a7fbe93868627acba108c7346ddd6e700" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; stadls::vx::detail::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, PlaybackProgramBuilderAdapter&lt; T, U &gt; const &amp;builder) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1detail_1_1_playback_program_builder_adapter" kindref="compound">PlaybackProgramBuilderAdapter</ref>&lt; T, U &gt; const &amp;</type>
+          <declname>builder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program_builder.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1_1detail_1ad31f9fdbce3fcb4f790d3f359b946d67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>pybind11::tuple</type>
+        <definition>pybind11::tuple stadls::vx::detail::py_generate_impl</definition>
+        <argsstring>(T const &amp;seq)</argsstring>
+        <name>py_generate_impl</name>
+        <param>
+          <type>T const &amp;</type>
+          <declname>seq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_generator.h" line="55" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_generator.h" bodystart="55" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1_1detail_1a738efcebedd132ca3e9e6359c98b2863" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void stadls::vx::detail::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program_builder.h" line="256" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1_1detail_1a6036280811d24d93a4b4342a95659897" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t stadls::vx::detail::size_to_fpga</definition>
+        <argsstring>() const</argsstring>
+        <name>size_to_fpga</name>
+        <briefdescription>
+<para>Get number of UT messages to FPGA. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Size </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program_builder.h" line="242" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/decode.h" line="17" column="1"/>
+  </compounddef>
+</doxygen>

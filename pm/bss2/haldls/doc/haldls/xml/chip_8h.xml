@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="chip_8h" kind="file" language="C++">
+    <compoundname>chip.h</compoundname>
+    <includes local="yes">halco/common/typed_array.h</includes>
+    <includes local="yes">halco/hicann-dls/v2/coordinates.h</includes>
+    <includes local="yes">hate/optional.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includes refid="v2_2capmem_8h" local="yes">haldls/v2/capmem.h</includes>
+    <includes refid="v2_2common_8h" local="yes">haldls/v2/common.h</includes>
+    <includes refid="v2_2correlation_8h" local="yes">haldls/v2/correlation.h</includes>
+    <includes refid="v2_2genpybind_8h" local="yes">haldls/v2/genpybind.h</includes>
+    <includes refid="v2_2neuron_8h" local="yes">haldls/v2/neuron.h</includes>
+    <includes refid="v2_2ppu_8h" local="yes">haldls/v2/ppu.h</includes>
+    <includes refid="rate__counter_8h" local="yes">haldls/v2/rate_counter.h</includes>
+    <includes refid="v2_2synapse_8h" local="yes">haldls/v2/synapse.h</includes>
+    <includes refid="synapsedriver_8h" local="yes">haldls/v2/synapsedriver.h</includes>
+    <includedby refid="v2_2container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/container.h</includedby>
+    <includedby refid="playback_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h</includedby>
+    <incdepgraph>
+      <node id="65">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h</label>
+        <link refid="chip_8h"/>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="82" relation="include">
+        </childnode>
+        <childnode refid="83" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>cstdint</label>
+      </node>
+      <node id="80">
+        <label>haldls/v2/ppu.h</label>
+        <link refid="v2_2ppu_8h"/>
+        <childnode refid="81" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>haldls/v2/genpybind.h</label>
+        <link refid="v2_2genpybind_8h"/>
+        <childnode refid="75" relation="include">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>hate/passkey.h</label>
+      </node>
+      <node id="77">
+        <label>ostream</label>
+      </node>
+      <node id="70">
+        <label>haldls/v2/capmem.h</label>
+        <link refid="v2_2capmem_8h"/>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>haldls/v2/synapse.h</label>
+        <link refid="v2_2synapse_8h"/>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="76">
+        <label>haldls/v2/correlation.h</label>
+        <link refid="v2_2correlation_8h"/>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+      </node>
+      <node id="74">
+        <label>utility</label>
+      </node>
+      <node id="81">
+        <label>array</label>
+      </node>
+      <node id="69">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="84">
+        <label>haldls/v2/synapsedriver.h</label>
+        <link refid="synapsedriver_8h"/>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>halco/hicann-dls/v2/coordinates.h</label>
+      </node>
+      <node id="72">
+        <label>haldls/v2/common.h</label>
+        <link refid="v2_2common_8h"/>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>type_traits</label>
+      </node>
+      <node id="78">
+        <label>haldls/v2/neuron.h</label>
+        <link refid="v2_2neuron_8h"/>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>haldls/v2/rate_counter.h</label>
+        <link refid="rate__counter_8h"/>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>hate/optional.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="85">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h</label>
+        <link refid="chip_8h"/>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h</label>
+        <link refid="playback_8h"/>
+        <childnode refid="86" relation="include">
+        </childnode>
+      </node>
+      <node id="86">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/container.h</label>
+        <link refid="v2_2container_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classhaldls_1_1v2_1_1_chip" prot="public">haldls::v2::Chip</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1detail_1_1_visit_preorder_impl_3_01_chip_01_4" prot="public">haldls::v2::detail::VisitPreorderImpl&lt; Chip &gt;</innerclass>
+    <innernamespace refid="namespacecereal">cereal</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1v2">haldls::v2</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1v2_1_1detail">haldls::v2::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h"/>
+  </compounddef>
+</doxygen>

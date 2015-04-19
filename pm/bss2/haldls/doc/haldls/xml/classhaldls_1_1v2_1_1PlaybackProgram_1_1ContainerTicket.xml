@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classhaldls_1_1v2_1_1PlaybackProgram_1_1ContainerTicket" kind="class" language="C++" prot="public">
+    <compoundname>haldls::v2::PlaybackProgram::ContainerTicket</compoundname>
+    <includes refid="playback_8h" local="no">playback.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1PlaybackProgram_1_1ContainerTicket_1a3a9d3e3e0783ea7c2c9e80b284149aff" prot="private" static="no">
+        <type>T::coordinate_type</type>
+        <definition>typedef T::coordinate_type haldls::v2::PlaybackProgram::ContainerTicket&lt; T &gt;::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="47" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1v2_1_1PlaybackProgram_1_1ContainerTicket_1abf819a392584eb328794235b1d9e1ad8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class PlaybackProgram</definition>
+        <argsstring></argsstring>
+        <name>PlaybackProgram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="45" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1PlaybackProgram_1_1ContainerTicket_1ac632842a00fee66fbe9f505d38a9e6d9" prot="private" static="no" mutable="no">
+        <type>coordinate_type</type>
+        <definition>coordinate_type haldls::v2::PlaybackProgram::ContainerTicket&lt; T &gt;::coord</definition>
+        <argsstring></argsstring>
+        <name>coord</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="58" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1PlaybackProgram_1_1ContainerTicket_1a327699404159abb3961e0d0873faec33" prot="private" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t haldls::v2::PlaybackProgram::ContainerTicket&lt; T &gt;::length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="60" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1PlaybackProgram_1_1ContainerTicket_1a9fe707892d6d164871bacd5df11c6f98" prot="private" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t haldls::v2::PlaybackProgram::ContainerTicket&lt; T &gt;::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="59" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1PlaybackProgram_1_1ContainerTicket_1a74ba1e7c032e2a2ba6f235f2c469ab4b" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classhaldls_1_1v2_1_1PlaybackProgram" kindref="compound">PlaybackProgram</ref> const  &gt;</type>
+        <definition>std::shared_ptr&lt;PlaybackProgram const&gt; haldls::v2::PlaybackProgram::ContainerTicket&lt; T &gt;::pbp</definition>
+        <argsstring></argsstring>
+        <name>pbp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="57" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1PlaybackProgram_1_1ContainerTicket_1a23626cca6ab59700c1473401116c802e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>T</type>
+        <definition>T haldls::v2::PlaybackProgram::ContainerTicket&lt; T &gt;::get</definition>
+        <argsstring>() const</argsstring>
+        <name>get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="42" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1PlaybackProgram_1_1ContainerTicket_1a4741de32eee19f864bb45b34b2e2d1cb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::PlaybackProgram::ContainerTicket&lt; T &gt;::ContainerTicket</definition>
+        <argsstring>(std::shared_ptr&lt; PlaybackProgram const &gt; pbp, coordinate_type const &amp;coord, std::size_t offset, std::size_t length)</argsstring>
+        <name>ContainerTicket</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classhaldls_1_1v2_1_1PlaybackProgram" kindref="compound">PlaybackProgram</ref> const &gt;</type>
+          <declname>pbp</declname>
+        </param>
+        <param>
+          <type>coordinate_type const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="49" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" bodystart="49" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="40" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" bodystart="39" bodyend="61"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1_1ContainerTicket_1a4741de32eee19f864bb45b34b2e2d1cb" prot="private" virt="non-virtual"><scope>haldls::v2::PlaybackProgram::ContainerTicket</scope><name>ContainerTicket</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1_1ContainerTicket_1ac632842a00fee66fbe9f505d38a9e6d9" prot="private" virt="non-virtual"><scope>haldls::v2::PlaybackProgram::ContainerTicket</scope><name>coord</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1_1ContainerTicket_1a3a9d3e3e0783ea7c2c9e80b284149aff" prot="private" virt="non-virtual"><scope>haldls::v2::PlaybackProgram::ContainerTicket</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1_1ContainerTicket_1a23626cca6ab59700c1473401116c802e" prot="public" virt="non-virtual"><scope>haldls::v2::PlaybackProgram::ContainerTicket</scope><name>get</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1_1ContainerTicket_1a327699404159abb3961e0d0873faec33" prot="private" virt="non-virtual"><scope>haldls::v2::PlaybackProgram::ContainerTicket</scope><name>length</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1_1ContainerTicket_1a9fe707892d6d164871bacd5df11c6f98" prot="private" virt="non-virtual"><scope>haldls::v2::PlaybackProgram::ContainerTicket</scope><name>offset</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1_1ContainerTicket_1a74ba1e7c032e2a2ba6f235f2c469ab4b" prot="private" virt="non-virtual"><scope>haldls::v2::PlaybackProgram::ContainerTicket</scope><name>pbp</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1_1ContainerTicket_1abf819a392584eb328794235b1d9e1ad8" prot="private" virt="non-virtual"><scope>haldls::v2::PlaybackProgram::ContainerTicket</scope><name>PlaybackProgram</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

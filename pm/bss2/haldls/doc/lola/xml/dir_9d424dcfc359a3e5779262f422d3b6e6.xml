@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_9d424dcfc359a3e5779262f422d3b6e6" kind="dir">
+    <compoundname>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/lola/v2</compoundname>
+    <innerfile refid="v2_2genpybind_8h">genpybind.h</innerfile>
+    <innerfile refid="v2_2lola_8h">lola.h</innerfile>
+    <innerfile refid="v2_2ppu_8h">ppu.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/lola/v2/"/>
+  </compounddef>
+</doxygen>

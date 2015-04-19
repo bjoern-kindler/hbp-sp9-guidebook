@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structstadls_1_1vx_1_1_dumper_done" kind="struct" language="C++" prot="public">
+    <compoundname>stadls::vx::DumperDone</compoundname>
+    <includes refid="dumper_8h" local="no">dumper.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structstadls_1_1vx_1_1_dumper_done_1a07278cbc13ced14e589ad5c5be4f2b62" prot="public" static="no">
+        <type>std::variant&lt;#define <ref refid="playback__program__builder_8h" kindref="compound">PLAYBACK_CONTAINER</ref>(Name, Type) # 1 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/<ref refid="playback__program__builder_8h_1a5b0c051c1cb47a2d1676a6537f540a2c" kindref="member">container.def</ref>&quot; 1 INA219Config, INA219Status, NullPayloadReadable, CADCOffsetSRAMTimingConfig, SynapseDriverSRAMTimingConfig, NeuronSRAMTimingConfig, NeuronBackendSRAMTimingConfig, ExternalPPUMemoryByte, NeuronReset, SpikeCounterRead, SpikeCounterReset, HicannARQStatus, PhyStatus, PPUMemoryWord, PPUMemoryBlock, PPUMemory, PPUControlRegister, PPUStatusRegister, ResetChip, Timer, JTAGClockScaler, JTAGIdCode, ResetJTAGTap, ShiftRegister, DACChannel, DACControl, CapMemCell, CapMemBlock, CapMemBlockConfig, CommonNeuronBackendConfig, NeuronBackendConfig, NeuronConfig, SynapseDriverConfig, PADIEvent, CommonPADIBusConfig, CommonSTPConfig, ADPLL, PLLClockOutputBlock, PLLSelfTest, PLLSelfTestStatus, PhyConfigFPGA, CommonPhyConfigFPGA, PhyConfigChip, CommonPhyConfigChip, PerfTest, PerfTestStatus, SystimeSyncBase, CommonSynramConfig, SynapseQuad, SynapseWeightQuad, SynapseLabelQuad, SynapseCorrelationCalibQuad, ColumnCorrelationQuad, ColumnCurrentQuad, CADCConfig, CADCChannelConfig, CADCSampleQuad, SpikePack1ToChip, SpikePack2ToChip, SpikePack3ToChip, FPGADeviceDNA, EventRecordingConfig, BackgroundSpikeSource, CrossbarOutputConfig, CrossbarNode, CrossbarInputDropCounter, CrossbarOutputEventCounter, SynapseBiasSelection, ReferenceGeneratorConfig, PadMultiplexerConfig, ReadoutSourceSelection, MADCControl, MADCConfig, CorrelationReset, NeuronResetQuad, CommonCorrelationConfig, BlockPostPulse, SystimeSync # 32 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h&quot; 2# 1 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/<ref refid="playback__program__builder_8h_1a5b0c051c1cb47a2d1676a6537f540a2c" kindref="member">container.def</ref>&quot; 1#define <ref refid="playback__program__builder_8h" kindref="compound">PLAYBACK_CONTAINER</ref>(Name, Type)#define <ref refid="playback__program__builder_8h" kindref="compound">LAST_PLAYBACK_CONTAINER</ref>(Name, Type) # 34 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h&quot; 2 std::pair&lt; typename haldls::vx::Timer::coordinate_type, haldls::vx::Timer::Value &gt;, std::pair&lt; halco::hicann_dls::vx::BarrierOnFPGA, haldls::vx::Barrier &gt; &gt;</type>
+        <definition>typedef std::variant&lt;#define PLAYBACK_CONTAINER(Name, Type) # 1 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def&quot; 1 INA219Config , INA219Status , NullPayloadReadable , CADCOffsetSRAMTimingConfig , SynapseDriverSRAMTimingConfig , NeuronSRAMTimingConfig , NeuronBackendSRAMTimingConfig , ExternalPPUMemoryByte , NeuronReset , SpikeCounterRead , SpikeCounterReset , HicannARQStatus , PhyStatus , PPUMemoryWord , PPUMemoryBlock , PPUMemory , PPUControlRegister , PPUStatusRegister , ResetChip , Timer , JTAGClockScaler , JTAGIdCode , ResetJTAGTap , ShiftRegister , DACChannel , DACControl , CapMemCell , CapMemBlock , CapMemBlockConfig , CommonNeuronBackendConfig , NeuronBackendConfig , NeuronConfig , SynapseDriverConfig , PADIEvent , CommonPADIBusConfig , CommonSTPConfig , ADPLL , PLLClockOutputBlock , PLLSelfTest , PLLSelfTestStatus , PhyConfigFPGA , CommonPhyConfigFPGA , PhyConfigChip , CommonPhyConfigChip , PerfTest , PerfTestStatus , SystimeSyncBase , CommonSynramConfig , SynapseQuad , SynapseWeightQuad , SynapseLabelQuad , SynapseCorrelationCalibQuad , ColumnCorrelationQuad , ColumnCurrentQuad , CADCConfig , CADCChannelConfig , CADCSampleQuad , SpikePack1ToChip , SpikePack2ToChip , SpikePack3ToChip , FPGADeviceDNA , EventRecordingConfig , BackgroundSpikeSource , CrossbarOutputConfig , CrossbarNode , CrossbarInputDropCounter , CrossbarOutputEventCounter , SynapseBiasSelection , ReferenceGeneratorConfig , PadMultiplexerConfig , ReadoutSourceSelection , MADCControl , MADCConfig , CorrelationReset , NeuronResetQuad , CommonCorrelationConfig , BlockPostPulse , SystimeSync # 32 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h&quot; 2# 1 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/container.def&quot; 1#define PLAYBACK_CONTAINER(Name, Type)#define LAST_PLAYBACK_CONTAINER(Name, Type) # 34 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h&quot; 2 std::pair&lt;typename haldls::vx::Timer::coordinate_type, haldls::vx::Timer::Value&gt;, std::pair&lt;halco::hicann_dls::vx::BarrierOnFPGA, haldls::vx::Barrier&gt; &gt; stadls::vx::DumperDone::coco_type</definition>
+        <argsstring></argsstring>
+        <name>coco_type</name>
+        <briefdescription>
+<para>Variant over all coordinate/container pairs. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h" line="153" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structstadls_1_1vx_1_1_dumper_done_1ae5af2c6879a1a00fa510add940199c78" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="structstadls_1_1vx_1_1_dumper_done_1a07278cbc13ced14e589ad5c5be4f2b62" kindref="member">coco_type</ref> &gt;</type>
+        <definition>typedef std::vector&lt;coco_type&gt; stadls::vx::DumperDone::values_type</definition>
+        <argsstring></argsstring>
+        <name>values_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h" line="154" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structstadls_1_1vx_1_1_dumper_done_1a6fcdce38a73db100ddb0a3be703656af" prot="public" static="no" mutable="no">
+        <type><ref refid="structstadls_1_1vx_1_1_dumper_done_1ae5af2c6879a1a00fa510add940199c78" kindref="member">values_type</ref></type>
+        <definition>values_type stadls::vx::DumperDone::values</definition>
+        <argsstring></argsstring>
+        <name>values</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h" line="158" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structstadls_1_1vx_1_1_dumper_done_1a962a12180307ddc53e8ccb2d235cad2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::vx::DumperDone::DumperDone</definition>
+        <argsstring>()=default</argsstring>
+        <name>DumperDone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h" line="156" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structstadls_1_1vx_1_1_dumper_done_1ad95de9c5a66f4b2df83bc0a9b28b5e0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::vx::DumperDone::def</definition>
+        <argsstring>(&quot;tolist&quot;, [](GENPYBIND_PARENT_TYPE const &amp;v) { py::list ret;for(auto const &amp;vv :v.values) { py::object item;std::visit([&amp;item](auto const &amp;vvv) { item=py::make_tuple(std::get&lt; 0 &gt;(vvv), std::get&lt; 1 &gt;(vvv));}, vv);ret.append(item);} return ret;})</argsstring>
+        <name>def</name>
+        <param>
+          <type>&quot;tolist&quot;</type>
+        </param>
+        <param>
+          <attributes>[]</attributes>
+          <type>(GENPYBIND_PARENT_TYPE const &amp;v) { py::list ret;for(auto const &amp;vv :v.values) { py::object item;std::visit([&amp;item](auto const &amp;vvv) { item=py::make_tuple(std::get&lt; 0 &gt;(vvv), std::get&lt; 1 &gt;(vvv));}, vv);ret.append(item);} return ret;}</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h" line="179" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structstadls_1_1vx_1_1_dumper_done_1ad89f20bdcaefefb59b80cf1b46f638d4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool stadls::vx::DumperDone::operator!=</definition>
+        <argsstring>(DumperDone const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="structstadls_1_1vx_1_1_dumper_done" kindref="compound">DumperDone</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h" line="161" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structstadls_1_1vx_1_1_dumper_done_1abac4022e880e5b26a98f48da924aaa19" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool stadls::vx::DumperDone::operator==</definition>
+        <argsstring>(DumperDone const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="structstadls_1_1vx_1_1_dumper_done" kindref="compound">DumperDone</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h" line="160" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="15">
+        <label>T</label>
+      </node>
+      <node id="14">
+        <label>std::vector&lt; T &gt;</label>
+        <childnode refid="15" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>std::vector&lt; coco_type &gt;</label>
+        <childnode refid="14" relation="template-instance">
+          <edgelabel>&lt; coco_type &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>stadls::vx::DumperDone</label>
+        <link refid="structstadls_1_1vx_1_1_dumper_done"/>
+        <childnode refid="13" relation="usage">
+          <edgelabel>values</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h" line="25" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h" bodystart="24" bodyend="63"/>
+    <listofallmembers>
+      <member refid="structstadls_1_1vx_1_1_dumper_done_1a07278cbc13ced14e589ad5c5be4f2b62" prot="public" virt="non-virtual"><scope>stadls::vx::DumperDone</scope><name>coco_type</name></member>
+      <member refid="structstadls_1_1vx_1_1_dumper_done_1ad95de9c5a66f4b2df83bc0a9b28b5e0a" prot="public" virt="non-virtual"><scope>stadls::vx::DumperDone</scope><name>def</name></member>
+      <member refid="structstadls_1_1vx_1_1_dumper_done_1a962a12180307ddc53e8ccb2d235cad2d" prot="public" virt="non-virtual"><scope>stadls::vx::DumperDone</scope><name>DumperDone</name></member>
+      <member refid="structstadls_1_1vx_1_1_dumper_done_1ad89f20bdcaefefb59b80cf1b46f638d4" prot="public" virt="non-virtual"><scope>stadls::vx::DumperDone</scope><name>operator!=</name></member>
+      <member refid="structstadls_1_1vx_1_1_dumper_done_1abac4022e880e5b26a98f48da924aaa19" prot="public" virt="non-virtual"><scope>stadls::vx::DumperDone</scope><name>operator==</name></member>
+      <member refid="structstadls_1_1vx_1_1_dumper_done_1a6fcdce38a73db100ddb0a3be703656af" prot="public" virt="non-virtual"><scope>stadls::vx::DumperDone</scope><name>values</name></member>
+      <member refid="structstadls_1_1vx_1_1_dumper_done_1ae5af2c6879a1a00fa510add940199c78" prot="public" virt="non-virtual"><scope>stadls::vx::DumperDone</scope><name>values_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_c_a_d_c_samples_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CADCSamples &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BackendContainerBase&lt; lola::vx::CADCSamples, fisch::vx::Omnibus &gt;</basecompoundref>
+    <includes refid="cadc_8h" local="no">cadc.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="22">
+        <label>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CADCSamples &gt;</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_c_a_d_c_samples_01_4"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>BackendContainerBase&lt; lola::vx::CADCSamples, fisch::vx::Omnibus &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="24">
+        <label>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CADCSamples &gt;</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_c_a_d_c_samples_01_4"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>BackendContainerBase&lt; lola::vx::CADCSamples, fisch::vx::Omnibus &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" line="155" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" bodystart="153" bodyend="155"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

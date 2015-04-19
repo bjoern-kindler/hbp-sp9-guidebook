@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="vx_2fpga_8h" kind="file" language="C++">
+    <compoundname>fpga.h</compoundname>
+    <includes local="no">array</includes>
+    <includes local="no">ostream</includes>
+    <includes local="yes">halco/common/geometry.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/fpga.h</includes>
+    <includes refid="vx_2genpybind_8h" local="yes">haldls/vx/genpybind.h</includes>
+    <includes refid="traits_8h" local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includedby refid="vx_2container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/container.h</includedby>
+    <incdepgraph>
+      <node id="307">
+        <label>fisch/vx/container.def</label>
+      </node>
+      <node id="302">
+        <label>boost/variant.hpp</label>
+      </node>
+      <node id="296">
+        <label>ostream</label>
+      </node>
+      <node id="299">
+        <label>haldls/vx/genpybind.h</label>
+        <link refid="vx_2genpybind_8h"/>
+        <childnode refid="299" relation="include">
+        </childnode>
+      </node>
+      <node id="298">
+        <label>halco/hicann-dls/vx/fpga.h</label>
+      </node>
+      <node id="295">
+        <label>array</label>
+      </node>
+      <node id="297">
+        <label>halco/common/geometry.h</label>
+      </node>
+      <node id="303">
+        <label>fisch/vx/container_fwd.h</label>
+      </node>
+      <node id="306">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="304">
+        <label>fisch/vx/container_ticket.h</label>
+      </node>
+      <node id="300">
+        <label>haldls/vx/traits.h</label>
+        <link refid="traits_8h"/>
+        <childnode refid="301" relation="include">
+        </childnode>
+        <childnode refid="302" relation="include">
+        </childnode>
+        <childnode refid="303" relation="include">
+        </childnode>
+        <childnode refid="304" relation="include">
+        </childnode>
+        <childnode refid="299" relation="include">
+        </childnode>
+        <childnode refid="305" relation="include">
+        </childnode>
+        <childnode refid="306" relation="include">
+        </childnode>
+        <childnode refid="307" relation="include">
+        </childnode>
+      </node>
+      <node id="301">
+        <label>type_traits</label>
+      </node>
+      <node id="294">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/fpga.h</label>
+        <link refid="vx_2fpga_8h"/>
+        <childnode refid="295" relation="include">
+        </childnode>
+        <childnode refid="296" relation="include">
+        </childnode>
+        <childnode refid="297" relation="include">
+        </childnode>
+        <childnode refid="298" relation="include">
+        </childnode>
+        <childnode refid="299" relation="include">
+        </childnode>
+        <childnode refid="300" relation="include">
+        </childnode>
+        <childnode refid="306" relation="include">
+        </childnode>
+      </node>
+      <node id="305">
+        <label>hate/type_list.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="311">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/is_readable.h</label>
+        <link refid="is__readable_8h"/>
+      </node>
+      <node id="309">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/container.h</label>
+        <link refid="vx_2container_8h"/>
+        <childnode refid="310" relation="include">
+        </childnode>
+        <childnode refid="311" relation="include">
+        </childnode>
+      </node>
+      <node id="310">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/haldls.h</label>
+        <link refid="haldls_8h"/>
+      </node>
+      <node id="308">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/fpga.h</label>
+        <link refid="vx_2fpga_8h"/>
+        <childnode refid="309" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_event_recording_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; EventRecordingConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_f_p_g_a_device_d_n_a_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; FPGADeviceDNA &gt;</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_event_recording_config" prot="public">haldls::vx::EventRecordingConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a" prot="public">haldls::vx::FPGADeviceDNA</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1_1_value" prot="public">haldls::vx::FPGADeviceDNA::Value</innerclass>
+    <innernamespace refid="namespacecereal">cereal</innernamespace>
+    <innernamespace refid="namespacehalco">halco</innernamespace>
+    <innernamespace refid="namespacehalco_1_1hicann__dls">halco::hicann_dls</innernamespace>
+    <innernamespace refid="namespacehalco_1_1hicann__dls_1_1vx">halco::hicann_dls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <innernamespace refid="namespacestd">std</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/fpga.h"/>
+  </compounddef>
+</doxygen>

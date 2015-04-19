@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1detail_1_1_backend_container_trait_3_01_reference_generator_config_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::detail::BackendContainerTrait&lt; ReferenceGeneratorConfig &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BackendContainerBase&lt; ReferenceGeneratorConfig, fisch::vx::Omnibus, fisch::vx::OmnibusChipOverJTAG &gt;</basecompoundref>
+    <includes refid="capmem_8h" local="no">capmem.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="707">
+        <label>BackendContainerBase&lt; ReferenceGeneratorConfig, fisch::vx::Omnibus, fisch::vx::OmnibusChipOverJTAG &gt;</label>
+      </node>
+      <node id="706">
+        <label>haldls::detail::BackendContainerTrait&lt; ReferenceGeneratorConfig &gt;</label>
+        <link refid="structhaldls_1_1detail_1_1_backend_container_trait_3_01_reference_generator_config_01_4"/>
+        <childnode refid="707" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="709">
+        <label>BackendContainerBase&lt; ReferenceGeneratorConfig, fisch::vx::Omnibus, fisch::vx::OmnibusChipOverJTAG &gt;</label>
+      </node>
+      <node id="708">
+        <label>haldls::detail::BackendContainerTrait&lt; ReferenceGeneratorConfig &gt;</label>
+        <link refid="structhaldls_1_1detail_1_1_backend_container_trait_3_01_reference_generator_config_01_4"/>
+        <childnode refid="709" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="593" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" bodystart="588" bodyend="593"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

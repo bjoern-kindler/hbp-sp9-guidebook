@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1_synapse_weight_quad_1_1_value" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::SynapseWeightQuad::Value</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; Value, uint8_t, 63, 0 &gt;</basecompoundref>
+    <includes refid="synapse_8h" local="no">synapse.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_synapse_weight_quad_1_1_value_1ab91da34a785d91ce4592f7aca4583240" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::SynapseWeightQuad::Value::Value</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>Value</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/synapse.h" line="145" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/synapse.h" bodystart="145" bodyend="147"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1611">
+        <label>halco::common::detail::RantWrapper&lt; Value, uint8_t, 63, 0 &gt;</label>
+      </node>
+      <node id="1610">
+        <label>haldls::vx::SynapseWeightQuad::Value</label>
+        <link refid="structhaldls_1_1vx_1_1_synapse_weight_quad_1_1_value"/>
+        <childnode refid="1611" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1613">
+        <label>halco::common::detail::RantWrapper&lt; Value, uint8_t, 63, 0 &gt;</label>
+      </node>
+      <node id="1612">
+        <label>haldls::vx::SynapseWeightQuad::Value</label>
+        <link refid="structhaldls_1_1vx_1_1_synapse_weight_quad_1_1_value"/>
+        <childnode refid="1613" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/synapse.h" line="144" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/synapse.h" bodystart="142" bodyend="148"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_synapse_weight_quad_1_1_value_1ab91da34a785d91ce4592f7aca4583240" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseWeightQuad::Value</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1_is_write_readable" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::IsWriteReadable</compoundname>
+    <includes refid="is__writereadable_8h" local="no">is_writereadable.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1detail_1_1_is_write_readable_1aeec3ba9953cc20b63c613bd94ce7a937" prot="public" static="yes" mutable="no">
+        <type>constexpr bool</type>
+        <definition>constexpr bool haldls::vx::detail::IsWriteReadable&lt; T &gt;::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <initializer>= <ref refid="structhaldls_1_1vx_1_1detail_1_1_is_readable" kindref="compound">IsReadable</ref>&lt;T&gt;::value &amp;&amp; <ref refid="structhaldls_1_1vx_1_1detail_1_1_is_writeable" kindref="compound">IsWriteable</ref>&lt;T&gt;::value</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_writereadable.h" line="10" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_writereadable.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_writereadable.h" line="9" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_writereadable.h" bodystart="8" bodyend="11"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1detail_1_1_is_write_readable_1aeec3ba9953cc20b63c613bd94ce7a937" prot="public" virt="non-virtual"><scope>haldls::vx::detail::IsWriteReadable</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

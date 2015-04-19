@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespace_s_f" kind="namespace" language="C++">
+    <compoundname>SF</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_s_f_1ad7123d23c365d6d97f0fb080f581ce1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SF::serialize</definition>
+        <argsstring>(SF::Archive &amp;ar, haldls::v2::ocp_address_type &amp;addr)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>SF::Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>haldls::v2::ocp_address_type &amp;</type>
+          <declname>addr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/quick_queue.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_s_f_1a9c603bbc61c8fe6a7d5bfa0133b53e30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SF::serialize</definition>
+        <argsstring>(SF::Archive &amp;ar, haldls::v2::ocp_word_type &amp;word)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>SF::Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>haldls::v2::ocp_word_type &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/quick_queue.h" line="19" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/quick_queue.h" line="16" column="1"/>
+  </compounddef>
+</doxygen>

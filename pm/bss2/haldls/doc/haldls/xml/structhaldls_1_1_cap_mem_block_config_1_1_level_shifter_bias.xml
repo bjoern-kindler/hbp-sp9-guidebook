@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1_cap_mem_block_config_1_1_level_shifter_bias" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::CapMemBlockConfig::LevelShifterBias</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; LevelShifterBias, uint_fast16_t, 15, 0 &gt;</basecompoundref>
+    <includes refid="capmem_8h" local="no">capmem.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1_cap_mem_block_config_1_1_level_shifter_bias_1aa326e465d9dc5a516a8b8558b01a4548" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::CapMemBlockConfig::LevelShifterBias::LevelShifterBias</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>LevelShifterBias</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="153" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" bodystart="153" bodyend="156"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1175">
+        <label>halco::common::detail::RantWrapper&lt; LevelShifterBias, uint_fast16_t, 15, 0 &gt;</label>
+      </node>
+      <node id="1174">
+        <label>haldls::CapMemBlockConfig::LevelShifterBias</label>
+        <link refid="structhaldls_1_1_cap_mem_block_config_1_1_level_shifter_bias"/>
+        <childnode refid="1175" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1177">
+        <label>halco::common::detail::RantWrapper&lt; LevelShifterBias, uint_fast16_t, 15, 0 &gt;</label>
+      </node>
+      <node id="1176">
+        <label>haldls::CapMemBlockConfig::LevelShifterBias</label>
+        <link refid="structhaldls_1_1_cap_mem_block_config_1_1_level_shifter_bias"/>
+        <childnode refid="1177" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="152" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" bodystart="150" bodyend="157"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1_cap_mem_block_config_1_1_level_shifter_bias_1aa326e465d9dc5a516a8b8558b01a4548" prot="public" virt="non-virtual"><scope>haldls::CapMemBlockConfig::LevelShifterBias</scope><name>LevelShifterBias</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

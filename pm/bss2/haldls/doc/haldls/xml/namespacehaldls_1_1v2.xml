@@ -1,0 +1,489 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacehaldls_1_1v2" kind="namespace" language="C++">
+    <compoundname>haldls::v2</compoundname>
+    <innerclass refid="classhaldls_1_1v2_1_1_acausal_correlation_block" prot="public">haldls::v2::AcausalCorrelationBlock</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_board" prot="public">haldls::v2::Board</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_cap_mem" prot="public">haldls::v2::CapMem</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_cap_mem_cell" prot="public">haldls::v2::CapMemCell</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_cap_mem_config" prot="public">haldls::v2::CapMemConfig</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_causal_correlation_block" prot="public">haldls::v2::CausalCorrelationBlock</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_chip" prot="public">haldls::v2::Chip</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_column_correlation_block" prot="public">haldls::v2::ColumnCorrelationBlock</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_column_current_block" prot="public">haldls::v2::ColumnCurrentBlock</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_common_neuron_config" prot="public">haldls::v2::CommonNeuronConfig</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_common_synram_config" prot="public">haldls::v2::CommonSynramConfig</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_correlation_config" prot="public">haldls::v2::CorrelationConfig</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_d_a_c" prot="public">haldls::v2::DAC</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_flyspi_config" prot="public">haldls::v2::FlyspiConfig</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_flyspi_control" prot="public">haldls::v2::FlyspiControl</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_flyspi_exception" prot="public">haldls::v2::FlyspiException</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_neuron_digital_config" prot="public">haldls::v2::NeuronDigitalConfig</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1ocp__address__type" prot="public">haldls::v2::ocp_address_type</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1ocp__word__type" prot="public">haldls::v2::ocp_word_type</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_playback_program" prot="public">haldls::v2::PlaybackProgram</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_playback_program_builder" prot="public">haldls::v2::PlaybackProgramBuilder</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_playback_spike" prot="public">haldls::v2::PlaybackSpike</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_p_p_u_control_register" prot="public">haldls::v2::PPUControlRegister</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_p_p_u_memory" prot="public">haldls::v2::PPUMemory</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_p_p_u_memory_block" prot="public">haldls::v2::PPUMemoryBlock</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_p_p_u_memory_word" prot="public">haldls::v2::PPUMemoryWord</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_p_p_u_status_register" prot="public">haldls::v2::PPUStatusRegister</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_rate_counter" prot="public">haldls::v2::RateCounter</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_rate_counter_config" prot="public">haldls::v2::RateCounterConfig</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_rate_counter_entry" prot="public">haldls::v2::RateCounterEntry</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_recorded_spike" prot="public">haldls::v2::RecordedSpike</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_spike_router" prot="public">haldls::v2::SpikeRouter</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_synapse_block" prot="public">haldls::v2::SynapseBlock</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_synapse_driver_block" prot="public">haldls::v2::SynapseDriverBlock</innerclass>
+    <innernamespace refid="namespacehaldls_1_1v2_1_1detail">haldls::v2::detail</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacehaldls_1_1v2_1a583eb8cb60c46780eec387aac8d8a487" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1v2_1_1detail_1_1_flyspi_r_w_register" kindref="compound">detail::FlyspiRWRegister</ref>&lt; 0x8002 &gt;</type>
+        <definition>typedef detail::FlyspiRWRegister&lt;0x8002&gt; haldls::v2::FlyspiProgramAddress</definition>
+        <argsstring></argsstring>
+        <name>FlyspiProgramAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" line="85" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1v2_1abae60ab397d36b680a1ccbbc0458fe13" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1v2_1_1detail_1_1_flyspi_r_w_register" kindref="compound">detail::FlyspiRWRegister</ref>&lt; 0x8003 &gt;</type>
+        <definition>typedef detail::FlyspiRWRegister&lt;0x8003&gt; haldls::v2::FlyspiProgramSize</definition>
+        <argsstring></argsstring>
+        <name>FlyspiProgramSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" line="86" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1v2_1a66082da3139652624f57dae1d0095974" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1v2_1_1detail_1_1_flyspi_r_w_register" kindref="compound">detail::FlyspiRWRegister</ref>&lt; 0x8004 &gt;</type>
+        <definition>typedef detail::FlyspiRWRegister&lt;0x8004&gt; haldls::v2::FlyspiResultAddress</definition>
+        <argsstring></argsstring>
+        <name>FlyspiResultAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" line="87" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1v2_1af4ec8880a78be7aaf323cbac1e546157" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1v2_1_1detail_1_1_flyspi_r_o_register" kindref="compound">detail::FlyspiRORegister</ref>&lt; 0x8005 &gt;</type>
+        <definition>typedef detail::FlyspiRORegister&lt;0x8005&gt; haldls::v2::FlyspiResultSize</definition>
+        <argsstring></argsstring>
+        <name>FlyspiResultSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" line="88" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1v2_1a06052d48b4f6ca7fc5887dcdb8290e6a" prot="public" static="no">
+        <type><ref refid="classhaldls_1_1v2_1_1detail_1_1_flyspi_r_o_register" kindref="compound">detail::FlyspiRORegister</ref>&lt; 0x8006 &gt;</type>
+        <definition>typedef detail::FlyspiRORegister&lt;0x8006&gt; haldls::v2::FlyspiState</definition>
+        <argsstring></argsstring>
+        <name>FlyspiState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" line="89" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1v2_1a3b19ef886ae4efa44f3633a0fe7e8bdb" prot="public" static="no">
+        <type>std::uint32_t</type>
+        <definition>typedef std::uint32_t haldls::v2::hardware_address_type</definition>
+        <argsstring></argsstring>
+        <name>hardware_address_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/common.h" line="10" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/common.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1v2_1a6fb6373c91c2c1c11e515ed45a961a29" prot="public" static="no">
+        <type>std::uint64_t</type>
+        <definition>typedef std::uint64_t haldls::v2::hardware_time_type</definition>
+        <argsstring></argsstring>
+        <name>hardware_time_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/common.h" line="12" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/common.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1v2_1a1cd09cb45aac9afc8a923535524121d9" prot="public" static="no">
+        <type>std::uint32_t</type>
+        <definition>typedef std::uint32_t haldls::v2::hardware_word_type</definition>
+        <argsstring></argsstring>
+        <name>hardware_word_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/common.h" line="11" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/common.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1v2_1a6c1ac5084391b3b869fa7a1531ebd421" prot="public" static="no">
+        <type>std::uint8_t</type>
+        <definition>typedef std::uint8_t haldls::v2::instruction_word_type</definition>
+        <argsstring></argsstring>
+        <name>instruction_word_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/common.h" line="13" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/common.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacehaldls_1_1v2_1af90f4ed85458c13d4650e787d782a656" prot="public" static="yes" mutable="no">
+        <type>size_t constexpr</type>
+        <definition>size_t constexpr haldls::v2::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>=
+		2 * halco::hicann_dls::v2::NeuronOnDLS::size + 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" line="362" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" bodystart="362" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1v2_1ad071520f6552bf6ddcaf07c879d36518" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t haldls::v2::i</definition>
+        <argsstring></argsstring>
+        <name>i</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" line="194" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1v2_1ae0bdf1f077922251bf360fda07b2fa68" prot="private" static="no" mutable="no">
+        <type>halco::common::typed_array&lt; <ref refid="structhaldls_1_1v2_1_1_synapse_block_1_1_synapse_1_1_address" kindref="compound">SynapseBlock::Synapse::Address</ref>, halco::hicann_dls::v2::NeuronOnDLS &gt;</type>
+        <definition>halco::common::typed_array&lt;SynapseBlock::Synapse::Address, halco::hicann_dls::v2::NeuronOnDLS&gt; haldls::v2::m_address_by_neuron</definition>
+        <argsstring></argsstring>
+        <name>m_address_by_neuron</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" line="381" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" bodystart="381" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1v2_1a8fd8bddfc65e29d8aeedd659ff744a73" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1v2_1_1_synapse_block_1_1_synapse_1_1_address" kindref="compound">SynapseBlock::Synapse::Address</ref></type>
+        <definition>SynapseBlock::Synapse::Address haldls::v2::m_squeeze_mode_address</definition>
+        <argsstring></argsstring>
+        <name>m_squeeze_mode_address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" line="377" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" bodystart="377" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1v2_1afabfa4f5c9ecd273e5e3dd635b6a129f" prot="private" static="no" mutable="no">
+        <type>Delay</type>
+        <definition>Delay haldls::v2::m_squeeze_mode_delay</definition>
+        <argsstring></argsstring>
+        <name>m_squeeze_mode_delay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" line="378" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" bodystart="378" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1v2_1add9ca617825a0d79ce62be3effde117a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::v2::m_squeeze_mode_enabled</definition>
+        <argsstring></argsstring>
+        <name>m_squeeze_mode_enabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" line="376" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" bodystart="376" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1v2_1a900e23692ce1732a90c1e9a57bab3558" prot="private" static="no" mutable="no">
+        <type>halco::common::typed_array&lt; target_rows_type, halco::hicann_dls::v2::NeuronOnDLS &gt;</type>
+        <definition>halco::common::typed_array&lt;target_rows_type, halco::hicann_dls::v2::NeuronOnDLS&gt; haldls::v2::m_target_rows_by_neuron</definition>
+        <argsstring></argsstring>
+        <name>m_target_rows_by_neuron</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" line="383" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" bodystart="383" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1v2_1ab879daa3dd0b4a3a03fcfb5a205be02d" prot="public" static="no" mutable="no">
+        <type>class <ref refid="classhaldls_1_1v2_1_1_spike_router" kindref="compound">haldls::v2::SpikeRouter</ref></type>
+        <definition>class haldls::v2::SpikeRouter haldls::v2::operator</definition>
+        <argsstring></argsstring>
+        <name>operator</name>
+        <initializer>==(<ref refid="classhaldls_1_1v2_1_1_spike_router" kindref="compound">SpikeRouter</ref> const&amp; other) const SYMBOL_VISIBLE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" line="359" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacehaldls_1_1v2_1a01e3ef422cf9508882b5c18007d805fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::decode</definition>
+        <argsstring>(std::array&lt; ocp_word_type, 0 &gt; const &amp;words) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; <ref refid="structhaldls_1_1v2_1_1ocp__word__type" kindref="compound">ocp_word_type</ref>, 0 &gt; const &amp;</type>
+          <declname>words</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" line="369" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1v2_1a995543ddcb9f26566eed4b67a6fa4d3d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; <ref refid="structhaldls_1_1v2_1_1ocp__word__type" kindref="compound">ocp_word_type</ref>, <ref refid="namespacehaldls_1_1v2_1af90f4ed85458c13d4650e787d782a656" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;ocp_word_type, config_size_in_words&gt; haldls::v2::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" line="368" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1v2_1a0aa51c7982646a56ecb23392f6b08a2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>class <ref refid="classhaldls_1_1v2_1_1_playback_program_builder" kindref="compound">haldls::v2::PlaybackProgramBuilder</ref></type>
+        <definition>class haldls::v2::PlaybackProgramBuilder haldls::v2::fire</definition>
+        <argsstring>(halco::hicann_dls::v2::SynapseDriverOnDLS const &amp;synapse_driver, v2::SynapseBlock::Synapse::Address const &amp;address) SYMBOL_VISIBLE</argsstring>
+        <name>fire</name>
+        <param>
+          <type>halco::hicann_dls::v2::SynapseDriverOnDLS const &amp;</type>
+          <declname>synapse_driver</declname>
+        </param>
+        <param>
+          <type><ref refid="structhaldls_1_1v2_1_1_synapse_block_1_1_synapse_1_1_address" kindref="compound">v2::SynapseBlock::Synapse::Address</ref> const &amp;</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" line="211" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1v2_1a5bb3b53673b17b39d20ac97825982a26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::fire_post_correlation_signal</definition>
+        <argsstring>(std::bitset&lt; halco::hicann_dls::v2::NeuronOnDLS::size &gt; const &amp;neuron_mask) SYMBOL_VISIBLE</argsstring>
+        <name>fire_post_correlation_signal</name>
+        <param>
+          <type>std::bitset&lt; halco::hicann_dls::v2::NeuronOnDLS::size &gt; const &amp;</type>
+          <declname>neuron_mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" line="175" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1v2_1ad3505ba58eb4c97cc1c8b4567234a458" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>self</type>
+        <definition>self haldls::v2::fire_post_correlation_signal</definition>
+        <argsstring>(bitset.to_ulong())</argsstring>
+        <name>fire_post_correlation_signal</name>
+        <param>
+          <type>bitset.</type>
+          <declname>to_ulong</declname>
+          <array>()</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" line="194" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1v2_1a76e4639cd1384630fddf8a89f4e9a90e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::for</definition>
+        <argsstring>(auto nrn :neuron_mask)</argsstring>
+        <name>for</name>
+        <param>
+          <type>auto nrn :neuron_mask</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" line="194" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h" bodystart="194" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1v2_1a7b54e7a9742e3b4f9d6c78b4260eda31" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::operator!=</definition>
+        <argsstring>(SpikeRouter const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_spike_router" kindref="compound">SpikeRouter</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" line="360" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1v2_1abfa18ff05decb13afd66fcc391e9c66d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; <ref refid="structhaldls_1_1v2_1_1ocp__address__type" kindref="compound">ocp_address_type</ref>, 0 &gt;</type>
+        <definition>std::array&lt;ocp_address_type, 0&gt; haldls::v2::read_addresses</definition>
+        <argsstring>(coordinate_type const &amp;unique) const SYMBOL_VISIBLE</argsstring>
+        <name>read_addresses</name>
+        <param>
+          <type><ref refid="vx_2capmem_8h_1ae41b4257216a0a9911203211a8cad8d0" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>unique</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" line="366" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1v2_1a9821bd58ef1b788b58087634f049065f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::v2::serialize</definition>
+        <argsstring>(Archive &amp;ar) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" line="374" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1v2_1a3c4e24d82517433719142cee81da8974" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class ContainerT</type>
+          </param>
+          <param>
+            <type>class CoordinateT</type>
+          </param>
+          <param>
+            <type>class VisitorT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::v2::visit_preorder</definition>
+        <argsstring>(ContainerT &amp;config, CoordinateT const &amp;coord, VisitorT &amp;&amp;visitor)</argsstring>
+        <name>visit_preorder</name>
+        <param>
+          <type>ContainerT &amp;</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type>CoordinateT const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>VisitorT &amp;&amp;</type>
+          <declname>visitor</declname>
+        </param>
+        <briefdescription>
+<para>Apply the specified visitor to all containers in a hierarchy by doing a pre-order tree traversal. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/common.h" line="64" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/common.h" bodystart="64" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1v2_1ab0b1763133d0594ddf7bc0cb2ae09617" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; <ref refid="structhaldls_1_1v2_1_1ocp__address__type" kindref="compound">ocp_address_type</ref>, <ref refid="namespacehaldls_1_1v2_1af90f4ed85458c13d4650e787d782a656" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;ocp_address_type, config_size_in_words&gt; haldls::v2::write_addresses</definition>
+        <argsstring>(coordinate_type const &amp;unique) const SYMBOL_VISIBLE</argsstring>
+        <name>write_addresses</name>
+        <param>
+          <type><ref refid="vx_2capmem_8h_1ae41b4257216a0a9911203211a8cad8d0" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>unique</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" line="364" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/board.h" line="18" column="1"/>
+  </compounddef>
+</doxygen>

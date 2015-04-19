@@ -1,0 +1,2422 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacehaldls_1_1vx" kind="namespace" language="C++">
+    <compoundname>haldls::vx</compoundname>
+    <innerclass refid="structhaldls_1_1vx_1_1_add_pickle" prot="public">haldls::vx::AddPickle</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_add_pickle_3_01hate_1_1type__list_3_01_ts_8_8_8_01_4_01_4" prot="public">haldls::vx::AddPickle&lt; hate::type_list&lt; Ts... &gt; &gt;</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_a_d_p_l_l" prot="public">haldls::vx::ADPLL</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_background_spike_source" prot="public">haldls::vx::BackgroundSpikeSource</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_barrier" prot="public">haldls::vx::Barrier</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_block_post_pulse" prot="public">haldls::vx::BlockPostPulse</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_c_a_d_c_channel_config" prot="public">haldls::vx::CADCChannelConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_c_a_d_c_config" prot="public">haldls::vx::CADCConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_c_a_d_c_offset_s_r_a_m_timing_config" prot="public">haldls::vx::CADCOffsetSRAMTimingConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad" prot="public">haldls::vx::CADCSampleQuad</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_cap_mem_cell" prot="public">haldls::vx::CapMemCell</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_column_correlation_quad" prot="public">haldls::vx::ColumnCorrelationQuad</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_column_current_quad" prot="public">haldls::vx::ColumnCurrentQuad</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_common_correlation_config" prot="public">haldls::vx::CommonCorrelationConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_common_neuron_backend_config" prot="public">haldls::vx::CommonNeuronBackendConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_common_p_a_d_i_bus_config" prot="public">haldls::vx::CommonPADIBusConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_common_phy_config_chip" prot="public">haldls::vx::CommonPhyConfigChip</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_common_phy_config_f_p_g_a" prot="public">haldls::vx::CommonPhyConfigFPGA</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_common_s_t_p_config" prot="public">haldls::vx::CommonSTPConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_common_synram_config" prot="public">haldls::vx::CommonSynramConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_correlation_reset" prot="public">haldls::vx::CorrelationReset</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_crossbar_input_drop_counter" prot="public">haldls::vx::CrossbarInputDropCounter</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_crossbar_node" prot="public">haldls::vx::CrossbarNode</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_crossbar_output_config" prot="public">haldls::vx::CrossbarOutputConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter" prot="public">haldls::vx::CrossbarOutputEventCounter</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_d_a_c_channel" prot="public">haldls::vx::DACChannel</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_d_a_c_control" prot="public">haldls::vx::DACControl</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_differential_write_trait" prot="public">haldls::vx::DifferentialWriteTrait</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_event_recording_config" prot="public">haldls::vx::EventRecordingConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_external_p_p_u_memory_byte" prot="public">haldls::vx::ExternalPPUMemoryByte</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a" prot="public">haldls::vx::FPGADeviceDNA</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_has_local_data" prot="public">haldls::vx::HasLocalData</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_has_local_data_3_01_t_00_01typename_01boost_1_1enable__if__has__type_3_01000b7c52ec4a96196c587f73152a0d09" prot="public">haldls::vx::HasLocalData&lt; T, typename boost::enable_if_has_type&lt; typename T::has_local_data &gt;::type &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_has_local_data_3_01_t_00_01typename_01boost_1_1enable__if__has__type_3_01a312ede60dae1b310c1c78db43ae5e4c" prot="public">haldls::vx::HasLocalData&lt; T, typename boost::enable_if_has_type&lt; typename T::is_leaf_node &gt;::type &gt;</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_hicann_a_r_q_status" prot="public">haldls::vx::HicannARQStatus</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_highspeed_link_notification" prot="public">haldls::vx::HighspeedLinkNotification</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_i_n_a219_config" prot="public">haldls::vx::INA219Config</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_i_n_a219_status" prot="public">haldls::vx::INA219Status</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_j_t_a_g_clock_scaler" prot="public">haldls::vx::JTAGClockScaler</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_j_t_a_g_id_code" prot="public">haldls::vx::JTAGIdCode</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_m_a_d_c_config" prot="public">haldls::vx::MADCConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_m_a_d_c_control" prot="public">haldls::vx::MADCControl</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip" prot="public">haldls::vx::MADCSampleFromChip</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_neuron_backend_config" prot="public">haldls::vx::NeuronBackendConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_neuron_backend_s_r_a_m_timing_config" prot="public">haldls::vx::NeuronBackendSRAMTimingConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_neuron_config" prot="public">haldls::vx::NeuronConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_neuron_reset" prot="public">haldls::vx::NeuronReset</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_neuron_reset_quad" prot="public">haldls::vx::NeuronResetQuad</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_neuron_s_r_a_m_timing_config" prot="public">haldls::vx::NeuronSRAMTimingConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_null_payload_readable" prot="public">haldls::vx::NullPayloadReadable</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_p_a_d_i_event" prot="public">haldls::vx::PADIEvent</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_pad_multiplexer_config" prot="public">haldls::vx::PadMultiplexerConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_perf_test" prot="public">haldls::vx::PerfTest</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_perf_test_status" prot="public">haldls::vx::PerfTestStatus</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_phy_config_chip" prot="public">haldls::vx::PhyConfigChip</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_phy_config_f_p_g_a" prot="public">haldls::vx::PhyConfigFPGA</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_phy_status" prot="public">haldls::vx::PhyStatus</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_p_l_l_clock_output_block" prot="public">haldls::vx::PLLClockOutputBlock</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_p_l_l_self_test" prot="public">haldls::vx::PLLSelfTest</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_p_l_l_self_test_status" prot="public">haldls::vx::PLLSelfTestStatus</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_p_p_u_control_register" prot="public">haldls::vx::PPUControlRegister</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_p_p_u_memory" prot="public">haldls::vx::PPUMemory</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_p_p_u_memory_block" prot="public">haldls::vx::PPUMemoryBlock</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_p_p_u_memory_word" prot="public">haldls::vx::PPUMemoryWord</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_p_p_u_status_register" prot="public">haldls::vx::PPUStatusRegister</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_readout_source_selection" prot="public">haldls::vx::ReadoutSourceSelection</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_reset_chip" prot="public">haldls::vx::ResetChip</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_reset_j_t_a_g_tap" prot="public">haldls::vx::ResetJTAGTap</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_shift_register" prot="public">haldls::vx::ShiftRegister</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_spike_counter_read" prot="public">haldls::vx::SpikeCounterRead</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_spike_counter_reset" prot="public">haldls::vx::SpikeCounterReset</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_spike_from_chip" prot="public">haldls::vx::SpikeFromChip</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_spike_label" prot="public">haldls::vx::SpikeLabel</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_spike_pack1_to_chip" prot="public">haldls::vx::SpikePack1ToChip</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_spike_pack2_to_chip" prot="public">haldls::vx::SpikePack2ToChip</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_spike_pack3_to_chip" prot="public">haldls::vx::SpikePack3ToChip</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_synapse_bias_selection" prot="public">haldls::vx::SynapseBiasSelection</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_synapse_correlation_calib_quad" prot="public">haldls::vx::SynapseCorrelationCalibQuad</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_synapse_driver_config" prot="public">haldls::vx::SynapseDriverConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_synapse_driver_s_r_a_m_timing_config" prot="public">haldls::vx::SynapseDriverSRAMTimingConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_synapse_label_quad" prot="public">haldls::vx::SynapseLabelQuad</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_synapse_quad" prot="public">haldls::vx::SynapseQuad</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_synapse_weight_quad" prot="public">haldls::vx::SynapseWeightQuad</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_systime_sync" prot="public">haldls::vx::SystimeSync</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_systime_sync_base" prot="public">haldls::vx::SystimeSyncBase</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_timer" prot="public">haldls::vx::Timer</innerclass>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacehaldls_1_1vx_1a090837f0a96d7d15d40eeef01be6711c" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Backend</name>
+        <enumvalue id="namespacehaldls_1_1vx_1a090837f0a96d7d15d40eeef01be6711caeb8d5a96b0ef0b7cf20432195c5bd011" prot="public">
+          <name>PLAYBACK_CONTAINER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacehaldls_1_1vx_1a090837f0a96d7d15d40eeef01be6711cae6e75b497d1f9d63cffddd07444f3548" prot="public">
+          <name>LAST_PLAYBACK_CONTAINER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Possible backends to target with PlaybackProgramBuilder::read/write. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/traits.h" line="23" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/traits.h" bodystart="22" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1a98186b2568b381869c84a3ac98cb623b" prot="public" static="no">
+        <type>hate::type_list&lt;#define PLAYBACK_CONTAINER(Name, Type) #define LAST_PLAYBACK_CONTAINER(Name, Type) &gt;</type>
+        <definition>typedef hate::type_list&lt;#define PLAYBACK_CONTAINER(Name, Type) #define LAST_PLAYBACK_CONTAINER(Name, Type) &gt; haldls::vx::BackendContainerList</definition>
+        <argsstring></argsstring>
+        <name>BackendContainerList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/traits.h" line="34" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/traits.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1a5363e757d515e8058604c6d768878dad" prot="public" static="no">
+        <type>fisch::vx::ChipTime</type>
+        <definition>typedef fisch::vx::ChipTime haldls::vx::ChipTime</definition>
+        <argsstring></argsstring>
+        <name>ChipTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" line="145" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacehaldls_1_1vx_1a551584a55b25ec985dff7c305848260e" prot="public" static="no">
+        <type>fisch::vx::FPGATime</type>
+        <definition>typedef fisch::vx::FPGATime haldls::vx::FPGATime</definition>
+        <argsstring></argsstring>
+        <name>FPGATime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" line="144" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a4828bb60af98099a33adb8a40ed63148" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::anncore_center_base_address</definition>
+        <argsstring></argsstring>
+        <name>anncore_center_base_address</name>
+        <initializer>{0x0010&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="14" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a67c27396b07ca3b58f4c2a7451e602dd" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::background_spike_source_base_address</definition>
+        <argsstring></argsstring>
+        <name>background_spike_source_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1a2b8baf2992fec205ceb11895ef2b3b62" kindref="member">spl1_fabric_base_address</ref> + 1}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="198" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a6f858dda7dc6467c0408377a22ee3e67" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::bottom_ppu_base_address</definition>
+        <argsstring></argsstring>
+        <name>bottom_ppu_base_address</name>
+        <initializer>{0x0080&apos;0000 | ppu_bottom_subtree_address}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="11" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1ab651f89e55a21c680128008e7a87d992" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::cadc_buffer_enable_mask</definition>
+        <argsstring></argsstring>
+        <name>cadc_buffer_enable_mask</name>
+        <initializer>= 0x0020&apos;0000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="53" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a63522754b568bb5ba94db901316f10e7" prot="public" static="no" mutable="no">
+        <type>constexpr std::array&lt; uint32_t, 2 &gt;</type>
+        <definition>constexpr std::array&lt;uint32_t, 2&gt; haldls::vx::cadc_busreg_addresses</definition>
+        <argsstring></argsstring>
+        <name>cadc_busreg_addresses</name>
+        <initializer>= {<ref refid="namespacehaldls_1_1vx_1a1b584d86821b9e584e5bc4c45694f0f6" kindref="member">cadc_top_busreg_address</ref>,
+                                                           <ref refid="namespacehaldls_1_1vx_1ab36ec0eda5609f778a02d5f391f6820b" kindref="member">cadc_bottom_busreg_address</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="128" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a3e500dbb6ede832d9b2365b3aa81dfb2" prot="public" static="no" mutable="no">
+        <type>constexpr std::array&lt; uint32_t, 4 &gt;</type>
+        <definition>constexpr std::array&lt;uint32_t, 4&gt; haldls::vx::cadc_offset_sram_timing_config_base_addresses</definition>
+        <argsstring></argsstring>
+        <name>cadc_offset_sram_timing_config_base_addresses</name>
+        <initializer>= {
+    <ref refid="namespacehaldls_1_1vx_1aa917379cc8f4765f48ce9d34a4f3d944" kindref="member">cadc_top_sram_timing_west_base_address</ref>, <ref refid="namespacehaldls_1_1vx_1ac332b0f8d0f40e8ca188797c1a2f881f" kindref="member">cadc_top_sram_timing_east_base_address</ref>,
+    <ref refid="namespacehaldls_1_1vx_1a20442007c3a171f42cbcd1bd91fdccc8" kindref="member">cadc_bottom_sram_timing_west_base_address</ref>, <ref refid="namespacehaldls_1_1vx_1a1d57cbefa8f7f067d50b89941ad6b8f4" kindref="member">cadc_bottom_sram_timing_east_base_address</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="135" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1aa1874a5ead1f9762643328b3e9e3584f" prot="public" static="no" mutable="no">
+        <type>constexpr std::array&lt; uint32_t, 4 &gt;</type>
+        <definition>constexpr std::array&lt;uint32_t, 4&gt; haldls::vx::cadc_sram_base_addresses</definition>
+        <argsstring></argsstring>
+        <name>cadc_sram_base_addresses</name>
+        <initializer>= {
+    <ref refid="namespacehaldls_1_1vx_1a17dc798e0e4cdbabe9daaa314c8718a9" kindref="member">cadc_top_sram_west_base_address</ref>, <ref refid="namespacehaldls_1_1vx_1a160665fbeb3bc3d7f00de4c8d5f99e9f" kindref="member">cadc_top_sram_east_base_address</ref>,
+    <ref refid="namespacehaldls_1_1vx_1a2658222e8ffe1a415e1d3eafc5344212" kindref="member">cadc_bottom_sram_west_base_address</ref>, <ref refid="namespacehaldls_1_1vx_1a158a2308b9cc306e941b8a67f787c654" kindref="member">cadc_bottom_sram_east_base_address</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="131" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a09e3ceb00438f114d80e6f6c19cb662a" prot="public" static="no" mutable="no">
+        <type>constexpr std::array&lt; uint32_t, 4 &gt;</type>
+        <definition>constexpr std::array&lt;uint32_t, 4&gt; haldls::vx::capmem_config_base_addresses</definition>
+        <argsstring></argsstring>
+        <name>capmem_config_base_addresses</name>
+        <initializer>= {
+    <ref refid="namespacehaldls_1_1vx_1a266e5e93c1fc1082f946b0dd24a40928" kindref="member">capmem_nw_config_base_address</ref>, <ref refid="namespacehaldls_1_1vx_1a97b27b4bc4adeb2fe1ff64db59429975" kindref="member">capmem_ne_config_base_address</ref>, <ref refid="namespacehaldls_1_1vx_1a50c95cbf24b4d69340f5c5ae7f4004de" kindref="member">capmem_sw_config_base_address</ref>,
+    <ref refid="namespacehaldls_1_1vx_1aae316764ad14d0f0566afc7e7cd7c1f5" kindref="member">capmem_se_config_base_address</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="75" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a97b27b4bc4adeb2fe1ff64db59429975" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::capmem_ne_config_base_address</definition>
+        <argsstring></argsstring>
+        <name>capmem_ne_config_base_address</name>
+        <initializer>{0x14c000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="72" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1ad88b093313bc1b7076eefd6165fce546" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::capmem_ne_sram_base_address</definition>
+        <argsstring></argsstring>
+        <name>capmem_ne_sram_base_address</name>
+        <initializer>{0x148000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="64" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a266e5e93c1fc1082f946b0dd24a40928" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::capmem_nw_config_base_address</definition>
+        <argsstring></argsstring>
+        <name>capmem_nw_config_base_address</name>
+        <initializer>{0x144000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="71" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1afbf5d8e281dd3f56048dc559d4862c95" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::capmem_nw_sram_base_address</definition>
+        <argsstring></argsstring>
+        <name>capmem_nw_sram_base_address</name>
+        <initializer>{0x140000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="63" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1aae316764ad14d0f0566afc7e7cd7c1f5" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::capmem_se_config_base_address</definition>
+        <argsstring></argsstring>
+        <name>capmem_se_config_base_address</name>
+        <initializer>{0x15c000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="74" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a6b2a2d1a9a8dd4469351cf2903d2fa08" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::capmem_se_sram_base_address</definition>
+        <argsstring></argsstring>
+        <name>capmem_se_sram_base_address</name>
+        <initializer>{0x158000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="66" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a30ab71f9c0edb73093097f708f9eee1d" prot="public" static="no" mutable="no">
+        <type>constexpr std::array&lt; uint32_t, 4 &gt;</type>
+        <definition>constexpr std::array&lt;uint32_t, 4&gt; haldls::vx::capmem_sram_base_addresses</definition>
+        <argsstring></argsstring>
+        <name>capmem_sram_base_addresses</name>
+        <initializer>= {
+    <ref refid="namespacehaldls_1_1vx_1afbf5d8e281dd3f56048dc559d4862c95" kindref="member">capmem_nw_sram_base_address</ref>, <ref refid="namespacehaldls_1_1vx_1ad88b093313bc1b7076eefd6165fce546" kindref="member">capmem_ne_sram_base_address</ref>, <ref refid="namespacehaldls_1_1vx_1a2f8a7bd495cbc15e161d8e39b3c95391" kindref="member">capmem_sw_sram_base_address</ref>,
+    <ref refid="namespacehaldls_1_1vx_1a6b2a2d1a9a8dd4469351cf2903d2fa08" kindref="member">capmem_se_sram_base_address</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="67" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a50c95cbf24b4d69340f5c5ae7f4004de" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::capmem_sw_config_base_address</definition>
+        <argsstring></argsstring>
+        <name>capmem_sw_config_base_address</name>
+        <initializer>{0x154000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="73" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a2f8a7bd495cbc15e161d8e39b3c95391" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::capmem_sw_sram_base_address</definition>
+        <argsstring></argsstring>
+        <name>capmem_sw_sram_base_address</name>
+        <initializer>{0x150000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="65" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a4938debba2f427fbfccf4caf2ed7897b" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structhaldls_1_1vx_1_1_timer_1_1_value" kindref="compound">Timer::Value</ref></type>
+        <definition>const Timer::Value haldls::vx::chip_reset_high_duration</definition>
+        <argsstring></argsstring>
+        <name>chip_reset_high_duration</name>
+        <initializer>= <ref refid="structhaldls_1_1vx_1_1_timer_1_1_value" kindref="compound">Timer::Value</ref>(10)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/constants.h" line="11" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/constants.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1ae0cd88756d9d3933a338bcfa62bf8603" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structhaldls_1_1vx_1_1_timer_1_1_value" kindref="compound">Timer::Value</ref></type>
+        <definition>const Timer::Value haldls::vx::chip_reset_low_duration</definition>
+        <argsstring></argsstring>
+        <name>chip_reset_low_duration</name>
+        <initializer>= <ref refid="structhaldls_1_1vx_1_1_timer_1_1_value" kindref="compound">Timer::Value</ref>(100)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/constants.h" line="12" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/constants.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1ad29eaf4fae1c8c2a14413aa5b898e73d" prot="public" static="yes" mutable="no">
+        <type>size_t constexpr</type>
+        <definition>size_t constexpr haldls::vx::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="70" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a89f4168017434cf473ebcb7a52b90a89" prot="public" static="no" mutable="no">
+        <type>constexpr std::array&lt; uint32_t, 2 &gt;</type>
+        <definition>constexpr std::array&lt;uint32_t, 2&gt; haldls::vx::correlation_config_base_addresses</definition>
+        <argsstring></argsstring>
+        <name>correlation_config_base_addresses</name>
+        <initializer>= {
+    <ref refid="namespacehaldls_1_1vx_1ae1cff7462ef4ff34b3d0d58fa4c0978c" kindref="member">ppu_top_subtree_address</ref> + <ref refid="namespacehaldls_1_1vx_1a21f584f1419a10ae1680eba79c4adf5d" kindref="member">correlation_config_offset</ref>,
+    <ref refid="namespacehaldls_1_1vx_1aa9b2ff50e11272d5252e343b9867a0f4" kindref="member">ppu_bottom_subtree_address</ref> + <ref refid="namespacehaldls_1_1vx_1a21f584f1419a10ae1680eba79c4adf5d" kindref="member">correlation_config_offset</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="55" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a21f584f1419a10ae1680eba79c4adf5d" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::correlation_config_offset</definition>
+        <argsstring></argsstring>
+        <name>correlation_config_offset</name>
+        <initializer>= 0x0020&apos;0000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="54" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a959accf03af8a285a6426bb09015263d" prot="public" static="no" mutable="no">
+        <type>constexpr std::array&lt; uint32_t, 2 &gt;</type>
+        <definition>constexpr std::array&lt;uint32_t, 2&gt; haldls::vx::correlation_reset_base_addresses</definition>
+        <argsstring></argsstring>
+        <name>correlation_reset_base_addresses</name>
+        <initializer>= {
+    <ref refid="namespacehaldls_1_1vx_1a9c9f4c562d76319f7480f411985e8c32" kindref="member">correlation_reset_base_top</ref>, <ref refid="namespacehaldls_1_1vx_1aeecd1aef120b61ce1c50b9f2a8c5a2bd" kindref="member">correlation_reset_base_bottom</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="142" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1aaaa850e8acc685192fdf966fedcf7937" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::crossbar_input_drop_counter_base_address</definition>
+        <argsstring></argsstring>
+        <name>crossbar_input_drop_counter_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1a3acc5be0547d1c61283d5194ae1f33ae" kindref="member">crossbar_node_base_address</ref> + (8 * 3) + (4 * 9) +
+                                                            (8 * 2)}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="202" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a3acc5be0547d1c61283d5194ae1f33ae" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::crossbar_node_base_address</definition>
+        <argsstring></argsstring>
+        <name>crossbar_node_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1a67c27396b07ca3b58f4c2a7451e602dd" kindref="member">background_spike_source_base_address</ref> +
+                                              3  *
+                                                  8 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="199" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a5800363c4f1000e27b72ba026c67fc79" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::crossbar_out_mux_base_address</definition>
+        <argsstring></argsstring>
+        <name>crossbar_out_mux_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1a2b8baf2992fec205ceb11895ef2b3b62" kindref="member">spl1_fabric_base_address</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="197" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a9a49508ffd89851622ea2f47b66f76e0" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::crossbar_output_event_counter_base_address</definition>
+        <argsstring></argsstring>
+        <name>crossbar_output_event_counter_base_address</name>
+        <initializer>{
+    <ref refid="namespacehaldls_1_1vx_1aaaa850e8acc685192fdf966fedcf7937" kindref="member">crossbar_input_drop_counter_base_address</ref> + 20}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="204" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a3def379751d3351856c4befef1c2ac2b" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::event_recording_config_base_address</definition>
+        <argsstring></argsstring>
+        <name>event_recording_config_base_address</name>
+        <initializer>{0x5 | fpga_omnibus_mask}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="193" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a0ef672d6b9734942b7e2754a49f2d273" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::external_ppu_memory_base_address</definition>
+        <argsstring></argsstring>
+        <name>external_ppu_memory_base_address</name>
+        <initializer>{0x0e00&apos;0000 | fpga_omnibus_mask}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="194" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1ab785ee6ce30bbae86086ea5d9643435f" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::fpga_device_dna_base_address</definition>
+        <argsstring></argsstring>
+        <name>fpga_device_dna_base_address</name>
+        <initializer>{0x3 | fpga_omnibus_mask}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="192" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a70527431b87888d0429799fe5390683f" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::fpga_omnibus_mask</definition>
+        <argsstring></argsstring>
+        <name>fpga_omnibus_mask</name>
+        <initializer>{0x8000&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="186" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a5c53f805dab4adff214cbf60517a257e" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::hicann_arq_status_base_address</definition>
+        <argsstring></argsstring>
+        <name>hicann_arq_status_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1ae587f4bd6d6bd5f9734c01a2c7265eb2" kindref="member">l2_omnibus_mask</ref> + 0x0000&apos;0010}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="191" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1ae587f4bd6d6bd5f9734c01a2c7265eb2" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::l2_omnibus_mask</definition>
+        <argsstring></argsstring>
+        <name>l2_omnibus_mask</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1aa3b0be4b2d98113e788be8a34d2f5610" kindref="member">perftest_omnibus_mask</ref> | <ref refid="namespacehaldls_1_1vx_1a8c9864349a4560a24577de181566d1db" kindref="member">ut_omnibus_mask</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="190" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a282d6cfd8812091cb4bf269d1ce85a2a" prot="private" static="no" mutable="no">
+        <type><ref refid="capmem_8h_1a10273cb3bf4332a5ca4e7a3a852526f8" kindref="member">value_type</ref></type>
+        <definition>value_type haldls::vx::m_value</definition>
+        <argsstring></argsstring>
+        <name>m_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="91" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1afec51e04112dfbeaa56451369f7787bc" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::madc_base_address</definition>
+        <argsstring></argsstring>
+        <name>madc_base_address</name>
+        <initializer>{0x000c&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="207" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a633457832b9f207d2fac30171cb6f57c" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::neuron_backend_east_register_base_address</definition>
+        <argsstring></argsstring>
+        <name>neuron_backend_east_register_base_address</name>
+        <initializer>{0x1a&apos;9800}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="153" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a9733dbc58d0c8bb8144b3bd4ab2959b2" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::neuron_backend_east_sram_base_address</definition>
+        <argsstring></argsstring>
+        <name>neuron_backend_east_sram_base_address</name>
+        <initializer>{0x1a&apos;9000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="146" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a6e8fcf759b22a165c98b21d2b37a4fcf" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::neuron_backend_east_sram_timing_base_address</definition>
+        <argsstring></argsstring>
+        <name>neuron_backend_east_sram_timing_base_address</name>
+        <initializer>{
+    <ref refid="namespacehaldls_1_1vx_1ad5383c9dff140872f1da6b10d88496f8" kindref="member">neuron_backend_west_sram_base_address</ref> | 0x102}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="149" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1aa4c53bb056e28f92b2881adc757f5fea" prot="public" static="no" mutable="no">
+        <type>constexpr std::array&lt; uint32_t, 2 &gt;</type>
+        <definition>constexpr std::array&lt;uint32_t, 2&gt; haldls::vx::neuron_backend_sram_timing_base_addresses</definition>
+        <argsstring></argsstring>
+        <name>neuron_backend_sram_timing_base_addresses</name>
+        <initializer>= {
+    <ref refid="namespacehaldls_1_1vx_1a7e5d56ffab2747cc59cec3f688e94229" kindref="member">neuron_backend_west_sram_timing_base_address</ref>, <ref refid="namespacehaldls_1_1vx_1a6e8fcf759b22a165c98b21d2b37a4fcf" kindref="member">neuron_backend_east_sram_timing_base_address</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="158" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1ad1e9ce303506e58e06b28138f30b17b9" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::neuron_backend_west_register_base_address</definition>
+        <argsstring></argsstring>
+        <name>neuron_backend_west_register_base_address</name>
+        <initializer>{0x1a&apos;1800}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="152" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1ad5383c9dff140872f1da6b10d88496f8" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::neuron_backend_west_sram_base_address</definition>
+        <argsstring></argsstring>
+        <name>neuron_backend_west_sram_base_address</name>
+        <initializer>{0x1a&apos;1000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="145" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a7e5d56ffab2747cc59cec3f688e94229" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::neuron_backend_west_sram_timing_base_address</definition>
+        <argsstring></argsstring>
+        <name>neuron_backend_west_sram_timing_base_address</name>
+        <initializer>{
+    <ref refid="namespacehaldls_1_1vx_1ad5383c9dff140872f1da6b10d88496f8" kindref="member">neuron_backend_west_sram_base_address</ref> | 0x102}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="147" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a6bd0dc71f66f893d5e7556284e9a5486" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::neuron_ne_sram_base_address</definition>
+        <argsstring></argsstring>
+        <name>neuron_ne_sram_base_address</name>
+        <initializer>{0x16&apos;8000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="80" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a5de46989b403d847cf45d8edb28ed1e0" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::neuron_ne_sram_timing_base_address</definition>
+        <argsstring></argsstring>
+        <name>neuron_ne_sram_timing_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1a6bd0dc71f66f893d5e7556284e9a5486" kindref="member">neuron_ne_sram_base_address</ref> | 0x82}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="88" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1ada2a06d55fa241dc1307d09fc787f8d8" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::neuron_nw_sram_base_address</definition>
+        <argsstring></argsstring>
+        <name>neuron_nw_sram_base_address</name>
+        <initializer>{0x16&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="79" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a4c7555f54ecda3dd1123bf7ddc014cdb" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::neuron_nw_sram_timing_base_address</definition>
+        <argsstring></argsstring>
+        <name>neuron_nw_sram_timing_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1ada2a06d55fa241dc1307d09fc787f8d8" kindref="member">neuron_nw_sram_base_address</ref> | 0x82}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="87" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a1c3f35684e6467ed0adebfa834edf2f3" prot="public" static="no" mutable="no">
+        <type>constexpr std::array&lt; uint32_t, 2 &gt;</type>
+        <definition>constexpr std::array&lt;uint32_t, 2&gt; haldls::vx::neuron_post_pulse_addresses</definition>
+        <argsstring></argsstring>
+        <name>neuron_post_pulse_addresses</name>
+        <initializer>= {<ref refid="namespacehaldls_1_1vx_1ae991d16ed93fc148e4499fbea6a7bdde" kindref="member">neuron_post_pulse_left_address</ref>,
+                                                                 <ref refid="namespacehaldls_1_1vx_1ad96c4a29c2ba493c66ad3ad7622c29a5" kindref="member">neuron_post_pulse_right_address</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="167" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1ae991d16ed93fc148e4499fbea6a7bdde" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::neuron_post_pulse_left_address</definition>
+        <argsstring></argsstring>
+        <name>neuron_post_pulse_left_address</name>
+        <initializer>{0x12&apos;2400}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="164" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1ad96c4a29c2ba493c66ad3ad7622c29a5" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::neuron_post_pulse_right_address</definition>
+        <argsstring></argsstring>
+        <name>neuron_post_pulse_right_address</name>
+        <initializer>{0x12&apos;a400}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="165" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1ac3023f0ce7535faf66a647fb14371bfc" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::neuron_reset_left_sram_base_address</definition>
+        <argsstring></argsstring>
+        <name>neuron_reset_left_sram_base_address</name>
+        <initializer>{0x12&apos;0000 | 1ul &lt;&lt; 13}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="155" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a447fb9384cee29d0f2ce544f43da7296" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::neuron_reset_right_sram_base_address</definition>
+        <argsstring></argsstring>
+        <name>neuron_reset_right_sram_base_address</name>
+        <initializer>{0x12&apos;8000 | 1ul &lt;&lt; 13}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="156" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1ab516cd69be5c681a411aeea9ee1189e8" prot="public" static="no" mutable="no">
+        <type>constexpr std::array&lt; uint32_t, 2 &gt;</type>
+        <definition>constexpr std::array&lt;uint32_t, 2&gt; haldls::vx::neuron_reset_sram_base_addresses</definition>
+        <argsstring></argsstring>
+        <name>neuron_reset_sram_base_addresses</name>
+        <initializer>= {
+    <ref refid="namespacehaldls_1_1vx_1ac3023f0ce7535faf66a647fb14371bfc" kindref="member">neuron_reset_left_sram_base_address</ref>, <ref refid="namespacehaldls_1_1vx_1a447fb9384cee29d0f2ce544f43da7296" kindref="member">neuron_reset_right_sram_base_address</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="161" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a2cdf162ad0b67eae85cba23c9173f85d" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::neuron_se_sram_base_address</definition>
+        <argsstring></argsstring>
+        <name>neuron_se_sram_base_address</name>
+        <initializer>{0x17&apos;8000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="82" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1aac071b1da2b93a8f0ac9e50113767c94" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::neuron_se_sram_timing_base_address</definition>
+        <argsstring></argsstring>
+        <name>neuron_se_sram_timing_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1a2cdf162ad0b67eae85cba23c9173f85d" kindref="member">neuron_se_sram_base_address</ref> | 0x82}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="90" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a1fde8913ab60767a9dfef02bdb53f233" prot="public" static="no" mutable="no">
+        <type>constexpr std::array&lt; uint32_t, 4 &gt;</type>
+        <definition>constexpr std::array&lt;uint32_t, 4&gt; haldls::vx::neuron_sram_base_addresses</definition>
+        <argsstring></argsstring>
+        <name>neuron_sram_base_addresses</name>
+        <initializer>= {
+    <ref refid="namespacehaldls_1_1vx_1ada2a06d55fa241dc1307d09fc787f8d8" kindref="member">neuron_nw_sram_base_address</ref>, <ref refid="namespacehaldls_1_1vx_1a6bd0dc71f66f893d5e7556284e9a5486" kindref="member">neuron_ne_sram_base_address</ref>, <ref refid="namespacehaldls_1_1vx_1a46085b69446c0583da8bf1d11bf3327f" kindref="member">neuron_sw_sram_base_address</ref>,
+    <ref refid="namespacehaldls_1_1vx_1a2cdf162ad0b67eae85cba23c9173f85d" kindref="member">neuron_se_sram_base_address</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="83" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a8babff1e52d8b52799eb5a3018af05ac" prot="public" static="no" mutable="no">
+        <type>constexpr std::array&lt; uint32_t, 4 &gt;</type>
+        <definition>constexpr std::array&lt;uint32_t, 4&gt; haldls::vx::neuron_sram_timing_base_addresses</definition>
+        <argsstring></argsstring>
+        <name>neuron_sram_timing_base_addresses</name>
+        <initializer>= {
+    <ref refid="namespacehaldls_1_1vx_1a4c7555f54ecda3dd1123bf7ddc014cdb" kindref="member">neuron_nw_sram_timing_base_address</ref>, <ref refid="namespacehaldls_1_1vx_1a5de46989b403d847cf45d8edb28ed1e0" kindref="member">neuron_ne_sram_timing_base_address</ref>,
+    <ref refid="namespacehaldls_1_1vx_1a7a3ba91275d36fc362f37134646e2d6f" kindref="member">neuron_sw_sram_timing_base_address</ref>, <ref refid="namespacehaldls_1_1vx_1aac071b1da2b93a8f0ac9e50113767c94" kindref="member">neuron_se_sram_timing_base_address</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="91" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a46085b69446c0583da8bf1d11bf3327f" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::neuron_sw_sram_base_address</definition>
+        <argsstring></argsstring>
+        <name>neuron_sw_sram_base_address</name>
+        <initializer>{0x17&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="81" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a7a3ba91275d36fc362f37134646e2d6f" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::neuron_sw_sram_timing_base_address</definition>
+        <argsstring></argsstring>
+        <name>neuron_sw_sram_timing_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1a46085b69446c0583da8bf1d11bf3327f" kindref="member">neuron_sw_sram_base_address</ref> | 0x82}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="89" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1aa92a47b6aee19d766d679b4082f3e8c0" prot="public" static="no" mutable="no">
+        <type>constexpr std::array&lt; uint32_t, 2 &gt;</type>
+        <definition>constexpr std::array&lt;uint32_t, 2&gt; haldls::vx::padi_base_addresses</definition>
+        <argsstring></argsstring>
+        <name>padi_base_addresses</name>
+        <initializer>= {
+    <ref refid="namespacehaldls_1_1vx_1aaf11d6275f9f2266bb9238655ed235c7" kindref="member">padi_top_base_address</ref>, <ref refid="namespacehaldls_1_1vx_1a00348894b3f04c57b2f7859f8fa5d786" kindref="member">padi_bottom_base_address</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="109" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a00348894b3f04c57b2f7859f8fa5d786" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::padi_bottom_base_address</definition>
+        <argsstring></argsstring>
+        <name>padi_bottom_base_address</name>
+        <initializer>{0x11&apos;8000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="108" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1aaf11d6275f9f2266bb9238655ed235c7" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::padi_top_base_address</definition>
+        <argsstring></argsstring>
+        <name>padi_top_base_address</name>
+        <initializer>{0x11&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="107" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1aa3b0be4b2d98113e788be8a34d2f5610" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::perftest_omnibus_mask</definition>
+        <argsstring></argsstring>
+        <name>perftest_omnibus_mask</name>
+        <initializer>{0x0800&apos;0000 | fpga_omnibus_mask}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="189" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a5819c965d4bc0d06e38f8ce661054753" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::phy_omnibus_mask</definition>
+        <argsstring></argsstring>
+        <name>phy_omnibus_mask</name>
+        <initializer>{0x0200&apos;0000 | ut_omnibus_mask}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="188" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1ad211cbcc5c1eb517f093a5b4d801edb6" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::phy_on_chip_base_address</definition>
+        <argsstring></argsstring>
+        <name>phy_on_chip_base_address</name>
+        <initializer>{0x0004&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="59" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a28fa1cbeaffdbd64f067477032cf1d2a" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structhaldls_1_1vx_1_1_timer_1_1_value" kindref="compound">Timer::Value</ref></type>
+        <definition>const Timer::Value haldls::vx::pll_and_omnibus_settling_duration</definition>
+        <argsstring></argsstring>
+        <name>pll_and_omnibus_settling_duration</name>
+        <initializer>=
+    <ref refid="structhaldls_1_1vx_1_1_timer_1_1_value" kindref="compound">Timer::Value</ref>(Timer::Value::fpga_clock_cycles_per_us * 100)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/constants.h" line="6" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/constants.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a8664042a7ae5cf22eb96db4fdb319000" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::pll_base_address</definition>
+        <argsstring></argsstring>
+        <name>pll_base_address</name>
+        <initializer>{0x0008&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="60" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1aa9b2ff50e11272d5252e343b9867a0f4" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::ppu_bottom_subtree_address</definition>
+        <argsstring></argsstring>
+        <name>ppu_bottom_subtree_address</name>
+        <initializer>{0x0300&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="9" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1afbf1abd51fc968136d5ed2d44bcd1a88" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::ppu_control_register_address_mask</definition>
+        <argsstring></argsstring>
+        <name>ppu_control_register_address_mask</name>
+        <initializer>{0x0020&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="12" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a4b1ff255b32aa6917a75a5fde6044b5a" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::ppu_status_register_address_mask</definition>
+        <argsstring></argsstring>
+        <name>ppu_status_register_address_mask</name>
+        <initializer>{0x0020&apos;0001}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="13" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1ae1cff7462ef4ff34b3d0d58fa4c0978c" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::ppu_top_subtree_address</definition>
+        <argsstring></argsstring>
+        <name>ppu_top_subtree_address</name>
+        <initializer>{0x0200&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="8" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1afa2be9057eb73d3908a8eb17d4a9d98c" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structhaldls_1_1vx_1_1_timer_1_1_value" kindref="compound">Timer::Value</ref></type>
+        <definition>const Timer::Value haldls::vx::reference_generator_reset_duration</definition>
+        <argsstring></argsstring>
+        <name>reference_generator_reset_duration</name>
+        <initializer>=
+    <ref refid="structhaldls_1_1vx_1_1_timer_1_1_value" kindref="compound">Timer::Value</ref>(1000)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/constants.h" line="13" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/constants.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a7bda005671eaefdfd332c6dbf5b49f22" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::spike_counter_read_left_sram_base_address</definition>
+        <argsstring></argsstring>
+        <name>spike_counter_read_left_sram_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1ac3023f0ce7535faf66a647fb14371bfc" kindref="member">neuron_reset_left_sram_base_address</ref> |
+                                                             0x800}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="170" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a0d37c1254e96d9c90c27ee7abe9429d8" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::spike_counter_read_right_sram_base_address</definition>
+        <argsstring></argsstring>
+        <name>spike_counter_read_right_sram_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1a447fb9384cee29d0f2ce544f43da7296" kindref="member">neuron_reset_right_sram_base_address</ref> |
+                                                              0x800}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="172" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1ab64f4727876cae8364636fe9b8105be6" prot="public" static="no" mutable="no">
+        <type>constexpr std::array&lt; uint32_t, 2 &gt;</type>
+        <definition>constexpr std::array&lt;uint32_t, 2&gt; haldls::vx::spike_counter_read_sram_base_addresses</definition>
+        <argsstring></argsstring>
+        <name>spike_counter_read_sram_base_addresses</name>
+        <initializer>= {
+    <ref refid="namespacehaldls_1_1vx_1a7bda005671eaefdfd332c6dbf5b49f22" kindref="member">spike_counter_read_left_sram_base_address</ref>, <ref refid="namespacehaldls_1_1vx_1a0d37c1254e96d9c90c27ee7abe9429d8" kindref="member">spike_counter_read_right_sram_base_address</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="175" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a964b260ee9585c29cfb5375b0098969d" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::spike_counter_reset_left_sram_base_address</definition>
+        <argsstring></argsstring>
+        <name>spike_counter_reset_left_sram_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1ac3023f0ce7535faf66a647fb14371bfc" kindref="member">neuron_reset_left_sram_base_address</ref> |
+                                                              0xc00}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="178" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1af65e8361daee09cd16481f5405f1e567" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::spike_counter_reset_right_sram_base_address</definition>
+        <argsstring></argsstring>
+        <name>spike_counter_reset_right_sram_base_address</name>
+        <initializer>{
+    <ref refid="namespacehaldls_1_1vx_1a447fb9384cee29d0f2ce544f43da7296" kindref="member">neuron_reset_right_sram_base_address</ref> | 0xc00}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="180" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1aea83072999ec0d322a002a060c4bcb85" prot="public" static="no" mutable="no">
+        <type>constexpr std::array&lt; uint32_t, 2 &gt;</type>
+        <definition>constexpr std::array&lt;uint32_t, 2&gt; haldls::vx::spike_counter_reset_sram_base_addresses</definition>
+        <argsstring></argsstring>
+        <name>spike_counter_reset_sram_base_addresses</name>
+        <initializer>= {
+    <ref refid="namespacehaldls_1_1vx_1a964b260ee9585c29cfb5375b0098969d" kindref="member">spike_counter_reset_left_sram_base_address</ref>, <ref refid="namespacehaldls_1_1vx_1af65e8361daee09cd16481f5405f1e567" kindref="member">spike_counter_reset_right_sram_base_address</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="183" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a2b8baf2992fec205ceb11895ef2b3b62" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::spl1_fabric_base_address</definition>
+        <argsstring></argsstring>
+        <name>spl1_fabric_base_address</name>
+        <initializer>{0x0013&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="196" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1aac8f89acef862656f1f636997fb7fe82" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::synapse_driver_bottom_sram_base_address</definition>
+        <argsstring></argsstring>
+        <name>synapse_driver_bottom_sram_base_address</name>
+        <initializer>{0x11&apos;8400}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="96" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a061ce1d14b9ab8463c167651a4400d16" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::synapse_driver_bottom_sram_timing_base_address</definition>
+        <argsstring></argsstring>
+        <name>synapse_driver_bottom_sram_timing_base_address</name>
+        <initializer>{
+    <ref refid="namespacehaldls_1_1vx_1a727e7e1cf804a4a128a0235f756e6f3e" kindref="member">synapse_driver_top_sram_base_address</ref> | 0x82}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="102" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a34062e4678a7bf4bea7da35cd809c2aa" prot="public" static="no" mutable="no">
+        <type>constexpr std::array&lt; uint32_t, 2 &gt;</type>
+        <definition>constexpr std::array&lt;uint32_t, 2&gt; haldls::vx::synapse_driver_sram_base_addresses</definition>
+        <argsstring></argsstring>
+        <name>synapse_driver_sram_base_addresses</name>
+        <initializer>= {
+    <ref refid="namespacehaldls_1_1vx_1a727e7e1cf804a4a128a0235f756e6f3e" kindref="member">synapse_driver_top_sram_base_address</ref>, <ref refid="namespacehaldls_1_1vx_1aac8f89acef862656f1f636997fb7fe82" kindref="member">synapse_driver_bottom_sram_base_address</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="97" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1ab2d4b05ce5da36d13d29b8f54d9e4a78" prot="public" static="no" mutable="no">
+        <type>constexpr std::array&lt; uint32_t, 2 &gt;</type>
+        <definition>constexpr std::array&lt;uint32_t, 2&gt; haldls::vx::synapse_driver_sram_timing_base_addresses</definition>
+        <argsstring></argsstring>
+        <name>synapse_driver_sram_timing_base_addresses</name>
+        <initializer>= {
+    <ref refid="namespacehaldls_1_1vx_1a5a333ad5a233fac90bfcbe83e968ff13" kindref="member">synapse_driver_top_sram_timing_base_address</ref>, <ref refid="namespacehaldls_1_1vx_1a061ce1d14b9ab8463c167651a4400d16" kindref="member">synapse_driver_bottom_sram_timing_base_address</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="104" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a727e7e1cf804a4a128a0235f756e6f3e" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::synapse_driver_top_sram_base_address</definition>
+        <argsstring></argsstring>
+        <name>synapse_driver_top_sram_base_address</name>
+        <initializer>{0x11&apos;0400}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="95" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a5a333ad5a233fac90bfcbe83e968ff13" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::synapse_driver_top_sram_timing_base_address</definition>
+        <argsstring></argsstring>
+        <name>synapse_driver_top_sram_timing_base_address</name>
+        <initializer>{
+    <ref refid="namespacehaldls_1_1vx_1a727e7e1cf804a4a128a0235f756e6f3e" kindref="member">synapse_driver_top_sram_base_address</ref> | 0x82}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="100" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a81b01b9e19f0e81e2ae01b893dc339d6" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::synram_acausal_cadc_bottom_base_address</definition>
+        <argsstring></argsstring>
+        <name>synram_acausal_cadc_bottom_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1ad97bb48f2fb2a77bf08dc95e1439d380" kindref="member">synram_synacc_bottom_base_address</ref> +
+                                                           0x000c&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="44" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a84c8454b06698ce5eab3852d84ffd5f9" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::synram_acausal_cadc_top_base_address</definition>
+        <argsstring></argsstring>
+        <name>synram_acausal_cadc_top_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1ad2d2d1492352bc56b7bef78ce36be090" kindref="member">synram_synacc_top_base_address</ref> +
+                                                        0x000c&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="46" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a1c7a8f3cef2beecb6adc6329f34975b7" prot="public" static="no" mutable="no">
+        <type>constexpr std::array&lt; std::array&lt; uint32_t, 2 &gt;, 2 &gt;</type>
+        <definition>constexpr std::array&lt;std::array&lt;uint32_t, 2&gt;, 2&gt; haldls::vx::synram_cadc_base_addresses</definition>
+        <argsstring></argsstring>
+        <name>synram_cadc_base_addresses</name>
+        <initializer>{
+    {{<ref refid="namespacehaldls_1_1vx_1a58c55c0df5152200b52dfde92e23fff2" kindref="member">synram_causal_cadc_top_base_address</ref>, <ref refid="namespacehaldls_1_1vx_1a84c8454b06698ce5eab3852d84ffd5f9" kindref="member">synram_acausal_cadc_top_base_address</ref>},
+     {<ref refid="namespacehaldls_1_1vx_1a56f96cde75bab28d702e0cd20068ef6f" kindref="member">synram_causal_cadc_bottom_base_address</ref>, <ref refid="namespacehaldls_1_1vx_1a81b01b9e19f0e81e2ae01b893dc339d6" kindref="member">synram_acausal_cadc_bottom_base_address</ref>}}}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="49" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a56f96cde75bab28d702e0cd20068ef6f" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::synram_causal_cadc_bottom_base_address</definition>
+        <argsstring></argsstring>
+        <name>synram_causal_cadc_bottom_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1ad97bb48f2fb2a77bf08dc95e1439d380" kindref="member">synram_synacc_bottom_base_address</ref> +
+                                                          0x0008&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="40" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a58c55c0df5152200b52dfde92e23fff2" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::synram_causal_cadc_top_base_address</definition>
+        <argsstring></argsstring>
+        <name>synram_causal_cadc_top_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1ad2d2d1492352bc56b7bef78ce36be090" kindref="member">synram_synacc_top_base_address</ref> +
+                                                       0x0008&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="42" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a7851f105468adbfa071c50bf422311dd" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::synram_ctrl_bottom_base_address</definition>
+        <argsstring></argsstring>
+        <name>synram_ctrl_bottom_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1aa9b2ff50e11272d5252e343b9867a0f4" kindref="member">ppu_bottom_subtree_address</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="16" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a0fe469bbb53e54f1aa64fe1e167b8e29" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::synram_ctrl_top_base_address</definition>
+        <argsstring></argsstring>
+        <name>synram_ctrl_top_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1ae1cff7462ef4ff34b3d0d58fa4c0978c" kindref="member">ppu_top_subtree_address</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="17" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1ad97bb48f2fb2a77bf08dc95e1439d380" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::synram_synacc_bottom_base_address</definition>
+        <argsstring></argsstring>
+        <name>synram_synacc_bottom_base_address</name>
+        <initializer>{(<ref refid="namespacehaldls_1_1vx_1a6f858dda7dc6467c0408377a22ee3e67" kindref="member">bottom_ppu_base_address</ref> | (1 &lt;&lt; 22))}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="18" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1ad2d2d1492352bc56b7bef78ce36be090" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::synram_synacc_top_base_address</definition>
+        <argsstring></argsstring>
+        <name>synram_synacc_top_base_address</name>
+        <initializer>{(<ref refid="namespacehaldls_1_1vx_1a291fc856c1a244620db839735be85449" kindref="member">top_ppu_base_address</ref> | (1 &lt;&lt; 22))}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="19" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a09ccdef79cf97a5626ac26864fb17c40" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::synram_synapse_bottom_base_address</definition>
+        <argsstring></argsstring>
+        <name>synram_synapse_bottom_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1ad97bb48f2fb2a77bf08dc95e1439d380" kindref="member">synram_synacc_bottom_base_address</ref> +
+                                                      0x000f&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="21" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1af12b46605845b6313b2611e311431a5a" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::synram_synapse_even_2msb_bottom_base_address</definition>
+        <argsstring></argsstring>
+        <name>synram_synapse_even_2msb_bottom_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1ad97bb48f2fb2a77bf08dc95e1439d380" kindref="member">synram_synacc_bottom_base_address</ref> +
+                                                                0x0001&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="25" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a64abd553bb9e3821da690c5f8f9a555d" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::synram_synapse_even_2msb_top_base_address</definition>
+        <argsstring></argsstring>
+        <name>synram_synapse_even_2msb_top_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1ad2d2d1492352bc56b7bef78ce36be090" kindref="member">synram_synacc_top_base_address</ref> +
+                                                             0x0001&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="27" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a33a0d688a1fd9d65f8a239a98fde85c6" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::synram_synapse_label_bottom_base_address</definition>
+        <argsstring></argsstring>
+        <name>synram_synapse_label_bottom_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1ad97bb48f2fb2a77bf08dc95e1439d380" kindref="member">synram_synacc_bottom_base_address</ref> +
+                                                            0x4&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="36" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a39c1ca8d187cfa15bb2c5a533aa3d084" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::synram_synapse_label_top_base_address</definition>
+        <argsstring></argsstring>
+        <name>synram_synapse_label_top_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1ad2d2d1492352bc56b7bef78ce36be090" kindref="member">synram_synacc_top_base_address</ref> + 0x4&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="38" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1abc4fef678bbafca88ead14f6179c2bc3" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::synram_synapse_odd_2msb_bottom_base_address</definition>
+        <argsstring></argsstring>
+        <name>synram_synapse_odd_2msb_bottom_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1ad97bb48f2fb2a77bf08dc95e1439d380" kindref="member">synram_synacc_bottom_base_address</ref> +
+                                                               0x0002&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="29" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1ab791d55287e63b1417449fb3e9170037" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::synram_synapse_odd_2msb_top_base_address</definition>
+        <argsstring></argsstring>
+        <name>synram_synapse_odd_2msb_top_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1ad2d2d1492352bc56b7bef78ce36be090" kindref="member">synram_synacc_top_base_address</ref> +
+                                                            0x0002&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="31" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a74ede5ee8cc4b65f710b0e36c3531585" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::synram_synapse_top_base_address</definition>
+        <argsstring></argsstring>
+        <name>synram_synapse_top_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1ad2d2d1492352bc56b7bef78ce36be090" kindref="member">synram_synacc_top_base_address</ref> + 0x000f&apos;0000}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="23" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a45effb0ad220219f613459f5f0561e80" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::synram_synapse_weight_bottom_base_address</definition>
+        <argsstring></argsstring>
+        <name>synram_synapse_weight_bottom_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1ad97bb48f2fb2a77bf08dc95e1439d380" kindref="member">synram_synacc_bottom_base_address</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="34" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1aca60eded062b60818d0f7ce74c102bd0" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::synram_synapse_weight_top_base_address</definition>
+        <argsstring></argsstring>
+        <name>synram_synapse_weight_top_base_address</name>
+        <initializer>{<ref refid="namespacehaldls_1_1vx_1ad2d2d1492352bc56b7bef78ce36be090" kindref="member">synram_synacc_top_base_address</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="35" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1ae1bd1ab8d194c00a29a13366942fe7d7" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::systime_base_address</definition>
+        <argsstring></argsstring>
+        <name>systime_base_address</name>
+        <initializer>{0x0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="61" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a291fc856c1a244620db839735be85449" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::top_ppu_base_address</definition>
+        <argsstring></argsstring>
+        <name>top_ppu_base_address</name>
+        <initializer>{0x0080&apos;0000 | ppu_top_subtree_address}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="10" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a8c9864349a4560a24577de181566d1db" prot="public" static="no" mutable="no">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::ut_omnibus_mask</definition>
+        <argsstring></argsstring>
+        <name>ut_omnibus_mask</name>
+        <initializer>{0x0400&apos;0000 | fpga_omnibus_mask}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="187" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1a521ab4708bbea41d89e6cf24562d52dc" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structhaldls_1_1vx_1_1_timer_1_1_value" kindref="compound">Timer::Value</ref></type>
+        <definition>const Timer::Value haldls::vx::xboard_dac_settling_duration</definition>
+        <argsstring></argsstring>
+        <name>xboard_dac_settling_duration</name>
+        <initializer>=
+    <ref refid="structhaldls_1_1vx_1_1_timer_1_1_value" kindref="compound">Timer::Value</ref>(Timer::Value::fpga_clock_cycles_per_us * 1000)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/constants.h" line="9" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/constants.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1aaeb34fb8760f784378d162cef4412902" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="namespacehaldls_1_1vx_1ad29eaf4fae1c8c2a14413aa5b898e73d" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, config_size_in_words&gt; haldls::vx::addresses</definition>
+        <argsstring>(coordinate_type const &amp;cell) SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="capmem_8h_1ae41b4257216a0a9911203211a8cad8d0" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>cell</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a9afab8a5192cd64e2efd0223ea2b14f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::cadc_bottom_base_address</definition>
+        <argsstring>(ppu_bottom_subtree_address|0x0040 &apos;0000)</argsstring>
+        <name>cadc_bottom_base_address</name>
+        <param>
+          <type><ref refid="namespacehaldls_1_1vx_1aa9b2ff50e11272d5252e343b9867a0f4" kindref="member">ppu_bottom_subtree_address</ref>|0x0040 &apos;</type>
+          <declname>0000</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="119" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1ab36ec0eda5609f778a02d5f391f6820b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::cadc_bottom_busreg_address</definition>
+        <argsstring>(cadc_bottom_base_address|0x0000 &apos;1000)</argsstring>
+        <name>cadc_bottom_busreg_address</name>
+        <param>
+          <type><ref refid="namespacehaldls_1_1vx_1a9afab8a5192cd64e2efd0223ea2b14f6" kindref="member">cadc_bottom_base_address</ref>|0x0000 &apos;</type>
+          <declname>1000</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="120" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a158a2308b9cc306e941b8a67f787c654" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::cadc_bottom_sram_east_base_address</definition>
+        <argsstring>(cadc_bottom_base_address)</argsstring>
+        <name>cadc_bottom_sram_east_base_address</name>
+        <param>
+          <type><ref refid="namespacehaldls_1_1vx_1a9afab8a5192cd64e2efd0223ea2b14f6" kindref="member">cadc_bottom_base_address</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="122" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a1d57cbefa8f7f067d50b89941ad6b8f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::cadc_bottom_sram_timing_east_base_address</definition>
+        <argsstring>(cadc_bottom_sram_east_base_address|0x102)</argsstring>
+        <name>cadc_bottom_sram_timing_east_base_address</name>
+        <param>
+          <type><ref refid="namespacehaldls_1_1vx_1a158a2308b9cc306e941b8a67f787c654" kindref="member">cadc_bottom_sram_east_base_address</ref>|</type>
+          <declname>0x102</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="125" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a20442007c3a171f42cbcd1bd91fdccc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::cadc_bottom_sram_timing_west_base_address</definition>
+        <argsstring>(cadc_bottom_sram_west_base_address|0x102)</argsstring>
+        <name>cadc_bottom_sram_timing_west_base_address</name>
+        <param>
+          <type><ref refid="namespacehaldls_1_1vx_1a2658222e8ffe1a415e1d3eafc5344212" kindref="member">cadc_bottom_sram_west_base_address</ref>|</type>
+          <declname>0x102</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="123" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a2658222e8ffe1a415e1d3eafc5344212" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::cadc_bottom_sram_west_base_address</definition>
+        <argsstring>(cadc_bottom_base_address|0x0000 &apos;0800)</argsstring>
+        <name>cadc_bottom_sram_west_base_address</name>
+        <param>
+          <type><ref refid="namespacehaldls_1_1vx_1a9afab8a5192cd64e2efd0223ea2b14f6" kindref="member">cadc_bottom_base_address</ref>|0x0000 &apos;</type>
+          <declname>0800</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="121" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1acfba4017ad1a72249be46e677e6ec7e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::cadc_top_base_address</definition>
+        <argsstring>(ppu_top_subtree_address|0x0040 &apos;0000)</argsstring>
+        <name>cadc_top_base_address</name>
+        <param>
+          <type><ref refid="namespacehaldls_1_1vx_1ae1cff7462ef4ff34b3d0d58fa4c0978c" kindref="member">ppu_top_subtree_address</ref>|0x0040 &apos;</type>
+          <declname>0000</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="112" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a1b584d86821b9e584e5bc4c45694f0f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::cadc_top_busreg_address</definition>
+        <argsstring>(cadc_top_base_address|0x0000 &apos;1000)</argsstring>
+        <name>cadc_top_busreg_address</name>
+        <param>
+          <type><ref refid="namespacehaldls_1_1vx_1acfba4017ad1a72249be46e677e6ec7e6" kindref="member">cadc_top_base_address</ref>|0x0000 &apos;</type>
+          <declname>1000</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="113" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a160665fbeb3bc3d7f00de4c8d5f99e9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::cadc_top_sram_east_base_address</definition>
+        <argsstring>(cadc_top_base_address)</argsstring>
+        <name>cadc_top_sram_east_base_address</name>
+        <param>
+          <type><ref refid="namespacehaldls_1_1vx_1acfba4017ad1a72249be46e677e6ec7e6" kindref="member">cadc_top_base_address</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="115" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1ac332b0f8d0f40e8ca188797c1a2f881f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::cadc_top_sram_timing_east_base_address</definition>
+        <argsstring>(cadc_top_sram_east_base_address|0x102)</argsstring>
+        <name>cadc_top_sram_timing_east_base_address</name>
+        <param>
+          <type><ref refid="namespacehaldls_1_1vx_1a160665fbeb3bc3d7f00de4c8d5f99e9f" kindref="member">cadc_top_sram_east_base_address</ref>|</type>
+          <declname>0x102</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="117" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1aa917379cc8f4765f48ce9d34a4f3d944" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::cadc_top_sram_timing_west_base_address</definition>
+        <argsstring>(cadc_top_sram_west_base_address|0x102)</argsstring>
+        <name>cadc_top_sram_timing_west_base_address</name>
+        <param>
+          <type><ref refid="namespacehaldls_1_1vx_1a17dc798e0e4cdbabe9daaa314c8718a9" kindref="member">cadc_top_sram_west_base_address</ref>|</type>
+          <declname>0x102</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="116" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a17dc798e0e4cdbabe9daaa314c8718a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::cadc_top_sram_west_base_address</definition>
+        <argsstring>(cadc_top_base_address|0x0000 &apos;0800)</argsstring>
+        <name>cadc_top_sram_west_base_address</name>
+        <param>
+          <type><ref refid="namespacehaldls_1_1vx_1acfba4017ad1a72249be46e677e6ec7e6" kindref="member">cadc_top_base_address</ref>|0x0000 &apos;</type>
+          <declname>0800</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="114" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a34ea863c24e0be2d673b2f12b194254a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1vx_1_1_cap_mem_cell" kindref="compound">haldls::vx::CapMemCell</ref> <ref refid="classhaldls_1_1vx_1_1_differential_write_trait" kindref="compound">DifferentialWriteTrait</ref></type>
+        <definition>haldls::vx::CapMemCell DifferentialWriteTrait haldls::vx::CapMemCell</definition>
+        <argsstring>(value_type const &amp;value=Value())</argsstring>
+        <name>CapMemCell</name>
+        <param>
+          <type><ref refid="capmem_8h_1a10273cb3bf4332a5ca4e7a3a852526f8" kindref="member">value_type</ref> const &amp;</type>
+          <declname>value</declname>
+          <defval><ref refid="struct_value" kindref="compound">Value</ref>()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="94" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1aeecd1aef120b61ce1c50b9f2a8c5a2bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::correlation_reset_base_bottom</definition>
+        <argsstring>(ppu_bottom_subtree_address|0x00c9 &apos;0000)</argsstring>
+        <name>correlation_reset_base_bottom</name>
+        <param>
+          <type><ref refid="namespacehaldls_1_1vx_1aa9b2ff50e11272d5252e343b9867a0f4" kindref="member">ppu_bottom_subtree_address</ref>|0x00c9 &apos;</type>
+          <declname>0000</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="140" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a9c9f4c562d76319f7480f411985e8c32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>constexpr uint32_t</type>
+        <definition>constexpr uint32_t haldls::vx::correlation_reset_base_top</definition>
+        <argsstring>(ppu_top_subtree_address|0x00c9 &apos;0000)</argsstring>
+        <name>correlation_reset_base_top</name>
+        <param>
+          <type><ref refid="namespacehaldls_1_1vx_1ae1cff7462ef4ff34b3d0d58fa4c0978c" kindref="member">ppu_top_subtree_address</ref>|0x00c9 &apos;</type>
+          <declname>0000</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/omnibus_constants.h" line="139" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a5fa74c164a1421fd7dea4937436bb64c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::decode</definition>
+        <argsstring>(std::array&lt; WordT, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="namespacehaldls_1_1vx_1ad29eaf4fae1c8c2a14413aa5b898e73d" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="77" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a8a050f72eba04cc830e5a8d5d0d8477c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="namespacehaldls_1_1vx_1ad29eaf4fae1c8c2a14413aa5b898e73d" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, config_size_in_words&gt; haldls::vx::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="75" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a6dd9de81f5e339bb57081a24e537d751" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::from_binary</definition>
+        <argsstring>(T &amp;t, std::string const &amp;s)</argsstring>
+        <name>from_binary</name>
+        <param>
+          <type>T &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/cerealization.h" line="56" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/cerealization.h" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a9aabaead35c366a93aaf9164de5c1038" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::from_json</definition>
+        <argsstring>(T &amp;t, std::string const &amp;s)</argsstring>
+        <name>from_json</name>
+        <param>
+          <type>T &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/cerealization.h" line="44" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/cerealization.h" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a7f1ce5ee8c90f0bf401964a6ab1ba151" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::from_portablebinary</definition>
+        <argsstring>(T &amp;t, std::string const &amp;s)</argsstring>
+        <name>from_portablebinary</name>
+        <param>
+          <type>T &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/cerealization.h" line="68" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/cerealization.h" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a03cf72196d1772877e75a4684a242a49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::from_xml</definition>
+        <argsstring>(T &amp;t, std::string const &amp;s)</argsstring>
+        <name>from_xml</name>
+        <param>
+          <type>T &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/cerealization.h" line="80" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/cerealization.h" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1aab809fbad442c0607a5810005c71d3ba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="capmem_8h_1a10273cb3bf4332a5ca4e7a3a852526f8" kindref="member">value_type</ref></type>
+        <definition>value_type haldls::vx::get_value</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="66" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1ac07782e670ef730b19587f245328d6e3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::operator!=</definition>
+        <argsstring>(CapMemCell const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_cap_mem_cell" kindref="compound">CapMemCell</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="84" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1af375d954d556332770b4356fdc82239a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::ostream &amp;</type>
+        <definition>friend std::ostream&amp; haldls::vx::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, CapMemCell const &amp;cell) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_cap_mem_cell" kindref="compound">CapMemCell</ref> const &amp;</type>
+          <declname>cell</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="81" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a460e65067fe73775b547099c2d7ef9fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; haldls::vx::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, SynapseDriverConfig::RowMode const &amp;mode) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_synapse_driver_config_1a6baa15b3eaef0163af8115d1580e7eea" kindref="member">SynapseDriverConfig::RowMode</ref> const &amp;</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/synapse_driver.h" line="252" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a0e03bb620d649cb86864e6abe8d407cd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::operator==</definition>
+        <argsstring>(CapMemCell const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_cap_mem_cell" kindref="compound">CapMemCell</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="83" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a17c5dad13204b60c4e995832c5ad50db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; haldls::vx::print_words_for_each_backend</definition>
+        <argsstring>(std::ostream &amp;os, T const &amp;config)</argsstring>
+        <name>print_words_for_each_backend</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>T const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/print.h" line="7" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1ad6308f17f4b12ae2e8736ce24240581f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="89" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a87ac6dbdae18c68405777dbd6a1e63f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::set_value</definition>
+        <argsstring>(value_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_value</name>
+        <param>
+          <type><ref refid="capmem_8h_1a10273cb3bf4332a5ca4e7a3a852526f8" kindref="member">value_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="68" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a952419dc1161c6c0094aa053f3683ba6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::string</type>
+        <definition>std::string haldls::vx::to_binary</definition>
+        <argsstring>(T const &amp;t)</argsstring>
+        <name>to_binary</name>
+        <param>
+          <type>T const &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/cerealization.h" line="50" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/cerealization.h" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1aa8fd28eec9e6128d911ee3673b62f567" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::string</type>
+        <definition>std::string haldls::vx::to_json</definition>
+        <argsstring>(T const &amp;t)</argsstring>
+        <name>to_json</name>
+        <param>
+          <type>T const &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/cerealization.h" line="38" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/cerealization.h" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a3304a07966620575d750245390d7a3c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::string</type>
+        <definition>std::string haldls::vx::to_portablebinary</definition>
+        <argsstring>(T const &amp;t)</argsstring>
+        <name>to_portablebinary</name>
+        <param>
+          <type>T const &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/cerealization.h" line="62" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/cerealization.h" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a3801084611352a8aa35c95a5d4a9dc9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::string</type>
+        <definition>std::string haldls::vx::to_xml</definition>
+        <argsstring>(T const &amp;t)</argsstring>
+        <name>to_xml</name>
+        <param>
+          <type>T const &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/cerealization.h" line="74" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/cerealization.h" bodystart="74" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacehaldls_1_1vx_1a1dd8ec02d3345f73bc603b35fdc16893" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class ContainerT</type>
+          </param>
+          <param>
+            <type>class CoordinateT</type>
+          </param>
+          <param>
+            <type>class VisitorT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::visit_preorder</definition>
+        <argsstring>(ContainerT &amp;config, CoordinateT const &amp;coord, VisitorT &amp;&amp;visitor)</argsstring>
+        <name>visit_preorder</name>
+        <param>
+          <type>ContainerT &amp;</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type>CoordinateT const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>VisitorT &amp;&amp;</type>
+          <declname>visitor</declname>
+        </param>
+        <briefdescription>
+<para>Apply the specified visitor to all containers in a hierarchy by doing a pre-order tree traversal. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/common.h" line="41" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/common.h" bodystart="41" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/cerealization.h" line="12" column="1"/>
+  </compounddef>
+</doxygen>

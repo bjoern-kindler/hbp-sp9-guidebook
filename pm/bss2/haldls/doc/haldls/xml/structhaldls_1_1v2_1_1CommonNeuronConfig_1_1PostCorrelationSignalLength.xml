@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1v2_1_1CommonNeuronConfig_1_1PostCorrelationSignalLength" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::v2::CommonNeuronConfig::PostCorrelationSignalLength</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail:: RantWrapper&lt; PostCorrelationSignalLength, uint_fast16_t, 15, 0 &gt;</basecompoundref>
+    <includes refid="v2_2neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1CommonNeuronConfig_1_1PostCorrelationSignalLength_1addf25dda52d9fa4ebf05fea7d8dd70fc" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::v2::CommonNeuronConfig::PostCorrelationSignalLength::PostCorrelationSignalLength</definition>
+        <argsstring>(uintmax_t const val=0) SYMBOL_VISIBLE</argsstring>
+        <name>PostCorrelationSignalLength</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/neuron.h" line="32" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/neuron.h" bodystart="32" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1216">
+        <label>haldls::v2::CommonNeuronConfig::PostCorrelationSignalLength</label>
+        <link refid="structhaldls_1_1v2_1_1CommonNeuronConfig_1_1PostCorrelationSignalLength"/>
+        <childnode refid="1217" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1217">
+        <label>halco::common::detail::
+			  RantWrapper&lt; PostCorrelationSignalLength, uint_fast16_t, 15, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1218">
+        <label>haldls::v2::CommonNeuronConfig::PostCorrelationSignalLength</label>
+        <link refid="structhaldls_1_1v2_1_1CommonNeuronConfig_1_1PostCorrelationSignalLength"/>
+        <childnode refid="1219" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1219">
+        <label>halco::common::detail::
+			  RantWrapper&lt; PostCorrelationSignalLength, uint_fast16_t, 15, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/neuron.h" line="31" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/neuron.h" bodystart="28" bodyend="35"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1v2_1_1CommonNeuronConfig_1_1PostCorrelationSignalLength_1addf25dda52d9fa4ebf05fea7d8dd70fc" prot="public" virt="non-virtual"><scope>haldls::v2::CommonNeuronConfig::PostCorrelationSignalLength</scope><name>PostCorrelationSignalLength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classhaldls_1_1v2_1_1SpikeRouter" kind="class" language="C++" prot="public">
+    <compoundname>haldls::v2::SpikeRouter</compoundname>
+    <includes refid="v2_2fpga_8h" local="no">fpga.h</includes>
+    <innerclass refid="structhaldls_1_1v2_1_1SpikeRouter_1_1Delay" prot="public">haldls::v2::SpikeRouter::Delay</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1SpikeRouter_1abe87f46d97cc053b4a8e16dd4d2dba51" prot="public" static="no">
+        <type>halco::hicann_dls::v2::SpikeRouterOnFPGA</type>
+        <definition>typedef halco::hicann_dls::v2::SpikeRouterOnFPGA haldls::v2::SpikeRouter::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="315" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="315" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1SpikeRouter_1ac17ae6e37208c63c730dea17857c4fd6" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::v2::SpikeRouter::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="316" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="316" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1SpikeRouter_1aa5a357dfe96099f31e338be7da9f8a95" prot="public" static="no">
+        <type>std::bitset&lt; halco::hicann_dls::v2::SynapseDriverOnDLS::size &gt;</type>
+        <definition>typedef std::bitset&lt;halco::hicann_dls::v2::SynapseDriverOnDLS::size&gt; haldls::v2::SpikeRouter::target_rows_type</definition>
+        <argsstring></argsstring>
+        <name>target_rows_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="342" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="342" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1SpikeRouter_1a634ac3f9c9e479147d05d0af71db6bda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::SpikeRouter::SpikeRouter</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>SpikeRouter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="318" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1SpikeRouter_1a93a50bcc69812e9452322e279ce29537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::SpikeRouter::enable_squeeze_mode</definition>
+        <argsstring>(SynapseBlock::Synapse::Address const &amp;address, Delay const &amp;delay) SYMBOL_VISIBLE</argsstring>
+        <name>enable_squeeze_mode</name>
+        <param>
+          <type><ref refid="structhaldls_1_1v2_1_1SynapseBlock_1_1Synapse_1_1Address" kindref="compound">SynapseBlock::Synapse::Address</ref> const &amp;</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type><ref refid="structhaldls_1_1v2_1_1SpikeRouter_1_1Delay" kindref="compound">Delay</ref> const &amp;</type>
+          <declname>delay</declname>
+        </param>
+        <briefdescription>
+<para>Enable &quot;squeeze&quot; mode, where every spike received in a specified interval is combined into a single packet with a fixed spike address. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>In the verilog implementation this mode is called &quot;bypass&quot; mode. It is implemented by or-ing the spike vector (target synapse drivers) of all received spikes and assumes a fixed mapping from neurons to synapse drivers, e.g. spike events of neuron 0, 1, 2, … will be sent to synapse drivers 0, 1, 2, …. After a specified delay, a single spike with a fixed address will be emitted (as a single packet) to all synapse drivers, whose corresponding neuron spiked at least once in that interval. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="339" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1SpikeRouter_1a5888aa1a1a3ae3bc50a32728eda40b1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::SpikeRouter::reset</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Disable routing of spikes altogether (default). </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="327" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1SpikeRouter_1a78288a75eb957ec6a4d951304e9c633f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::SpikeRouter::set_neuron_route</definition>
+        <argsstring>(halco::hicann_dls::v2::NeuronOnDLS const &amp;neuron, SynapseBlock::Synapse::Address const &amp;address, target_rows_type const &amp;target_rows) SYMBOL_VISIBLE</argsstring>
+        <name>set_neuron_route</name>
+        <param>
+          <type>halco::hicann_dls::v2::NeuronOnDLS const &amp;</type>
+          <declname>neuron</declname>
+        </param>
+        <param>
+          <type><ref refid="structhaldls_1_1v2_1_1SynapseBlock_1_1Synapse_1_1Address" kindref="compound">SynapseBlock::Synapse::Address</ref> const &amp;</type>
+          <declname>address</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1SpikeRouter_1aa5a357dfe96099f31e338be7da9f8a95" kindref="member">target_rows_type</ref> const &amp;</type>
+          <declname>target_rows</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="344" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="313" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="312" bodyend="356"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1v2_1_1SpikeRouter_1abe87f46d97cc053b4a8e16dd4d2dba51" prot="public" virt="non-virtual"><scope>haldls::v2::SpikeRouter</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1v2_1_1SpikeRouter_1a93a50bcc69812e9452322e279ce29537" prot="public" virt="non-virtual"><scope>haldls::v2::SpikeRouter</scope><name>enable_squeeze_mode</name></member>
+      <member refid="classhaldls_1_1v2_1_1SpikeRouter_1ac17ae6e37208c63c730dea17857c4fd6" prot="public" virt="non-virtual"><scope>haldls::v2::SpikeRouter</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1v2_1_1SpikeRouter_1a5888aa1a1a3ae3bc50a32728eda40b1e" prot="public" virt="non-virtual"><scope>haldls::v2::SpikeRouter</scope><name>reset</name></member>
+      <member refid="classhaldls_1_1v2_1_1SpikeRouter_1a78288a75eb957ec6a4d951304e9c633f" prot="public" virt="non-virtual"><scope>haldls::v2::SpikeRouter</scope><name>set_neuron_route</name></member>
+      <member refid="classhaldls_1_1v2_1_1SpikeRouter_1a634ac3f9c9e479147d05d0af71db6bda" prot="public" virt="non-virtual"><scope>haldls::v2::SpikeRouter</scope><name>SpikeRouter</name></member>
+      <member refid="classhaldls_1_1v2_1_1SpikeRouter_1aa5a357dfe96099f31e338be7da9f8a95" prot="public" virt="non-virtual"><scope>haldls::v2::SpikeRouter</scope><name>target_rows_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

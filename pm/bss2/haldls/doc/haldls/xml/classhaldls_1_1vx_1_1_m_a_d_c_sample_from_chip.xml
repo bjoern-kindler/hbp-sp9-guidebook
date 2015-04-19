@@ -1,0 +1,418 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::MADCSampleFromChip</compoundname>
+    <includes refid="event_8h" local="no">event.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1_1_value" prot="public">haldls::vx::MADCSampleFromChip::Value</innerclass>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" line="345" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" bodystart="345" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1a3df633ee6f4fc7d3edd7f1d80ba7c978" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend struct</type>
+        <definition>friend struct detail::MADCSampleFromChipChecker</definition>
+        <argsstring></argsstring>
+        <name>detail::MADCSampleFromChipChecker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" line="354" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" bodystart="354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1ae8eb2fd93f4506c9ce50d594150d5297" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, MADCSampleFromChip const &amp;sample) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip" kindref="compound">MADCSampleFromChip</ref> const &amp;</type>
+          <declname>sample</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" line="341" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1ad3513b287bee316ad18177fe02c72374" prot="private" static="no" mutable="no">
+        <type><ref refid="namespacehaldls_1_1vx_1a5363e757d515e8058604c6d768878dad" kindref="member">ChipTime</ref></type>
+        <definition>ChipTime haldls::vx::MADCSampleFromChip::m_chip_time</definition>
+        <argsstring></argsstring>
+        <name>m_chip_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" line="351" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" bodystart="351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1a12e907291f1ad8ceec74aac8a46c41fe" prot="private" static="no" mutable="no">
+        <type><ref refid="namespacehaldls_1_1vx_1a551584a55b25ec985dff7c305848260e" kindref="member">FPGATime</ref></type>
+        <definition>FPGATime haldls::vx::MADCSampleFromChip::m_fpga_time</definition>
+        <argsstring></argsstring>
+        <name>m_fpga_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" line="350" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" bodystart="350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1a50e4c352d865593acd6ec700a3c7b66b" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1_1_value" kindref="compound">Value</ref></type>
+        <definition>Value haldls::vx::MADCSampleFromChip::m_value</definition>
+        <argsstring></argsstring>
+        <name>m_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" line="349" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" bodystart="349" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1a4585c7aed40c8b5e71f40aab22449673" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::MADCSampleFromChip::MADCSampleFromChip</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>MADCSampleFromChip</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" line="278" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1af682b1c379ae8c9a9c49ce8d43797943" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::MADCSampleFromChip::MADCSampleFromChip</definition>
+        <argsstring>(Value const &amp;value, FPGATime const &amp;fpga_time, ChipTime const &amp;chip_time) SYMBOL_VISIBLE</argsstring>
+        <name>MADCSampleFromChip</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1_1_value" kindref="compound">Value</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacehaldls_1_1vx_1a551584a55b25ec985dff7c305848260e" kindref="member">FPGATime</ref> const &amp;</type>
+          <declname>fpga_time</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacehaldls_1_1vx_1a5363e757d515e8058604c6d768878dad" kindref="member">ChipTime</ref> const &amp;</type>
+          <declname>chip_time</declname>
+        </param>
+        <briefdescription>
+<para>Construct MADC sample from chip via a value, FPGA and chip time information. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sample value to use </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fpga_time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>FPGATime to use </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>chip_time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ChipTime to use </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" line="286" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1a3d1f1eacc1234869510397e94ebb9072" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::MADCSampleFromChip::MADCSampleFromChip</definition>
+        <argsstring>(fisch::vx::MADCSampleFromChipEvent const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>MADCSampleFromChip</name>
+        <param>
+          <type>fisch::vx::MADCSampleFromChipEvent const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Construct an MADC sample from the data representation. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data to use </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" line="293" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1aab88a63153d8d28e239a43ac3586d4c6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacehaldls_1_1vx_1a5363e757d515e8058604c6d768878dad" kindref="member">ChipTime</ref></type>
+        <definition>ChipTime haldls::vx::MADCSampleFromChip::get_chip_time</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_chip_time</name>
+        <briefdescription>
+<para>Get chip time. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>ChipTime value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" line="328" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1a670223cba146dcb7bd4f3d2b8e17b5d2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacehaldls_1_1vx_1a551584a55b25ec985dff7c305848260e" kindref="member">FPGATime</ref></type>
+        <definition>FPGATime haldls::vx::MADCSampleFromChip::get_fpga_time</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_fpga_time</name>
+        <briefdescription>
+<para>Get FPGA time. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>FPGATime value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" line="314" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1a8b616e8943fdb8e632bb9b1b97963351" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1_1_value" kindref="compound">Value</ref></type>
+        <definition>Value haldls::vx::MADCSampleFromChip::get_value</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_value</name>
+        <briefdescription>
+<para>Get sample value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1_1_value" kindref="compound">Value</ref> value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" line="300" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1a5c14d3cb4278c946c235e85fc7187728" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCSampleFromChip::operator!=</definition>
+        <argsstring>(MADCSampleFromChip const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip" kindref="compound">MADCSampleFromChip</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" line="338" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1aee757a25f3266683ef8539c3bc01edbe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::MADCSampleFromChip::operator==</definition>
+        <argsstring>(MADCSampleFromChip const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip" kindref="compound">MADCSampleFromChip</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" line="337" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1a3aad3654b0e136166e749119d00b1eb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCSampleFromChip::set_chip_time</definition>
+        <argsstring>(ChipTime value) SYMBOL_VISIBLE</argsstring>
+        <name>set_chip_time</name>
+        <param>
+          <type><ref refid="namespacehaldls_1_1vx_1a5363e757d515e8058604c6d768878dad" kindref="member">ChipTime</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set chip time. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ChipTime value to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" line="335" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1a373a1f921bb181fb15d30d9b87831e6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCSampleFromChip::set_fpga_time</definition>
+        <argsstring>(FPGATime value) SYMBOL_VISIBLE</argsstring>
+        <name>set_fpga_time</name>
+        <param>
+          <type><ref refid="namespacehaldls_1_1vx_1a551584a55b25ec985dff7c305848260e" kindref="member">FPGATime</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set FPGA time. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>FPGATime value to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" line="321" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1adb48947ad3ed37282dc87fb24b727b23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::MADCSampleFromChip::set_value</definition>
+        <argsstring>(Value value) SYMBOL_VISIBLE</argsstring>
+        <name>set_value</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1_1_value" kindref="compound">Value</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set sample value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1_1_value" kindref="compound">Value</ref> sample value to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" line="307" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1a50fa0f7f945812e7c4d9046fa91fc3d2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::MADCSampleFromChip::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" line="347" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>MADCSample from chip. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>It is comprised of the sample value, FPGA and chip time annotation. </para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" line="268" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/event.h" bodystart="267" bodyend="362"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::MADCSampleFromChip</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1a3df633ee6f4fc7d3edd7f1d80ba7c978" prot="public" virt="non-virtual"><scope>haldls::vx::MADCSampleFromChip</scope><name>detail::MADCSampleFromChipChecker</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1aab88a63153d8d28e239a43ac3586d4c6" prot="public" virt="non-virtual"><scope>haldls::vx::MADCSampleFromChip</scope><name>get_chip_time</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1a670223cba146dcb7bd4f3d2b8e17b5d2" prot="public" virt="non-virtual"><scope>haldls::vx::MADCSampleFromChip</scope><name>get_fpga_time</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1a8b616e8943fdb8e632bb9b1b97963351" prot="public" virt="non-virtual"><scope>haldls::vx::MADCSampleFromChip</scope><name>get_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1ad3513b287bee316ad18177fe02c72374" prot="private" virt="non-virtual"><scope>haldls::vx::MADCSampleFromChip</scope><name>m_chip_time</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1a12e907291f1ad8ceec74aac8a46c41fe" prot="private" virt="non-virtual"><scope>haldls::vx::MADCSampleFromChip</scope><name>m_fpga_time</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1a50e4c352d865593acd6ec700a3c7b66b" prot="private" virt="non-virtual"><scope>haldls::vx::MADCSampleFromChip</scope><name>m_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1a4585c7aed40c8b5e71f40aab22449673" prot="public" virt="non-virtual"><scope>haldls::vx::MADCSampleFromChip</scope><name>MADCSampleFromChip</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1af682b1c379ae8c9a9c49ce8d43797943" prot="public" virt="non-virtual"><scope>haldls::vx::MADCSampleFromChip</scope><name>MADCSampleFromChip</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1a3d1f1eacc1234869510397e94ebb9072" prot="public" virt="non-virtual"><scope>haldls::vx::MADCSampleFromChip</scope><name>MADCSampleFromChip</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1a5c14d3cb4278c946c235e85fc7187728" prot="public" virt="non-virtual"><scope>haldls::vx::MADCSampleFromChip</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1ae8eb2fd93f4506c9ce50d594150d5297" prot="public" virt="non-virtual"><scope>haldls::vx::MADCSampleFromChip</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1aee757a25f3266683ef8539c3bc01edbe" prot="public" virt="non-virtual"><scope>haldls::vx::MADCSampleFromChip</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1a50fa0f7f945812e7c4d9046fa91fc3d2" prot="private" virt="non-virtual"><scope>haldls::vx::MADCSampleFromChip</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1a3aad3654b0e136166e749119d00b1eb9" prot="public" virt="non-virtual"><scope>haldls::vx::MADCSampleFromChip</scope><name>set_chip_time</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1a373a1f921bb181fb15d30d9b87831e6f" prot="public" virt="non-virtual"><scope>haldls::vx::MADCSampleFromChip</scope><name>set_fpga_time</name></member>
+      <member refid="classhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1adb48947ad3ed37282dc87fb24b727b23" prot="public" virt="non-virtual"><scope>haldls::vx::MADCSampleFromChip</scope><name>set_value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="cerealization_8h" kind="file" language="C++">
+    <compoundname>cerealization.h</compoundname>
+    <includes local="no">type_traits</includes>
+    <includes local="no">boost/hana.hpp</includes>
+    <includes local="no">cereal/cereal.hpp</includes>
+    <includes local="no">cereal/types/variant.hpp</includes>
+    <includes local="yes">halco/common/cerealization_geometry.h</includes>
+    <includes local="yes">halco/common/cerealization_typed_array.h</includes>
+    <includes local="yes">halco/common/cerealization_typed_heap_array.h</includes>
+    <includedby refid="pylola_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/pylola.h</includedby>
+    <incdepgraph>
+      <node id="22">
+        <label>halco/common/cerealization_typed_heap_array.h</label>
+      </node>
+      <node id="20">
+        <label>halco/common/cerealization_geometry.h</label>
+      </node>
+      <node id="17">
+        <label>boost/hana.hpp</label>
+      </node>
+      <node id="21">
+        <label>halco/common/cerealization_typed_array.h</label>
+      </node>
+      <node id="19">
+        <label>cereal/types/variant.hpp</label>
+      </node>
+      <node id="15">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cerealization.h</label>
+        <link refid="cerealization_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>cereal/cereal.hpp</label>
+      </node>
+      <node id="16">
+        <label>type_traits</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="24">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/pylola.h</label>
+        <link refid="pylola_8h"/>
+      </node>
+      <node id="23">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cerealization.h</label>
+        <link refid="cerealization_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacecereal">cereal</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cerealization.h"/>
+  </compounddef>
+</doxygen>

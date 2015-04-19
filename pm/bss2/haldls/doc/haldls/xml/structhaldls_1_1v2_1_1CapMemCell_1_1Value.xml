@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1v2_1_1CapMemCell_1_1Value" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::v2::CapMemCell::Value</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; Value, uint_fast16_t, 1023, 0 &gt;</basecompoundref>
+    <includes refid="v2_2capmem_8h" local="no">capmem.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1CapMemCell_1_1Value_1a63c4f17e40cf155a1cf4187efd404c42" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::v2::CapMemCell::Value::Value</definition>
+        <argsstring>(uintmax_t const val=0) SYMBOL_VISIBLE</argsstring>
+        <name>Value</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/capmem.h" line="28" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/capmem.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1512">
+        <label>haldls::v2::CapMemCell::Value</label>
+        <link refid="structhaldls_1_1v2_1_1CapMemCell_1_1Value"/>
+        <childnode refid="1513" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1513">
+        <label>halco::common::detail::RantWrapper&lt; Value, uint_fast16_t, 1023, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1514">
+        <label>haldls::v2::CapMemCell::Value</label>
+        <link refid="structhaldls_1_1v2_1_1CapMemCell_1_1Value"/>
+        <childnode refid="1515" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1515">
+        <label>halco::common::detail::RantWrapper&lt; Value, uint_fast16_t, 1023, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/capmem.h" line="27" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/capmem.h" bodystart="25" bodyend="29"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1v2_1_1CapMemCell_1_1Value_1a63c4f17e40cf155a1cf4187efd404c42" prot="public" virt="non-virtual"><scope>haldls::v2::CapMemCell::Value</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

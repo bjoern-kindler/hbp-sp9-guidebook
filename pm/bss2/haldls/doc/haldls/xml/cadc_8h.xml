@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="cadc_8h" kind="file" language="C++">
+    <compoundname>cadc.h</compoundname>
+    <includes local="yes">halco/common/geometry.h</includes>
+    <includes local="yes">halco/common/typed_array.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/cadc.h</includes>
+    <includes refid="genpybind_8h" local="yes">haldls/vx/genpybind.h</includes>
+    <includes refid="sram__controller_8h" local="yes">haldls/vx/sram_controller.h</includes>
+    <includes refid="traits_8h" local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includes local="yes">hxcomm/vx/target.h</includes>
+    <includedby refid="container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.h</includedby>
+    <includedby refid="cadc_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h</includedby>
+    <incdepgraph>
+      <node id="88">
+        <label>fisch/vx/container.def</label>
+      </node>
+      <node id="76">
+        <label>haldls/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="76" relation="include">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>halco/hicann-dls/vx/cadc.h</label>
+      </node>
+      <node id="78">
+        <label>haldls/vx/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="81" relation="include">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>haldls/vx/traits.h</label>
+        <link refid="traits_8h"/>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="83" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="88" relation="include">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>boost/variant.hpp</label>
+      </node>
+      <node id="90">
+        <label>hxcomm/vx/target.h</label>
+      </node>
+      <node id="77">
+        <label>haldls/vx/sram_controller.h</label>
+        <link refid="sram__controller_8h"/>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="82" relation="include">
+        </childnode>
+        <childnode refid="89" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+      </node>
+      <node id="74">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="80">
+        <label>utility</label>
+      </node>
+      <node id="73">
+        <label>halco/common/geometry.h</label>
+      </node>
+      <node id="84">
+        <label>fisch/vx/container_fwd.h</label>
+      </node>
+      <node id="87">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="85">
+        <label>fisch/vx/container_ticket.h</label>
+      </node>
+      <node id="72">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/cadc.h</label>
+        <link refid="cadc_8h"/>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="82" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>hate/math.h</label>
+      </node>
+      <node id="81">
+        <label>fisch/vx/omnibus_data.h</label>
+      </node>
+      <node id="79">
+        <label>type_traits</label>
+      </node>
+      <node id="86">
+        <label>hate/type_list.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="94">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/pyhaldls.h</label>
+        <link refid="pyhaldls_8h"/>
+      </node>
+      <node id="96">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_writereadable.h</label>
+        <link refid="is__writereadable_8h"/>
+      </node>
+      <node id="93">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/haldls.h</label>
+        <link refid="haldls_8h"/>
+        <childnode refid="94" relation="include">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_readable.h</label>
+        <link refid="is__readable_8h"/>
+        <childnode refid="96" relation="include">
+        </childnode>
+      </node>
+      <node id="97">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h</label>
+        <link refid="cadc_8h"/>
+        <childnode refid="98" relation="include">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/container.h</label>
+        <link refid="container_8h"/>
+        <childnode refid="95" relation="include">
+        </childnode>
+      </node>
+      <node id="92">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.h</label>
+        <link refid="container_8h"/>
+        <childnode refid="93" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/cadc.h</label>
+        <link refid="cadc_8h"/>
+        <childnode refid="92" relation="include">
+        </childnode>
+        <childnode refid="97" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_c_a_d_c_channel_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CADCChannelConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_c_a_d_c_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CADCConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_c_a_d_c_offset_s_r_a_m_timing_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CADCOffsetSRAMTimingConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_c_a_d_c_sample_quad_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CADCSampleQuad &gt;</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_c_a_d_c_channel_config" prot="public">haldls::vx::CADCChannelConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_c_a_d_c_config" prot="public">haldls::vx::CADCConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_c_a_d_c_offset_s_r_a_m_timing_config" prot="public">haldls::vx::CADCOffsetSRAMTimingConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_c_a_d_c_sample_quad" prot="public">haldls::vx::CADCSampleQuad</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_dead_time" prot="public">haldls::vx::CADCConfig::DeadTime</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_c_a_d_c_channel_config_1_1_offset" prot="public">haldls::vx::CADCChannelConfig::Offset</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_reset_wait" prot="public">haldls::vx::CADCConfig::ResetWait</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1_1_value" prot="public">haldls::vx::CADCSampleQuad::Value</innerclass>
+    <innernamespace refid="namespacecereal">cereal</innernamespace>
+    <innernamespace refid="namespacefisch">fisch</innernamespace>
+    <innernamespace refid="namespacefisch_1_1vx">fisch::vx</innernamespace>
+    <innernamespace refid="namespacehalco">halco</innernamespace>
+    <innernamespace refid="namespacehalco_1_1hicann__dls">halco::hicann_dls</innernamespace>
+    <innernamespace refid="namespacehalco_1_1hicann__dls_1_1vx">halco::hicann_dls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/cadc.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="v2_2lola_8h" kind="file" language="C++">
+    <compoundname>lola.h</compoundname>
+    <includes refid="v2_2genpybind_8h" local="yes">lola/v2/genpybind.h</includes>
+    <includes refid="v2_2ppu_8h" local="yes">lola/v2/ppu.h</includes>
+    <incdepgraph>
+      <node id="17">
+        <label>haldls/v2/ppu.h</label>
+      </node>
+      <node id="12">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/lola/v2/lola.h</label>
+        <link refid="v2_2lola_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="14">
+        <label>lola/v2/ppu.h</label>
+        <link refid="v2_2ppu_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>lola/v2/genpybind.h</label>
+        <link refid="v2_2genpybind_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>halco/hicann-dls/v2/coordinates.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/lola/v2/lola.h"/>
+  </compounddef>
+</doxygen>

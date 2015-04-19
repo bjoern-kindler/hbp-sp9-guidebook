@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch</compoundname>
+    <includes refid="v2_2synapse_8h" local="no">synapse.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a7d644fedc07023af76d1e5477a3bdb4b" prot="public" static="no" strong="yes">
+        <type>uint_fast8_t</type>
+        <name>Config</name>
+        <enumvalue id="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a7d644fedc07023af76d1e5477a3bdb4ba075ae3d2fc31640504f814f60e5ef713" prot="public">
+          <name>disabled</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a7d644fedc07023af76d1e5477a3bdb4ba6a21b6995a068148bbb65c8f949b3fb2" prot="public">
+          <name>external</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a7d644fedc07023af76d1e5477a3bdb4bad1efad72dc5b17dc66a46767c32fff40" prot="public">
+          <name>internal</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a7d644fedc07023af76d1e5477a3bdb4ba700cc7f1544e8c4542d2d7f10455cdca" prot="public">
+          <name>readout</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="221" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" bodystart="220" bodyend="226"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="244" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a4d25cf2db27595c0f396658e28cc46f1" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a7d644fedc07023af76d1e5477a3bdb4b" kindref="member">Config</ref></type>
+        <definition>Config haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch::m_acausal</definition>
+        <argsstring></argsstring>
+        <name>m_acausal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="249" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a6f41e89bf31ccd5c2a38844896004b82" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a7d644fedc07023af76d1e5477a3bdb4b" kindref="member">Config</ref></type>
+        <definition>Config haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch::m_causal</definition>
+        <argsstring></argsstring>
+        <name>m_causal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="248" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a7de7ba82665c52d5a62aab921cebd87c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch::ColumnCorrelationSwitch</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>ColumnCorrelationSwitch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="228" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a48edd75f096dd03a18637f1ac1523038" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a7d644fedc07023af76d1e5477a3bdb4b" kindref="member">Config</ref></type>
+        <definition>Config haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch::get_acausal_config</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_acausal_config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="236" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1acb93ad0f552f34ef836b6cd176a2ec12" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a7d644fedc07023af76d1e5477a3bdb4b" kindref="member">Config</ref></type>
+        <definition>Config haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch::get_causal_config</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_causal_config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="231" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a999ec3c16910ed9b211256e4c20c1c6b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch::operator!=</definition>
+        <argsstring>(ColumnCorrelationSwitch const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch" kindref="compound">ColumnCorrelationSwitch</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="241" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a692c04dc36311a9976ad388d51cd559a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch::operator==</definition>
+        <argsstring>(ColumnCorrelationSwitch const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch" kindref="compound">ColumnCorrelationSwitch</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="240" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a0eb263f742be51114668c587af519e37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch::set_acausal_config</definition>
+        <argsstring>(Config const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_acausal_config</name>
+        <param>
+          <type><ref refid="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a7d644fedc07023af76d1e5477a3bdb4b" kindref="member">Config</ref> const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="238" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a6d65e7d7f84a9c3aa44fe82a1d3a38b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch::set_causal_config</definition>
+        <argsstring>(Config const value) SYMBOL_VISIBLE</argsstring>
+        <name>set_causal_config</name>
+        <param>
+          <type><ref refid="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a7d644fedc07023af76d1e5477a3bdb4b" kindref="member">Config</ref> const</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="233" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1ae7d67592b1280c1992278000b632eaf1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch::serialize</definition>
+        <argsstring>(Archive &amp;ar) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="246" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="219" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" bodystart="218" bodyend="250"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch</scope><name>cereal::access</name></member>
+      <member refid="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a7de7ba82665c52d5a62aab921cebd87c" prot="public" virt="non-virtual"><scope>haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch</scope><name>ColumnCorrelationSwitch</name></member>
+      <member refid="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a7d644fedc07023af76d1e5477a3bdb4b" prot="public" virt="non-virtual"><scope>haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch</scope><name>Config</name></member>
+      <member refid="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a48edd75f096dd03a18637f1ac1523038" prot="public" virt="non-virtual"><scope>haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch</scope><name>get_acausal_config</name></member>
+      <member refid="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1acb93ad0f552f34ef836b6cd176a2ec12" prot="public" virt="non-virtual"><scope>haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch</scope><name>get_causal_config</name></member>
+      <member refid="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a4d25cf2db27595c0f396658e28cc46f1" prot="private" virt="non-virtual"><scope>haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch</scope><name>m_acausal</name></member>
+      <member refid="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a6f41e89bf31ccd5c2a38844896004b82" prot="private" virt="non-virtual"><scope>haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch</scope><name>m_causal</name></member>
+      <member refid="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a999ec3c16910ed9b211256e4c20c1c6b" prot="public" virt="non-virtual"><scope>haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch</scope><name>operator!=</name></member>
+      <member refid="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a692c04dc36311a9976ad388d51cd559a" prot="public" virt="non-virtual"><scope>haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch</scope><name>operator==</name></member>
+      <member refid="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1ae7d67592b1280c1992278000b632eaf1" prot="private" virt="non-virtual"><scope>haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch</scope><name>serialize</name></member>
+      <member refid="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a0eb263f742be51114668c587af519e37" prot="public" virt="non-virtual"><scope>haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch</scope><name>set_acausal_config</name></member>
+      <member refid="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch_1a6d65e7d7f84a9c3aa44fe82a1d3a38b2" prot="public" virt="non-virtual"><scope>haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch</scope><name>set_causal_config</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

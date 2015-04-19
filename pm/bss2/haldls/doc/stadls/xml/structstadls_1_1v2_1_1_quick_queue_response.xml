@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structstadls_1_1v2_1_1_quick_queue_response" kind="struct" language="C++" prot="public">
+    <compoundname>stadls::v2::QuickQueueResponse</compoundname>
+    <includes refid="quick__queue_8h" local="no">quick_queue.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structstadls_1_1v2_1_1_quick_queue_response_1afd867af98af7317e46b067f461159189" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; haldls::v2::instruction_word_type &gt;</type>
+        <definition>std::vector&lt;haldls::v2::instruction_word_type&gt; stadls::v2::QuickQueueResponse::result_bytes</definition>
+        <argsstring></argsstring>
+        <name>result_bytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/quick_queue.h" line="54" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/quick_queue.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structstadls_1_1v2_1_1_quick_queue_response_1a709df247027515b29c575eaf56927914" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void stadls::v2::QuickQueueResponse::serialize</definition>
+        <argsstring>(Archive &amp;archive)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>archive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/quick_queue.h" line="57" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/quick_queue.h" bodystart="57" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="structstadls_1_1v2_1_1_quick_queue_response_1a24604f09fbce53f3b41315de47c07098" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void stadls::v2::QuickQueueResponse::serialize_detail</definition>
+        <argsstring>(Archive &amp;archive, std::true_type) SYMBOL_VISIBLE</argsstring>
+        <name>serialize_detail</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>archive</declname>
+        </param>
+        <param>
+          <type>std::true_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/quick_queue.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structstadls_1_1v2_1_1_quick_queue_response_1ad766f808da6f0dd28def6ba41e570326" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void stadls::v2::QuickQueueResponse::serialize_detail</definition>
+        <argsstring>(Archive &amp;archive, std::false_type) SYMBOL_VISIBLE</argsstring>
+        <name>serialize_detail</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>archive</declname>
+        </param>
+        <param>
+          <type>std::false_type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/quick_queue.h" line="69" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="54">
+        <label>T</label>
+      </node>
+      <node id="53">
+        <label>std::vector&lt; T &gt;</label>
+        <childnode refid="54" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="52">
+        <label>std::vector&lt; haldls::v2::instruction_word_type &gt;</label>
+        <childnode refid="53" relation="template-instance">
+          <edgelabel>&lt; haldls::v2::instruction_word_type &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="51">
+        <label>stadls::v2::QuickQueueResponse</label>
+        <link refid="structstadls_1_1v2_1_1_quick_queue_response"/>
+        <childnode refid="52" relation="usage">
+          <edgelabel>result_bytes</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/quick_queue.h" line="53" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/quick_queue.h" bodystart="52" bodyend="70"/>
+    <listofallmembers>
+      <member refid="structstadls_1_1v2_1_1_quick_queue_response_1afd867af98af7317e46b067f461159189" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueResponse</scope><name>result_bytes</name></member>
+      <member refid="structstadls_1_1v2_1_1_quick_queue_response_1a709df247027515b29c575eaf56927914" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueResponse</scope><name>serialize</name></member>
+      <member refid="structstadls_1_1v2_1_1_quick_queue_response_1a24604f09fbce53f3b41315de47c07098" prot="private" virt="non-virtual"><scope>stadls::v2::QuickQueueResponse</scope><name>serialize_detail</name></member>
+      <member refid="structstadls_1_1v2_1_1_quick_queue_response_1ad766f808da6f0dd28def6ba41e570326" prot="private" virt="non-virtual"><scope>stadls::v2::QuickQueueResponse</scope><name>serialize_detail</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

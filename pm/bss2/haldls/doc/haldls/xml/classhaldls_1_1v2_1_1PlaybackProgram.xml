@@ -1,0 +1,386 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classhaldls_1_1v2_1_1PlaybackProgram" kind="class" language="C++" prot="public">
+    <compoundname>haldls::v2::PlaybackProgram</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::enable_shared_from_this&lt; PlaybackProgram &gt;</basecompoundref>
+    <includes refid="playback_8h" local="no">playback.h</includes>
+    <innerclass refid="classhaldls_1_1v2_1_1PlaybackProgram_1_1ContainerTicket" prot="public">haldls::v2::PlaybackProgram::ContainerTicket</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1PlaybackProgram_1a9d5166e47c964765f9e663e4e37306e5" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="classhaldls_1_1v2_1_1RecordedSpike" kindref="compound">v2::RecordedSpike</ref> &gt;</type>
+        <definition>typedef std::vector&lt;v2::RecordedSpike&gt; haldls::v2::PlaybackProgram::spikes_type</definition>
+        <argsstring></argsstring>
+        <name>spikes_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="36" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1PlaybackProgram_1af4bf674a0b014d69e7ca140811b1526b" prot="public" static="no" mutable="no">
+        <type>class <ref refid="classhaldls_1_1v2_1_1PlaybackProgram_1_1ContainerTicket" kindref="compound">haldls::v2::PlaybackProgram::ContainerTicket</ref></type>
+        <definition>class haldls::v2::PlaybackProgram::ContainerTicket haldls::v2::PlaybackProgram::fire</definition>
+        <argsstring></argsstring>
+        <name>fire</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="61" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1PlaybackProgram_1a370bee3d8296b557ee258f3bbd7c439b" prot="public" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend haldls::v2::PlaybackProgram::PlaybackProgramBuilder</definition>
+        <argsstring></argsstring>
+        <name>PlaybackProgramBuilder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="91" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1PlaybackProgram_1a1d9e23a0ba3db48970c43104a9c9f312" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; Impl &gt;</type>
+        <definition>std::unique_ptr&lt;Impl&gt; haldls::v2::PlaybackProgram::m_impl</definition>
+        <argsstring></argsstring>
+        <name>m_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="110" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1PlaybackProgram_1a54af0ea92c151b5a189cc9a62336d38c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::v2::PlaybackProgram::m_valid</definition>
+        <argsstring></argsstring>
+        <name>m_valid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="111" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1PlaybackProgram_1ac9e0499c98af617997a86ef27056ed1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::PlaybackProgram::PlaybackProgram</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>PlaybackProgram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="70" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1PlaybackProgram_1ad99154ed1b22dde3c96b79359a6801b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::PlaybackProgram::PlaybackProgram</definition>
+        <argsstring>(PlaybackProgram const &amp;other)=delete</argsstring>
+        <name>PlaybackProgram</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1PlaybackProgram" kindref="compound">PlaybackProgram</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1PlaybackProgram_1ace25cf14f1cd9bc002988b356198a697" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::PlaybackProgram::PlaybackProgram</definition>
+        <argsstring>(PlaybackProgram &amp;&amp;other)=delete</argsstring>
+        <name>PlaybackProgram</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1PlaybackProgram" kindref="compound">PlaybackProgram</ref> &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="73" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1PlaybackProgram_1abc5627bd6a8bc576c393b9c7ad0ac593" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::PlaybackProgram::~PlaybackProgram</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>~PlaybackProgram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="75" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1PlaybackProgram_1aae8a34c16ca68e856544cf7c04116fde" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string haldls::v2::PlaybackProgram::dump_program</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>dump_program</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="79" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1PlaybackProgram_1a51e0b5391d83ff0353a99554f9a687b1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1v2_1_1PlaybackProgram_1a9d5166e47c964765f9e663e4e37306e5" kindref="member">spikes_type</ref> const  &amp;</type>
+        <definition>spikes_type const&amp; haldls::v2::PlaybackProgram::get_spikes</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_spikes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="77" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1PlaybackProgram_1a9e789f4bfe858b2797cb28c50f06a9ae" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::vector&lt; <ref refid="namespacehaldls_1_1v2_1a6c1ac5084391b3b869fa7a1531ebd421" kindref="member">instruction_word_type</ref> &gt; &gt; const  &amp;</type>
+        <definition>std::vector&lt;std::vector&lt;instruction_word_type&gt; &gt; const&amp; haldls::v2::PlaybackProgram::instruction_byte_blocks</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>instruction_byte_blocks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="81" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1PlaybackProgram_1a7563cad4f059697f191cd0651967f359" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1v2_1_1PlaybackProgram" kindref="compound">PlaybackProgram</ref> &amp;</type>
+        <definition>PlaybackProgram&amp; haldls::v2::PlaybackProgram::operator=</definition>
+        <argsstring>(PlaybackProgram const &amp;other)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1PlaybackProgram" kindref="compound">PlaybackProgram</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1PlaybackProgram_1ae799a8dda57eaddfb363d631dae4427d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1v2_1_1PlaybackProgram" kindref="compound">PlaybackProgram</ref> &amp;</type>
+        <definition>PlaybackProgram&amp; haldls::v2::PlaybackProgram::operator=</definition>
+        <argsstring>(PlaybackProgram &amp;&amp;other)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1PlaybackProgram" kindref="compound">PlaybackProgram</ref> &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1PlaybackProgram_1a07205f2cf6b281cc1744f9569237db59" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool const  &amp;</type>
+        <definition>bool const&amp; haldls::v2::PlaybackProgram::valid</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>valid</name>
+        <briefdescription>
+<para>Get information on whether the program stores valid executable instructions. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="88" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1PlaybackProgram_1ab21ca350b697000352984b7b15de20d2" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classhaldls_1_1v2_1_1PlaybackProgram_1_1ContainerTicket" kindref="compound">ContainerTicket</ref>&lt; T &gt;</type>
+        <definition>ContainerTicket&lt;T&gt; haldls::v2::PlaybackProgram::create_ticket</definition>
+        <argsstring>(typename T::coordinate_type const &amp;coord, std::size_t offset, std::size_t length) const</argsstring>
+        <name>create_ticket</name>
+        <param>
+          <type>typename <ref refid="vx_2capmem_8h_1ae41b4257216a0a9911203211a8cad8d0" kindref="member">T::coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classhaldls_1_1v2_1_1PlaybackProgramBuilder" kindref="compound">PlaybackProgramBuilder</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="97" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1PlaybackProgram_1ab487e93fd8df2f35937b043c7d989b76" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::PlaybackProgram::set_results</definition>
+        <argsstring>(std::vector&lt; v2::hardware_word_type &gt; &amp;&amp;results) SYMBOL_VISIBLE</argsstring>
+        <name>set_results</name>
+        <param>
+          <type>std::vector&lt; <ref refid="namespacehaldls_1_1v2_1a1cd09cb45aac9afc8a923535524121d9" kindref="member">v2::hardware_word_type</ref> &gt; &amp;&amp;</type>
+          <declname>results</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>LocalBoardControl </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="104" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1PlaybackProgram_1a3e31122b5e663d313f3cda9f26b06783" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::PlaybackProgram::set_spikes</definition>
+        <argsstring>(spikes_type &amp;&amp;spikes) SYMBOL_VISIBLE</argsstring>
+        <name>set_spikes</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1PlaybackProgram_1a9d5166e47c964765f9e663e4e37306e5" kindref="member">spikes_type</ref> &amp;&amp;</type>
+          <declname>spikes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para>LocalBoardControl </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="107" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1PlaybackProgram_1adfe1faba7c26ba554865c9aa74b6a28c" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void haldls::v2::PlaybackProgram::ensure_container_invariants</definition>
+        <argsstring>(T &amp;config)</argsstring>
+        <name>ensure_container_invariants</name>
+        <param>
+          <type>T &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="101" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1201">
+        <label>haldls::v2::PlaybackProgram</label>
+        <link refid="classhaldls_1_1v2_1_1PlaybackProgram"/>
+        <childnode refid="1202" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1202">
+        <label>std::enable_shared_from_this&lt; PlaybackProgram &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1205">
+        <label>haldls::v2::PlaybackProgram::ContainerTicket&lt; T &gt;</label>
+        <link refid="classhaldls_1_1v2_1_1PlaybackProgram_1_1ContainerTicket"/>
+      </node>
+      <node id="1203">
+        <label>haldls::v2::PlaybackProgram</label>
+        <link refid="classhaldls_1_1v2_1_1PlaybackProgram"/>
+        <childnode refid="1204" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1205" relation="usage">
+          <edgelabel>fire</edgelabel>
+        </childnode>
+      </node>
+      <node id="1204">
+        <label>std::enable_shared_from_this&lt; PlaybackProgram &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="34" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" bodystart="32" bodyend="112"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1ab21ca350b697000352984b7b15de20d2" prot="private" virt="non-virtual"><scope>haldls::v2::PlaybackProgram</scope><name>create_ticket</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1aae8a34c16ca68e856544cf7c04116fde" prot="public" virt="non-virtual"><scope>haldls::v2::PlaybackProgram</scope><name>dump_program</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1adfe1faba7c26ba554865c9aa74b6a28c" prot="private" virt="non-virtual"><scope>haldls::v2::PlaybackProgram</scope><name>ensure_container_invariants</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1af4bf674a0b014d69e7ca140811b1526b" prot="public" virt="non-virtual"><scope>haldls::v2::PlaybackProgram</scope><name>fire</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1a51e0b5391d83ff0353a99554f9a687b1" prot="public" virt="non-virtual"><scope>haldls::v2::PlaybackProgram</scope><name>get_spikes</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1a9e789f4bfe858b2797cb28c50f06a9ae" prot="public" virt="non-virtual"><scope>haldls::v2::PlaybackProgram</scope><name>instruction_byte_blocks</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1a1d9e23a0ba3db48970c43104a9c9f312" prot="private" virt="non-virtual"><scope>haldls::v2::PlaybackProgram</scope><name>m_impl</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1a54af0ea92c151b5a189cc9a62336d38c" prot="private" virt="non-virtual"><scope>haldls::v2::PlaybackProgram</scope><name>m_valid</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1a7563cad4f059697f191cd0651967f359" prot="public" virt="non-virtual"><scope>haldls::v2::PlaybackProgram</scope><name>operator=</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1ae799a8dda57eaddfb363d631dae4427d" prot="public" virt="non-virtual"><scope>haldls::v2::PlaybackProgram</scope><name>operator=</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1ac9e0499c98af617997a86ef27056ed1d" prot="public" virt="non-virtual"><scope>haldls::v2::PlaybackProgram</scope><name>PlaybackProgram</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1ad99154ed1b22dde3c96b79359a6801b4" prot="public" virt="non-virtual"><scope>haldls::v2::PlaybackProgram</scope><name>PlaybackProgram</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1ace25cf14f1cd9bc002988b356198a697" prot="public" virt="non-virtual"><scope>haldls::v2::PlaybackProgram</scope><name>PlaybackProgram</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1a370bee3d8296b557ee258f3bbd7c439b" prot="public" virt="non-virtual"><scope>haldls::v2::PlaybackProgram</scope><name>PlaybackProgramBuilder</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1ab487e93fd8df2f35937b043c7d989b76" prot="private" virt="non-virtual"><scope>haldls::v2::PlaybackProgram</scope><name>set_results</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1a3e31122b5e663d313f3cda9f26b06783" prot="private" virt="non-virtual"><scope>haldls::v2::PlaybackProgram</scope><name>set_spikes</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1a9d5166e47c964765f9e663e4e37306e5" prot="public" virt="non-virtual"><scope>haldls::v2::PlaybackProgram</scope><name>spikes_type</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1a07205f2cf6b281cc1744f9569237db59" prot="public" virt="non-virtual"><scope>haldls::v2::PlaybackProgram</scope><name>valid</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgram_1abc5627bd6a8bc576c393b9c7ad0ac593" prot="public" virt="non-virtual"><scope>haldls::v2::PlaybackProgram</scope><name>~PlaybackProgram</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1CADCConfig_1_1DeadTime" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::CADCConfig::DeadTime</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; DeadTime, uint_fast16_t, 255, 0 &gt;</basecompoundref>
+    <includes refid="cadc_8h" local="no">cadc.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1CADCConfig_1_1DeadTime_1aa371add52a6d8b6df13a3027baa78e27" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::CADCConfig::DeadTime::DeadTime</definition>
+        <argsstring>(uintmax_t const val=20)</argsstring>
+        <name>DeadTime</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>20</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/cadc.h" line="53" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/cadc.h" bodystart="53" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Dead time in cycles after linear ramp increase to wait for signal propagation to every channel to prevent cutting off leaf channel ramps too early. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="966">
+        <label>haldls::vx::CADCConfig::DeadTime</label>
+        <link refid="structhaldls_1_1vx_1_1CADCConfig_1_1DeadTime"/>
+        <childnode refid="967" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="967">
+        <label>halco::common::detail::RantWrapper&lt; DeadTime, uint_fast16_t, 255, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="968">
+        <label>haldls::vx::CADCConfig::DeadTime</label>
+        <link refid="structhaldls_1_1vx_1_1CADCConfig_1_1DeadTime"/>
+        <childnode refid="969" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="969">
+        <label>halco::common::detail::RantWrapper&lt; DeadTime, uint_fast16_t, 255, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/cadc.h" line="52" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/cadc.h" bodystart="50" bodyend="56"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1CADCConfig_1_1DeadTime_1aa371add52a6d8b6df13a3027baa78e27" prot="public" virt="non-virtual"><scope>haldls::vx::CADCConfig::DeadTime</scope><name>DeadTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

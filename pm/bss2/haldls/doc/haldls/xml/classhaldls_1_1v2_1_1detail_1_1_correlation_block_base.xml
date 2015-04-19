@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classhaldls_1_1v2_1_1detail_1_1_correlation_block_base" kind="class" language="C++" prot="public">
+    <compoundname>haldls::v2::detail::CorrelationBlockBase</compoundname>
+    <derivedcompoundref refid="classhaldls_1_1v2_1_1_acausal_correlation_block" prot="public" virt="non-virtual">haldls::v2::AcausalCorrelationBlock</derivedcompoundref>
+    <includes refid="v2_2correlation_8h" local="no">correlation.h</includes>
+    <innerclass refid="structhaldls_1_1v2_1_1detail_1_1_correlation_block_base_1_1_correlation" prot="public">haldls::v2::detail::CorrelationBlockBase::Correlation</innerclass>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1detail_1_1_correlation_block_base_1a1162a762cd56d492536358697cd0d9c9" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::v2::detail::CorrelationBlockBase&lt; T &gt;::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/correlation.h" line="78" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/correlation.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1detail_1_1_correlation_block_base_1a405ffedfa9aafbf71b9b42bd01ba3cb5" prot="public" static="yes" mutable="no">
+        <type>size_t constexpr</type>
+        <definition>size_t constexpr haldls::v2::detail::CorrelationBlockBase&lt; T &gt;::read_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>read_config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/correlation.h" line="93" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/correlation.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1detail_1_1_correlation_block_base_1af3c7b102c51c6a057007445003cd1514" prot="public" static="yes" mutable="no">
+        <type>size_t constexpr</type>
+        <definition>size_t constexpr haldls::v2::detail::CorrelationBlockBase&lt; T &gt;::write_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>write_config_size_in_words</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/correlation.h" line="92" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/correlation.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1detail_1_1_correlation_block_base_1a9711ae1e80353f40d7a2c61cdc1e84c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::detail::CorrelationBlockBase&lt; T &gt;::CorrelationBlockBase</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>CorrelationBlockBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/correlation.h" line="80" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base class for a-/causal correlation block Causal and acausal correlation identical besides address space. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="906">
+        <label>haldls::v2::detail::CorrelationBlockBase&lt; T &gt;</label>
+        <link refid="classhaldls_1_1v2_1_1detail_1_1_correlation_block_base"/>
+      </node>
+      <node id="909">
+        <label>haldls::v2::CausalCorrelationBlock</label>
+        <link refid="classhaldls_1_1v2_1_1_causal_correlation_block"/>
+        <childnode refid="908" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="907">
+        <label>haldls::v2::AcausalCorrelationBlock&lt; AcausalCorrelationBlock &gt;</label>
+        <link refid="classhaldls_1_1v2_1_1_acausal_correlation_block"/>
+        <childnode refid="906" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="910">
+        <label>haldls::v2::detail::CorrelationBlockBase&lt; AcausalCorrelationBlock &gt;</label>
+        <link refid="classhaldls_1_1v2_1_1detail_1_1_correlation_block_base"/>
+        <childnode refid="906" relation="template-instance">
+          <edgelabel>&lt; AcausalCorrelationBlock &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="908">
+        <label>haldls::v2::detail::CorrelationBlockBase&lt; CausalCorrelationBlock &gt;</label>
+        <link refid="classhaldls_1_1v2_1_1detail_1_1_correlation_block_base"/>
+        <childnode refid="906" relation="template-instance">
+          <edgelabel>&lt; CausalCorrelationBlock &gt;</edgelabel>
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/correlation.h" line="76" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/correlation.h" bodystart="75" bodyend="94"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1v2_1_1detail_1_1_correlation_block_base_1a9711ae1e80353f40d7a2c61cdc1e84c0" prot="public" virt="non-virtual"><scope>haldls::v2::detail::CorrelationBlockBase</scope><name>CorrelationBlockBase</name></member>
+      <member refid="classhaldls_1_1v2_1_1detail_1_1_correlation_block_base_1a1162a762cd56d492536358697cd0d9c9" prot="public" virt="non-virtual"><scope>haldls::v2::detail::CorrelationBlockBase</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1v2_1_1detail_1_1_correlation_block_base_1a405ffedfa9aafbf71b9b42bd01ba3cb5" prot="public" virt="non-virtual"><scope>haldls::v2::detail::CorrelationBlockBase</scope><name>read_config_size_in_words</name></member>
+      <member refid="classhaldls_1_1v2_1_1detail_1_1_correlation_block_base_1af3c7b102c51c6a057007445003cd1514" prot="public" virt="non-virtual"><scope>haldls::v2::detail::CorrelationBlockBase</scope><name>write_config_size_in_words</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacehaldls_1_1vx_1_1detail" kind="namespace" language="C++">
+    <compoundname>haldls::vx::detail</compoundname>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_c_a_d_c_sample_row_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CADCSampleRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_c_a_d_c_samples_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CADCSamples &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_correlation_reset_row_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CorrelationResetRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_d_a_c_channel_block_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::DACChannelBlock &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_d_a_c_control_block_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::DACControlBlock &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_correlation_calib_matrix_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseCorrelationCalibMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_correlation_calib_row_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseCorrelationCalibRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_label_matrix_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseLabelMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_label_row_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseLabelRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_matrix_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_row_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_weight_matrix_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseWeightMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_weight_row_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseWeightRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_a_d_c_sample_row_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CADCSampleRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_a_d_c_samples_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CADCSamples &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_correlation_reset_row_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CorrelationResetRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_d_a_c_channel_block_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::DACChannelBlock &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_d_a_c_control_block_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::DACControlBlock &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_correlation_calib_matrix_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseCorrelationCalibMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_correlation_calib_row_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseCorrelationCalibRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_label_matrix_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseLabelMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_label_row_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseLabelRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_matrix_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_row_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseRow &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_weight_matrix_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseWeightMatrix &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_weight_row_01_4" prot="public">haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseWeightRow &gt;</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacehaldls_1_1vx_1_1detail_1a29cccb3127c963f4dfc75529a2148f17" prot="public" static="no" mutable="no">
+        <type>haldls::vx::detail::BackendContainerTrait&lt; <ref refid="classlola_1_1vx_1_1_c_a_d_c_sample_row" kindref="compound">lola::vx::CADCSampleRow</ref> &gt; &amp;</type>
+        <definition> haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CADCSampleRow &gt;&amp;  haldls::vx::detail::operator</definition>
+        <argsstring></argsstring>
+        <name>operator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" line="150" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/cadc.h" line="145" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,5 @@
+<map id="stadls::vx::detail::InitGenerator" name="stadls::vx::detail::InitGenerator">
+<area shape="rect" id="node1" title="Generator for an initialization of the xBoard and the chip up to allowing access to all digital setti..." alt="" coords="106,5,222,49"/>
+<area shape="rect" id="node2" href="$classstadls_1_1vx_1_1_digital_init.html" title="Generator for initialization of the chip up to digital communication." alt="" coords="5,97,144,125"/>
+<area shape="rect" id="node3" href="$classstadls_1_1vx_1_1_experiment_init.html" title="Generator for initialization required for typical experiments." alt="" coords="169,97,338,125"/>
+</map>

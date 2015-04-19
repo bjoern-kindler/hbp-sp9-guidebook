@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1NeuronConfig_1_1ExponentialTermStrength" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::NeuronConfig::ExponentialTermStrength</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; ExponentialTermStrength, uint_fast8_t, 7, 0 &gt;</basecompoundref>
+    <includes refid="vx_2neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1NeuronConfig_1_1ExponentialTermStrength_1a5491ec3a0c420c15532794382f6e9021" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::NeuronConfig::ExponentialTermStrength::ExponentialTermStrength</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>ExponentialTermStrength</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/neuron.h" line="424" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/neuron.h" bodystart="424" bodyend="427"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Strength of exponential term. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1013">
+        <label>haldls::vx::NeuronConfig::ExponentialTermStrength</label>
+        <link refid="structhaldls_1_1vx_1_1NeuronConfig_1_1ExponentialTermStrength"/>
+        <childnode refid="1014" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1014">
+        <label>halco::common::detail::RantWrapper&lt; ExponentialTermStrength, uint_fast8_t, 7, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1015">
+        <label>haldls::vx::NeuronConfig::ExponentialTermStrength</label>
+        <link refid="structhaldls_1_1vx_1_1NeuronConfig_1_1ExponentialTermStrength"/>
+        <childnode refid="1016" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1016">
+        <label>halco::common::detail::RantWrapper&lt; ExponentialTermStrength, uint_fast8_t, 7, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/neuron.h" line="423" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/neuron.h" bodystart="421" bodyend="428"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1NeuronConfig_1_1ExponentialTermStrength_1a5491ec3a0c420c15532794382f6e9021" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronConfig::ExponentialTermStrength</scope><name>ExponentialTermStrength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

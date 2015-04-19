@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1v2_1_1SynapseBlock_1_1Synapse_1_1Weight" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::v2::SynapseBlock::Synapse::Weight</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; Weight, uint_fast16_t, 63, 0 &gt;</basecompoundref>
+    <includes refid="v2_2synapse_8h" local="no">synapse.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1SynapseBlock_1_1Synapse_1_1Weight_1a702337ce485bf7971b36feebcf8165e6" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::v2::SynapseBlock::Synapse::Weight::Weight</definition>
+        <argsstring>(uintmax_t const val=0) SYMBOL_VISIBLE</argsstring>
+        <name>Weight</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapse.h" line="131" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapse.h" bodystart="131" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1628">
+        <label>haldls::v2::SynapseBlock::Synapse::Weight</label>
+        <link refid="structhaldls_1_1v2_1_1SynapseBlock_1_1Synapse_1_1Weight"/>
+        <childnode refid="1629" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1629">
+        <label>halco::common::detail::RantWrapper&lt; Weight, uint_fast16_t, 63, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1630">
+        <label>haldls::v2::SynapseBlock::Synapse::Weight</label>
+        <link refid="structhaldls_1_1v2_1_1SynapseBlock_1_1Synapse_1_1Weight"/>
+        <childnode refid="1631" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1631">
+        <label>halco::common::detail::RantWrapper&lt; Weight, uint_fast16_t, 63, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapse.h" line="130" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapse.h" bodystart="129" bodyend="132"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1v2_1_1SynapseBlock_1_1Synapse_1_1Weight_1a702337ce485bf7971b36feebcf8165e6" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseBlock::Synapse::Weight</scope><name>Weight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

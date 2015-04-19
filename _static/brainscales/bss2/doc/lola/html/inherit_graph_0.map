@@ -1,0 +1,27 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,1020,167,1048"/>
+<area shape="rect" id="node2" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_d_a_c_channel_block_01_4.html" title=" " alt="" coords="235,5,439,65"/>
+<area shape="rect" id="node3" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_d_a_c_control_block_01_4.html" title=" " alt="" coords="238,89,435,149"/>
+<area shape="rect" id="node4" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1v1_1_1_c_a_d_c_sample_row_01_4.html" title=" " alt="" coords="225,173,449,233"/>
+<area shape="rect" id="node5" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1v1_1_1_c_a_d_c_samples_01_4.html" title=" " alt="" coords="235,257,439,317"/>
+<area shape="rect" id="node6" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1v1_1_1_correlation_reset_row_01_4.html" title=" " alt="" coords="216,341,458,401"/>
+<area shape="rect" id="node7" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1v1_1_1_synapse_correlation_calib_matrix_01_4.html" title=" " alt="" coords="227,425,447,501"/>
+<area shape="rect" id="node8" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1v1_1_1_synapse_correlation_calib_row_01_4.html" title=" " alt="" coords="227,525,447,601"/>
+<area shape="rect" id="node9" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1v1_1_1_synapse_label_matrix_01_4.html" title=" " alt="" coords="219,625,455,685"/>
+<area shape="rect" id="node10" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1v1_1_1_synapse_label_row_01_4.html" title=" " alt="" coords="224,709,450,769"/>
+<area shape="rect" id="node11" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1v1_1_1_synapse_matrix_01_4.html" title=" " alt="" coords="235,793,438,853"/>
+<area shape="rect" id="node12" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1v1_1_1_synapse_row_01_4.html" title=" " alt="" coords="240,877,434,937"/>
+<area shape="rect" id="node13" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1v1_1_1_synapse_weight_matrix_01_4.html" title=" " alt="" coords="215,961,459,1021"/>
+<area shape="rect" id="node14" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1v1_1_1_synapse_weight_row_01_4.html" title=" " alt="" coords="220,1045,454,1105"/>
+<area shape="rect" id="node15" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1v2_1_1_c_a_d_c_sample_row_01_4.html" title=" " alt="" coords="225,1129,449,1189"/>
+<area shape="rect" id="node16" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1v2_1_1_c_a_d_c_samples_01_4.html" title=" " alt="" coords="235,1213,439,1273"/>
+<area shape="rect" id="node17" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1v2_1_1_correlation_reset_row_01_4.html" title=" " alt="" coords="216,1297,458,1357"/>
+<area shape="rect" id="node18" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1v2_1_1_synapse_correlation_calib_matrix_01_4.html" title=" " alt="" coords="227,1381,447,1457"/>
+<area shape="rect" id="node19" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1v2_1_1_synapse_correlation_calib_row_01_4.html" title=" " alt="" coords="227,1481,447,1557"/>
+<area shape="rect" id="node20" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1v2_1_1_synapse_label_matrix_01_4.html" title=" " alt="" coords="219,1581,455,1641"/>
+<area shape="rect" id="node21" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1v2_1_1_synapse_label_row_01_4.html" title=" " alt="" coords="224,1665,450,1725"/>
+<area shape="rect" id="node22" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1v2_1_1_synapse_matrix_01_4.html" title=" " alt="" coords="235,1749,438,1809"/>
+<area shape="rect" id="node23" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1v2_1_1_synapse_row_01_4.html" title=" " alt="" coords="240,1833,434,1893"/>
+<area shape="rect" id="node24" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1v2_1_1_synapse_weight_matrix_01_4.html" title=" " alt="" coords="215,1917,459,1977"/>
+<area shape="rect" id="node25" href="$structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1v2_1_1_synapse_weight_row_01_4.html" title=" " alt="" coords="220,2001,454,2061"/>
+</map>

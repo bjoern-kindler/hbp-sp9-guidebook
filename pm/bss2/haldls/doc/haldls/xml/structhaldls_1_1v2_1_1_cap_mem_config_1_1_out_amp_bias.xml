@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1v2_1_1_cap_mem_config_1_1_out_amp_bias" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::v2::CapMemConfig::OutAmpBias</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; OutAmpBias, uint_fast16_t, 15, 0 &gt;</basecompoundref>
+    <includes refid="v2_2capmem_8h" local="no">capmem.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1_cap_mem_config_1_1_out_amp_bias_1a6860cee346fea69cd45fc2a4e2d6c427" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::v2::CapMemConfig::OutAmpBias::OutAmpBias</definition>
+        <argsstring>(uintmax_t const val=0) SYMBOL_VISIBLE</argsstring>
+        <name>OutAmpBias</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" line="106" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" bodystart="106" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1129">
+        <label>haldls::v2::CapMemConfig::OutAmpBias</label>
+        <link refid="structhaldls_1_1v2_1_1_cap_mem_config_1_1_out_amp_bias"/>
+        <childnode refid="1130" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1130">
+        <label>halco::common::detail::RantWrapper&lt; OutAmpBias, uint_fast16_t, 15, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1131">
+        <label>haldls::v2::CapMemConfig::OutAmpBias</label>
+        <link refid="structhaldls_1_1v2_1_1_cap_mem_config_1_1_out_amp_bias"/>
+        <childnode refid="1132" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1132">
+        <label>halco::common::detail::RantWrapper&lt; OutAmpBias, uint_fast16_t, 15, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" line="105" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" bodystart="103" bodyend="107"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1v2_1_1_cap_mem_config_1_1_out_amp_bias_1a6860cee346fea69cd45fc2a4e2d6c427" prot="public" virt="non-virtual"><scope>haldls::v2::CapMemConfig::OutAmpBias</scope><name>OutAmpBias</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

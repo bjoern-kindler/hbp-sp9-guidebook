@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_ea6d6383b1cb99929c3c4402cb0b523b" kind="dir">
+    <compoundname>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2</compoundname>
+    <innerfile refid="board_8h">board.h</innerfile>
+    <innerfile refid="v2_2capmem_8h">capmem.h</innerfile>
+    <innerfile refid="chip_8h">chip.h</innerfile>
+    <innerfile refid="v2_2common_8h">common.h</innerfile>
+    <innerfile refid="v2_2container_8h">container.h</innerfile>
+    <innerfile refid="v2_2correlation_8h">correlation.h</innerfile>
+    <innerfile refid="dac_8h">dac.h</innerfile>
+    <innerfile refid="v2_2fpga_8h">fpga.h</innerfile>
+    <innerfile refid="v2_2genpybind_8h">genpybind.h</innerfile>
+    <innerfile refid="v2_2neuron_8h">neuron.h</innerfile>
+    <innerfile refid="playback_8h">playback.h</innerfile>
+    <innerfile refid="v2_2ppu_8h">ppu.h</innerfile>
+    <innerfile refid="rate__counter_8h">rate_counter.h</innerfile>
+    <innerfile refid="spike_8h">spike.h</innerfile>
+    <innerfile refid="v2_2synapse_8h">synapse.h</innerfile>
+    <innerfile refid="synapsedriver_8h">synapsedriver.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/"/>
+  </compounddef>
+</doxygen>

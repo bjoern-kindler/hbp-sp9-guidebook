@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1_reference_generator_config_1_1_cap_mem_amplifier" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::ReferenceGeneratorConfig::CapMemAmplifier</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; CapMemAmplifier, uint_fast8_t, 63, 0 &gt;</basecompoundref>
+    <includes refid="capmem_8h" local="no">capmem.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1_reference_generator_config_1_1_cap_mem_amplifier_1a90c8a34f831e903294926bd86c00acad" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::ReferenceGeneratorConfig::CapMemAmplifier::CapMemAmplifier</definition>
+        <argsstring>(uintmax_t const val=60)</argsstring>
+        <name>CapMemAmplifier</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>60</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="416" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" bodystart="416" bodyend="419"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="915">
+        <label>halco::common::detail::RantWrapper&lt; CapMemAmplifier, uint_fast8_t, 63, 0 &gt;</label>
+      </node>
+      <node id="914">
+        <label>haldls::ReferenceGeneratorConfig::CapMemAmplifier</label>
+        <link refid="structhaldls_1_1_reference_generator_config_1_1_cap_mem_amplifier"/>
+        <childnode refid="915" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="917">
+        <label>halco::common::detail::RantWrapper&lt; CapMemAmplifier, uint_fast8_t, 63, 0 &gt;</label>
+      </node>
+      <node id="916">
+        <label>haldls::ReferenceGeneratorConfig::CapMemAmplifier</label>
+        <link refid="structhaldls_1_1_reference_generator_config_1_1_cap_mem_amplifier"/>
+        <childnode refid="917" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="415" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" bodystart="413" bodyend="420"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1_reference_generator_config_1_1_cap_mem_amplifier_1a90c8a34f831e903294926bd86c00acad" prot="public" virt="non-virtual"><scope>haldls::ReferenceGeneratorConfig::CapMemAmplifier</scope><name>CapMemAmplifier</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

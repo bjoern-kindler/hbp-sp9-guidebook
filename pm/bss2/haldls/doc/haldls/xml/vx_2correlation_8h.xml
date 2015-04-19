@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="vx_2correlation_8h" kind="file" language="C++">
+    <compoundname>correlation.h</compoundname>
+    <includes local="yes">halco/common/geometry.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/correlation.h</includes>
+    <includes refid="vx_2genpybind_8h" local="yes">haldls/vx/genpybind.h</includes>
+    <includes refid="traits_8h" local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">hate/math.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includedby refid="vx_2container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/container.h</includedby>
+    <incdepgraph>
+      <node id="260">
+        <label>fisch/vx/container.def</label>
+      </node>
+      <node id="255">
+        <label>boost/variant.hpp</label>
+      </node>
+      <node id="251">
+        <label>halco/hicann-dls/vx/correlation.h</label>
+      </node>
+      <node id="252">
+        <label>haldls/vx/genpybind.h</label>
+        <link refid="vx_2genpybind_8h"/>
+        <childnode refid="252" relation="include">
+        </childnode>
+      </node>
+      <node id="250">
+        <label>halco/common/geometry.h</label>
+      </node>
+      <node id="256">
+        <label>fisch/vx/container_fwd.h</label>
+      </node>
+      <node id="259">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="257">
+        <label>fisch/vx/container_ticket.h</label>
+      </node>
+      <node id="261">
+        <label>hate/math.h</label>
+      </node>
+      <node id="253">
+        <label>haldls/vx/traits.h</label>
+        <link refid="traits_8h"/>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+        <childnode refid="256" relation="include">
+        </childnode>
+        <childnode refid="257" relation="include">
+        </childnode>
+        <childnode refid="252" relation="include">
+        </childnode>
+        <childnode refid="258" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
+        </childnode>
+        <childnode refid="260" relation="include">
+        </childnode>
+      </node>
+      <node id="254">
+        <label>type_traits</label>
+      </node>
+      <node id="249">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/correlation.h</label>
+        <link refid="vx_2correlation_8h"/>
+        <childnode refid="250" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="252" relation="include">
+        </childnode>
+        <childnode refid="253" relation="include">
+        </childnode>
+        <childnode refid="261" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
+        </childnode>
+      </node>
+      <node id="258">
+        <label>hate/type_list.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="265">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/is_readable.h</label>
+        <link refid="is__readable_8h"/>
+      </node>
+      <node id="263">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/container.h</label>
+        <link refid="vx_2container_8h"/>
+        <childnode refid="264" relation="include">
+        </childnode>
+        <childnode refid="265" relation="include">
+        </childnode>
+      </node>
+      <node id="264">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/haldls.h</label>
+        <link refid="haldls_8h"/>
+      </node>
+      <node id="262">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/correlation.h</label>
+        <link refid="vx_2correlation_8h"/>
+        <childnode refid="263" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_common_correlation_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CommonCorrelationConfig &gt;</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_common_correlation_config" prot="public">haldls::vx::CommonCorrelationConfig</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_common_correlation_config_1_1_reset_duration" prot="public">haldls::vx::CommonCorrelationConfig::ResetDuration</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_common_correlation_config_1_1_reset_fall_time" prot="public">haldls::vx::CommonCorrelationConfig::ResetFallTime</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_common_correlation_config_1_1_sense_delay" prot="public">haldls::vx::CommonCorrelationConfig::SenseDelay</innerclass>
+    <innernamespace refid="namespacecereal">cereal</innernamespace>
+    <innernamespace refid="namespacefisch">fisch</innernamespace>
+    <innernamespace refid="namespacefisch_1_1vx">fisch::vx</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/correlation.h"/>
+  </compounddef>
+</doxygen>

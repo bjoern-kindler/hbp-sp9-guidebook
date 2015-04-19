@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1CommonCorrelationConfig_1_1ResetDuration" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::CommonCorrelationConfig::ResetDuration</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail:: RantWrapper&lt; ResetDuration, uint_fast16_t, hate::math::pow(2, 12) - 1, 0 &gt;</basecompoundref>
+    <includes refid="vx_2correlation_8h" local="no">correlation.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1CommonCorrelationConfig_1_1ResetDuration_1aa24020328970867eb452bfc76f79145e" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::CommonCorrelationConfig::ResetDuration::ResetDuration</definition>
+        <argsstring>(uintmax_t const val=200)</argsstring>
+        <name>ResetDuration</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>200</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/correlation.h" line="51" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/correlation.h" bodystart="51" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Duration of correlation reset for synapses (+3 ppu clock cycles). </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Determines how long the measurement capacitor is connected to the reset voltage. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1336">
+        <label>haldls::vx::CommonCorrelationConfig::ResetDuration</label>
+        <link refid="structhaldls_1_1vx_1_1CommonCorrelationConfig_1_1ResetDuration"/>
+        <childnode refid="1337" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1337">
+        <label>halco::common::detail:: RantWrapper&lt; ResetDuration, uint_fast16_t, hate::math::pow(2, 12) - 1, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1338">
+        <label>haldls::vx::CommonCorrelationConfig::ResetDuration</label>
+        <link refid="structhaldls_1_1vx_1_1CommonCorrelationConfig_1_1ResetDuration"/>
+        <childnode refid="1339" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1339">
+        <label>halco::common::detail:: RantWrapper&lt; ResetDuration, uint_fast16_t, hate::math::pow(2, 12) - 1, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/correlation.h" line="50" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/correlation.h" bodystart="47" bodyend="54"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1CommonCorrelationConfig_1_1ResetDuration_1aa24020328970867eb452bfc76f79145e" prot="public" virt="non-virtual"><scope>haldls::vx::CommonCorrelationConfig::ResetDuration</scope><name>ResetDuration</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

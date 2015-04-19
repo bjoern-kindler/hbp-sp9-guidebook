@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1_synapse_correlation_calib_quad_1_1_amp_calib" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::SynapseCorrelationCalibQuad::AmpCalib</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; AmpCalib, uint8_t, 3, 0 &gt;</basecompoundref>
+    <includes refid="synapse_8h" local="no">synapse.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_synapse_correlation_calib_quad_1_1_amp_calib_1a6e754fcb5a4eb22a92118048fe6bfcdf" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::SynapseCorrelationCalibQuad::AmpCalib::AmpCalib</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>AmpCalib</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/synapse.h" line="259" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/synapse.h" bodystart="259" bodyend="261"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="19">
+        <label>halco::common::detail::RantWrapper&lt; AmpCalib, uint8_t, 3, 0 &gt;</label>
+      </node>
+      <node id="18">
+        <label>haldls::vx::SynapseCorrelationCalibQuad::AmpCalib</label>
+        <link refid="structhaldls_1_1vx_1_1_synapse_correlation_calib_quad_1_1_amp_calib"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="21">
+        <label>halco::common::detail::RantWrapper&lt; AmpCalib, uint8_t, 3, 0 &gt;</label>
+      </node>
+      <node id="20">
+        <label>haldls::vx::SynapseCorrelationCalibQuad::AmpCalib</label>
+        <link refid="structhaldls_1_1vx_1_1_synapse_correlation_calib_quad_1_1_amp_calib"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/synapse.h" line="258" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/synapse.h" bodystart="256" bodyend="262"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_synapse_correlation_calib_quad_1_1_amp_calib_1a6e754fcb5a4eb22a92118048fe6bfcdf" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseCorrelationCalibQuad::AmpCalib</scope><name>AmpCalib</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

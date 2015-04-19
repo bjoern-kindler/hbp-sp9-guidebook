@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period" kind="struct" language="C++" prot="public">
+    <compoundname>lola::vx::AtomicNeuron::RefractoryPeriod</compoundname>
+    <includes refid="neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a077b37903c393bcd2734d48ccdb14237" prot="public" static="no">
+        <type>haldls::vx::NeuronBackendConfig::InputClock</type>
+        <definition>typedef haldls::vx::NeuronBackendConfig::InputClock lola::vx::AtomicNeuron::RefractoryPeriod::InputClock</definition>
+        <argsstring></argsstring>
+        <name>InputClock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="418" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="418" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a5cb2122ef029ca03e541a45779a67163" prot="public" static="no">
+        <type>haldls::vx::NeuronBackendConfig::RefractoryTime</type>
+        <definition>typedef haldls::vx::NeuronBackendConfig::RefractoryTime lola::vx::AtomicNeuron::RefractoryPeriod::RefractoryTime</definition>
+        <argsstring></argsstring>
+        <name>RefractoryTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="420" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="420" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1ac69401d20e05c80869da53f3dd91bf76" prot="public" static="no">
+        <type>haldls::vx::NeuronBackendConfig::ResetHoldoff</type>
+        <definition>typedef haldls::vx::NeuronBackendConfig::ResetHoldoff lola::vx::AtomicNeuron::RefractoryPeriod::ResetHoldoff</definition>
+        <argsstring></argsstring>
+        <name>ResetHoldoff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="419" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="419" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a3b21f11c01fbdce3f6cda917bddddfbc" prot="public" static="no" mutable="no">
+        <type><ref refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a077b37903c393bcd2734d48ccdb14237" kindref="member">InputClock</ref></type>
+        <definition>InputClock lola::vx::AtomicNeuron::RefractoryPeriod::input_clock</definition>
+        <argsstring></argsstring>
+        <name>input_clock</name>
+        <briefdescription>
+<para>Select between the two input clocks specified in the common neuron backend. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>A value of 0 refers to the setting called &quot;slow&quot;, a value of 1 selects the &quot;fast&quot; clock. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="426" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="426" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a9e3dd64179f7d59650e244f30003a845" prot="public" static="no" mutable="no">
+        <type><ref refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a5cb2122ef029ca03e541a45779a67163" kindref="member">RefractoryTime</ref></type>
+        <definition>RefractoryTime lola::vx::AtomicNeuron::RefractoryPeriod::refractory_time</definition>
+        <argsstring></argsstring>
+        <name>refractory_time</name>
+        <briefdescription>
+<para>Counter value to control refractory time. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Beginning with a spike, the counter is increased with the selected input clock. Once the given value is reached, the refractory period ends. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="439" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="439" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a8ed0af4d210cceed5b1190b38264efa4" prot="public" static="no" mutable="no">
+        <type><ref refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1ac69401d20e05c80869da53f3dd91bf76" kindref="member">ResetHoldoff</ref></type>
+        <definition>ResetHoldoff lola::vx::AtomicNeuron::RefractoryPeriod::reset_holdoff</definition>
+        <argsstring></argsstring>
+        <name>reset_holdoff</name>
+        <briefdescription>
+<para>Prevent the neuron from spiking again for some period of time after the refractory time ends. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>A value of 15 indicates the neuron can spike again immediately. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="432" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="432" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a9ed10a63591aa68ac37bb36e4b0fc924" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::AtomicNeuron::RefractoryPeriod::RefractoryPeriod</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>RefractoryPeriod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="441" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a57364db6e25619ab9dc760c2578bd832" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::AtomicNeuron::RefractoryPeriod::operator!=</definition>
+        <argsstring>(RefractoryPeriod const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period" kindref="compound">RefractoryPeriod</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="444" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a8b8feb1a174307fe9ac7bb43cfb2d9a2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::AtomicNeuron::RefractoryPeriod::operator==</definition>
+        <argsstring>(RefractoryPeriod const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period" kindref="compound">RefractoryPeriod</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="443" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1aecec8b6fb954425bb60eed3dc60d9be6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, RefractoryPeriod const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period" kindref="compound">RefractoryPeriod</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="447" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="417" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="416" bodyend="449"/>
+    <listofallmembers>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a3b21f11c01fbdce3f6cda917bddddfbc" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::RefractoryPeriod</scope><name>input_clock</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a077b37903c393bcd2734d48ccdb14237" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::RefractoryPeriod</scope><name>InputClock</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a57364db6e25619ab9dc760c2578bd832" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::RefractoryPeriod</scope><name>operator!=</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1aecec8b6fb954425bb60eed3dc60d9be6" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::RefractoryPeriod</scope><name>operator&lt;&lt;</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a8b8feb1a174307fe9ac7bb43cfb2d9a2" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::RefractoryPeriod</scope><name>operator==</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a9e3dd64179f7d59650e244f30003a845" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::RefractoryPeriod</scope><name>refractory_time</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a9ed10a63591aa68ac37bb36e4b0fc924" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::RefractoryPeriod</scope><name>RefractoryPeriod</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a5cb2122ef029ca03e541a45779a67163" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::RefractoryPeriod</scope><name>RefractoryTime</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a8ed0af4d210cceed5b1190b38264efa4" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::RefractoryPeriod</scope><name>reset_holdoff</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1ac69401d20e05c80869da53f3dd91bf76" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::RefractoryPeriod</scope><name>ResetHoldoff</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

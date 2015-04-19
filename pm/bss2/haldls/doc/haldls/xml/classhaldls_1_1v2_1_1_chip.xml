@@ -1,0 +1,1126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classhaldls_1_1v2_1_1_chip" kind="class" language="C++" prot="public">
+    <compoundname>haldls::v2::Chip</compoundname>
+    <includes refid="chip_8h" local="no">chip.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1_chip_1a9feaced2f7add112b90bb23835fc1a3e" prot="public" static="no">
+        <type>halco::common::Unique</type>
+        <definition>typedef halco::common::Unique haldls::v2::Chip::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="28" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1_chip_1a64495c7f728058a747a51eba57f37084" prot="public" static="no">
+        <type>std::false_type</type>
+        <definition>typedef std::false_type haldls::v2::Chip::has_local_data</definition>
+        <argsstring></argsstring>
+        <name>has_local_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="29" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1v2_1_1_chip_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="162" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_chip_1a76f749ba1403558c9f289adb83e0434d" prot="private" static="no" mutable="no">
+        <type>halco::common::typed_array&lt; <ref refid="classhaldls_1_1v2_1_1_acausal_correlation_block" kindref="compound">AcausalCorrelationBlock</ref>, halco::hicann_dls::v2::AcausalCorrelationBlockOnDLS &gt;</type>
+        <definition>halco::common:: typed_array&lt;AcausalCorrelationBlock, halco::hicann_dls::v2::AcausalCorrelationBlockOnDLS&gt; haldls::v2::Chip::m_acausal_correlation_blocks</definition>
+        <argsstring></argsstring>
+        <name>m_acausal_correlation_blocks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="180" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_chip_1a5fcdc291c2a7e3e918e18cebffc29e5d" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1v2_1_1_cap_mem" kindref="compound">CapMem</ref></type>
+        <definition>CapMem haldls::v2::Chip::m_capmem</definition>
+        <argsstring></argsstring>
+        <name>m_capmem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="181" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_chip_1a9f6b8b9531515e4883f9fccabd76ba13" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1v2_1_1_cap_mem_config" kindref="compound">CapMemConfig</ref></type>
+        <definition>CapMemConfig haldls::v2::Chip::m_capmem_config</definition>
+        <argsstring></argsstring>
+        <name>m_capmem_config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="190" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_chip_1a10a14f26663ac8e3db6c2d39b31830f4" prot="private" static="no" mutable="no">
+        <type>halco::common::typed_array&lt; <ref refid="classhaldls_1_1v2_1_1_causal_correlation_block" kindref="compound">CausalCorrelationBlock</ref>, halco::hicann_dls::v2::CausalCorrelationBlockOnDLS &gt;</type>
+        <definition>halco::common:: typed_array&lt;CausalCorrelationBlock, halco::hicann_dls::v2::CausalCorrelationBlockOnDLS&gt; haldls::v2::Chip::m_causal_correlation_blocks</definition>
+        <argsstring></argsstring>
+        <name>m_causal_correlation_blocks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="177" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_chip_1a33026538eb77ea32fa06507b5a13b9e5" prot="private" static="no" mutable="no">
+        <type>halco::common::typed_array&lt; <ref refid="classhaldls_1_1v2_1_1_column_correlation_block" kindref="compound">ColumnCorrelationBlock</ref>, halco::hicann_dls::v2::ColumnCorrelationBlockOnDLS &gt;</type>
+        <definition>halco::common:: typed_array&lt;ColumnCorrelationBlock, halco::hicann_dls::v2::ColumnCorrelationBlockOnDLS&gt; haldls::v2::Chip::m_correlation_blocks</definition>
+        <argsstring></argsstring>
+        <name>m_correlation_blocks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="172" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_chip_1abfd2ffdb809b237b9c9779f0ba17e945" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1v2_1_1_correlation_config" kindref="compound">CorrelationConfig</ref></type>
+        <definition>CorrelationConfig haldls::v2::Chip::m_correlation_config</definition>
+        <argsstring></argsstring>
+        <name>m_correlation_config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="192" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_chip_1a2cc52b2211e44678b48d6ef51d133ab5" prot="private" static="no" mutable="no">
+        <type>halco::common::typed_array&lt; <ref refid="classhaldls_1_1v2_1_1_column_current_block" kindref="compound">ColumnCurrentBlock</ref>, halco::hicann_dls::v2::ColumnCurrentBlockOnDLS &gt;</type>
+        <definition>halco::common::typed_array&lt;ColumnCurrentBlock, halco::hicann_dls::v2::ColumnCurrentBlockOnDLS&gt; haldls::v2::Chip::m_current_blocks</definition>
+        <argsstring></argsstring>
+        <name>m_current_blocks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="174" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_chip_1ab4fc83d70e3ca19b4bef0e692efca0a7" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1v2_1_1_common_neuron_config" kindref="compound">CommonNeuronConfig</ref></type>
+        <definition>CommonNeuronConfig haldls::v2::Chip::m_neuron_config</definition>
+        <argsstring></argsstring>
+        <name>m_neuron_config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="191" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_chip_1abef21751fd42ed82d8e223e5f86cacaf" prot="private" static="no" mutable="no">
+        <type>halco::common::typed_array&lt; <ref refid="classhaldls_1_1v2_1_1_neuron_digital_config" kindref="compound">NeuronDigitalConfig</ref>, halco::hicann_dls::v2::NeuronOnDLS &gt;</type>
+        <definition>halco::common::typed_array&lt;NeuronDigitalConfig, halco::hicann_dls::v2::NeuronOnDLS&gt; haldls::v2::Chip::m_neuron_digital_configs</definition>
+        <argsstring></argsstring>
+        <name>m_neuron_digital_configs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="167" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_chip_1a33bef8835260b5ef998b56b4d1ddfc5f" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1v2_1_1_p_p_u_control_register" kindref="compound">PPUControlRegister</ref></type>
+        <definition>PPUControlRegister haldls::v2::Chip::m_ppu_control_register</definition>
+        <argsstring></argsstring>
+        <name>m_ppu_control_register</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="183" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_chip_1a344716f611b248d88121d71b36de25ed" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1v2_1_1_p_p_u_memory" kindref="compound">PPUMemory</ref></type>
+        <definition>PPUMemory haldls::v2::Chip::m_ppu_memory</definition>
+        <argsstring></argsstring>
+        <name>m_ppu_memory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="182" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_chip_1a5790350bea54b4749cb88793dd3881d9" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1v2_1_1_p_p_u_status_register" kindref="compound">PPUStatusRegister</ref></type>
+        <definition>PPUStatusRegister haldls::v2::Chip::m_ppu_status_register</definition>
+        <argsstring></argsstring>
+        <name>m_ppu_status_register</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="184" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_chip_1ab2a199eb6352b19cd36c354ff89ae51c" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1v2_1_1_rate_counter" kindref="compound">RateCounter</ref></type>
+        <definition>RateCounter haldls::v2::Chip::m_rate_counter</definition>
+        <argsstring></argsstring>
+        <name>m_rate_counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="185" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_chip_1ad90793237f1e94c58da43cc5099a10ba" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1v2_1_1_rate_counter_config" kindref="compound">RateCounterConfig</ref></type>
+        <definition>RateCounterConfig haldls::v2::Chip::m_rate_counter_config</definition>
+        <argsstring></argsstring>
+        <name>m_rate_counter_config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="186" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_chip_1a009f932de65b25142e7ffc992fd804b5" prot="private" static="no" mutable="no">
+        <type>halco::common::typed_array&lt; <ref refid="classhaldls_1_1v2_1_1_synapse_block" kindref="compound">SynapseBlock</ref>, halco::hicann_dls::v2::SynapseBlockOnDLS &gt;</type>
+        <definition>halco::common::typed_array&lt;SynapseBlock, halco::hicann_dls::v2::SynapseBlockOnDLS&gt; haldls::v2::Chip::m_synapse_blocks</definition>
+        <argsstring></argsstring>
+        <name>m_synapse_blocks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="169" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_chip_1a7824de11d4fcd493f7d8c4b17387331c" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1v2_1_1_synapse_driver_block" kindref="compound">SynapseDriverBlock</ref></type>
+        <definition>SynapseDriverBlock haldls::v2::Chip::m_synapse_drivers</definition>
+        <argsstring></argsstring>
+        <name>m_synapse_drivers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="188" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_chip_1abeb8c833b8686db6a5683dd4e48924d0" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1v2_1_1_common_synram_config" kindref="compound">CommonSynramConfig</ref></type>
+        <definition>CommonSynramConfig haldls::v2::Chip::m_synram_config</definition>
+        <argsstring></argsstring>
+        <name>m_synram_config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="189" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a0932ee4592d0d4b5763cc55541083541" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::Chip::Chip</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>Chip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a1aad7fe4cb1bfcbd7f21826c6bd47d6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::Chip::disable_buffered_readout</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>disable_buffered_readout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a4071435940d6ca1a39b90af424106267" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::Chip::enable_buffered_readout</definition>
+        <argsstring>(halco::hicann_dls::v2::NeuronOnDLS const &amp;neuron) SYMBOL_VISIBLE</argsstring>
+        <name>enable_buffered_readout</name>
+        <param>
+          <type>halco::hicann_dls::v2::NeuronOnDLS const &amp;</type>
+          <declname>neuron</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a7d546fdde2ef065aeaa0fec702bd8cec" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1v2_1_1detail_1_1_correlation_block_base_1_1_correlation" kindref="compound">AcausalCorrelationBlock::Correlation</ref></type>
+        <definition>AcausalCorrelationBlock::Correlation haldls::v2::Chip::get_acausal_correlation</definition>
+        <argsstring>(halco::hicann_dls::v2::AcausalCorrelationOnDLS const &amp;correlation) const SYMBOL_VISIBLE</argsstring>
+        <name>get_acausal_correlation</name>
+        <param>
+          <type>halco::hicann_dls::v2::AcausalCorrelationOnDLS const &amp;</type>
+          <declname>correlation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="101" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1afce2d2b197dcb2f82b18fc627ff4b349" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1v2_1_1_acausal_correlation_block" kindref="compound">AcausalCorrelationBlock</ref></type>
+        <definition>AcausalCorrelationBlock haldls::v2::Chip::get_acausal_correlation_block</definition>
+        <argsstring>(halco::hicann_dls::v2::AcausalCorrelationBlockOnDLS const &amp;block) const SYMBOL_VISIBLE</argsstring>
+        <name>get_acausal_correlation_block</name>
+        <param>
+          <type>halco::hicann_dls::v2::AcausalCorrelationBlockOnDLS const &amp;</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="97" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a38c760fa76fea90e086b73a3d1798de6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>hate::optional&lt; halco::hicann_dls::v2::NeuronOnDLS &gt;</type>
+        <definition>hate::optional&lt;halco::hicann_dls::v2::NeuronOnDLS&gt; haldls::v2::Chip::get_buffered_readout_neuron</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_buffered_readout_neuron</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1ad264c584d554472428dda93a69d20813" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>CausalCorrelationBlock::Correlation</type>
+        <definition>CausalCorrelationBlock::Correlation haldls::v2::Chip::get_causal_correlation</definition>
+        <argsstring>(halco::hicann_dls::v2::CausalCorrelationOnDLS const &amp;correlation) const SYMBOL_VISIBLE</argsstring>
+        <name>get_causal_correlation</name>
+        <param>
+          <type>halco::hicann_dls::v2::CausalCorrelationOnDLS const &amp;</type>
+          <declname>correlation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="93" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1af1c928b911d22b6aaaf037e924c1183a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1v2_1_1_causal_correlation_block" kindref="compound">CausalCorrelationBlock</ref></type>
+        <definition>CausalCorrelationBlock haldls::v2::Chip::get_causal_correlation_block</definition>
+        <argsstring>(halco::hicann_dls::v2::CausalCorrelationBlockOnDLS const &amp;block) const SYMBOL_VISIBLE</argsstring>
+        <name>get_causal_correlation_block</name>
+        <param>
+          <type>halco::hicann_dls::v2::CausalCorrelationBlockOnDLS const &amp;</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="89" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1ab79260d225e132ce597d62257a227747" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1v2_1_1_column_correlation_block" kindref="compound">ColumnCorrelationBlock</ref></type>
+        <definition>ColumnCorrelationBlock haldls::v2::Chip::get_column_correlation_block</definition>
+        <argsstring>(halco::hicann_dls::v2::ColumnCorrelationBlockOnDLS const &amp;column_block) const SYMBOL_VISIBLE</argsstring>
+        <name>get_column_correlation_block</name>
+        <param>
+          <type>halco::hicann_dls::v2::ColumnCorrelationBlockOnDLS const &amp;</type>
+          <declname>column_block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a00a3cb05d21fc46a908bdc61863ea40d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch" kindref="compound">ColumnCorrelationBlock::ColumnCorrelationSwitch</ref></type>
+        <definition>ColumnCorrelationBlock::ColumnCorrelationSwitch haldls::v2::Chip::get_column_correlation_switch</definition>
+        <argsstring>(halco::hicann_dls::v2::ColumnCorrelationSwitchOnDLS const &amp;correlation_switch) const SYMBOL_VISIBLE</argsstring>
+        <name>get_column_correlation_switch</name>
+        <param>
+          <type>halco::hicann_dls::v2::ColumnCorrelationSwitchOnDLS const &amp;</type>
+          <declname>correlation_switch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="69" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1ac3a2dcc39e280adc2e950819c7118435" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1v2_1_1_column_current_block" kindref="compound">ColumnCurrentBlock</ref></type>
+        <definition>ColumnCurrentBlock haldls::v2::Chip::get_column_current_block</definition>
+        <argsstring>(halco::hicann_dls::v2::ColumnCurrentBlockOnDLS const &amp;column_block) const SYMBOL_VISIBLE</argsstring>
+        <name>get_column_current_block</name>
+        <param>
+          <type>halco::hicann_dls::v2::ColumnCurrentBlockOnDLS const &amp;</type>
+          <declname>column_block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="75" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a2f646ed9721942bf26a468a8f638c8e9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1v2_1_1_column_current_block_1_1_column_current_switch" kindref="compound">ColumnCurrentBlock::ColumnCurrentSwitch</ref></type>
+        <definition>ColumnCurrentBlock::ColumnCurrentSwitch haldls::v2::Chip::get_column_current_switch</definition>
+        <argsstring>(halco::hicann_dls::v2::ColumnCurrentSwitchOnDLS const &amp;current_switch) const SYMBOL_VISIBLE</argsstring>
+        <name>get_column_current_switch</name>
+        <param>
+          <type>halco::hicann_dls::v2::ColumnCurrentSwitchOnDLS const &amp;</type>
+          <declname>current_switch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="81" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a612328e8d711cdc35f5078a9eb0ae6d8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1v2_1_1_neuron_digital_config" kindref="compound">NeuronDigitalConfig</ref></type>
+        <definition>NeuronDigitalConfig haldls::v2::Chip::get_neuron_digital_config</definition>
+        <argsstring>(halco::hicann_dls::v2::NeuronOnDLS const &amp;neuron) const SYMBOL_VISIBLE</argsstring>
+        <name>get_neuron_digital_config</name>
+        <param>
+          <type>halco::hicann_dls::v2::NeuronOnDLS const &amp;</type>
+          <declname>neuron</declname>
+        </param>
+        <briefdescription>
+<para>Returns the digital configuration of the specified neuron. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>To prevent misconfiguration, enabling the external current input and external voltage output switches is only possible on the <ref refid="classhaldls_1_1v2_1_1_chip" kindref="compound">Chip</ref> level. Consequently the corresponding bits of the returned configuration container are always disabled. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a4943b14632b9191a2fc1fbc78e9c9fd2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1v2_1_1_p_p_u_status_register" kindref="compound">PPUStatusRegister</ref></type>
+        <definition>PPUStatusRegister haldls::v2::Chip::get_ppu_status_register</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_ppu_status_register</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="121" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a97cdeadddfc5e0cfb80803bb693fe028" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1v2_1_1_rate_counter" kindref="compound">RateCounter</ref></type>
+        <definition>RateCounter haldls::v2::Chip::get_rate_counter</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_rate_counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="124" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a3fe1b8b0a97b087c16cdf36e9e31b665" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1v2_1_1_synapse_block_1_1_synapse" kindref="compound">SynapseBlock::Synapse</ref></type>
+        <definition>SynapseBlock::Synapse haldls::v2::Chip::get_synapse</definition>
+        <argsstring>(halco::hicann_dls::v2::SynapseOnDLS const &amp;synapse) const SYMBOL_VISIBLE</argsstring>
+        <name>get_synapse</name>
+        <param>
+          <type>halco::hicann_dls::v2::SynapseOnDLS const &amp;</type>
+          <declname>synapse</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="58" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a78ba79904d47b8792f56f67135294794" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1v2_1_1_synapse_block" kindref="compound">SynapseBlock</ref></type>
+        <definition>SynapseBlock haldls::v2::Chip::get_synapse_block</definition>
+        <argsstring>(halco::hicann_dls::v2::SynapseBlockOnDLS const &amp;synapse_block) const SYMBOL_VISIBLE</argsstring>
+        <name>get_synapse_block</name>
+        <param>
+          <type>halco::hicann_dls::v2::SynapseBlockOnDLS const &amp;</type>
+          <declname>synapse_block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1af084e5ac0e67e387cbd9e01ce1e1c9da" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::Chip::operator!=</definition>
+        <argsstring>(Chip const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_chip" kindref="compound">Chip</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="157" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1ab3c3b09aacd3a398f2c6071bff674458" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::Chip::operator==</definition>
+        <argsstring>(Chip const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_chip" kindref="compound">Chip</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="156" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a33bb0191ef597e2ccf72c53c72923d60" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::Chip::return_value_policy</definition>
+        <argsstring>(reference)) CapMem const &amp;get_capmem() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="104" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1aeae38c0ef0b73a1ed18b4d3ebe03c79d" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::Chip::return_value_policy</definition>
+        <argsstring>(reference)) PPUMemory const &amp;get_ppu_memory() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="109" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a280565b19f3d74a85c7bed08b962f40c" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::Chip::return_value_policy</definition>
+        <argsstring>(reference)) PPUControlRegister const &amp;get_ppu_control_register() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="114" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a141f75bf1fd00c8f79b300a46de2a4b5" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::Chip::return_value_policy</definition>
+        <argsstring>(reference)) RateCounterConfig const &amp;get_rate_counter_config() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="126" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1ac86192372f89cf3938f2370adb47a37d" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::Chip::return_value_policy</definition>
+        <argsstring>(reference)) SynapseDriverBlock const &amp;get_synapse_drivers() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="131" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a6eb1babc62baa60be1a81f16852fdc45" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::Chip::return_value_policy</definition>
+        <argsstring>(reference)) CommonSynramConfig const &amp;get_common_synram_config() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="136" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1ae2f4a903c7ecc08733cfa0548c5f397d" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::Chip::return_value_policy</definition>
+        <argsstring>(reference)) CapMemConfig const &amp;get_capmem_config() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="141" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1aa7c845d89752d4a3b56f14c687e37eaa" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::Chip::return_value_policy</definition>
+        <argsstring>(reference)) CommonNeuronConfig const &amp;get_common_neuron_config() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="146" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a7b9dacdbd7161a0be36caa775a99b3f3" prot="public" static="no" const="yes" explicit="no" inline="no" refqual="lvalue" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::Chip::return_value_policy</definition>
+        <argsstring>(reference)) CorrelationConfig const &amp;get_correlation_config() const SYMBOL_VISIBLE</argsstring>
+        <name>return_value_policy</name>
+        <param>
+          <type>reference</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="151" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1af6a27ff62ef8212235021fbe36b08e4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::Chip::set_capmem</definition>
+        <argsstring>(CapMem const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_capmem</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_cap_mem" kindref="compound">CapMem</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="107" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1ad5b7b8a64bf82b72aaa7ff908713dc0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::Chip::set_capmem_config</definition>
+        <argsstring>(CapMemConfig const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_capmem_config</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_cap_mem_config" kindref="compound">CapMemConfig</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="144" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a6af8597453aa61eb937d905c38ad0a14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::Chip::set_column_correlation_block</definition>
+        <argsstring>(halco::hicann_dls::v2::ColumnCorrelationBlockOnDLS const &amp;column_block, ColumnCorrelationBlock const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_column_correlation_block</name>
+        <param>
+          <type>halco::hicann_dls::v2::ColumnCorrelationBlockOnDLS const &amp;</type>
+          <declname>column_block</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_column_correlation_block" kindref="compound">ColumnCorrelationBlock</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a4bf7070187118154414ddbaf03f07385" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::Chip::set_column_correlation_switch</definition>
+        <argsstring>(halco::hicann_dls::v2::ColumnCorrelationSwitchOnDLS const &amp;correlation_switch, ColumnCorrelationBlock::ColumnCorrelationSwitch const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_column_correlation_switch</name>
+        <param>
+          <type>halco::hicann_dls::v2::ColumnCorrelationSwitchOnDLS const &amp;</type>
+          <declname>correlation_switch</declname>
+        </param>
+        <param>
+          <type><ref refid="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch" kindref="compound">ColumnCorrelationBlock::ColumnCorrelationSwitch</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1aa0ad61de3a000c76b6866a924d7f1212" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::Chip::set_column_current_block</definition>
+        <argsstring>(halco::hicann_dls::v2::ColumnCurrentBlockOnDLS const &amp;column_block, ColumnCurrentBlock const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_column_current_block</name>
+        <param>
+          <type>halco::hicann_dls::v2::ColumnCurrentBlockOnDLS const &amp;</type>
+          <declname>column_block</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_column_current_block" kindref="compound">ColumnCurrentBlock</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="77" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1aadc8396bcfb478289f9d8808d614de67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::Chip::set_column_current_switch</definition>
+        <argsstring>(halco::hicann_dls::v2::ColumnCurrentSwitchOnDLS const &amp;current_switch, ColumnCurrentBlock::ColumnCurrentSwitch const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_column_current_switch</name>
+        <param>
+          <type>halco::hicann_dls::v2::ColumnCurrentSwitchOnDLS const &amp;</type>
+          <declname>current_switch</declname>
+        </param>
+        <param>
+          <type><ref refid="structhaldls_1_1v2_1_1_column_current_block_1_1_column_current_switch" kindref="compound">ColumnCurrentBlock::ColumnCurrentSwitch</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="83" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1ac29f75f2ad199f630f24a1a5e7ddca25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::Chip::set_common_neuron_config</definition>
+        <argsstring>(CommonNeuronConfig const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_common_neuron_config</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_common_neuron_config" kindref="compound">CommonNeuronConfig</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="149" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a370af231bbc42454e4108a6801805361" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::Chip::set_common_synram_config</definition>
+        <argsstring>(CommonSynramConfig const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_common_synram_config</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_common_synram_config" kindref="compound">CommonSynramConfig</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="139" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a4759b38b2ed69b261fc6bea9a175d9ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::Chip::set_correlation_config</definition>
+        <argsstring>(CorrelationConfig const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_correlation_config</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_correlation_config" kindref="compound">CorrelationConfig</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="154" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1ab805351a8a8879cb79705c7a858dd2a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::Chip::set_neuron_digital_config</definition>
+        <argsstring>(halco::hicann_dls::v2::NeuronOnDLS const &amp;neuron, NeuronDigitalConfig value) SYMBOL_VISIBLE</argsstring>
+        <name>set_neuron_digital_config</name>
+        <param>
+          <type>halco::hicann_dls::v2::NeuronOnDLS const &amp;</type>
+          <declname>neuron</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_neuron_digital_config" kindref="compound">NeuronDigitalConfig</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Changes the digital configuration of the specified neuron. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>The state of the external current input and external voltage output switches is solely controlled through <ref refid="classhaldls_1_1v2_1_1_chip_1a4071435940d6ca1a39b90af424106267" kindref="member">enable_buffered_readout()</ref>. Corresponding settings of the passed-in configuration have no effect on the stored instance. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a57375d10cba6a971e1df85f259866ebb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::Chip::set_ppu_control_register</definition>
+        <argsstring>(PPUControlRegister const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_ppu_control_register</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_p_p_u_control_register" kindref="compound">PPUControlRegister</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="117" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a5fd56bbab99363d1d80014b6db6ced40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::Chip::set_ppu_memory</definition>
+        <argsstring>(PPUMemory const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_ppu_memory</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_p_p_u_memory" kindref="compound">PPUMemory</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="112" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a9ade6954203871c5cdd245968ee377b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::Chip::set_rate_counter_config</definition>
+        <argsstring>(RateCounterConfig const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_rate_counter_config</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_rate_counter_config" kindref="compound">RateCounterConfig</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="129" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1af3e3409c7372bf682f0e29ddfc0b40cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::Chip::set_synapse</definition>
+        <argsstring>(halco::hicann_dls::v2::SynapseOnDLS const &amp;synapse, SynapseBlock::Synapse const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_synapse</name>
+        <param>
+          <type>halco::hicann_dls::v2::SynapseOnDLS const &amp;</type>
+          <declname>synapse</declname>
+        </param>
+        <param>
+          <type><ref refid="structhaldls_1_1v2_1_1_synapse_block_1_1_synapse" kindref="compound">SynapseBlock::Synapse</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a274785dae3425988722b0d3383059d4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::Chip::set_synapse_block</definition>
+        <argsstring>(halco::hicann_dls::v2::SynapseBlockOnDLS const &amp;synapse_block, SynapseBlock const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_synapse_block</name>
+        <param>
+          <type>halco::hicann_dls::v2::SynapseBlockOnDLS const &amp;</type>
+          <declname>synapse_block</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_synapse_block" kindref="compound">SynapseBlock</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a6df30c0358cdc8a1eed786a33a06d053" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::Chip::set_synapse_drivers</definition>
+        <argsstring>(SynapseDriverBlock const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_synapse_drivers</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_synapse_driver_block" kindref="compound">SynapseDriverBlock</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="134" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_chip_1a5de656e10829884af715468032a18761" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::v2::Chip::serialize</definition>
+        <argsstring>(Archive &amp;ar) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="164" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" line="26" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h" bodystart="25" bodyend="193"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1v2_1_1_chip_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a0932ee4592d0d4b5763cc55541083541" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>Chip</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a9feaced2f7add112b90bb23835fc1a3e" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a1aad7fe4cb1bfcbd7f21826c6bd47d6a" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>disable_buffered_readout</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a4071435940d6ca1a39b90af424106267" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>enable_buffered_readout</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a7d546fdde2ef065aeaa0fec702bd8cec" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>get_acausal_correlation</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1afce2d2b197dcb2f82b18fc627ff4b349" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>get_acausal_correlation_block</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a38c760fa76fea90e086b73a3d1798de6" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>get_buffered_readout_neuron</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1ad264c584d554472428dda93a69d20813" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>get_causal_correlation</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1af1c928b911d22b6aaaf037e924c1183a" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>get_causal_correlation_block</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1ab79260d225e132ce597d62257a227747" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>get_column_correlation_block</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a00a3cb05d21fc46a908bdc61863ea40d" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>get_column_correlation_switch</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1ac3a2dcc39e280adc2e950819c7118435" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>get_column_current_block</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a2f646ed9721942bf26a468a8f638c8e9" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>get_column_current_switch</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a612328e8d711cdc35f5078a9eb0ae6d8" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>get_neuron_digital_config</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a4943b14632b9191a2fc1fbc78e9c9fd2" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>get_ppu_status_register</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a97cdeadddfc5e0cfb80803bb693fe028" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>get_rate_counter</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a3fe1b8b0a97b087c16cdf36e9e31b665" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>get_synapse</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a78ba79904d47b8792f56f67135294794" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>get_synapse_block</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a64495c7f728058a747a51eba57f37084" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>has_local_data</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a76f749ba1403558c9f289adb83e0434d" prot="private" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>m_acausal_correlation_blocks</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a5fcdc291c2a7e3e918e18cebffc29e5d" prot="private" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>m_capmem</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a9f6b8b9531515e4883f9fccabd76ba13" prot="private" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>m_capmem_config</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a10a14f26663ac8e3db6c2d39b31830f4" prot="private" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>m_causal_correlation_blocks</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a33026538eb77ea32fa06507b5a13b9e5" prot="private" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>m_correlation_blocks</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1abfd2ffdb809b237b9c9779f0ba17e945" prot="private" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>m_correlation_config</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a2cc52b2211e44678b48d6ef51d133ab5" prot="private" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>m_current_blocks</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1ab4fc83d70e3ca19b4bef0e692efca0a7" prot="private" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>m_neuron_config</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1abef21751fd42ed82d8e223e5f86cacaf" prot="private" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>m_neuron_digital_configs</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a33bef8835260b5ef998b56b4d1ddfc5f" prot="private" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>m_ppu_control_register</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a344716f611b248d88121d71b36de25ed" prot="private" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>m_ppu_memory</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a5790350bea54b4749cb88793dd3881d9" prot="private" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>m_ppu_status_register</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1ab2a199eb6352b19cd36c354ff89ae51c" prot="private" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>m_rate_counter</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1ad90793237f1e94c58da43cc5099a10ba" prot="private" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>m_rate_counter_config</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a009f932de65b25142e7ffc992fd804b5" prot="private" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>m_synapse_blocks</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a7824de11d4fcd493f7d8c4b17387331c" prot="private" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>m_synapse_drivers</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1abeb8c833b8686db6a5683dd4e48924d0" prot="private" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>m_synram_config</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1af084e5ac0e67e387cbd9e01ce1e1c9da" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1ab3c3b09aacd3a398f2c6071bff674458" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a33bb0191ef597e2ccf72c53c72923d60" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1aeae38c0ef0b73a1ed18b4d3ebe03c79d" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a280565b19f3d74a85c7bed08b962f40c" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a141f75bf1fd00c8f79b300a46de2a4b5" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1ac86192372f89cf3938f2370adb47a37d" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a6eb1babc62baa60be1a81f16852fdc45" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1ae2f4a903c7ecc08733cfa0548c5f397d" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1aa7c845d89752d4a3b56f14c687e37eaa" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a7b9dacdbd7161a0be36caa775a99b3f3" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>return_value_policy</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a5de656e10829884af715468032a18761" prot="private" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1af6a27ff62ef8212235021fbe36b08e4e" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>set_capmem</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1ad5b7b8a64bf82b72aaa7ff908713dc0c" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>set_capmem_config</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a6af8597453aa61eb937d905c38ad0a14" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>set_column_correlation_block</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a4bf7070187118154414ddbaf03f07385" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>set_column_correlation_switch</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1aa0ad61de3a000c76b6866a924d7f1212" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>set_column_current_block</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1aadc8396bcfb478289f9d8808d614de67" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>set_column_current_switch</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1ac29f75f2ad199f630f24a1a5e7ddca25" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>set_common_neuron_config</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a370af231bbc42454e4108a6801805361" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>set_common_synram_config</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a4759b38b2ed69b261fc6bea9a175d9ec" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>set_correlation_config</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1ab805351a8a8879cb79705c7a858dd2a9" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>set_neuron_digital_config</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a57375d10cba6a971e1df85f259866ebb" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>set_ppu_control_register</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a5fd56bbab99363d1d80014b6db6ced40" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>set_ppu_memory</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a9ade6954203871c5cdd245968ee377b8" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>set_rate_counter_config</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1af3e3409c7372bf682f0e29ddfc0b40cc" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>set_synapse</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a274785dae3425988722b0d3383059d4b" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>set_synapse_block</name></member>
+      <member refid="classhaldls_1_1v2_1_1_chip_1a6df30c0358cdc8a1eed786a33a06d053" prot="public" virt="non-virtual"><scope>haldls::v2::Chip</scope><name>set_synapse_drivers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

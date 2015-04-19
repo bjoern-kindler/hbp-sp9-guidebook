@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset" kind="struct" language="C++" prot="public">
+    <compoundname>lola::vx::AtomicNeuron::LeakReset</compoundname>
+    <includes refid="neuron_8h" local="no">neuron.h</includes>
+    <innerclass refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_leak" prot="public">lola::vx::AtomicNeuron::LeakReset::Leak</innerclass>
+    <innerclass refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset" prot="public">lola::vx::AtomicNeuron::LeakReset::Reset</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1a04d55657539fb90d6bf7b51cf1400879" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1_atomic_neuron_1a258402859cbde528ef2a5d9cf23beae8" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant lola::vx::AtomicNeuron::LeakReset::i_bias_source_follower</definition>
+        <argsstring></argsstring>
+        <name>i_bias_source_follower</name>
+        <briefdescription>
+<para>Bias current of the source follower in the leak/reset circuit. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Both the leak and reset potential are connected via this source follower.</para>
+<para>The voltage is dropped by approximately 0.6 V. Higher bias currents mean slightly higher voltage drops. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="131" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1aedd397d35474ec4786d29c785ffa74fa" prot="public" static="no" mutable="no">
+        <type><ref refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_leak" kindref="compound">Leak</ref></type>
+        <definition>Leak lola::vx::AtomicNeuron::LeakReset::leak</definition>
+        <argsstring></argsstring>
+        <name>leak</name>
+        <briefdescription>
+<para>Configuration unique to the leak operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="117" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1a89d98c56e164913ab9a9d706411c5122" prot="public" static="no" mutable="no">
+        <type><ref refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset" kindref="compound">Reset</ref></type>
+        <definition>Reset lola::vx::AtomicNeuron::LeakReset::reset</definition>
+        <argsstring></argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Configuration unique to the leak operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="122" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1a053792aefae308d9312d849e97801886" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::AtomicNeuron::LeakReset::LeakReset</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>LeakReset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1ae46d5e1ad4f7cb2a884725b5e6d1f8d7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::AtomicNeuron::LeakReset::operator!=</definition>
+        <argsstring>(LeakReset const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset" kindref="compound">LeakReset</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="134" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1aff0accee0f18213577c9f5970ae91bf0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::AtomicNeuron::LeakReset::operator==</definition>
+        <argsstring>(LeakReset const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset" kindref="compound">LeakReset</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="133" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1af00a8c02fd0b396531f35d6b7c96651d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, LeakReset const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset" kindref="compound">LeakReset</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="137" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="92">
+        <label>lola::vx::AtomicNeuron::LeakReset::Reset</label>
+        <link refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset"/>
+      </node>
+      <node id="91">
+        <label>lola::vx::AtomicNeuron::LeakReset</label>
+        <link refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset"/>
+        <childnode refid="92" relation="usage">
+          <edgelabel>reset</edgelabel>
+        </childnode>
+        <childnode refid="93" relation="usage">
+          <edgelabel>leak</edgelabel>
+        </childnode>
+      </node>
+      <node id="93">
+        <label>lola::vx::AtomicNeuron::LeakReset::Leak</label>
+        <link refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_leak"/>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="53" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="52" bodyend="138"/>
+    <listofallmembers>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1a04d55657539fb90d6bf7b51cf1400879" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::LeakReset</scope><name>i_bias_source_follower</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1aedd397d35474ec4786d29c785ffa74fa" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::LeakReset</scope><name>leak</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1a053792aefae308d9312d849e97801886" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::LeakReset</scope><name>LeakReset</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1ae46d5e1ad4f7cb2a884725b5e6d1f8d7" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::LeakReset</scope><name>operator!=</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1af00a8c02fd0b396531f35d6b7c96651d" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::LeakReset</scope><name>operator&lt;&lt;</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1aff0accee0f18213577c9f5970ae91bf0" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::LeakReset</scope><name>operator==</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1a89d98c56e164913ab9a9d706411c5122" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::LeakReset</scope><name>reset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

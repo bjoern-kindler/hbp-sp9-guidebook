@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classhaldls_1_1v2_1_1PlaybackProgramBuilder" kind="class" language="C++" prot="public">
+    <compoundname>haldls::v2::PlaybackProgramBuilder</compoundname>
+    <includes refid="playback_8h" local="no">playback.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1PlaybackProgramBuilder_1ae2f76d6c2bb1ebd9c5fff2c592071ddd" prot="public" static="no">
+        <type><ref refid="namespacehaldls_1_1v2_1a6fb6373c91c2c1c11e515ed45a961a29" kindref="member">v2::hardware_time_type</ref></type>
+        <definition>typedef v2::hardware_time_type haldls::v2::PlaybackProgramBuilder::time_type</definition>
+        <argsstring></argsstring>
+        <name>time_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="143" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1PlaybackProgramBuilder_1afe90c2023ab28899d50c65e10fc7c033" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t haldls::v2::PlaybackProgramBuilder::i</definition>
+        <argsstring></argsstring>
+        <name>i</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="170" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1PlaybackProgramBuilder_1a3c07aaadd0f96a71ff33ec8c6da820e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::PlaybackProgramBuilder::PlaybackProgramBuilder</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>PlaybackProgramBuilder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="145" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1PlaybackProgramBuilder_1aee00b1433a8955945bbf8f0ee5575726" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::PlaybackProgramBuilder::fire</definition>
+        <argsstring>(std::bitset&lt; halco::hicann_dls::v2::SynapseDriverOnDLS::size &gt; const &amp;synapse_driver_mask, v2::SynapseBlock::Synapse::Address const &amp;address) SYMBOL_VISIBLE</argsstring>
+        <name>fire</name>
+        <param>
+          <type>std::bitset&lt; halco::hicann_dls::v2::SynapseDriverOnDLS::size &gt; const &amp;</type>
+          <declname>synapse_driver_mask</declname>
+        </param>
+        <param>
+          <type><ref refid="structhaldls_1_1v2_1_1SynapseBlock_1_1Synapse_1_1Address" kindref="compound">v2::SynapseBlock::Synapse::Address</ref> const &amp;</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="150" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1PlaybackProgramBuilder_1a6bd8530714af12b8ac2cd57e69c7ee19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>self</type>
+        <definition>self haldls::v2::PlaybackProgramBuilder::fire</definition>
+        <argsstring>(bitset.to_ulong(), address)</argsstring>
+        <name>fire</name>
+        <param>
+          <type>bitset.</type>
+          <declname>to_ulong</declname>
+          <array>()</array>
+        </param>
+        <param>
+          <type>address</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="170" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1PlaybackProgramBuilder_1ab6b5c097d798ffa1a9a0b510c9686ef7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::PlaybackProgramBuilder::for</definition>
+        <argsstring>(auto driver :synapse_driver_mask)</argsstring>
+        <name>for</name>
+        <param>
+          <type>auto driver :synapse_driver_mask</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="170" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" bodystart="170" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1PlaybackProgramBuilder_1a38b07d1e660b11fcf2a1d6bacc3207f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::PlaybackProgramBuilder::set_time</definition>
+        <argsstring>(time_type t) SYMBOL_VISIBLE</argsstring>
+        <name>set_time</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1PlaybackProgramBuilder_1ae2f76d6c2bb1ebd9c5fff2c592071ddd" kindref="member">time_type</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="147" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1PlaybackProgramBuilder_1a5554705056e06e8fbcf8cd8441d20bb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::PlaybackProgramBuilder::wait_for</definition>
+        <argsstring>(time_type t) SYMBOL_VISIBLE</argsstring>
+        <name>wait_for</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1PlaybackProgramBuilder_1ae2f76d6c2bb1ebd9c5fff2c592071ddd" kindref="member">time_type</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="149" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1PlaybackProgramBuilder_1a4c31fecb944fa5660f4837f1cdcf7ef4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::PlaybackProgramBuilder::wait_until</definition>
+        <argsstring>(time_type t) SYMBOL_VISIBLE</argsstring>
+        <name>wait_until</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1PlaybackProgramBuilder_1ae2f76d6c2bb1ebd9c5fff2c592071ddd" kindref="member">time_type</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="148" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" line="141" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/playback.h" bodystart="140" bodyend="170"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgramBuilder_1aee00b1433a8955945bbf8f0ee5575726" prot="public" virt="non-virtual"><scope>haldls::v2::PlaybackProgramBuilder</scope><name>fire</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgramBuilder_1a6bd8530714af12b8ac2cd57e69c7ee19" prot="public" virt="non-virtual"><scope>haldls::v2::PlaybackProgramBuilder</scope><name>fire</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgramBuilder_1ab6b5c097d798ffa1a9a0b510c9686ef7" prot="public" virt="non-virtual"><scope>haldls::v2::PlaybackProgramBuilder</scope><name>for</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgramBuilder_1afe90c2023ab28899d50c65e10fc7c033" prot="public" virt="non-virtual"><scope>haldls::v2::PlaybackProgramBuilder</scope><name>i</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgramBuilder_1a3c07aaadd0f96a71ff33ec8c6da820e1" prot="public" virt="non-virtual"><scope>haldls::v2::PlaybackProgramBuilder</scope><name>PlaybackProgramBuilder</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgramBuilder_1a38b07d1e660b11fcf2a1d6bacc3207f1" prot="public" virt="non-virtual"><scope>haldls::v2::PlaybackProgramBuilder</scope><name>set_time</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgramBuilder_1ae2f76d6c2bb1ebd9c5fff2c592071ddd" prot="public" virt="non-virtual"><scope>haldls::v2::PlaybackProgramBuilder</scope><name>time_type</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgramBuilder_1a5554705056e06e8fbcf8cd8441d20bb9" prot="public" virt="non-virtual"><scope>haldls::v2::PlaybackProgramBuilder</scope><name>wait_for</name></member>
+      <member refid="classhaldls_1_1v2_1_1PlaybackProgramBuilder_1a4c31fecb944fa5660f4837f1cdcf7ef4" prot="public" virt="non-virtual"><scope>haldls::v2::PlaybackProgramBuilder</scope><name>wait_until</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

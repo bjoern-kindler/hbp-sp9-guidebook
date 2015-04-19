@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1v2_1_1_cap_mem_config_1_1_prescale_ramp" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::v2::CapMemConfig::PrescaleRamp</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; PrescaleRamp, uint_fast16_t, 6, 0 &gt;</basecompoundref>
+    <includes refid="v2_2capmem_8h" local="no">capmem.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1_cap_mem_config_1_1_prescale_ramp_1abc7e853c6e842c5ef10bce0df2b0fbd8" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::v2::CapMemConfig::PrescaleRamp::PrescaleRamp</definition>
+        <argsstring>(uintmax_t const val=0) SYMBOL_VISIBLE</argsstring>
+        <name>PrescaleRamp</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" line="142" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" bodystart="142" bodyend="142"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1266">
+        <label>haldls::v2::CapMemConfig::PrescaleRamp</label>
+        <link refid="structhaldls_1_1v2_1_1_cap_mem_config_1_1_prescale_ramp"/>
+        <childnode refid="1267" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1267">
+        <label>halco::common::detail::RantWrapper&lt; PrescaleRamp, uint_fast16_t, 6, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1268">
+        <label>haldls::v2::CapMemConfig::PrescaleRamp</label>
+        <link refid="structhaldls_1_1v2_1_1_cap_mem_config_1_1_prescale_ramp"/>
+        <childnode refid="1269" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1269">
+        <label>halco::common::detail::RantWrapper&lt; PrescaleRamp, uint_fast16_t, 6, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" line="141" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" bodystart="139" bodyend="143"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1v2_1_1_cap_mem_config_1_1_prescale_ramp_1abc7e853c6e842c5ef10bce0df2b0fbd8" prot="public" virt="non-virtual"><scope>haldls::v2::CapMemConfig::PrescaleRamp</scope><name>PrescaleRamp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

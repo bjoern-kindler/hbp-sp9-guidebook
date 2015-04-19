@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classhaldls_1_1vx_1_1PPUStatusRegister" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::PPUStatusRegister</compoundname>
+    <includes refid="vx_2ppu_8h" local="no">ppu.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1PPUStatusRegister_1a828a859d58e82caeffce31958d7bebda" prot="public" static="no">
+        <type>halco::hicann_dls::vx::PPUStatusRegisterOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::PPUStatusRegisterOnDLS haldls::vx::PPUStatusRegister::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/ppu.h" line="225" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/ppu.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1PPUStatusRegister_1aa5a83dcaeda4d5bc5deb3e7f75a8e687" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::PPUStatusRegister::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/ppu.h" line="226" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/ppu.h" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1PPUStatusRegister_1a4724095d9bc30e3749c94430d357fdd5" prot="public" static="yes" mutable="no">
+        <type>size_t constexpr</type>
+        <definition>size_t constexpr haldls::vx::PPUStatusRegister::read_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>read_config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/ppu.h" line="237" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/ppu.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1PPUStatusRegister_1aa61bb7239d384aed130e167bf98fec41" prot="public" static="yes" mutable="no">
+        <type>size_t constexpr</type>
+        <definition>size_t constexpr haldls::vx::PPUStatusRegister::write_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>write_config_size_in_words</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/ppu.h" line="238" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/ppu.h" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1PPUStatusRegister_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/ppu.h" line="252" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/ppu.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1PPUStatusRegister_1a3578b8abb91ab43f5f9bda712f956d4a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool haldls::vx::PPUStatusRegister::m_sleep</definition>
+        <argsstring></argsstring>
+        <name>m_sleep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/ppu.h" line="256" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/ppu.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1PPUStatusRegister_1abde082096edea467ce1f8375db9cb4c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::PPUStatusRegister::PPUStatusRegister</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>PPUStatusRegister</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/ppu.h" line="228" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1PPUStatusRegister_1a8085289ac261cacd2a0518bb1519a606" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::PPUStatusRegister::decode</definition>
+        <argsstring>(std::array&lt; WordT, read_config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1PPUStatusRegister_1a4724095d9bc30e3749c94430d357fdd5" kindref="member">read_config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/ppu.h" line="248" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1PPUStatusRegister_1a472929c6a83cec64f9e5c04919d5488b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename WordT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; WordT, <ref refid="classhaldls_1_1vx_1_1PPUStatusRegister_1aa61bb7239d384aed130e167bf98fec41" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;WordT, write_config_size_in_words&gt; haldls::vx::PPUStatusRegister::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/ppu.h" line="246" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1PPUStatusRegister_1a6a641bf53303e25e84044ecbf56c96bb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PPUStatusRegister::get_sleep</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_sleep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/ppu.h" line="232" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1PPUStatusRegister_1a1e132fcfd96b606e0af7b87edddc4282" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PPUStatusRegister::operator!=</definition>
+        <argsstring>(PPUStatusRegister const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1PPUStatusRegister" kindref="compound">PPUStatusRegister</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/ppu.h" line="235" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1PPUStatusRegister_1a4519b25d01f3697d2f66ae313655c88d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::PPUStatusRegister::operator==</definition>
+        <argsstring>(PPUStatusRegister const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1PPUStatusRegister" kindref="compound">PPUStatusRegister</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/ppu.h" line="234" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1PPUStatusRegister_1afabde1e76ad8d569e1497efffd161351" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1PPUStatusRegister_1a4724095d9bc30e3749c94430d357fdd5" kindref="member">read_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, read_config_size_in_words&gt; haldls::vx::PPUStatusRegister::read_addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>read_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1PPUStatusRegister_1a828a859d58e82caeffce31958d7bebda" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/ppu.h" line="240" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1PPUStatusRegister_1a776e64d1a2307af8b1fea942795a3fc0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename AddressT</type>
+          </param>
+        </templateparamlist>
+        <type>std::array&lt; AddressT, <ref refid="classhaldls_1_1vx_1_1PPUStatusRegister_1aa61bb7239d384aed130e167bf98fec41" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;AddressT, write_config_size_in_words&gt; haldls::vx::PPUStatusRegister::write_addresses</definition>
+        <argsstring>(coordinate_type const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>write_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1PPUStatusRegister_1a828a859d58e82caeffce31958d7bebda" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/ppu.h" line="243" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1PPUStatusRegister_1ae1b41da86b346b461d07a0d7fb1bb710" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::PPUStatusRegister::serialize</definition>
+        <argsstring>(Archive &amp;ar) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/ppu.h" line="254" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/ppu.h" line="223" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/ppu.h" bodystart="222" bodyend="257"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1PPUStatusRegister_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::PPUStatusRegister</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1PPUStatusRegister_1a828a859d58e82caeffce31958d7bebda" prot="public" virt="non-virtual"><scope>haldls::vx::PPUStatusRegister</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1PPUStatusRegister_1a8085289ac261cacd2a0518bb1519a606" prot="public" virt="non-virtual"><scope>haldls::vx::PPUStatusRegister</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1PPUStatusRegister_1a472929c6a83cec64f9e5c04919d5488b" prot="public" virt="non-virtual"><scope>haldls::vx::PPUStatusRegister</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1PPUStatusRegister_1a6a641bf53303e25e84044ecbf56c96bb" prot="public" virt="non-virtual"><scope>haldls::vx::PPUStatusRegister</scope><name>get_sleep</name></member>
+      <member refid="classhaldls_1_1vx_1_1PPUStatusRegister_1aa5a83dcaeda4d5bc5deb3e7f75a8e687" prot="public" virt="non-virtual"><scope>haldls::vx::PPUStatusRegister</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1PPUStatusRegister_1a3578b8abb91ab43f5f9bda712f956d4a" prot="private" virt="non-virtual"><scope>haldls::vx::PPUStatusRegister</scope><name>m_sleep</name></member>
+      <member refid="classhaldls_1_1vx_1_1PPUStatusRegister_1a1e132fcfd96b606e0af7b87edddc4282" prot="public" virt="non-virtual"><scope>haldls::vx::PPUStatusRegister</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1PPUStatusRegister_1a4519b25d01f3697d2f66ae313655c88d" prot="public" virt="non-virtual"><scope>haldls::vx::PPUStatusRegister</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1PPUStatusRegister_1abde082096edea467ce1f8375db9cb4c5" prot="public" virt="non-virtual"><scope>haldls::vx::PPUStatusRegister</scope><name>PPUStatusRegister</name></member>
+      <member refid="classhaldls_1_1vx_1_1PPUStatusRegister_1afabde1e76ad8d569e1497efffd161351" prot="public" virt="non-virtual"><scope>haldls::vx::PPUStatusRegister</scope><name>read_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1PPUStatusRegister_1a4724095d9bc30e3749c94430d357fdd5" prot="public" virt="non-virtual"><scope>haldls::vx::PPUStatusRegister</scope><name>read_config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1PPUStatusRegister_1ae1b41da86b346b461d07a0d7fb1bb710" prot="private" virt="non-virtual"><scope>haldls::vx::PPUStatusRegister</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1PPUStatusRegister_1a776e64d1a2307af8b1fea942795a3fc0" prot="public" virt="non-virtual"><scope>haldls::vx::PPUStatusRegister</scope><name>write_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1PPUStatusRegister_1aa61bb7239d384aed130e167bf98fec41" prot="public" virt="non-virtual"><scope>haldls::vx::PPUStatusRegister</scope><name>write_config_size_in_words</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

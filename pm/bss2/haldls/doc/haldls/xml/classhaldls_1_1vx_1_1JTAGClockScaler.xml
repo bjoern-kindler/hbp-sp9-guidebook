@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classhaldls_1_1vx_1_1JTAGClockScaler" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::JTAGClockScaler</compoundname>
+    <includes refid="jtag_8h" local="no">jtag.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1JTAGClockScaler_1_1Value" prot="public">haldls::vx::JTAGClockScaler::Value</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1JTAGClockScaler_1a91398c14d22ee327aa11cfdfefce219a" prot="public" static="no">
+        <type>halco::hicann_dls::vx::JTAGClockScalerOnDLS</type>
+        <definition>typedef halco::hicann_dls::vx::JTAGClockScalerOnDLS haldls::vx::JTAGClockScaler::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/jtag.h" line="32" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/jtag.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1JTAGClockScaler_1a9b591dbf4fc767dad340b57810fad3a0" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::JTAGClockScaler::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/jtag.h" line="33" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/jtag.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1JTAGClockScaler_1aeb30eb44a9e5ceede31ec688e9f11192" prot="public" static="yes" mutable="no">
+        <type>size_t constexpr</type>
+        <definition>size_t constexpr haldls::vx::JTAGClockScaler::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>Number of words for read-write access. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/jtag.h" line="67" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/jtag.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1JTAGClockScaler_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/jtag.h" line="91" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/jtag.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1JTAGClockScaler_1a0f8f43c844b4cab5e85d0c1fba802f1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, JTAGClockScaler const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1JTAGClockScaler" kindref="compound">JTAGClockScaler</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/jtag.h" line="64" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1JTAGClockScaler_1a554021dab46c0f30fb031766038858a0" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1JTAGClockScaler_1_1Value" kindref="compound">Value</ref></type>
+        <definition>Value haldls::vx::JTAGClockScaler::m_value</definition>
+        <argsstring></argsstring>
+        <name>m_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/jtag.h" line="95" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/jtag.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1JTAGClockScaler_1a63a562df0727867f984f53265e878e11" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::JTAGClockScaler::JTAGClockScaler</definition>
+        <argsstring>(Value value=Value()) SYMBOL_VISIBLE</argsstring>
+        <name>JTAGClockScaler</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1JTAGClockScaler_1_1Value" kindref="compound">Value</ref></type>
+          <declname>value</declname>
+          <defval><ref refid="structhaldls_1_1vx_1_1JTAGClockScaler_1_1Value" kindref="compound">Value</ref>()</defval>
+        </param>
+        <briefdescription>
+<para>Construct scaler with value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structhaldls_1_1vx_1_1JTAGClockScaler_1_1Value" kindref="compound">Value</ref> to construct scaler with </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/jtag.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1JTAGClockScaler_1ace4db5b3599f0882e389df914ed8b084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::JTAGClockScaler::decode</definition>
+        <argsstring>(std::array&lt; fisch::vx::JTAGClockScaler, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; fisch::vx::JTAGClockScaler, <ref refid="classhaldls_1_1vx_1_1JTAGClockScaler_1aeb30eb44a9e5ceede31ec688e9f11192" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Decode read words into container config. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array of word values </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/jtag.h" line="87" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1JTAGClockScaler_1adb1e6a0cfb5058e47f081bc84eba0289" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; fisch::vx::JTAGClockScaler, <ref refid="classhaldls_1_1vx_1_1JTAGClockScaler_1aeb30eb44a9e5ceede31ec688e9f11192" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;fisch::vx::JTAGClockScaler, config_size_in_words&gt; haldls::vx::JTAGClockScaler::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+<para>Get container config encoded in writable words. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Array of word values </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/jtag.h" line="80" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1JTAGClockScaler_1a66af01ddb65909858a7cb09ab058c8dd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::JTAGClockScaler::operator!=</definition>
+        <argsstring>(JTAGClockScaler const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1JTAGClockScaler" kindref="compound">JTAGClockScaler</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/jtag.h" line="61" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1JTAGClockScaler_1a895ef52064262575ee579babc0537c89" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::JTAGClockScaler::operator==</definition>
+        <argsstring>(JTAGClockScaler const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1JTAGClockScaler" kindref="compound">JTAGClockScaler</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/jtag.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1JTAGClockScaler_1adfd4aaac1c30e56e94a4fe3dcc9955ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::JTAGClockScaler::set</definition>
+        <argsstring>(Value value) SYMBOL_VISIBLE</argsstring>
+        <name>set</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1JTAGClockScaler_1_1Value" kindref="compound">Value</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set clock-scaler value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Clock-scaler value to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/jtag.h" line="58" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1JTAGClockScaler_1a9ae447e8e25fae30dfe173b3c738af69" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::JTAGClockScalerOnDLS, <ref refid="classhaldls_1_1vx_1_1JTAGClockScaler_1aeb30eb44a9e5ceede31ec688e9f11192" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;halco::hicann_dls::vx::JTAGClockScalerOnDLS, config_size_in_words&gt; haldls::vx::JTAGClockScaler::addresses</definition>
+        <argsstring>(coordinate_type const &amp;word) SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1JTAGClockScaler_1a91398c14d22ee327aa11cfdfefce219a" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+<para>Get word addresses for encoding a write or reading. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Array of addresses </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/jtag.h" line="73" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1JTAGClockScaler_1a0996a2210c6b0399efc8b402fe7c6761" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::JTAGClockScaler::serialize</definition>
+        <argsstring>(Archive &amp;ar)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/jtag.h" line="93" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container writing JTAG clock-scaler value. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/jtag.h" line="30" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/jtag.h" bodystart="29" bodyend="96"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1JTAGClockScaler_1a9ae447e8e25fae30dfe173b3c738af69" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGClockScaler</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1JTAGClockScaler_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGClockScaler</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1JTAGClockScaler_1aeb30eb44a9e5ceede31ec688e9f11192" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGClockScaler</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1JTAGClockScaler_1a91398c14d22ee327aa11cfdfefce219a" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGClockScaler</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1JTAGClockScaler_1ace4db5b3599f0882e389df914ed8b084" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGClockScaler</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1JTAGClockScaler_1adb1e6a0cfb5058e47f081bc84eba0289" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGClockScaler</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1JTAGClockScaler_1a9b591dbf4fc767dad340b57810fad3a0" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGClockScaler</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1JTAGClockScaler_1a63a562df0727867f984f53265e878e11" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGClockScaler</scope><name>JTAGClockScaler</name></member>
+      <member refid="classhaldls_1_1vx_1_1JTAGClockScaler_1a554021dab46c0f30fb031766038858a0" prot="private" virt="non-virtual"><scope>haldls::vx::JTAGClockScaler</scope><name>m_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1JTAGClockScaler_1a66af01ddb65909858a7cb09ab058c8dd" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGClockScaler</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1JTAGClockScaler_1a0f8f43c844b4cab5e85d0c1fba802f1f" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGClockScaler</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1JTAGClockScaler_1a895ef52064262575ee579babc0537c89" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGClockScaler</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1JTAGClockScaler_1a0996a2210c6b0399efc8b402fe7c6761" prot="private" virt="non-virtual"><scope>haldls::vx::JTAGClockScaler</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1JTAGClockScaler_1adfd4aaac1c30e56e94a4fe3dcc9955ae" prot="public" virt="non-virtual"><scope>haldls::vx::JTAGClockScaler</scope><name>set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

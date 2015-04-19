@@ -1,0 +1,4 @@
+var structhaldls_1_1vx_1_1detail_1_1to__ticket__variant_3_01hate_1_1type__list_3_01BackendContainer_8_8_8_01_4_01_4 =
+[
+    [ "type", "structhaldls_1_1vx_1_1detail_1_1to__ticket__variant_3_01hate_1_1type__list_3_01BackendContainer_8_8_8_01_4_01_4.html#afe66c25b3c86e129dc3cd29815d7f324", null ]
+];

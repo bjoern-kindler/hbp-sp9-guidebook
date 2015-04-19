@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1_1_time_calib" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::SynapseQuad::Synapse::TimeCalib</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; TimeCalib, uint_fast16_t, 3, 0 &gt;</basecompoundref>
+    <includes refid="vx_2synapse_8h" local="no">synapse.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1_1_time_calib_1aad0a4dc252fbb45150389208a072c16b" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::SynapseQuad::Synapse::TimeCalib::TimeCalib</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>TimeCalib</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" line="170" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" bodystart="170" bodyend="172"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1467">
+        <label>halco::common::detail::RantWrapper&lt; TimeCalib, uint_fast16_t, 3, 0 &gt;</label>
+      </node>
+      <node id="1466">
+        <label>haldls::vx::SynapseQuad::Synapse::TimeCalib</label>
+        <link refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1_1_time_calib"/>
+        <childnode refid="1467" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1469">
+        <label>halco::common::detail::RantWrapper&lt; TimeCalib, uint_fast16_t, 3, 0 &gt;</label>
+      </node>
+      <node id="1468">
+        <label>haldls::vx::SynapseQuad::Synapse::TimeCalib</label>
+        <link refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1_1_time_calib"/>
+        <childnode refid="1469" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" line="169" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" bodystart="167" bodyend="173"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1_1_time_calib_1aad0a4dc252fbb45150389208a072c16b" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseQuad::Synapse::TimeCalib</scope><name>TimeCalib</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

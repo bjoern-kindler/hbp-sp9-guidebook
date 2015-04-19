@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacestadls_1_1v2_1_1detail" kind="namespace" language="C++">
+    <compoundname>stadls::v2::detail</compoundname>
+    <innerclass refid="structstadls_1_1v2_1_1detail_1_1coordinate__type__to__container__type" prot="public">stadls::v2::detail::coordinate_type_to_container_type</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacestadls_1_1v2_1_1detail_1ab818426be698272d2661ad131ede2408" prot="public" static="no">
+        <type>hate::type_list&lt;# 1 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/<ref refid="playback__generator_8h_1ac6c1e54270adc4e6691247b61e62b111" kindref="member">ocp_container.def</ref>&quot; 1 haldls::v2::Board, haldls::v2::DAC, haldls::v2::FlyspiControl, haldls::v2::FlyspiConfig, haldls::v2::FlyspiException, haldls::v2::SpikeRouter # 24 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/local_board_control.h&quot; 2 &gt;</type>
+        <definition>typedef hate::type_list&lt;# 1 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/ocp_container.def&quot; 1 haldls::v2::Board , haldls::v2::DAC , haldls::v2::FlyspiControl , haldls::v2::FlyspiConfig , haldls::v2::FlyspiException , haldls::v2::SpikeRouter # 24 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/local_board_control.h&quot; 2 &gt; stadls::v2::detail::container_list</definition>
+        <argsstring></argsstring>
+        <name>container_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/local_board_control.h" line="44" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/local_board_control.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacestadls_1_1v2_1_1detail_1a42c4dad34908d747fad5ee5a05d4271b" prot="public" static="no">
+        <type>hate::type_list&lt;# 1 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/<ref refid="playback__generator_8h_1ac6c1e54270adc4e6691247b61e62b111" kindref="member">ocp_container.def</ref>&quot; 1typename haldls::v2::Board ::coordinate_type, typename haldls::v2::DAC ::coordinate_type, typename haldls::v2::FlyspiControl ::coordinate_type, typename haldls::v2::FlyspiConfig ::coordinate_type, typename haldls::v2::FlyspiException ::coordinate_type, typename haldls::v2::SpikeRouter ::coordinate_type# 31 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/local_board_control.h&quot; 2 &gt;</type>
+        <definition>typedef hate::type_list&lt;# 1 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/ocp_container.def&quot; 1typename haldls::v2::Board ::coordinate_type,typename haldls::v2::DAC ::coordinate_type,typename haldls::v2::FlyspiControl ::coordinate_type,typename haldls::v2::FlyspiConfig ::coordinate_type,typename haldls::v2::FlyspiException ::coordinate_type,typename haldls::v2::SpikeRouter ::coordinate_type# 31 &quot;/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/local_board_control.h&quot; 2 &gt; stadls::v2::detail::coordinate_list</definition>
+        <argsstring></argsstring>
+        <name>coordinate_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/local_board_control.h" line="69" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/local_board_control.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/stadls/v2/local_board_control.h" line="19" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1CommonSynramConfig_1_1WaitCtrClear" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::CommonSynramConfig::WaitCtrClear</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; WaitCtrClear, uint_fast16_t, 7, 0 &gt;</basecompoundref>
+    <includes refid="vx_2synapse_8h" local="no">synapse.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1CommonSynramConfig_1_1WaitCtrClear_1a1738f1b2a308c5d55408967e4fc39551" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::CommonSynramConfig::WaitCtrClear::WaitCtrClear</definition>
+        <argsstring>(uintmax_t const val=4)</argsstring>
+        <name>WaitCtrClear</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>4</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/synapse.h" line="69" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/synapse.h" bodystart="69" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1592">
+        <label>haldls::vx::CommonSynramConfig::WaitCtrClear</label>
+        <link refid="structhaldls_1_1vx_1_1CommonSynramConfig_1_1WaitCtrClear"/>
+        <childnode refid="1593" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1593">
+        <label>halco::common::detail::RantWrapper&lt; WaitCtrClear, uint_fast16_t, 7, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1594">
+        <label>haldls::vx::CommonSynramConfig::WaitCtrClear</label>
+        <link refid="structhaldls_1_1vx_1_1CommonSynramConfig_1_1WaitCtrClear"/>
+        <childnode refid="1595" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1595">
+        <label>halco::common::detail::RantWrapper&lt; WaitCtrClear, uint_fast16_t, 7, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/synapse.h" line="68" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/synapse.h" bodystart="66" bodyend="72"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1CommonSynramConfig_1_1WaitCtrClear_1a1738f1b2a308c5d55408967e4fc39551" prot="public" virt="non-virtual"><scope>haldls::vx::CommonSynramConfig::WaitCtrClear</scope><name>WaitCtrClear</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

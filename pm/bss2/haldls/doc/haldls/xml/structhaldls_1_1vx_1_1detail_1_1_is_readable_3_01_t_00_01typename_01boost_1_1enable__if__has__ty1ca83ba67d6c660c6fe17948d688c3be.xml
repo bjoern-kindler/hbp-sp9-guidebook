@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1_is_readable_3_01_t_00_01typename_01boost_1_1enable__if__has__ty1ca83ba67d6c660c6fe17948d688c3be" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::IsReadable&lt; T, typename boost::enable_if_has_type&lt; decltype(T::read_config_size_in_words)&gt;::type &gt;</compoundname>
+    <includes refid="is__readable_8h" local="no">is_readable.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1detail_1_1_is_readable_3_01_t_00_01typename_01boost_1_1enable__if__has__ty1ca83ba67d6c660c6fe17948d688c3be_1a2c5e1d98e9639020320fa94e5d4e3a6a" prot="public" static="yes" mutable="no">
+        <type>constexpr bool</type>
+        <definition>constexpr bool haldls::vx::detail::IsReadable&lt; T, typename boost::enable_if_has_type&lt; decltype(T::read_config_size_in_words)&gt;::type &gt;::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <initializer>= T::read_config_size_in_words</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_readable.h" line="23" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_readable.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_readable.h" line="22" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_readable.h" bodystart="19" bodyend="24"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1detail_1_1_is_readable_3_01_t_00_01typename_01boost_1_1enable__if__has__ty1ca83ba67d6c660c6fe17948d688c3be_1a2c5e1d98e9639020320fa94e5d4e3a6a" prot="public" virt="non-virtual"><scope>haldls::vx::detail::IsReadable&lt; T, typename boost::enable_if_has_type&lt; decltype(T::read_config_size_in_words)&gt;::type &gt;</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

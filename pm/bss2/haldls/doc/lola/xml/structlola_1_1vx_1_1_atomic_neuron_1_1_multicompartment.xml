@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment" kind="struct" language="C++" prot="public">
+    <compoundname>lola::vx::AtomicNeuron::Multicompartment</compoundname>
+    <includes refid="neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1a02eb9efaf79781b61eaa40170fca7bc1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::AtomicNeuron::Multicompartment::connect_right</definition>
+        <argsstring></argsstring>
+        <name>connect_right</name>
+        <briefdescription>
+<para>Connect local membrane to membrane on the right. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="172" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1a5cfab7c4baceca6e31155c6f42a9c9df" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::AtomicNeuron::Multicompartment::connect_soma</definition>
+        <argsstring></argsstring>
+        <name>connect_soma</name>
+        <briefdescription>
+<para>Connect local membrane to soma. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="166" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1a1daedb78b1ae086522742599540a00d0" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::AtomicNeuron::Multicompartment::connect_soma_right</definition>
+        <argsstring></argsstring>
+        <name>connect_soma_right</name>
+        <briefdescription>
+<para>Connect soma to soma on the right. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="169" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1a55f3059e54a9b2ecec11461a80398502" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::AtomicNeuron::Multicompartment::connect_vertical</definition>
+        <argsstring></argsstring>
+        <name>connect_vertical</name>
+        <briefdescription>
+<para>Connect local membrane vertically to membrane on the opposite hemisphere. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="175" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1afe19bfd40eeb6f5207204941cd13e84b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::AtomicNeuron::Multicompartment::enable_conductance</definition>
+        <argsstring></argsstring>
+        <name>enable_conductance</name>
+        <briefdescription>
+<para>Enable inter-compartment conductance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="178" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1a162c5a50735f6fb9415a481341e7de83" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::AtomicNeuron::Multicompartment::enable_conductance_division</definition>
+        <argsstring></argsstring>
+        <name>enable_conductance_division</name>
+        <briefdescription>
+<para>Enable division (/4) of inter-compartment conductance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="181" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1ae55495e302259c1bc526033fec7fb554" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lola::vx::AtomicNeuron::Multicompartment::enable_conductance_multiplication</definition>
+        <argsstring></argsstring>
+        <name>enable_conductance_multiplication</name>
+        <briefdescription>
+<para>Enable multiplication (*4) of inter-compartment conductance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="184" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1aadc9d70292a37daa2c3f3d4b92c88f34" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1vx_1_1_atomic_neuron_1a258402859cbde528ef2a5d9cf23beae8" kindref="member">AnalogValueVariant</ref></type>
+        <definition>AnalogValueVariant lola::vx::AtomicNeuron::Multicompartment::i_bias_nmda</definition>
+        <argsstring></argsstring>
+        <name>i_bias_nmda</name>
+        <briefdescription>
+<para>Bias current of inter-compartmental conductance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="187" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1adb0e6a3596108c409115f3882fcff1b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::vx::AtomicNeuron::Multicompartment::Multicompartment</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>Multicompartment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="163" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1ae790c64a20e430cb06a05e9548387530" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::AtomicNeuron::Multicompartment::operator!=</definition>
+        <argsstring>(Multicompartment const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment" kindref="compound">Multicompartment</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="190" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1a3aadaa667e300d0f95130f4ea8d50768" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::vx::AtomicNeuron::Multicompartment::operator==</definition>
+        <argsstring>(Multicompartment const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment" kindref="compound">Multicompartment</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="189" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1a4272da6228b5b745bec5519f13e9301e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, Multicompartment const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment" kindref="compound">Multicompartment</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="193" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment" kindref="compound">Multicompartment</ref> configuration of connectivity to adjacent neurons. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>See <ulink url="https://arxiv.org/abs/1804.01840">https://arxiv.org/abs/1804.01840</ulink> III.A for more information about the circuit. </para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" line="162" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/neuron.h" bodystart="161" bodyend="195"/>
+    <listofallmembers>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1a02eb9efaf79781b61eaa40170fca7bc1" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::Multicompartment</scope><name>connect_right</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1a5cfab7c4baceca6e31155c6f42a9c9df" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::Multicompartment</scope><name>connect_soma</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1a1daedb78b1ae086522742599540a00d0" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::Multicompartment</scope><name>connect_soma_right</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1a55f3059e54a9b2ecec11461a80398502" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::Multicompartment</scope><name>connect_vertical</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1afe19bfd40eeb6f5207204941cd13e84b" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::Multicompartment</scope><name>enable_conductance</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1a162c5a50735f6fb9415a481341e7de83" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::Multicompartment</scope><name>enable_conductance_division</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1ae55495e302259c1bc526033fec7fb554" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::Multicompartment</scope><name>enable_conductance_multiplication</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1aadc9d70292a37daa2c3f3d4b92c88f34" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::Multicompartment</scope><name>i_bias_nmda</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1adb0e6a3596108c409115f3882fcff1b0" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::Multicompartment</scope><name>Multicompartment</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1ae790c64a20e430cb06a05e9548387530" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::Multicompartment</scope><name>operator!=</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1a4272da6228b5b745bec5519f13e9301e" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::Multicompartment</scope><name>operator&lt;&lt;</name></member>
+      <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1a3aadaa667e300d0f95130f4ea8d50768" prot="public" virt="non-virtual"><scope>lola::vx::AtomicNeuron::Multicompartment</scope><name>operator==</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

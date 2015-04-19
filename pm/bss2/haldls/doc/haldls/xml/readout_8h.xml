@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="readout_8h" kind="file" language="C++">
+    <compoundname>readout.h</compoundname>
+    <includes local="no">ostream</includes>
+    <includes local="yes">halco/common/typed_array.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/capmem.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/chip.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/readout.h</includes>
+    <includes refid="genpybind_8h" local="yes">haldls/vx/genpybind.h</includes>
+    <includes refid="traits_8h" local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includedby refid="container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.h</includedby>
+    <incdepgraph>
+      <node id="1023">
+        <label>fisch/vx/container.def</label>
+      </node>
+      <node id="1015">
+        <label>haldls/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="1015" relation="include">
+        </childnode>
+      </node>
+      <node id="1016">
+        <label>haldls/vx/traits.h</label>
+        <link refid="traits_8h"/>
+        <childnode refid="1017" relation="include">
+        </childnode>
+        <childnode refid="1018" relation="include">
+        </childnode>
+        <childnode refid="1019" relation="include">
+        </childnode>
+        <childnode refid="1020" relation="include">
+        </childnode>
+        <childnode refid="1015" relation="include">
+        </childnode>
+        <childnode refid="1021" relation="include">
+        </childnode>
+        <childnode refid="1022" relation="include">
+        </childnode>
+        <childnode refid="1023" relation="include">
+        </childnode>
+      </node>
+      <node id="1018">
+        <label>boost/variant.hpp</label>
+      </node>
+      <node id="1010">
+        <label>ostream</label>
+      </node>
+      <node id="1009">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/readout.h</label>
+        <link refid="readout_8h"/>
+        <childnode refid="1010" relation="include">
+        </childnode>
+        <childnode refid="1011" relation="include">
+        </childnode>
+        <childnode refid="1012" relation="include">
+        </childnode>
+        <childnode refid="1013" relation="include">
+        </childnode>
+        <childnode refid="1014" relation="include">
+        </childnode>
+        <childnode refid="1015" relation="include">
+        </childnode>
+        <childnode refid="1016" relation="include">
+        </childnode>
+        <childnode refid="1022" relation="include">
+        </childnode>
+      </node>
+      <node id="1011">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="1013">
+        <label>halco/hicann-dls/vx/chip.h</label>
+      </node>
+      <node id="1019">
+        <label>fisch/vx/container_fwd.h</label>
+      </node>
+      <node id="1022">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="1020">
+        <label>fisch/vx/container_ticket.h</label>
+      </node>
+      <node id="1014">
+        <label>halco/hicann-dls/vx/readout.h</label>
+      </node>
+      <node id="1017">
+        <label>type_traits</label>
+      </node>
+      <node id="1012">
+        <label>halco/hicann-dls/vx/capmem.h</label>
+      </node>
+      <node id="1021">
+        <label>hate/type_list.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1027">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/pyhaldls.h</label>
+        <link refid="pyhaldls_8h"/>
+      </node>
+      <node id="1029">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_writereadable.h</label>
+        <link refid="is__writereadable_8h"/>
+      </node>
+      <node id="1026">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/haldls.h</label>
+        <link refid="haldls_8h"/>
+        <childnode refid="1027" relation="include">
+        </childnode>
+      </node>
+      <node id="1028">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_readable.h</label>
+        <link refid="is__readable_8h"/>
+        <childnode refid="1029" relation="include">
+        </childnode>
+      </node>
+      <node id="1024">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/readout.h</label>
+        <link refid="readout_8h"/>
+        <childnode refid="1025" relation="include">
+        </childnode>
+      </node>
+      <node id="1025">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.h</label>
+        <link refid="container_8h"/>
+        <childnode refid="1026" relation="include">
+        </childnode>
+        <childnode refid="1028" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_pad_multiplexer_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; PadMultiplexerConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_readout_source_selection_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; ReadoutSourceSelection &gt;</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_pad_multiplexer_config" prot="public">haldls::vx::PadMultiplexerConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_readout_source_selection" prot="public">haldls::vx::ReadoutSourceSelection</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_readout_source_selection_1_1_source_multiplexer" prot="public">haldls::vx::ReadoutSourceSelection::SourceMultiplexer</innerclass>
+    <innernamespace refid="namespacecereal">cereal</innernamespace>
+    <innernamespace refid="namespacefisch">fisch</innernamespace>
+    <innernamespace refid="namespacefisch_1_1vx">fisch::vx</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/readout.h"/>
+  </compounddef>
+</doxygen>

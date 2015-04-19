@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="print_8h" kind="file" language="C++">
+    <compoundname>print.h</compoundname>
+    <includes local="no">ostream</includes>
+    <incdepgraph>
+      <node id="911">
+        <label>ostream</label>
+      </node>
+      <node id="910">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/print.h</label>
+        <link refid="print_8h"/>
+        <childnode refid="911" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="print_8h_1a4429f3c0d1b8615a0d9d4b44553e7237" prot="public" static="no">
+        <name>HALDLS_VX_DEFAULT_OSTREAM_OP</name>
+        <param><defname>Type</defname></param>
+        <initializer>std::ostream&amp; operator&lt;&lt;(std::ostream&amp; os, Type const&amp; config)                                 \
+	{                                                                                              \
+		return print_words_for_each_backend(os, config);                                           \
+	}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/print.h" line="9" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/print.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/print.h"/>
+  </compounddef>
+</doxygen>

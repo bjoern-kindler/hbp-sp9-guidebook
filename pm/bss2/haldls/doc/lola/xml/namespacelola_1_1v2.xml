@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacelola_1_1v2" kind="namespace" language="C++">
+    <compoundname>lola::v2</compoundname>
+    <innerclass refid="classlola_1_1v2_1_1_p_p_u_elf_file" prot="public">lola::v2::PPUElfFile</innerclass>
+    <innerclass refid="classlola_1_1v2_1_1_p_p_u_program" prot="public">lola::v2::PPUProgram</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/lola/v2/ppu.h" line="20" column="1"/>
+  </compounddef>
+</doxygen>

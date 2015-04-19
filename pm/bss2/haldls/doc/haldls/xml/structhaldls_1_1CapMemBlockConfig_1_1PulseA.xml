@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1CapMemBlockConfig_1_1PulseA" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::CapMemBlockConfig::PulseA</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; PulseA, uint_fast16_t, 65535, 0 &gt;</basecompoundref>
+    <includes refid="vx_2capmem_8h" local="no">capmem.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1CapMemBlockConfig_1_1PulseA_1ad983541c1ca2a91f9c59d6d5b524497b" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::CapMemBlockConfig::PulseA::PulseA</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>PulseA</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/capmem.h" line="228" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/capmem.h" bodystart="228" bodyend="230"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1275">
+        <label>halco::common::detail::RantWrapper&lt; PulseA, uint_fast16_t, 65535, 0 &gt;</label>
+      </node>
+      <node id="1274">
+        <label>haldls::CapMemBlockConfig::PulseA</label>
+        <link refid="structhaldls_1_1CapMemBlockConfig_1_1PulseA"/>
+        <childnode refid="1275" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1277">
+        <label>halco::common::detail::RantWrapper&lt; PulseA, uint_fast16_t, 65535, 0 &gt;</label>
+      </node>
+      <node id="1276">
+        <label>haldls::CapMemBlockConfig::PulseA</label>
+        <link refid="structhaldls_1_1CapMemBlockConfig_1_1PulseA"/>
+        <childnode refid="1277" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/capmem.h" line="227" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/capmem.h" bodystart="225" bodyend="231"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1CapMemBlockConfig_1_1PulseA_1ad983541c1ca2a91f9c59d6d5b524497b" prot="public" virt="non-virtual"><scope>haldls::CapMemBlockConfig::PulseA</scope><name>PulseA</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

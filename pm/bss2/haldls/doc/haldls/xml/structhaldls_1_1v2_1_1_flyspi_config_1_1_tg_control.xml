@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1v2_1_1_flyspi_config_1_1_tg_control" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::v2::FlyspiConfig::TgControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; TgControl, uint_fast16_t, 63, 0 &gt;</basecompoundref>
+    <includes refid="v2_2fpga_8h" local="no">fpga.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1_flyspi_config_1_1_tg_control_1a7856962cd94945fd782db9215b85eac4" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::v2::FlyspiConfig::TgControl::TgControl</definition>
+        <argsstring>(uintmax_t const val=0) SYMBOL_VISIBLE</argsstring>
+        <name>TgControl</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" line="143" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" bodystart="143" bodyend="143"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1458">
+        <label>haldls::v2::FlyspiConfig::TgControl</label>
+        <link refid="structhaldls_1_1v2_1_1_flyspi_config_1_1_tg_control"/>
+        <childnode refid="1459" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1459">
+        <label>halco::common::detail::RantWrapper&lt; TgControl, uint_fast16_t, 63, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1460">
+        <label>haldls::v2::FlyspiConfig::TgControl</label>
+        <link refid="structhaldls_1_1v2_1_1_flyspi_config_1_1_tg_control"/>
+        <childnode refid="1461" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1461">
+        <label>halco::common::detail::RantWrapper&lt; TgControl, uint_fast16_t, 63, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" line="142" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h" bodystart="140" bodyend="144"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1v2_1_1_flyspi_config_1_1_tg_control_1a7856962cd94945fd782db9215b85eac4" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiConfig::TgControl</scope><name>TgControl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

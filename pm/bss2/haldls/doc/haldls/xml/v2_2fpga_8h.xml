@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="v2_2fpga_8h" kind="file" language="C++">
+    <compoundname>fpga.h</compoundname>
+    <includes local="yes">halco/hicann-dls/v2/coordinates.h</includes>
+    <includes local="yes">hate/optional.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includes refid="v2_2common_8h" local="yes">haldls/v2/common.h</includes>
+    <includes refid="v2_2genpybind_8h" local="yes">haldls/v2/genpybind.h</includes>
+    <includes refid="v2_2synapse_8h" local="yes">haldls/v2/synapse.h</includes>
+    <includedby refid="board_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/board.h</includedby>
+    <incdepgraph>
+      <node id="284">
+        <label>cstdint</label>
+      </node>
+      <node id="287">
+        <label>haldls/v2/genpybind.h</label>
+        <link refid="v2_2genpybind_8h"/>
+        <childnode refid="287" relation="include">
+        </childnode>
+      </node>
+      <node id="289">
+        <label>ostream</label>
+      </node>
+      <node id="288">
+        <label>haldls/v2/synapse.h</label>
+        <link refid="v2_2synapse_8h"/>
+        <childnode refid="289" relation="include">
+        </childnode>
+        <childnode refid="290" relation="include">
+        </childnode>
+        <childnode refid="280" relation="include">
+        </childnode>
+        <childnode refid="282" relation="include">
+        </childnode>
+        <childnode refid="283" relation="include">
+        </childnode>
+        <childnode refid="287" relation="include">
+        </childnode>
+      </node>
+      <node id="290">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="286">
+        <label>utility</label>
+      </node>
+      <node id="282">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="280">
+        <label>halco/hicann-dls/v2/coordinates.h</label>
+      </node>
+      <node id="283">
+        <label>haldls/v2/common.h</label>
+        <link refid="v2_2common_8h"/>
+        <childnode refid="284" relation="include">
+        </childnode>
+        <childnode refid="285" relation="include">
+        </childnode>
+        <childnode refid="286" relation="include">
+        </childnode>
+      </node>
+      <node id="279">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h</label>
+        <link refid="v2_2fpga_8h"/>
+        <childnode refid="280" relation="include">
+        </childnode>
+        <childnode refid="281" relation="include">
+        </childnode>
+        <childnode refid="282" relation="include">
+        </childnode>
+        <childnode refid="283" relation="include">
+        </childnode>
+        <childnode refid="287" relation="include">
+        </childnode>
+        <childnode refid="288" relation="include">
+        </childnode>
+      </node>
+      <node id="285">
+        <label>type_traits</label>
+      </node>
+      <node id="281">
+        <label>hate/optional.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="292">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/board.h</label>
+        <link refid="board_8h"/>
+        <childnode refid="293" relation="include">
+        </childnode>
+      </node>
+      <node id="293">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/container.h</label>
+        <link refid="v2_2container_8h"/>
+      </node>
+      <node id="291">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h</label>
+        <link refid="v2_2fpga_8h"/>
+        <childnode refid="292" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1v2_1_1_spike_router_1_1_delay" prot="public">haldls::v2::SpikeRouter::Delay</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_flyspi_config" prot="public">haldls::v2::FlyspiConfig</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_flyspi_control" prot="public">haldls::v2::FlyspiControl</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_flyspi_exception" prot="public">haldls::v2::FlyspiException</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1detail_1_1_flyspi_r_o_register" prot="public">haldls::v2::detail::FlyspiRORegister</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1detail_1_1_flyspi_r_w_register" prot="public">haldls::v2::detail::FlyspiRWRegister</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_spike_router" prot="public">haldls::v2::SpikeRouter</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_flyspi_config_1_1_tg_control" prot="public">haldls::v2::FlyspiConfig::TgControl</innerclass>
+    <innernamespace refid="namespacecereal">cereal</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1v2">haldls::v2</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1v2_1_1detail">haldls::v2::detail</innernamespace>
+    <innernamespace refid="namespacestd">std</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h"/>
+  </compounddef>
+</doxygen>

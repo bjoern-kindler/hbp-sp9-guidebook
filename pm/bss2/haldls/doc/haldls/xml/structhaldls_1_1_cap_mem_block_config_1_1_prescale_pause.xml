@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1_cap_mem_block_config_1_1_prescale_pause" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::CapMemBlockConfig::PrescalePause</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; PrescalePause, uint_fast16_t, 6, 0 &gt;</basecompoundref>
+    <includes refid="capmem_8h" local="no">capmem.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1_cap_mem_block_config_1_1_prescale_pause_1ad20d57e3d59049a1a5022b8ea93e1be6" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::CapMemBlockConfig::PrescalePause::PrescalePause</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>PrescalePause</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="183" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" bodystart="183" bodyend="185"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1358">
+        <label>haldls::CapMemBlockConfig::PrescalePause</label>
+        <link refid="structhaldls_1_1_cap_mem_block_config_1_1_prescale_pause"/>
+        <childnode refid="1359" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1359">
+        <label>halco::common::detail::RantWrapper&lt; PrescalePause, uint_fast16_t, 6, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1360">
+        <label>haldls::CapMemBlockConfig::PrescalePause</label>
+        <link refid="structhaldls_1_1_cap_mem_block_config_1_1_prescale_pause"/>
+        <childnode refid="1361" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1361">
+        <label>halco::common::detail::RantWrapper&lt; PrescalePause, uint_fast16_t, 6, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="182" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" bodystart="180" bodyend="186"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1_cap_mem_block_config_1_1_prescale_pause_1ad20d57e3d59049a1a5022b8ea93e1be6" prot="public" virt="non-virtual"><scope>haldls::CapMemBlockConfig::PrescalePause</scope><name>PrescalePause</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

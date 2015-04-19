@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_refractory_time" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::NeuronBackendConfig::RefractoryTime</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; RefractoryTime, uint_fast16_t, 255, 0 &gt;</basecompoundref>
+    <includes refid="neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_refractory_time_1a2ee60f697d0b394936e5f8c64599a2f5" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::NeuronBackendConfig::RefractoryTime::RefractoryTime</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>RefractoryTime</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/neuron.h" line="269" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/neuron.h" bodystart="269" bodyend="271"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The refractory time can be configured to be used for different applications (short and long) Refactory Periods usually range from 0 to 5 ms. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Accounting for the speedup they correspond to 5 µs in hardware time. Some special applications like NMDA require significantly longer times.</para>
+<para>tau_ref = <ref refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_refractory_time" kindref="compound">RefractoryTime</ref> * 1/f_clock</para>
+<para>Use case 1 (standard): tau_min = 0.1µs =&gt; f_clock = 10MHz tau_max = 12.7µs (12.7ms bio time) Use case 2 (NMDA): f_clock = 4kHz -&gt; tau_max = 127ms (127s bio time) Use case 3 (short): f_clock = 250MHz -&gt; tau_min = 4ns (4µs in bio time) <simplesect kind="note"><para>The reset conductance is limited and thus will not pull down the membrane in 4 ns! The fastest analog &quot;reset time constant&quot; is approx. 0.5 μs. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1410">
+        <label>haldls::vx::NeuronBackendConfig::RefractoryTime</label>
+        <link refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_refractory_time"/>
+        <childnode refid="1411" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1411">
+        <label>halco::common::detail::RantWrapper&lt; RefractoryTime, uint_fast16_t, 255, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1412">
+        <label>haldls::vx::NeuronBackendConfig::RefractoryTime</label>
+        <link refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_refractory_time"/>
+        <childnode refid="1413" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1413">
+        <label>halco::common::detail::RantWrapper&lt; RefractoryTime, uint_fast16_t, 255, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/neuron.h" line="268" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/neuron.h" bodystart="266" bodyend="272"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_refractory_time_1a2ee60f697d0b394936e5f8c64599a2f5" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig::RefractoryTime</scope><name>RefractoryTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

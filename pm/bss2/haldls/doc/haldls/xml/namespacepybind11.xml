@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacepybind11" kind="namespace" language="C++">
+    <compoundname>pybind11</compoundname>
+    <innernamespace refid="namespacepybind11_1_1detail">pybind11::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzU5NA.x/haldls/include/haldls/vx/capmem.h" line="28" column="1"/>
+  </compounddef>
+</doxygen>

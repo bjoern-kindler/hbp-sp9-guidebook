@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classstadls_1_1v2_1_1QuickQueueClient" kind="class" language="C++" prot="public">
+    <compoundname>stadls::v2::QuickQueueClient</compoundname>
+    <includes refid="quick__queue_8h" local="no">quick_queue.h</includes>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classstadls_1_1v2_1_1QuickQueueClient_1a2ec99275aff09ae831bced4d3efda039" prot="public" static="yes" mutable="no">
+        <type>constexpr char const  *const</type>
+        <definition>constexpr char const* const stadls::v2::QuickQueueClient::env_name_ip</definition>
+        <argsstring></argsstring>
+        <name>env_name_ip</name>
+        <initializer>= &quot;QUIGGELDY_IP&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="151" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1v2_1_1QuickQueueClient_1a26e9c6e428229f9c5bf2d16e8e77dee3" prot="public" static="yes" mutable="no">
+        <type>constexpr char const  *const</type>
+        <definition>constexpr char const* const stadls::v2::QuickQueueClient::env_name_port</definition>
+        <argsstring></argsstring>
+        <name>env_name_port</name>
+        <initializer>= &quot;QUIGGELDY_PORT&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="152" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1v2_1_1QuickQueueClient_1af6475ea7cb258f8919ca84fc369ccf9a" prot="public" static="yes" mutable="no">
+        <type>int const</type>
+        <definition>int const stadls::v2::QuickQueueClient::max_message_length</definition>
+        <argsstring></argsstring>
+        <name>max_message_length</name>
+        <initializer>= 1280 * 1024 * 1024</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="148" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1v2_1_1QuickQueueClient_1ab0edba7b6f5eab598b4dc9784071feb1" prot="public" static="yes" mutable="no">
+        <type>int const</type>
+        <definition>int const stadls::v2::QuickQueueClient::remote_call_timeout</definition>
+        <argsstring></argsstring>
+        <name>remote_call_timeout</name>
+        <initializer>= 3600 * 1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="149" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classstadls_1_1v2_1_1QuickQueueClient_1a2cdd7634bbb429bfe4488c175ad3ed7b" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; Impl &gt;</type>
+        <definition>std::unique_ptr&lt;Impl&gt; stadls::v2::QuickQueueClient::m_impl</definition>
+        <argsstring></argsstring>
+        <name>m_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="156" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classstadls_1_1v2_1_1QuickQueueClient_1ac9eb0a2e85d5f9d194c1c60034ec4695" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::v2::QuickQueueClient::QuickQueueClient</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>QuickQueueClient</name>
+        <briefdescription>
+<para>connects to server (gets ip and port from environment) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="131" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1QuickQueueClient_1a036d4b868a82d8f9e95d93d69a168485" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::v2::QuickQueueClient::QuickQueueClient</definition>
+        <argsstring>(std::string const &amp;ip, uint16_t port) SYMBOL_VISIBLE</argsstring>
+        <name>QuickQueueClient</name>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>ip</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+<para>connects to server with explicit ip and port </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="133" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1QuickQueueClient_1ada72d77c8c8c8da6645831bde7f81767" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::v2::QuickQueueClient::QuickQueueClient</definition>
+        <argsstring>(QuickQueueClient &amp;&amp;other) noexcept SYMBOL_VISIBLE</argsstring>
+        <name>QuickQueueClient</name>
+        <param>
+          <type><ref refid="classstadls_1_1v2_1_1QuickQueueClient" kindref="compound">QuickQueueClient</ref> &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="135" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1QuickQueueClient_1a2c27abac5c7bf44ab782e6c5e16382cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::v2::QuickQueueClient::QuickQueueClient</definition>
+        <argsstring>(QuickQueueClient const &amp;other)=delete</argsstring>
+        <name>QuickQueueClient</name>
+        <param>
+          <type><ref refid="classstadls_1_1v2_1_1QuickQueueClient" kindref="compound">QuickQueueClient</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="138" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1QuickQueueClient_1a94e93cbc73d8c428f842503c6d6ea229" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::v2::QuickQueueClient::~QuickQueueClient</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>~QuickQueueClient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="141" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1QuickQueueClient_1a93194c14cad4dd2327ad26c5525d2ee9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classstadls_1_1v2_1_1QuickQueueClient" kindref="compound">QuickQueueClient</ref> &amp;</type>
+        <definition>QuickQueueClient&amp; stadls::v2::QuickQueueClient::operator=</definition>
+        <argsstring>(QuickQueueClient &amp;&amp;other) noexcept SYMBOL_VISIBLE</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classstadls_1_1v2_1_1QuickQueueClient" kindref="compound">QuickQueueClient</ref> &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="136" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1QuickQueueClient_1ac93e6b93bfb67a85082e2f51076bc6ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classstadls_1_1v2_1_1QuickQueueClient" kindref="compound">QuickQueueClient</ref> &amp;</type>
+        <definition>QuickQueueClient&amp; stadls::v2::QuickQueueClient::operator=</definition>
+        <argsstring>(QuickQueueClient const &amp;other)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classstadls_1_1v2_1_1QuickQueueClient" kindref="compound">QuickQueueClient</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="139" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1QuickQueueClient_1adfcf4510a0662198be30dd85f2cedd53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::v2::QuickQueueClient::run_experiment</definition>
+        <argsstring>(haldls::v2::Board const &amp;board, haldls::v2::Chip const &amp;chip, std::shared_ptr&lt; haldls::v2::PlaybackProgram &gt; const &amp;playback_program) SYMBOL_VISIBLE</argsstring>
+        <name>run_experiment</name>
+        <param>
+          <type>haldls::v2::Board const &amp;</type>
+          <declname>board</declname>
+        </param>
+        <param>
+          <type>haldls::v2::Chip const &amp;</type>
+          <declname>chip</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; haldls::v2::PlaybackProgram &gt; const &amp;</type>
+          <declname>playback_program</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="143" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="128" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" bodystart="127" bodyend="157"/>
+    <listofallmembers>
+      <member refid="classstadls_1_1v2_1_1QuickQueueClient_1a2ec99275aff09ae831bced4d3efda039" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueClient</scope><name>env_name_ip</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueClient_1a26e9c6e428229f9c5bf2d16e8e77dee3" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueClient</scope><name>env_name_port</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueClient_1a2cdd7634bbb429bfe4488c175ad3ed7b" prot="private" virt="non-virtual"><scope>stadls::v2::QuickQueueClient</scope><name>m_impl</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueClient_1af6475ea7cb258f8919ca84fc369ccf9a" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueClient</scope><name>max_message_length</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueClient_1a93194c14cad4dd2327ad26c5525d2ee9" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueClient</scope><name>operator=</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueClient_1ac93e6b93bfb67a85082e2f51076bc6ee" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueClient</scope><name>operator=</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueClient_1ac9eb0a2e85d5f9d194c1c60034ec4695" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueClient</scope><name>QuickQueueClient</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueClient_1a036d4b868a82d8f9e95d93d69a168485" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueClient</scope><name>QuickQueueClient</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueClient_1ada72d77c8c8c8da6645831bde7f81767" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueClient</scope><name>QuickQueueClient</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueClient_1a2c27abac5c7bf44ab782e6c5e16382cf" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueClient</scope><name>QuickQueueClient</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueClient_1ab0edba7b6f5eab598b4dc9784071feb1" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueClient</scope><name>remote_call_timeout</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueClient_1adfcf4510a0662198be30dd85f2cedd53" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueClient</scope><name>run_experiment</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueClient_1a94e93cbc73d8c428f842503c6d6ea229" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueClient</scope><name>~QuickQueueClient</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

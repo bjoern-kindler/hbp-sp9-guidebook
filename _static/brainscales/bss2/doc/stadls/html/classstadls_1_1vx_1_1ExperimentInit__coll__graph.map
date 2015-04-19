@@ -1,0 +1,5 @@
+<map id="stadls::vx::ExperimentInit" name="stadls::vx::ExperimentInit">
+<area shape="rect" id="node1" title="Generator for initialization required for typical experiments." alt="" coords="22,207,191,235"/>
+<area shape="rect" id="node2" href="$classstadls_1_1vx_1_1detail_1_1InitGenerator.html" title="Generator for an initialization of the xBoard and the chip up to allowing access to all digital setti..." alt="" coords="48,113,164,157"/>
+<area shape="rect" id="node3" href="$structstadls_1_1vx_1_1detail_1_1InitGenerator_1_1HighspeedLink.html" title=" " alt="" coords="5,5,207,49"/>
+</map>

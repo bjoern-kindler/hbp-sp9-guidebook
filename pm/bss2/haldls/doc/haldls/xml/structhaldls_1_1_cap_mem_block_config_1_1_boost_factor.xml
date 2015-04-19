@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1_cap_mem_block_config_1_1_boost_factor" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::CapMemBlockConfig::BoostFactor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; BoostFactor, uint_fast16_t, 15, 0 &gt;</basecompoundref>
+    <includes refid="capmem_8h" local="no">capmem.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1_cap_mem_block_config_1_1_boost_factor_1a206c69c2fc4067197ba5c9dccde10f28" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::CapMemBlockConfig::BoostFactor::BoostFactor</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>BoostFactor</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="176" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" bodystart="176" bodyend="178"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="887">
+        <label>halco::common::detail::RantWrapper&lt; BoostFactor, uint_fast16_t, 15, 0 &gt;</label>
+      </node>
+      <node id="886">
+        <label>haldls::CapMemBlockConfig::BoostFactor</label>
+        <link refid="structhaldls_1_1_cap_mem_block_config_1_1_boost_factor"/>
+        <childnode refid="887" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="889">
+        <label>halco::common::detail::RantWrapper&lt; BoostFactor, uint_fast16_t, 15, 0 &gt;</label>
+      </node>
+      <node id="888">
+        <label>haldls::CapMemBlockConfig::BoostFactor</label>
+        <link refid="structhaldls_1_1_cap_mem_block_config_1_1_boost_factor"/>
+        <childnode refid="889" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="175" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" bodystart="173" bodyend="179"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1_cap_mem_block_config_1_1_boost_factor_1a206c69c2fc4067197ba5c9dccde10f28" prot="public" virt="non-virtual"><scope>haldls::CapMemBlockConfig::BoostFactor</scope><name>BoostFactor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

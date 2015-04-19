@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1_1_value" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::FPGADeviceDNA::Value</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">RantWrapper&lt; Value, uint64_t, 0x1ff &apos;ffff &apos;ffff &apos;ffffull, 0 &gt;</basecompoundref>
+    <includes refid="fpga_8h" local="no">fpga.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1_1_value_1a542fc3ac330ab334bc0d862b5324c34a" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::FPGADeviceDNA::Value::Value</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>Value</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" line="35" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" bodystart="35" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Identifier value type. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1590">
+        <label>haldls::vx::FPGADeviceDNA::Value</label>
+        <link refid="structhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1_1_value"/>
+        <childnode refid="1591" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1591">
+        <label>halco::common::detail::RantWrapper&lt; Value, uint64_t, 0x1ff &apos;ffff &apos;ffff &apos;ffffull, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1592">
+        <label>haldls::vx::FPGADeviceDNA::Value</label>
+        <link refid="structhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1_1_value"/>
+        <childnode refid="1593" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1593">
+        <label>halco::common::detail::RantWrapper&lt; Value, uint64_t, 0x1ff &apos;ffff &apos;ffff &apos;ffffull, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" line="34" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" bodystart="32" bodyend="38"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1_1_value_1a542fc3ac330ab334bc0d862b5324c34a" prot="public" virt="non-virtual"><scope>haldls::vx::FPGADeviceDNA::Value</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

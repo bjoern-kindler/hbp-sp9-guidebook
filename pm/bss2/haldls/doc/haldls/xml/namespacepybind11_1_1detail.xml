@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacepybind11_1_1detail" kind="namespace" language="C++">
+    <compoundname>pybind11::detail</compoundname>
+    <innerclass refid="structpybind11_1_1detail_1_1type__caster_3_01boost_1_1variant_3_01_ts_8_8_8_01_4_01_4" prot="public">pybind11::detail::type_caster&lt; boost::variant&lt; Ts... &gt; &gt;</innerclass>
+    <innerclass refid="structpybind11_1_1detail_1_1visit__helper_3_01boost_1_1variant_01_4" prot="public">pybind11::detail::visit_helper&lt; boost::variant &gt;</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzU5NA.x/haldls/include/haldls/vx/capmem.h" line="28" column="1"/>
+  </compounddef>
+</doxygen>

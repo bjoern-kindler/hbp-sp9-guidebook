@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classstadls_1_1v2_1_1ExperimentControl" kind="class" language="C++" prot="public">
+    <compoundname>stadls::v2::ExperimentControl</compoundname>
+    <includes refid="experiment_8h" local="no">experiment.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classstadls_1_1v2_1_1ExperimentControl_1af342ef8c6cc08f3d69231388ac8851b4" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; Impl &gt;</type>
+        <definition>std::unique_ptr&lt;Impl&gt; stadls::v2::ExperimentControl::m_impl</definition>
+        <argsstring></argsstring>
+        <name>m_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/experiment.h" line="47" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/experiment.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classstadls_1_1v2_1_1ExperimentControl_1a37c0cf2ce1eddd1e1d6fececdeb1a132" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::v2::ExperimentControl::ExperimentControl</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>ExperimentControl</name>
+        <briefdescription>
+<para>Automatically choose board to connect to (locally or remotely) via set environmental variables. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/experiment.h" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1ExperimentControl_1a2721d496fedc6b389422b9da2329daaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::v2::ExperimentControl::ExperimentControl</definition>
+        <argsstring>(std::string const &amp;usb_serial_number) SYMBOL_VISIBLE</argsstring>
+        <name>ExperimentControl</name>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>usb_serial_number</declname>
+        </param>
+        <briefdescription>
+<para>Explicitly connect to a local board using the usb serial. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/experiment.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1ExperimentControl_1a2f0edd97bb2cc850e6269a2b989a052d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::v2::ExperimentControl::ExperimentControl</definition>
+        <argsstring>(std::string const &amp;ip, uint16_t port) SYMBOL_VISIBLE</argsstring>
+        <name>ExperimentControl</name>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>ip</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+<para>Explicitly connect to remote board via quiggeldy using given ip and port. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/experiment.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1ExperimentControl_1aa280e127dfd5c669990b4f6726dbb932" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::v2::ExperimentControl::ExperimentControl</definition>
+        <argsstring>(ExperimentControl &amp;&amp;other) noexcept SYMBOL_VISIBLE</argsstring>
+        <name>ExperimentControl</name>
+        <param>
+          <type><ref refid="classstadls_1_1v2_1_1ExperimentControl" kindref="compound">ExperimentControl</ref> &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/experiment.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1ExperimentControl_1aa4c669a57143eaf86c156665c651f234" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::v2::ExperimentControl::ExperimentControl</definition>
+        <argsstring>(ExperimentControl const &amp;other)=delete</argsstring>
+        <name>ExperimentControl</name>
+        <param>
+          <type><ref refid="classstadls_1_1v2_1_1ExperimentControl" kindref="compound">ExperimentControl</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/experiment.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1ExperimentControl_1a62768f59a5747932f2011fae679dacda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::v2::ExperimentControl::~ExperimentControl</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>~ExperimentControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/experiment.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1ExperimentControl_1a6f08d0694dd9ee88cf0449b449a55a31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classstadls_1_1v2_1_1ExperimentControl" kindref="compound">ExperimentControl</ref> &amp;</type>
+        <definition>ExperimentControl&amp; stadls::v2::ExperimentControl::operator=</definition>
+        <argsstring>(ExperimentControl &amp;&amp;other) noexcept SYMBOL_VISIBLE</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classstadls_1_1v2_1_1ExperimentControl" kindref="compound">ExperimentControl</ref> &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/experiment.h" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1ExperimentControl_1ad23103a50fc160e5bb41fe3891742035" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classstadls_1_1v2_1_1ExperimentControl" kindref="compound">ExperimentControl</ref> &amp;</type>
+        <definition>ExperimentControl&amp; stadls::v2::ExperimentControl::operator=</definition>
+        <argsstring>(ExperimentControl const &amp;other)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classstadls_1_1v2_1_1ExperimentControl" kindref="compound">ExperimentControl</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/experiment.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1ExperimentControl_1abc14e45d91bb865ba6608928846251d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::v2::ExperimentControl::run_experiment</definition>
+        <argsstring>(haldls::v2::Board const &amp;board, haldls::v2::Chip const &amp;chip, std::shared_ptr&lt; haldls::v2::PlaybackProgram &gt; const &amp;playback_program) SYMBOL_VISIBLE</argsstring>
+        <name>run_experiment</name>
+        <param>
+          <type>haldls::v2::Board const &amp;</type>
+          <declname>board</declname>
+        </param>
+        <param>
+          <type>haldls::v2::Chip const &amp;</type>
+          <declname>chip</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; haldls::v2::PlaybackProgram &gt; const &amp;</type>
+          <declname>playback_program</declname>
+        </param>
+        <briefdescription>
+<para>Run experiment on given board and chip. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/experiment.h" line="40" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/experiment.h" line="19" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/experiment.h" bodystart="18" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classstadls_1_1v2_1_1ExperimentControl_1a37c0cf2ce1eddd1e1d6fececdeb1a132" prot="public" virt="non-virtual"><scope>stadls::v2::ExperimentControl</scope><name>ExperimentControl</name></member>
+      <member refid="classstadls_1_1v2_1_1ExperimentControl_1a2721d496fedc6b389422b9da2329daaa" prot="public" virt="non-virtual"><scope>stadls::v2::ExperimentControl</scope><name>ExperimentControl</name></member>
+      <member refid="classstadls_1_1v2_1_1ExperimentControl_1a2f0edd97bb2cc850e6269a2b989a052d" prot="public" virt="non-virtual"><scope>stadls::v2::ExperimentControl</scope><name>ExperimentControl</name></member>
+      <member refid="classstadls_1_1v2_1_1ExperimentControl_1aa280e127dfd5c669990b4f6726dbb932" prot="public" virt="non-virtual"><scope>stadls::v2::ExperimentControl</scope><name>ExperimentControl</name></member>
+      <member refid="classstadls_1_1v2_1_1ExperimentControl_1aa4c669a57143eaf86c156665c651f234" prot="public" virt="non-virtual"><scope>stadls::v2::ExperimentControl</scope><name>ExperimentControl</name></member>
+      <member refid="classstadls_1_1v2_1_1ExperimentControl_1af342ef8c6cc08f3d69231388ac8851b4" prot="private" virt="non-virtual"><scope>stadls::v2::ExperimentControl</scope><name>m_impl</name></member>
+      <member refid="classstadls_1_1v2_1_1ExperimentControl_1a6f08d0694dd9ee88cf0449b449a55a31" prot="public" virt="non-virtual"><scope>stadls::v2::ExperimentControl</scope><name>operator=</name></member>
+      <member refid="classstadls_1_1v2_1_1ExperimentControl_1ad23103a50fc160e5bb41fe3891742035" prot="public" virt="non-virtual"><scope>stadls::v2::ExperimentControl</scope><name>operator=</name></member>
+      <member refid="classstadls_1_1v2_1_1ExperimentControl_1abc14e45d91bb865ba6608928846251d7" prot="public" virt="non-virtual"><scope>stadls::v2::ExperimentControl</scope><name>run_experiment</name></member>
+      <member refid="classstadls_1_1v2_1_1ExperimentControl_1a62768f59a5747932f2011fae679dacda" prot="public" virt="non-virtual"><scope>stadls::v2::ExperimentControl</scope><name>~ExperimentControl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,574 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.15">
+  <compound refid="structlola_1_1vx_1_1_atomic_neuron_1_1_adaptation" kind="struct"><name>lola::vx::AtomicNeuron::Adaptation</name>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_adaptation_1a0598a75c9677330283020d7ae8088885" kind="variable"><name>enable</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_adaptation_1a9ed3433915003642f4eb92f4126f488b" kind="variable"><name>enable_capacitor</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_adaptation_1a12e6d30ea57abe9a8847eb1dbf4142d6" kind="variable"><name>enable_pulse</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_adaptation_1a85cc9375412861e2b4bf914067038f18" kind="variable"><name>i_bias</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_adaptation_1aef6dc57a139031bfb5dce5bab26f9a3a" kind="variable"><name>i_bias_amp</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_adaptation_1a6aecf8b924be870de1bc6e1e7e9f2b5f" kind="variable"><name>i_bias_res</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_adaptation_1a1aa9e2533322d2f1aa639a441af65a55" kind="variable"><name>i_bias_sd</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_adaptation_1ae2c414182eab2543be43134415aaa031" kind="variable"><name>i_w</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_adaptation_1a959ee089411f133751300f310e095d3a" kind="variable"><name>invert_a</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_adaptation_1ab19cd95eb6034153dba1afe289f4a9c8" kind="variable"><name>invert_b</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_adaptation_1a17353d61a0de698c95b68b0303dea968" kind="variable"><name>v_leak</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_adaptation_1afac5b8756747aeb6cd64d99635b1d4aa" kind="function"><name>Adaptation</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_adaptation_1adf993c83ed521653e95d94a6cef4fd67" kind="function"><name>operator!=</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_adaptation_1a87e208e343eb230d93eca2b14c7a9b26" kind="function"><name>operator==</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_adaptation_1a35b6c164576d47d58159c2a44f3bf291" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="classlola_1_1vx_1_1_atomic_neuron" kind="class"><name>lola::vx::AtomicNeuron</name>
+    <member refid="classlola_1_1vx_1_1_atomic_neuron_1aef305a899d41f34c6e56ca1efb861681" kind="typedef"><name>AnalogDisableRefresh</name></member>
+    <member refid="classlola_1_1vx_1_1_atomic_neuron_1a9a542cab1e63b78c839e6d3295c79cf6" kind="typedef"><name>AnalogValue</name></member>
+    <member refid="classlola_1_1vx_1_1_atomic_neuron_1a258402859cbde528ef2a5d9cf23beae8" kind="typedef"><name>AnalogValueVariant</name></member>
+    <member refid="classlola_1_1vx_1_1_atomic_neuron_1aa92d624c0818c70bd912a0ef0a7a8a30" kind="typedef"><name>coordinate_type</name></member>
+    <member refid="classlola_1_1vx_1_1_atomic_neuron_1abb6bf4a78182ae6fa068cd20234f9a1c" kind="typedef"><name>has_local_data</name></member>
+    <member refid="classlola_1_1vx_1_1_atomic_neuron_1afc559b4a4f419c20b6e2cb9a17ec7c4d" kind="variable"><name>adaptation</name></member>
+    <member refid="classlola_1_1vx_1_1_atomic_neuron_1afa90efcafc3f5e5d4ac9237554a2cf3d" kind="variable"><name>bayesian</name></member>
+    <member refid="classlola_1_1vx_1_1_atomic_neuron_1a9d166e2c1ce93665035e88507e8e0681" kind="variable"><name>constant_current</name></member>
+    <member refid="classlola_1_1vx_1_1_atomic_neuron_1aa303baf8edd1085ed6bf945e16b44afc" kind="variable"><name>event_routing</name></member>
+    <member refid="classlola_1_1vx_1_1_atomic_neuron_1ae972b471539655d38df6f7b08d00eed6" kind="variable"><name>excitatory_input</name></member>
+    <member refid="classlola_1_1vx_1_1_atomic_neuron_1af43d4eff07a3e87fab05123818c80f35" kind="variable"><name>exponential</name></member>
+    <member refid="classlola_1_1vx_1_1_atomic_neuron_1a801d43db5a25466275966428362ee1b6" kind="variable"><name>inhibitory_input</name></member>
+    <member refid="classlola_1_1vx_1_1_atomic_neuron_1ac7f968f1e407aaf6210495a0ceeac836" kind="variable"><name>leak_reset</name></member>
+    <member refid="classlola_1_1vx_1_1_atomic_neuron_1afc49150838d1eccd1a479f22b7274641" kind="variable"><name>membrane_capacitance</name></member>
+    <member refid="classlola_1_1vx_1_1_atomic_neuron_1a32cf0089eef976fbf1b7d6c937633175" kind="variable"><name>multicompartment</name></member>
+    <member refid="classlola_1_1vx_1_1_atomic_neuron_1a72d42932f41209303e78ca9a7495f529" kind="variable"><name>readout</name></member>
+    <member refid="classlola_1_1vx_1_1_atomic_neuron_1a7ffb96bc0972019ed2916103d26f3757" kind="variable"><name>refractory_period</name></member>
+    <member refid="classlola_1_1vx_1_1_atomic_neuron_1aecfd8a1262bb4ec66766a77c9598064f" kind="variable"><name>threshold</name></member>
+    <member refid="classlola_1_1vx_1_1_atomic_neuron_1ac017572b1c62fa510061d1d0dd1dca50" kind="friend"><name>haldls::vx::detail::VisitPreorderImpl&lt; AtomicNeuron &gt;</name></member>
+    <member refid="classlola_1_1vx_1_1_atomic_neuron_1aa51c6535959480a69ebe8b41931b5197" kind="friend"><name>operator&lt;&lt;</name></member>
+    <member refid="classlola_1_1vx_1_1_atomic_neuron_1abe502ed62e6a327813caeb3887a8c87e" kind="function"><name>AtomicNeuron</name></member>
+    <member refid="classlola_1_1vx_1_1_atomic_neuron_1a5abf0f946516c316bbcbdc3d27c7e49a" kind="function"><name>operator!=</name></member>
+    <member refid="classlola_1_1vx_1_1_atomic_neuron_1af9373e1fc5e08bfb0c05cdd096a549c3" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_c_a_d_c_sample_row_01_4" kind="struct"><name>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CADCSampleRow &gt;</name>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_c_a_d_c_samples_01_4" kind="struct"><name>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CADCSamples &gt;</name>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_correlation_reset_row_01_4" kind="struct"><name>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::CorrelationResetRow &gt;</name>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_d_a_c_channel_block_01_4" kind="struct"><name>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::DACChannelBlock &gt;</name>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_d_a_c_control_block_01_4" kind="struct"><name>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::DACControlBlock &gt;</name>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_correlation_calib_matrix_01_4" kind="struct"><name>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseCorrelationCalibMatrix &gt;</name>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_correlation_calib_row_01_4" kind="struct"><name>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseCorrelationCalibRow &gt;</name>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_label_matrix_01_4" kind="struct"><name>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseLabelMatrix &gt;</name>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_label_row_01_4" kind="struct"><name>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseLabelRow &gt;</name>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_matrix_01_4" kind="struct"><name>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseMatrix &gt;</name>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_row_01_4" kind="struct"><name>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseRow &gt;</name>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_weight_matrix_01_4" kind="struct"><name>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseWeightMatrix &gt;</name>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01lola_1_1vx_1_1_synapse_weight_row_01_4" kind="struct"><name>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseWeightRow &gt;</name>
+  </compound>
+  <compound refid="structlola_1_1vx_1_1_atomic_neuron_1_1_bayesian" kind="struct"><name>lola::vx::AtomicNeuron::Bayesian</name>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_bayesian_1a4f6b35b8d30483c705fb2246fe1016d0" kind="variable"><name>connect_fire_from_right</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_bayesian_1ad8f4cf2e2005a6d808e85a08fa23557d" kind="variable"><name>connect_fire_to_right</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_bayesian_1a49acfd3bedc10ab27fed5adcfc45269c" kind="variable"><name>connect_fire_vertical</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_bayesian_1afdea939598a2e8d5b0a1f7718aac5ec1" kind="variable"><name>enable</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_bayesian_1a2c75a4be69805247422c1e17d12d8cf8" kind="variable"><name>enable_0</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_bayesian_1a5711cbfe8e84823c896dc2ea3c5f8ff7" kind="variable"><name>enable_1</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_bayesian_1a908984f30cd4a2e47e346f1393503849" kind="variable"><name>enable_master</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_bayesian_1a26fc722d83d86f8a9a4efac9495c2d69" kind="variable"><name>enable_slave</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_bayesian_1a49b6e5b492eca5dfb0d9757d3ef68b93" kind="function"><name>Bayesian</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_bayesian_1afea4f3d4e1d417f35d0ed7e6f5f615ec" kind="function"><name>operator!=</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_bayesian_1a4518ce7107c52a4f6e729cabe2be39c6" kind="function"><name>operator==</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_bayesian_1aaf7e55d5cd1b85be2e52fb8ab33cefc1" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="classlola_1_1vx_1_1_c_a_d_c_sample_row" kind="class"><name>lola::vx::CADCSampleRow</name>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_sample_row_1a1c56e57752248e84dcf1263a2b4a59d8" kind="typedef"><name>_samples_type</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_sample_row_1a7330d8f663df9eb94e19992bc9394e4f" kind="typedef"><name>coordinate_type</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_sample_row_1a2873e4e08fdcc2b2dde1a96658f7f585" kind="typedef"><name>has_local_data</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_sample_row_1ac9359ccadc5ac2451663c2313d1d8164" kind="typedef"><name>Value</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_sample_row_1a399feb9e19a9f2ecb35d7d3de8878235" kind="variable"><name>acausal</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_sample_row_1a51119ca1969f6f911f3573fb0ded2c50" kind="variable"><name>causal</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_sample_row_1add2e7b8bebdcdb2bdf6cca6c45d0fed7" kind="friend"><name>haldls::vx::detail::VisitPreorderImpl&lt; CADCSampleRow &gt;</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_sample_row_1a99d21e1f611cf2c0f1cb5694b3a76029" kind="friend"><name>operator&lt;&lt;</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_sample_row_1a8e6c1337934a20d1bcd0b3960d7470ec" kind="function"><name>CADCSampleRow</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_sample_row_1ad7b3b84e1aedc4346da216ad5d4466a6" kind="function"><name>operator!=</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_sample_row_1a983997999320845803452979fd7c1f88" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="classlola_1_1vx_1_1_c_a_d_c_samples" kind="class"><name>lola::vx::CADCSamples</name>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_samples_1afc662cd5375a4d0f5ed02ff26a3c63d9" kind="typedef"><name>_samples_type</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_samples_1a83a01ea0c056f953ba38c384314f834d" kind="typedef"><name>_values_type</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_samples_1a53aa04d0502f07ff8202b848e230e3da" kind="typedef"><name>coordinate_type</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_samples_1aa505d705a9c610570d1690adc077cdb0" kind="typedef"><name>has_local_data</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_samples_1a918e7847be51887e207971d1537bba08" kind="typedef"><name>Value</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_samples_1af354295f1fb9deabae4c1797f21f673c" kind="variable"><name>acausal</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_samples_1a56981be08e946b798077f46c925f081a" kind="variable"><name>access</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_samples_1a6a43d363fbbfd8cf45234534ec2a7310" kind="variable"><name>causal</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_samples_1afe0deea987447f15bfc63f37bdcb52ce" kind="variable"><name>from_numpy_template</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_samples_1ad40a3f0d92c9ac0ec473729f51b9169e" kind="variable"><name>index</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_samples_1ab8fc99f64b8e235666937a6186e78fba" kind="variable"><name>ism</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_samples_1a907644f0879b8219ae08c75214c3b2ce" kind="variable"><name>ret</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_samples_1a4c517ac897171b9c4e64618b46ef8e9a" kind="variable"><name>ret</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_samples_1a25b3f36aae05d55d362378bc1838e27a" kind="function"><name>CADCSamples</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_samples_1abc3d20d3d684f86c1f8e1a8e8b6a7a9b" kind="function"><name>attr</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_samples_1a40eae59fff8b1f1bdeeb059c95b4e28f" kind="function"><name>attr</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_samples_1af42197777cfe0707238c75973308c651" kind="function"><name>for</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_samples_1a87feffedf280d86904f41ce5c0642a93" kind="function"><name>operator!=</name></member>
+    <member refid="classlola_1_1vx_1_1_c_a_d_c_samples_1adc0d25448960bad2042015e41d9038bc" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="structlola_1_1vx_1_1_atomic_neuron_1_1_constant_current" kind="struct"><name>lola::vx::AtomicNeuron::ConstantCurrent</name>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_constant_current_1afa3476fc17882f9077b265a4d9ac6f91" kind="variable"><name>enable</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_constant_current_1ae0f96cc8f3b8bda587fe816ffb47e3b4" kind="variable"><name>i_offset</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_constant_current_1a6a972d78973ac766adafb322b6185940" kind="function"><name>ConstantCurrent</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_constant_current_1a071c7340cc5b3b331ee7e339ff83c01f" kind="function"><name>operator!=</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_constant_current_1aa0b560a117bcfebaf53c8b531ec87222" kind="function"><name>operator==</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_constant_current_1ace7ec36d85e407640a656c61133d253f" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="classlola_1_1vx_1_1_correlation_reset_row" kind="class"><name>lola::vx::CorrelationResetRow</name>
+    <member refid="classlola_1_1vx_1_1_correlation_reset_row_1a0639e590ba7b8f1e76058c820961a837" kind="typedef"><name>coordinate_type</name></member>
+    <member refid="classlola_1_1vx_1_1_correlation_reset_row_1a84d7a76e0448b6b88131e859dfdcbe1e" kind="typedef"><name>has_local_data</name></member>
+    <member refid="classlola_1_1vx_1_1_correlation_reset_row_1aa9506feba0621ceb54a4294c0a41b34c" kind="friend"><name>haldls::vx::detail::VisitPreorderImpl&lt; CorrelationResetRow &gt;</name></member>
+    <member refid="classlola_1_1vx_1_1_correlation_reset_row_1a553c26f084e0e0f3325aa08d7c282ecc" kind="friend"><name>operator&lt;&lt;</name></member>
+    <member refid="classlola_1_1vx_1_1_correlation_reset_row_1a2b9f93042380a9a9d7c3b1d2dc592e79" kind="function"><name>CorrelationResetRow</name></member>
+    <member refid="classlola_1_1vx_1_1_correlation_reset_row_1ae31a46c226201b34f9ae6388c2ff1a41" kind="function"><name>operator!=</name></member>
+    <member refid="classlola_1_1vx_1_1_correlation_reset_row_1a89f044f72e2b04a93acf497a7a93644c" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="classlola_1_1vx_1_1_d_a_c_channel_block" kind="class"><name>lola::vx::DACChannelBlock</name>
+    <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1a1999078551ecaa930095b011f4898b96" kind="typedef"><name>_value_type</name></member>
+    <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1a2e37347c2dbfd7b6f7cd6a6dbac08395" kind="typedef"><name>coordinate_type</name></member>
+    <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1ac742ed81625a36f51c1bedc9b235c41c" kind="typedef"><name>has_local_data</name></member>
+    <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1a22798897812dc5cac5733d37f6c83e1c" kind="typedef"><name>Value</name></member>
+    <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1adf58a622ff9698397c4e382b3f3424e8" kind="variable"><name>value</name></member>
+    <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1a8e7b04cce626af6f91ad0789634c23ef" kind="variable"><name>default_ldo_1</name></member>
+    <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1aaf2a34a27e5f08f1a2eaf516eef2dd5a" kind="variable"><name>default_ldo_2</name></member>
+    <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1a2f62d4b886ebfb40c36606b924582770" kind="friend"><name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::DACChannelBlock &gt;</name></member>
+    <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1af5e338324886afd2abc64d64f3cf5f6d" kind="friend"><name>operator&lt;&lt;</name></member>
+    <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1ae6ccc9db72ae4f0fd2dc630ec350a3d9" kind="function"><name>DACChannelBlock</name></member>
+    <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1a47e9d9fe2fd6f31fcbfd448c1c33e14d" kind="function"><name>operator!=</name></member>
+    <member refid="classlola_1_1vx_1_1_d_a_c_channel_block_1a276c5eadd7fc6b124b81361a90d0166d" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="classlola_1_1vx_1_1_d_a_c_control_block" kind="class"><name>lola::vx::DACControlBlock</name>
+    <member refid="classlola_1_1vx_1_1_d_a_c_control_block_1a4738ce45e90cb4bd1eb9b4bdbb1e8540" kind="typedef"><name>_enable_type</name></member>
+    <member refid="classlola_1_1vx_1_1_d_a_c_control_block_1aea4f44b48af810692799fc1e86c213ac" kind="typedef"><name>coordinate_type</name></member>
+    <member refid="classlola_1_1vx_1_1_d_a_c_control_block_1a8a19cf413d327408545596691374ff4c" kind="typedef"><name>has_local_data</name></member>
+    <member refid="classlola_1_1vx_1_1_d_a_c_control_block_1a0968959173ebea7059bac2fbf28145b6" kind="variable"><name>enable</name></member>
+    <member refid="classlola_1_1vx_1_1_d_a_c_control_block_1a623925c25070d77fdc407f716ff73030" kind="friend"><name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::DACControlBlock &gt;</name></member>
+    <member refid="classlola_1_1vx_1_1_d_a_c_control_block_1a8267330b1069df25f28c890b2d2ae92d" kind="friend"><name>operator&lt;&lt;</name></member>
+    <member refid="classlola_1_1vx_1_1_d_a_c_control_block_1a0e579d56ae9ef8a7ff1b8713ab8c023a" kind="function"><name>DACControlBlock</name></member>
+    <member refid="classlola_1_1vx_1_1_d_a_c_control_block_1ad459edc94ef2b0fa86dd399bde577a37" kind="function"><name>operator!=</name></member>
+    <member refid="classlola_1_1vx_1_1_d_a_c_control_block_1ae98aad48c01dd8630ac36ad39ae1bc46" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="structlola_1_1vx_1_1_atomic_neuron_1_1_event_routing" kind="struct"><name>lola::vx::AtomicNeuron::EventRouting</name>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_event_routing_1af0b511b2c440a5eca1c0c59756e7eccb" kind="typedef"><name>Address</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_event_routing_1a5f7a262f40a1f945d112664e9993c5d4" kind="variable"><name>address</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_event_routing_1aeea70f19b7873d174786dd520fab0718" kind="variable"><name>enable_analog</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_event_routing_1a5c20b4c0d1abb18a020850b12b0d98e5" kind="variable"><name>enable_bypass_excitatory</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_event_routing_1a369bd29f34f30851f10a3726a3a03e51" kind="variable"><name>enable_bypass_inhibitory</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_event_routing_1a5d7f66df532c79511bf1f339f194362a" kind="variable"><name>enable_digital</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_event_routing_1a3d3805247a724019537ddfc19695ac18" kind="variable"><name>enable_post_overwrite</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_event_routing_1abf204c31d3e1ffc86c51143cd414427a" kind="variable"><name>bypass_exc</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_event_routing_1ab13c500bb64cec8c9b9d9dd016bedf08" kind="variable"><name>bypass_inh</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_event_routing_1adf2d884bca8bcf93d6cb0b0d135986c0" kind="variable"><name>disabled</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_event_routing_1afeae15f296d2ec6f95b199b48ba9202d" kind="variable"><name>enabled</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_event_routing_1a7dbe2ab5da0abb4938f7205fe2c8ef4c" kind="function"><name>EventRouting</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_event_routing_1a8459e7fbf75b3de2586390dde3eadf40" kind="function"><name>EventRouting</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_event_routing_1ab06f392d1a23461dce1d1b65a7f51f0b" kind="function"><name>operator!=</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_event_routing_1a553d582b2fda4cfd89c05cada3246df7" kind="function"><name>operator==</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_event_routing_1a12981e40973d89f55a2ee7438b539391" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="structlola_1_1vx_1_1_atomic_neuron_1_1_exponential" kind="struct"><name>lola::vx::AtomicNeuron::Exponential</name>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_exponential_1a64f76abbe612a6347d20cc1eb294b5c7" kind="typedef"><name>Strength</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_exponential_1aa5d6693d1e4c0bcd6e76ca8b0362ee18" kind="variable"><name>enable</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_exponential_1ad345888e987d485dba724745904d576f" kind="variable"><name>strength</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_exponential_1a868c90f13ebf34cee1671d4ec9335641" kind="function"><name>Exponential</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_exponential_1a1fae7b921c3bcb4d6893fd1798e5293c" kind="function"><name>operator!=</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_exponential_1ad09dc126043ea52aabf4cf0016f0c6f7" kind="function"><name>operator==</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_exponential_1a6e5d13327bc0369ec76aca48a2c5df97" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_leak" kind="struct"><name>lola::vx::AtomicNeuron::LeakReset::Leak</name>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_leak_1a798b94f5f3aaf2b8f9f2360a0828febc" kind="variable"><name>enable_degeneration</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_leak_1a0a7e91ceffc2251a9ee84d883619bc2e" kind="variable"><name>enable_division</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_leak_1a9c62aaf2dcb2dfcc83c91807fa8eb7d4" kind="variable"><name>enable_multiplication</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_leak_1a22eee2f685dfb1587d51bb28db22787f" kind="variable"><name>i_bias</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_leak_1aa65da33c920b17439f224e133e3b5075" kind="variable"><name>v_leak</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_leak_1a7597550fc8d77cf58041313da9f7ac55" kind="function"><name>Leak</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_leak_1a84264b94cd3cdeefe28b9805580a71d5" kind="function"><name>operator!=</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_leak_1a1d5908a9753d9da1461b83bff6d9f7ae" kind="function"><name>operator==</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_leak_1a9b9b2e2a3eac1bcbd2e19cc3e993ad7b" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset" kind="struct"><name>lola::vx::AtomicNeuron::LeakReset</name>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1a04d55657539fb90d6bf7b51cf1400879" kind="variable"><name>i_bias_source_follower</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1aedd397d35474ec4786d29c785ffa74fa" kind="variable"><name>leak</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1a89d98c56e164913ab9a9d706411c5122" kind="variable"><name>reset</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1a053792aefae308d9312d849e97801886" kind="function"><name>LeakReset</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1ae46d5e1ad4f7cb2a884725b5e6d1f8d7" kind="function"><name>operator!=</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1aff0accee0f18213577c9f5970ae91bf0" kind="function"><name>operator==</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1af00a8c02fd0b396531f35d6b7c96651d" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance" kind="struct"><name>lola::vx::AtomicNeuron::MembraneCapacitance</name>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance_1a31e8e1d24a533a67c3c3c3a32c662cf0" kind="typedef"><name>CapacitorSize</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance_1a9679a9eb8da653e7e8aa4409e93b342e" kind="variable"><name>capacitance</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance_1ad865a45c3465c72f0bb1ae0b5658a149" kind="variable"><name>enable_merge</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance_1ae123088fff88c1774b9ec892fa677f9e" kind="function"><name>MembraneCapacitance</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance_1a1ad44dfa6c21439f22d806fcb25c1aef" kind="function"><name>operator!=</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance_1a7bd08f1aabe7e7735660e79075fbaf35" kind="function"><name>operator==</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_membrane_capacitance_1ac242a2a781b7e80823bc71c1588a193f" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment" kind="struct"><name>lola::vx::AtomicNeuron::Multicompartment</name>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1a02eb9efaf79781b61eaa40170fca7bc1" kind="variable"><name>connect_right</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1a5cfab7c4baceca6e31155c6f42a9c9df" kind="variable"><name>connect_soma</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1a1daedb78b1ae086522742599540a00d0" kind="variable"><name>connect_soma_right</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1a55f3059e54a9b2ecec11461a80398502" kind="variable"><name>connect_vertical</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1afe19bfd40eeb6f5207204941cd13e84b" kind="variable"><name>enable_conductance</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1a162c5a50735f6fb9415a481341e7de83" kind="variable"><name>enable_conductance_division</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1ae55495e302259c1bc526033fec7fb554" kind="variable"><name>enable_conductance_multiplication</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1aadc9d70292a37daa2c3f3d4b92c88f34" kind="variable"><name>i_bias_nmda</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1adb0e6a3596108c409115f3882fcff1b0" kind="function"><name>Multicompartment</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1ae790c64a20e430cb06a05e9548387530" kind="function"><name>operator!=</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1a3aadaa667e300d0f95130f4ea8d50768" kind="function"><name>operator==</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_multicompartment_1a4272da6228b5b745bec5519f13e9301e" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="classlola_1_1vx_1_1_p_p_u_elf_file" kind="class"><name>lola::vx::PPUElfFile</name>
+    <member refid="classlola_1_1vx_1_1_p_p_u_elf_file_1a8eab642dd39929441c35c28fc51a0f6e" kind="typedef"><name>symbols_type</name></member>
+    <member refid="classlola_1_1vx_1_1_p_p_u_elf_file_1ae55c6ed5e5c77427db210e233611fbab" kind="variable"><name>m_elf_ptr</name></member>
+    <member refid="classlola_1_1vx_1_1_p_p_u_elf_file_1a26a43335884bea24167380ec22a7984d" kind="variable"><name>m_fd</name></member>
+    <member refid="classlola_1_1vx_1_1_p_p_u_elf_file_1a8851067901da1ff9029fcd8971b345e2" kind="function"><name>PPUElfFile</name></member>
+    <member refid="classlola_1_1vx_1_1_p_p_u_elf_file_1a66fefd878b237f551956e9dbf8217e7a" kind="function"><name>~PPUElfFile</name></member>
+    <member refid="classlola_1_1vx_1_1_p_p_u_elf_file_1abd35c2ba56fd814b170042c47ec13ba5" kind="function"><name>read_program</name></member>
+    <member refid="classlola_1_1vx_1_1_p_p_u_elf_file_1af065bfa8bd62678f6bac46ed679532a1" kind="function"><name>read_symbols</name></member>
+  </compound>
+  <compound refid="classlola_1_1vx_1_1_p_p_u_program" kind="class"><name>lola::vx::PPUProgram</name>
+  </compound>
+  <compound refid="structlola_1_1vx_1_1_atomic_neuron_1_1_readout" kind="struct"><name>lola::vx::AtomicNeuron::Readout</name>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_readout_1a066a6843ba3dfa81ad686be0011e117e" kind="typedef"><name>Source</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_readout_1ac073743bc01b7c813595197a02cb8ccc" kind="variable"><name>enable_amplifier</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_readout_1acf4e78d0be6ba8f4df91905020ba1113" kind="variable"><name>enable_buffered_access</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_readout_1afbfcd3bd8bcb1aee6c300c8cef6de2a0" kind="variable"><name>enable_unbuffered_access</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_readout_1ad354bfa1c915b1b99f0ad83311f6f75b" kind="variable"><name>i_bias</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_readout_1a8232f46a2afb4af35715c2f58cea5384" kind="variable"><name>source</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_readout_1ae9f0882562537a2cef0dd8207063b478" kind="function"><name>Readout</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_readout_1adfaae3541242dc3dbe1306aeef6fb712" kind="function"><name>operator!=</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_readout_1a26c39d56d72c8e139af12f5c6e874a5d" kind="function"><name>operator==</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_readout_1a9e860d80410b9cd34aa6db0b6d284bf1" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period" kind="struct"><name>lola::vx::AtomicNeuron::RefractoryPeriod</name>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a077b37903c393bcd2734d48ccdb14237" kind="typedef"><name>InputClock</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a5cb2122ef029ca03e541a45779a67163" kind="typedef"><name>RefractoryTime</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1ac69401d20e05c80869da53f3dd91bf76" kind="typedef"><name>ResetHoldoff</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a3b21f11c01fbdce3f6cda917bddddfbc" kind="variable"><name>input_clock</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a9e3dd64179f7d59650e244f30003a845" kind="variable"><name>refractory_time</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a8ed0af4d210cceed5b1190b38264efa4" kind="variable"><name>reset_holdoff</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a9ed10a63591aa68ac37bb36e4b0fc924" kind="function"><name>RefractoryPeriod</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a57364db6e25619ab9dc760c2578bd832" kind="function"><name>operator!=</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1a8b8feb1a174307fe9ac7bb43cfb2d9a2" kind="function"><name>operator==</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_refractory_period_1aecec8b6fb954425bb60eed3dc60d9be6" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset" kind="struct"><name>lola::vx::AtomicNeuron::LeakReset::Reset</name>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1ad3fbb399fdb3aeac2dfe5d4b365f1256" kind="variable"><name>enable_degeneration</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1a0340da7e37ab581f13818d34f2707cd2" kind="variable"><name>enable_division</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1a2654193d2bf97fdbfc5bb42db05f9e48" kind="variable"><name>enable_multiplication</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1aa6ae0560a2a675592aaf1f04fa93c8d7" kind="variable"><name>i_bias</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1adba2f6f8be8420bfdee3a4018fb54d0c" kind="variable"><name>v_reset</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1a9ffc1fa78cca5a70c60bfd247b58c50d" kind="function"><name>Reset</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1ae970a6f255a2bb87f133645860bff131" kind="function"><name>operator!=</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1afa3c295c29509d651b32cc364058aad0" kind="function"><name>operator==</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_leak_reset_1_1_reset_1a9e47088244fd42e28743c54b37ec14f3" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="classlola_1_1vx_1_1_p_p_u_program_1_1_symbol" kind="class"><name>lola::vx::PPUProgram::Symbol</name>
+    <member refid="classlola_1_1vx_1_1_p_p_u_program_1_1_symbol_1a7c6b31a9c12e91daaaa1bec8b5396204" kind="enum"><name>Type</name></member>
+    <member refid="classlola_1_1vx_1_1_p_p_u_program_1_1_symbol_1a7c6b31a9c12e91daaaa1bec8b5396204aa8cfde6331bd59eb2ac96f8911c4b666" kind="enumvalue"><name>object</name></member>
+    <member refid="classlola_1_1vx_1_1_p_p_u_program_1_1_symbol_1a7c6b31a9c12e91daaaa1bec8b5396204ac1c425268e68385d1ab5074c17a94f14" kind="enumvalue"><name>function</name></member>
+    <member refid="classlola_1_1vx_1_1_p_p_u_program_1_1_symbol_1a7c6b31a9c12e91daaaa1bec8b5396204a795f3202b17cb6bc3d4b771d8c6c9eaf" kind="enumvalue"><name>other</name></member>
+    <member refid="classlola_1_1vx_1_1_p_p_u_program_1_1_symbol_1af8dc61c2be632f3b1990216602086c31" kind="variable"><name>coordinate</name></member>
+    <member refid="classlola_1_1vx_1_1_p_p_u_program_1_1_symbol_1ac54a26105674e2c6bcab297781b60116" kind="variable"><name>type</name></member>
+    <member refid="classlola_1_1vx_1_1_p_p_u_program_1_1_symbol_1a16d48a6a5f00eed78f7aa948c00c5fbc" kind="function"><name>Symbol</name></member>
+    <member refid="classlola_1_1vx_1_1_p_p_u_program_1_1_symbol_1a6a0f7a7749b64a8d6de0afe1ad4b322d" kind="function"><name>Symbol</name></member>
+    <member refid="classlola_1_1vx_1_1_p_p_u_program_1_1_symbol_1a50e516150469d47cc7a765c6fa58a0a6" kind="function"><name>operator!=</name></member>
+    <member refid="classlola_1_1vx_1_1_p_p_u_program_1_1_symbol_1a0773f13490616a3b4657f1c39f768130" kind="function"><name>operator==</name></member>
+    <member refid="classlola_1_1vx_1_1_p_p_u_program_1_1_symbol_1ab3f91c98a05e1672ae6054c5a342b015" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix" kind="class"><name>lola::vx::SynapseCorrelationCalibMatrix</name>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1ae8405b244d9ef2663c8e700d2bba816b" kind="typedef"><name>_amp_calibs_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1abc7282e6757a1119230d3a7f30ebb779" kind="typedef"><name>_time_calibs_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a702c17a561b3bbdf91ee030e2cb00d57" kind="typedef"><name>AmpCalib</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a0bb06d3d7ac395134cefe627484cba2a" kind="typedef"><name>coordinate_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a3ba93fd40ec1de8bf52e626820ff4774" kind="typedef"><name>has_local_data</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1aed0dfaa03ec45f07939a4513695c169d" kind="typedef"><name>matrix_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1abc6a063833bf574befa2367d616559d2" kind="typedef"><name>TimeCalib</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1ae089231f4b2d6a6de27697ee4b4d52ab" kind="variable"><name>amp_calibs</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a1f7e73ad1a30596e42f7fcc513d9bc5f" kind="variable"><name>time_calibs</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a48b6d8a0cfba8fd47453af29ff7a582c" kind="friend"><name>haldls::vx::detail::VisitPreorderImpl&lt; SynapseCorrelationCalibMatrix &gt;</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a6caa865a035ff56c72e4a3252ac74f06" kind="friend"><name>operator&lt;&lt;</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1acd1e5bd8dfd934c5c9dc2ca445b2e1e5" kind="function"><name>SynapseCorrelationCalibMatrix</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1a0f7c615e553258e28c6b4a45394cf6c0" kind="function"><name>operator!=</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_matrix_1aa6b07e387fa7161ccbe9d3df13ae59ef" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="classlola_1_1vx_1_1_synapse_correlation_calib_row" kind="class"><name>lola::vx::SynapseCorrelationCalibRow</name>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_row_1abc92ce30ec26235e57b196d96a09bd88" kind="typedef"><name>_amp_calibs_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_row_1ad8dfb6fc5bccb129cf01ccb6219f53b3" kind="typedef"><name>_time_calibs_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_row_1a33b8afb8632d9c9aae8117a416279b74" kind="typedef"><name>AmpCalib</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_row_1ab347b9ff2a00eddba103949d42444d8b" kind="typedef"><name>coordinate_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_row_1a78aa015d5439d39c84663627029bcb81" kind="typedef"><name>has_local_data</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_row_1ab4a795eaf5a1daf1e80aa9b9e525bb66" kind="typedef"><name>TimeCalib</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_row_1a3505a8470593587ce80845d36c7f074d" kind="variable"><name>amp_calibs</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_row_1ac11fee1473077c6224a372bd7e7fb314" kind="variable"><name>time_calibs</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_row_1a067b6593ca46b2ee522db2d09111a383" kind="friend"><name>haldls::vx::detail::VisitPreorderImpl&lt; SynapseCorrelationCalibRow &gt;</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_row_1a4e3c85081216d154f632fed1c608e60e" kind="friend"><name>operator&lt;&lt;</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_row_1a0b044647173ec55310f9f4921d2e3938" kind="function"><name>SynapseCorrelationCalibRow</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_row_1ad33245a7636e3da87f0c76de46022127" kind="function"><name>operator!=</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_correlation_calib_row_1a06939e6b95bf93136bc10daf7d7febd2" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="classlola_1_1vx_1_1_synapse_label_matrix" kind="class"><name>lola::vx::SynapseLabelMatrix</name>
+    <member refid="classlola_1_1vx_1_1_synapse_label_matrix_1ab1e1f07c5010eb9dfadb727f1f28df53" kind="typedef"><name>_values_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_label_matrix_1afe8429b8d54e18269da70183addaa2cc" kind="typedef"><name>coordinate_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_label_matrix_1abe0e78790447f805a7cfdc0a95b6ec1a" kind="typedef"><name>has_local_data</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_label_matrix_1ad4778478f3e15f1cbf4887bf83e59ca4" kind="typedef"><name>matrix_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_label_matrix_1a595021bae60a0903da7f29143345edf4" kind="typedef"><name>Value</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_label_matrix_1aabde186d0f52735d1473bf1b67182131" kind="variable"><name>values</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_label_matrix_1ad06af6b0af3593a3b1d87329b6e88f0a" kind="friend"><name>haldls::vx::detail::VisitPreorderImpl&lt; SynapseLabelMatrix &gt;</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_label_matrix_1a6919de13d1a1f244dfdc276e1a0cb4e8" kind="friend"><name>operator&lt;&lt;</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_label_matrix_1a226d9ae15bf5d0a670cd70545965d4b8" kind="function"><name>SynapseLabelMatrix</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_label_matrix_1a812b85be302e4ac17bd4cfdc274fa7e0" kind="function"><name>operator!=</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_label_matrix_1aa50ad540101c47e607b4d5db0e212368" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="classlola_1_1vx_1_1_synapse_label_row" kind="class"><name>lola::vx::SynapseLabelRow</name>
+    <member refid="classlola_1_1vx_1_1_synapse_label_row_1a23c7430c8ab72a58820b69ef94ccb4f4" kind="typedef"><name>_values_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_label_row_1aec1df6ee31ba436d498c9375dcc0d695" kind="typedef"><name>coordinate_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_label_row_1aa598c7c83722412b19da1cb16d489bd2" kind="typedef"><name>has_local_data</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_label_row_1adcf8105e4214df1489b08f38814bcfa1" kind="typedef"><name>Value</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_label_row_1aaeb033604350d87fa35107f23d44e6b9" kind="variable"><name>values</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_label_row_1a624d5819f7a254ececed972ecae6af3e" kind="friend"><name>haldls::vx::detail::VisitPreorderImpl&lt; SynapseLabelRow &gt;</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_label_row_1a4276a17aeb10265b1b83a8ca87eec4e1" kind="friend"><name>operator&lt;&lt;</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_label_row_1ad1d58bc49094528acf4f71e90590bf9d" kind="function"><name>SynapseLabelRow</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_label_row_1aa1d782ba10c2fc728679afd83681bba6" kind="function"><name>operator!=</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_label_row_1ab61ee00f5c5d35a4b44920e2fc9805d6" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="classlola_1_1vx_1_1_synapse_matrix" kind="class"><name>lola::vx::SynapseMatrix</name>
+    <member refid="classlola_1_1vx_1_1_synapse_matrix_1a51d8c1b236a1366b9b467d27389961f2" kind="typedef"><name>_amp_calibs_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_matrix_1a133bdb97ece440ee9377cf74fa19f7af" kind="typedef"><name>_labels_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_matrix_1acc553b791fac40e2f95275e622775360" kind="typedef"><name>_time_calibs_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_matrix_1a90a64bade9bbdfa0f1e35f2495d21ad4" kind="typedef"><name>_weights_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_matrix_1acc025dcfa388d505664c20dc8648e9a8" kind="typedef"><name>AmpCalib</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_matrix_1a4c7d5f682f1ddeb02818cb4dda9708c4" kind="typedef"><name>coordinate_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_matrix_1a124881e2c4586f5f7761c56baab2facd" kind="typedef"><name>has_local_data</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_matrix_1aa2dd551d601b0e9728acf1d71bfbad35" kind="typedef"><name>Label</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_matrix_1abe31b0fbfde3c67dd5b27524574e3a12" kind="typedef"><name>matrix_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_matrix_1a5e949cfe8c8b76ef5d98e300eee61c0c" kind="typedef"><name>TimeCalib</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_matrix_1a9c2e932977e657f69225898c084dcd28" kind="typedef"><name>Weight</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_matrix_1a8d30140b25484805c55cbe3d5bebcb13" kind="variable"><name>amp_calibs</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_matrix_1a2a8e8f64ebf3c0dece0435e4ca9ee8cf" kind="variable"><name>labels</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_matrix_1ad4e8bc2019f94ed4686c160c399402e6" kind="variable"><name>time_calibs</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_matrix_1a19e6860f9667e5194f87f0a681b3ae9f" kind="variable"><name>weights</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_matrix_1a787eb882996983c67499f83b7ab0fc9d" kind="friend"><name>haldls::vx::detail::VisitPreorderImpl&lt; SynapseMatrix &gt;</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_matrix_1a3901ebafcd0d8c9454333d88de30bfda" kind="friend"><name>operator&lt;&lt;</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_matrix_1a5276207b51e2ab65328731568e51dd69" kind="function"><name>SynapseMatrix</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_matrix_1a2f7aaf90697f72983dcbc30504214066" kind="function"><name>operator!=</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_matrix_1ae57bc253dd21d5aa291fe4eb91d4cdf2" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="classlola_1_1vx_1_1_synapse_row" kind="class"><name>lola::vx::SynapseRow</name>
+    <member refid="classlola_1_1vx_1_1_synapse_row_1ae97ef061d159996fd1ee5a324c14f8ca" kind="typedef"><name>_amp_calibs_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_row_1a6947f14594032a488f5809e6e7cbc0db" kind="typedef"><name>_labels_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_row_1a39306e7b5c8a147abeb6efc492ba90c3" kind="typedef"><name>_time_calibs_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_row_1a34ac34d19385ae424142f58cc4fbe6cf" kind="typedef"><name>_weights_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_row_1a501500514b9fbca603666c144e9f7565" kind="typedef"><name>AmpCalib</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_row_1a9279620faaf728bb54d5f164dd2a8f60" kind="typedef"><name>coordinate_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_row_1aad419ddd24aeae4b93a44808701be6ad" kind="typedef"><name>has_local_data</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_row_1a8b985a3ec2925ef3ac5b0d879adf68d7" kind="typedef"><name>Label</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_row_1aa456290ade8976f0748af3fe93014216" kind="typedef"><name>TimeCalib</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_row_1a919ab311fb93fb20ecc9393b874e03ac" kind="typedef"><name>Weight</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_row_1a1fe8a5890670298b9733b89ebf4689ed" kind="variable"><name>amp_calibs</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_row_1adca83ff0ee67d8cfab6a850cc3f9653d" kind="variable"><name>labels</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_row_1a331c9e84eeb7db9c6e8dd6d77444a0d8" kind="variable"><name>time_calibs</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_row_1af80285ad678b28e9dff92d77bd448a26" kind="variable"><name>weights</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_row_1a956211491c6a6702db4c5e884f5a0a78" kind="friend"><name>haldls::vx::detail::VisitPreorderImpl&lt; SynapseRow &gt;</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_row_1a500c67c7ed87650a4c8f02369a3c1379" kind="friend"><name>operator&lt;&lt;</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_row_1a64d9084e70edb96a8c6e30938364c828" kind="function"><name>SynapseRow</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_row_1a94a2c0b75aff23fb91f6cd90f261b5c2" kind="function"><name>operator!=</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_row_1a8807b5271ecbc26be114a7d8450536cc" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="classlola_1_1vx_1_1_synapse_weight_matrix" kind="class"><name>lola::vx::SynapseWeightMatrix</name>
+    <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1a0dd5d4d1abcad92ad92509d9b4b389fc" kind="typedef"><name>_values_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1a8701b1ab7258a1cc4bf118cd69c2dcc2" kind="typedef"><name>coordinate_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1a546d28ce01e84940284d68b8432468cb" kind="typedef"><name>has_local_data</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1aebf45cf118c844c80f4e3d937090361e" kind="typedef"><name>matrix_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1a0d4037e3f696f41cb32d14c15c46a702" kind="typedef"><name>Value</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1ae8db0fae27c76793c5b04c66f3771be8" kind="variable"><name>values</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1a66f428da0e5a0a6bec40d019984ee779" kind="friend"><name>haldls::vx::detail::VisitPreorderImpl&lt; SynapseWeightMatrix &gt;</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1a43a0eda54ecd3dc857bbaa150a25f43b" kind="friend"><name>operator&lt;&lt;</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1aa3af51ded3e8f40b6b70f919fd9e0c70" kind="function"><name>SynapseWeightMatrix</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1a3a9e38f8a2e30e9ba11f7eec66feacc9" kind="function"><name>operator!=</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_weight_matrix_1adb611dccca17e19470a0e45a0f10b30a" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="classlola_1_1vx_1_1_synapse_weight_row" kind="class"><name>lola::vx::SynapseWeightRow</name>
+    <member refid="classlola_1_1vx_1_1_synapse_weight_row_1a35e08f7dd2e54820f86e51a8e538dc03" kind="typedef"><name>_values_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_weight_row_1a2562f3dfb42b24ee5be45e8bc4d1dc1b" kind="typedef"><name>coordinate_type</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_weight_row_1a9248a7b326856b7c022050355270eeed" kind="typedef"><name>has_local_data</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_weight_row_1a1374713aff4928ce18480627f345ccd4" kind="typedef"><name>Value</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_weight_row_1a6b173eb95184074ba8ed97afda1acc81" kind="variable"><name>values</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_weight_row_1ab6e5cf67ddcd15d76d29930d67939c21" kind="friend"><name>haldls::vx::detail::VisitPreorderImpl&lt; SynapseWeightRow &gt;</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_weight_row_1a8a0db94c8abedeae51113b8ecb4a9a0a" kind="friend"><name>operator&lt;&lt;</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_weight_row_1ad6a56a908560b103e2a5000e0a071020" kind="function"><name>SynapseWeightRow</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_weight_row_1a8e688632eae6de2b07d32d05948f4d46" kind="function"><name>operator!=</name></member>
+    <member refid="classlola_1_1vx_1_1_synapse_weight_row_1a0265b5ac67c68dc4640996290b993cb7" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="structlola_1_1vx_1_1_atomic_neuron_1_1_synaptic_input" kind="struct"><name>lola::vx::AtomicNeuron::SynapticInput</name>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_synaptic_input_1ae8ac302ea4d56551837104ae07001a64" kind="variable"><name>enable</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_synaptic_input_1a635b80b431f5fc9664e18cb0083bde2c" kind="variable"><name>i_bias_gm</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_synaptic_input_1a4823d5c24b4667d6fb2cf230b9f680bc" kind="variable"><name>i_bias_res</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_synaptic_input_1af4a2e5800ed2a9352918bd31cd96cac9" kind="variable"><name>v_syn</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_synaptic_input_1a5be1e9ade2c0fc086ee443c5ae866084" kind="function"><name>SynapticInput</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_synaptic_input_1a2b29fb5ef1f614e035a15b0e5fdafe37" kind="function"><name>operator!=</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_synaptic_input_1aa5f8b10b44a466b9e0f29a85c2351714" kind="function"><name>operator==</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_synaptic_input_1a14986f7fe6367d4259d4ec168f26ad78" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="structlola_1_1vx_1_1_atomic_neuron_1_1_threshold" kind="struct"><name>lola::vx::AtomicNeuron::Threshold</name>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_threshold_1a11859a07d560f181b7cc9baedfa015f7" kind="variable"><name>enable</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_threshold_1a1f86e5ef002a7af4d7978db3eba52632" kind="variable"><name>v_threshold</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_threshold_1aaa2cfbe1730ed929024e9de0caba4517" kind="function"><name>Threshold</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_threshold_1ad430a6e92e55eddb87a580ea73298f7b" kind="function"><name>operator!=</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_threshold_1a9013c9e6b3a83879f505a9919bed23dc" kind="function"><name>operator==</name></member>
+    <member refid="structlola_1_1vx_1_1_atomic_neuron_1_1_threshold_1a86e343cc32ca8950ee6e1afec3df5fd2" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_a_d_c_sample_row_01_4" kind="struct"><name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CADCSampleRow &gt;</name>
+    <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_a_d_c_sample_row_01_4_1ad6f57136a42ca3fda8ab886e1fd0c924" kind="function"><name>call</name></member>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_a_d_c_samples_01_4" kind="struct"><name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CADCSamples &gt;</name>
+    <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_c_a_d_c_samples_01_4_1af50910c8f19c22a2947bea5c3bd5eea1" kind="function"><name>call</name></member>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_correlation_reset_row_01_4" kind="struct"><name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::CorrelationResetRow &gt;</name>
+    <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_correlation_reset_row_01_4_1a417d61eb01364777e9d547c364377b76" kind="function"><name>call</name></member>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_d_a_c_channel_block_01_4" kind="struct"><name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::DACChannelBlock &gt;</name>
+    <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_d_a_c_channel_block_01_4_1afbec10f115bc4dc8074a36f971fa31f6" kind="function"><name>call</name></member>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_d_a_c_control_block_01_4" kind="struct"><name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::DACControlBlock &gt;</name>
+    <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_d_a_c_control_block_01_4_1afe28bcf6474bfb4eedf58570bc8b74b5" kind="function"><name>call</name></member>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_correlation_calib_matrix_01_4" kind="struct"><name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseCorrelationCalibMatrix &gt;</name>
+    <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_correlation_calib_matrix_01_4_1a1c5b156bb8d7ccf17ceb0957ffb9b3b6" kind="typedef"><name>container_type</name></member>
+    <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_correlation_calib_matrix_01_4_1afaae5a1f333ab9740410c2b00a411a28" kind="function"><name>call</name></member>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_correlation_calib_row_01_4" kind="struct"><name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseCorrelationCalibRow &gt;</name>
+    <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_correlation_calib_row_01_4_1a357aa968bf6873781a336b5c9f263b40" kind="typedef"><name>container_type</name></member>
+    <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_correlation_calib_row_01_4_1ac9a1715d0683f90afbe95a32b13d2e9f" kind="function"><name>call</name></member>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_label_matrix_01_4" kind="struct"><name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseLabelMatrix &gt;</name>
+    <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_label_matrix_01_4_1aa06610bab4177606a960bb75aae9dfc5" kind="typedef"><name>container_type</name></member>
+    <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_label_matrix_01_4_1ac02d3134edd9d14c4bd2680104f75be2" kind="function"><name>call</name></member>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_label_row_01_4" kind="struct"><name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseLabelRow &gt;</name>
+    <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_label_row_01_4_1a3ac317758dbeb3fb3f01b40fa7a899d0" kind="typedef"><name>container_type</name></member>
+    <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_label_row_01_4_1a8ac0cf90a4b4542559be217d621a2124" kind="function"><name>call</name></member>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_matrix_01_4" kind="struct"><name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseMatrix &gt;</name>
+    <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_matrix_01_4_1a12eb6d454e60a53b72f718bc55cbb0d9" kind="typedef"><name>container_type</name></member>
+    <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_matrix_01_4_1a15435d18ca4a8902766b2c3ecacab83c" kind="function"><name>call</name></member>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_row_01_4" kind="struct"><name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseRow &gt;</name>
+    <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_row_01_4_1a190c782b4dee1adbd284a77347db5858" kind="typedef"><name>container_type</name></member>
+    <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_row_01_4_1a3d41212aeb72f5d4160be13dbcda6e8c" kind="function"><name>call</name></member>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_weight_matrix_01_4" kind="struct"><name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseWeightMatrix &gt;</name>
+    <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_weight_matrix_01_4_1aecf8ab0867c33e403f864f3cfb4b934f" kind="typedef"><name>container_type</name></member>
+    <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_weight_matrix_01_4_1ad574755d7a925aac2d84e8a534e260d6" kind="function"><name>call</name></member>
+  </compound>
+  <compound refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_weight_row_01_4" kind="struct"><name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseWeightRow &gt;</name>
+    <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_weight_row_01_4_1a6fc1c5701985e98e2bddb9c5c5c58aa7" kind="typedef"><name>container_type</name></member>
+    <member refid="structhaldls_1_1vx_1_1detail_1_1_visit_preorder_impl_3_01lola_1_1vx_1_1_synapse_weight_row_01_4_1ad3eeb1c952ad5ea8936e6f2335b01b38" kind="function"><name>call</name></member>
+  </compound>
+  <compound refid="namespacecereal" kind="namespace"><name>cereal</name>
+    <member refid="namespacecereal_1a1d012048b917441637c28395ca65758e" kind="function"><name>CEREAL_SERIALIZE_FUNCTION_NAME</name></member>
+  </compound>
+  <compound refid="namespacehaldls" kind="namespace"><name>haldls</name>
+  </compound>
+  <compound refid="namespacehaldls_1_1vx" kind="namespace"><name>haldls::vx</name>
+  </compound>
+  <compound refid="namespacehaldls_1_1vx_1_1detail" kind="namespace"><name>haldls::vx::detail</name>
+    <member refid="namespacehaldls_1_1vx_1_1detail_1a29cccb3127c963f4dfc75529a2148f17" kind="variable"><name>operator</name></member>
+  </compound>
+  <compound refid="namespacelola" kind="namespace"><name>lola</name>
+  </compound>
+  <compound refid="namespacelola_1_1vx" kind="namespace"><name>lola::vx</name>
+    <member refid="namespacelola_1_1vx_1a051ede9b485b1d85c203558b5cded000" kind="function"><name>operator</name></member>
+  </compound>
+  <compound refid="namespacelola_1_1vx_1_1detail" kind="namespace"><name>lola::vx::detail</name>
+    <member refid="namespacelola_1_1vx_1_1detail_1ae8b69c1a91259c21e4156ea63f232a32" kind="typedef"><name>pickle_types</name></member>
+    <member refid="namespacelola_1_1vx_1_1detail_1ab3e2fdf00444134ac5e13707a1b384b2" kind="variable"><name>pickle_type_names</name></member>
+    <member refid="namespacelola_1_1vx_1_1detail_1a15425e5e7fa003b5296d71741edbc2d0" kind="function"><name>get_containers_list</name></member>
+    <member refid="namespacelola_1_1vx_1_1detail_1a636fb0f96e709954f7fba85222670e37" kind="function"><name>gray_scale</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="cadc_8h" kind="file"><name>cadc.h</name>
+    <member refid="cadc_8h_1a358ff1c145f4b83bf1e34ef0686315fa" kind="typedef"><name>_samples_type</name></member>
+    <member refid="cadc_8h_1a8f1f88b4db98e777730e95ce09a886a6" kind="typedef"><name>_values_type</name></member>
+    <member refid="cadc_8h_1a7ed0ec71f0f53684553937d9b4bff0c1" kind="typedef"><name>coordinate_type</name></member>
+    <member refid="cadc_8h_1a91c918005a64a9655b7a3a38026371b2" kind="typedef"><name>has_local_data</name></member>
+    <member refid="cadc_8h_1a1fc54c57a77091d31377b9a43492ad57" kind="typedef"><name>Value</name></member>
+    <member refid="cadc_8h_1a76a68ed9be3a46d4f653536d8136c13f" kind="variable"><name>acausal</name></member>
+    <member refid="cadc_8h_1a5336936706030925bb72f50f6774b90a" kind="variable"><name>access</name></member>
+    <member refid="cadc_8h_1ae876c2dfbfd671605f760b1d757d3f60" kind="variable"><name>causal</name></member>
+    <member refid="cadc_8h_1acc43a8d1721330f5c80f85c561267296" kind="variable"><name>from_numpy_template</name></member>
+    <member refid="cadc_8h_1a3f42f10d93f6edb91d7d3f6edad25921" kind="variable"><name>index</name></member>
+    <member refid="cadc_8h_1ab8e5b6563f6e0ca014e12f1f35fc4c6a" kind="variable"><name>ism</name></member>
+    <member refid="cadc_8h_1a339672ff94e6199019102f50d317c3d7" kind="variable"><name>ret</name></member>
+    <member refid="cadc_8h_1abeb1c2f608b966f91045a1c351b1b6a8" kind="function"><name>attr</name></member>
+    <member refid="cadc_8h_1a11d39af953ed88de620586a039318a16" kind="function"><name>attr</name></member>
+    <member refid="cadc_8h_1a21afdc2e40a987dff0b7747a3b19651d" kind="function"><name>BOOST_HANA_ADAPT_STRUCT</name></member>
+    <member refid="cadc_8h_1ab6a6bfaa19b8b2d7222a8d74ef1a0ac4" kind="function"><name>BOOST_HANA_ADAPT_STRUCT</name></member>
+    <member refid="cadc_8h_1a88e749536978daff303480c38c06daaf" kind="function"><name>CADCSamples</name></member>
+    <member refid="cadc_8h_1a025450a3c07660b6334bfbe558430021" kind="function"><name>for</name></member>
+    <member refid="cadc_8h_1a2712ad7b031eaf17cebab6b3010359a6" kind="function"><name>operator!=</name></member>
+    <member refid="cadc_8h_1a3b407830a87747c77e97631c725889de" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="cerealization_8h" kind="file"><name>cerealization.h</name>
+  </compound>
+  <compound refid="container_8h" kind="file"><name>container.h</name>
+  </compound>
+  <compound refid="dac_8h" kind="file"><name>dac.h</name>
+    <member refid="dac_8h_1a25a1e36a4d5f59baed0c7d97087cc7ff" kind="function"><name>BOOST_HANA_ADAPT_STRUCT</name></member>
+    <member refid="dac_8h_1a9474a425589493611449574839e97efd" kind="function"><name>BOOST_HANA_ADAPT_STRUCT</name></member>
+  </compound>
+  <compound refid="genpybind_8h" kind="file"><name>genpybind.h</name>
+    <member refid="genpybind_8h_1ab7d6f74c65af4f8d7f505e4c7e766f76" kind="define"><name>GENPYBIND_TAG_LOLA_VX</name></member>
+  </compound>
+  <compound refid="gray__scale_8h" kind="file"><name>gray_scale.h</name>
+  </compound>
+  <compound refid="hana_8h" kind="file"><name>hana.h</name>
+    <member refid="hana_8h_1a0dea362e9e362324cc1c96e69aab9ef9" kind="function"><name>equal</name></member>
+    <member refid="hana_8h_1a6f83b4550f2133281c12e37d78e1b305" kind="function"><name>unequal</name></member>
+  </compound>
+  <compound refid="lola_8h" kind="file"><name>lola.h</name>
+  </compound>
+  <compound refid="neuron_8h" kind="file"><name>neuron.h</name>
+  </compound>
+  <compound refid="ppu_8h" kind="file"><name>ppu.h</name>
+    <member refid="ppu_8h_1afeffefa7a7f7b2cb8f5dd796db83c6f7" kind="function"><name>BOOST_HANA_ADAPT_STRUCT</name></member>
+  </compound>
+  <compound refid="pylola_8h" kind="file"><name>pylola.h</name>
+    <member refid="pylola_8h_1aa15fad99fdc0176449ba6857f9c0983e" kind="define"><name>LAST_PLAYBACK_CONTAINER</name></member>
+    <member refid="pylola_8h_1aa15fad99fdc0176449ba6857f9c0983e" kind="define"><name>LAST_PLAYBACK_CONTAINER</name></member>
+    <member refid="pylola_8h_1a6d32ec951a492e6c29f32f7b856e2869" kind="define"><name>PLAYBACK_CONTAINER</name></member>
+    <member refid="pylola_8h_1a6d32ec951a492e6c29f32f7b856e2869" kind="define"><name>PLAYBACK_CONTAINER</name></member>
+    <member refid="pylola_8h_1a3ae224f5a9892aaeefb469b1eb44f0da" kind="function"><name>attr</name></member>
+  </compound>
+  <compound refid="synapse_8h" kind="file"><name>synapse.h</name>
+    <member refid="synapse_8h_1adbe984e2c09c7dfd963df8dd2cec6416" kind="function"><name>BOOST_HANA_ADAPT_STRUCT</name></member>
+    <member refid="synapse_8h_1a679202d9e51e06605baa4d0df278fdfb" kind="function"><name>BOOST_HANA_ADAPT_STRUCT</name></member>
+    <member refid="synapse_8h_1a162334292782edb786d269fa79260352" kind="function"><name>BOOST_HANA_ADAPT_STRUCT</name></member>
+    <member refid="synapse_8h_1ae71f200bd9b7ce65631938c9551e35e1" kind="function"><name>BOOST_HANA_ADAPT_STRUCT</name></member>
+    <member refid="synapse_8h_1ad8c5917d47c36456de2611869ae60368" kind="function"><name>BOOST_HANA_ADAPT_STRUCT</name></member>
+    <member refid="synapse_8h_1aeb82aff2c200b6b3fc45517d29f21f08" kind="function"><name>BOOST_HANA_ADAPT_STRUCT</name></member>
+    <member refid="synapse_8h_1a6ceb8c5c7ecd934656fb8bdc36ba776b" kind="function"><name>BOOST_HANA_ADAPT_STRUCT</name></member>
+    <member refid="synapse_8h_1aaea213f167f69ef09b3de2a3f3cb3c33" kind="function"><name>BOOST_HANA_ADAPT_STRUCT</name></member>
+    <member refid="synapse_8h_1a3924fa4d46ddbd2084340bd2a7702f5a" kind="function"><name>BOOST_HANA_ADAPT_STRUCT</name></member>
+  </compound>
+  <compound refid="dir_9b6da1fe6bbf42b8d5e47bb3a3861509" kind="dir"><name>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls</name>
+  </compound>
+  <compound refid="dir_5f2516aff7b09292cd2c4fd2ff000a03" kind="dir"><name>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include</name>
+  </compound>
+  <compound refid="dir_aa744475fb6dfe3e09e614a87725e054" kind="dir"><name>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola</name>
+  </compound>
+  <compound refid="dir_214c291605b2b82e6c23c76289c596b4" kind="dir"><name>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx</name>
+  </compound>
+</doxygenindex>

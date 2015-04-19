@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="systime_8h" kind="file" language="C++">
+    <compoundname>systime.h</compoundname>
+    <includes local="no">array</includes>
+    <includes local="no">ostream</includes>
+    <includes local="yes">halco/hicann-dls/vx/timing.h</includes>
+    <includes refid="common_8h" local="yes">haldls/vx/common.h</includes>
+    <includes refid="genpybind_8h" local="yes">haldls/vx/genpybind.h</includes>
+    <includes refid="traits_8h" local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includedby refid="container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.h</includedby>
+    <incdepgraph>
+      <node id="1196">
+        <label>fisch/vx/container.def</label>
+      </node>
+      <node id="1189">
+        <label>haldls/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="1189" relation="include">
+        </childnode>
+      </node>
+      <node id="1185">
+        <label>haldls/vx/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="1186" relation="include">
+        </childnode>
+        <childnode refid="1187" relation="include">
+        </childnode>
+        <childnode refid="1188" relation="include">
+        </childnode>
+      </node>
+      <node id="1190">
+        <label>haldls/vx/traits.h</label>
+        <link refid="traits_8h"/>
+        <childnode refid="1186" relation="include">
+        </childnode>
+        <childnode refid="1191" relation="include">
+        </childnode>
+        <childnode refid="1192" relation="include">
+        </childnode>
+        <childnode refid="1193" relation="include">
+        </childnode>
+        <childnode refid="1189" relation="include">
+        </childnode>
+        <childnode refid="1194" relation="include">
+        </childnode>
+        <childnode refid="1195" relation="include">
+        </childnode>
+        <childnode refid="1196" relation="include">
+        </childnode>
+      </node>
+      <node id="1191">
+        <label>boost/variant.hpp</label>
+      </node>
+      <node id="1183">
+        <label>ostream</label>
+      </node>
+      <node id="1187">
+        <label>utility</label>
+      </node>
+      <node id="1182">
+        <label>array</label>
+      </node>
+      <node id="1192">
+        <label>fisch/vx/container_fwd.h</label>
+      </node>
+      <node id="1195">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="1193">
+        <label>fisch/vx/container_ticket.h</label>
+      </node>
+      <node id="1184">
+        <label>halco/hicann-dls/vx/timing.h</label>
+      </node>
+      <node id="1188">
+        <label>fisch/vx/omnibus_data.h</label>
+      </node>
+      <node id="1186">
+        <label>type_traits</label>
+      </node>
+      <node id="1181">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/systime.h</label>
+        <link refid="systime_8h"/>
+        <childnode refid="1182" relation="include">
+        </childnode>
+        <childnode refid="1183" relation="include">
+        </childnode>
+        <childnode refid="1184" relation="include">
+        </childnode>
+        <childnode refid="1185" relation="include">
+        </childnode>
+        <childnode refid="1189" relation="include">
+        </childnode>
+        <childnode refid="1190" relation="include">
+        </childnode>
+        <childnode refid="1195" relation="include">
+        </childnode>
+      </node>
+      <node id="1194">
+        <label>hate/type_list.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1200">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/pyhaldls.h</label>
+        <link refid="pyhaldls_8h"/>
+      </node>
+      <node id="1202">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_writereadable.h</label>
+        <link refid="is__writereadable_8h"/>
+      </node>
+      <node id="1199">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/haldls.h</label>
+        <link refid="haldls_8h"/>
+        <childnode refid="1200" relation="include">
+        </childnode>
+      </node>
+      <node id="1201">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_readable.h</label>
+        <link refid="is__readable_8h"/>
+        <childnode refid="1202" relation="include">
+        </childnode>
+      </node>
+      <node id="1198">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.h</label>
+        <link refid="container_8h"/>
+        <childnode refid="1199" relation="include">
+        </childnode>
+        <childnode refid="1201" relation="include">
+        </childnode>
+      </node>
+      <node id="1197">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/systime.h</label>
+        <link refid="systime_8h"/>
+        <childnode refid="1198" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_systime_sync_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SystimeSync &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_systime_sync_base_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SystimeSyncBase &gt;</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_systime_sync" prot="public">haldls::vx::SystimeSync</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_systime_sync_base" prot="public">haldls::vx::SystimeSyncBase</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_systime_sync_base_1_1_value" prot="public">haldls::vx::SystimeSyncBase::Value</innerclass>
+    <innernamespace refid="namespacecereal">cereal</innernamespace>
+    <innernamespace refid="namespacefisch">fisch</innernamespace>
+    <innernamespace refid="namespacefisch_1_1vx">fisch::vx</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <innernamespace refid="namespacestd">std</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/systime.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="v2_2capmem_8h" kind="file" language="C++">
+    <compoundname>capmem.h</compoundname>
+    <includes local="no">cstdint</includes>
+    <includes local="yes">halco/common/typed_array.h</includes>
+    <includes local="yes">halco/hicann-dls/v2/coordinates.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includes refid="v2_2common_8h" local="yes">haldls/v2/common.h</includes>
+    <includes refid="v2_2genpybind_8h" local="yes">haldls/v2/genpybind.h</includes>
+    <includedby refid="chip_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h</includedby>
+    <includedby refid="v2_2container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/container.h</includedby>
+    <incdepgraph>
+      <node id="28">
+        <label>cstdint</label>
+      </node>
+      <node id="35">
+        <label>haldls/v2/genpybind.h</label>
+        <link refid="v2_2genpybind_8h"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h</label>
+        <link refid="v2_2capmem_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="34">
+        <label>utility</label>
+      </node>
+      <node id="31">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="30">
+        <label>halco/hicann-dls/v2/coordinates.h</label>
+      </node>
+      <node id="32">
+        <label>haldls/v2/common.h</label>
+        <link refid="v2_2common_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>type_traits</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="37">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h</label>
+        <link refid="chip_8h"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h</label>
+        <link refid="playback_8h"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/container.h</label>
+        <link refid="v2_2container_8h"/>
+      </node>
+      <node id="36">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h</label>
+        <link refid="v2_2capmem_8h"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1v2_1_1_cap_mem_config_1_1_boost_a" prot="public">haldls::v2::CapMemConfig::BoostA</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_cap_mem_config_1_1_boost_b" prot="public">haldls::v2::CapMemConfig::BoostB</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_cap_mem_config_1_1_boost_factor" prot="public">haldls::v2::CapMemConfig::BoostFactor</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_cap_mem" prot="public">haldls::v2::CapMem</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_cap_mem_cell" prot="public">haldls::v2::CapMemCell</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_cap_mem_config" prot="public">haldls::v2::CapMemConfig</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_cap_mem_config_1_1_current_cell_res" prot="public">haldls::v2::CapMemConfig::CurrentCellRes</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_cap_mem_config_1_1_level_shifter_bias" prot="public">haldls::v2::CapMemConfig::LevelShifterBias</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_cap_mem_config_1_1_out_amp_bias" prot="public">haldls::v2::CapMemConfig::OutAmpBias</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_cap_mem_config_1_1_pause_counter" prot="public">haldls::v2::CapMemConfig::PauseCounter</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_cap_mem_config_1_1_prescale_pause" prot="public">haldls::v2::CapMemConfig::PrescalePause</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_cap_mem_config_1_1_prescale_ramp" prot="public">haldls::v2::CapMemConfig::PrescaleRamp</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_cap_mem_config_1_1_pulse_a" prot="public">haldls::v2::CapMemConfig::PulseA</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_cap_mem_config_1_1_pulse_b" prot="public">haldls::v2::CapMemConfig::PulseB</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_cap_mem_config_1_1_source_follower_bias" prot="public">haldls::v2::CapMemConfig::SourceFollowerBias</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_cap_mem_config_1_1_sub_counter" prot="public">haldls::v2::CapMemConfig::SubCounter</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_cap_mem_cell_1_1_value" prot="public">haldls::v2::CapMemCell::Value</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_cap_mem_config_1_1_v_global_bias" prot="public">haldls::v2::CapMemConfig::VGlobalBias</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1detail_1_1_visit_preorder_impl_3_01_cap_mem_01_4" prot="public">haldls::v2::detail::VisitPreorderImpl&lt; CapMem &gt;</innerclass>
+    <innernamespace refid="namespacecereal">cereal</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1v2">haldls::v2</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1v2_1_1detail">haldls::v2::detail</innernamespace>
+    <innernamespace refid="namespacestd">std</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1v2_1_1_synapse_driver_block_1_1_pulse_length" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::v2::SynapseDriverBlock::PulseLength</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; PulseLength, uint_fast16_t, 31, 0 &gt;</basecompoundref>
+    <includes refid="synapsedriver_8h" local="no">synapsedriver.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1_synapse_driver_block_1_1_pulse_length_1a0c22a464e29e4716e6b6948909893fe7" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::v2::SynapseDriverBlock::PulseLength::PulseLength</definition>
+        <argsstring>(uintmax_t const val=0) SYMBOL_VISIBLE</argsstring>
+        <name>PulseLength</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapsedriver.h" line="26" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapsedriver.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1291">
+        <label>halco::common::detail::RantWrapper&lt; PulseLength, uint_fast16_t, 31, 0 &gt;</label>
+      </node>
+      <node id="1290">
+        <label>haldls::v2::SynapseDriverBlock::PulseLength</label>
+        <link refid="structhaldls_1_1v2_1_1_synapse_driver_block_1_1_pulse_length"/>
+        <childnode refid="1291" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1293">
+        <label>halco::common::detail::RantWrapper&lt; PulseLength, uint_fast16_t, 31, 0 &gt;</label>
+      </node>
+      <node id="1292">
+        <label>haldls::v2::SynapseDriverBlock::PulseLength</label>
+        <link refid="structhaldls_1_1v2_1_1_synapse_driver_block_1_1_pulse_length"/>
+        <childnode refid="1293" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapsedriver.h" line="25" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapsedriver.h" bodystart="23" bodyend="27"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1v2_1_1_synapse_driver_block_1_1_pulse_length_1a0c22a464e29e4716e6b6948909893fe7" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseDriverBlock::PulseLength</scope><name>PulseLength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

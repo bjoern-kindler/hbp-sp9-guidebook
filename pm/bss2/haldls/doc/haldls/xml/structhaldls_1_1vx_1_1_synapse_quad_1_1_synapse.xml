@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::SynapseQuad::Synapse</compoundname>
+    <includes refid="vx_2synapse_8h" local="no">synapse.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1_1_address" prot="public">haldls::vx::SynapseQuad::Synapse::Address</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1_1_amp_calib" prot="public">haldls::vx::SynapseQuad::Synapse::AmpCalib</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1_1_time_calib" prot="public">haldls::vx::SynapseQuad::Synapse::TimeCalib</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1_1_weight" prot="public">haldls::vx::SynapseQuad::Synapse::Weight</innerclass>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" line="210" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1aea21e7f406d4a767b80fb44957cc40f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend struct</type>
+        <definition>friend struct haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseMatrix &gt;</definition>
+        <argsstring></argsstring>
+        <name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseMatrix &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" line="214" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1aa63689c8748d993c6e55bd8a35cbe2d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend struct</type>
+        <definition>friend struct haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseRow &gt;</definition>
+        <argsstring></argsstring>
+        <name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseRow &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" line="214" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1a438edb021355d40a1b6d2928506506db" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class SynapseQuad</definition>
+        <argsstring></argsstring>
+        <name>SynapseQuad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" line="214" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1afd6ac3becf9915063e5c8df42e73cfe7" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1_1_address" kindref="compound">Address</ref></type>
+        <definition>Address haldls::vx::SynapseQuad::Synapse::m_address</definition>
+        <argsstring></argsstring>
+        <name>m_address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" line="219" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1af5d82d31676ae8344ca9c73f7d2362f7" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1_1_amp_calib" kindref="compound">AmpCalib</ref></type>
+        <definition>AmpCalib haldls::vx::SynapseQuad::Synapse::m_amp_calib</definition>
+        <argsstring></argsstring>
+        <name>m_amp_calib</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" line="221" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1af9de784b1bd8716b7346d12dde1c6493" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1_1_time_calib" kindref="compound">TimeCalib</ref></type>
+        <definition>TimeCalib haldls::vx::SynapseQuad::Synapse::m_time_calib</definition>
+        <argsstring></argsstring>
+        <name>m_time_calib</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" line="220" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1af17717c2f92cfac8c6a67a85822ccaaa" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1_1_weight" kindref="compound">Weight</ref></type>
+        <definition>Weight haldls::vx::SynapseQuad::Synapse::m_weight</definition>
+        <argsstring></argsstring>
+        <name>m_weight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" line="218" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1a919d01e8fcb5ade16916eaa7fc393315" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::SynapseQuad::Synapse::Synapse</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>Synapse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" line="184" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1a605ed642246898615f9e9260307fa9f1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1_1_address" kindref="compound">Address</ref></type>
+        <definition>Address haldls::vx::SynapseQuad::Synapse::get_address</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" line="192" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1a0e7bc4aed2aabbd5d2f9dfc2dfca26e1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1_1_amp_calib" kindref="compound">AmpCalib</ref></type>
+        <definition>AmpCalib haldls::vx::SynapseQuad::Synapse::get_amp_calib</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_amp_calib</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" line="202" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1aeb4d1ab0bd8f73e742ed2b873dfeb26b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1_1_time_calib" kindref="compound">TimeCalib</ref></type>
+        <definition>TimeCalib haldls::vx::SynapseQuad::Synapse::get_time_calib</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_time_calib</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" line="197" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1a4f11a97594352ec1e4ee226847a35846" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1_1_weight" kindref="compound">Weight</ref></type>
+        <definition>Weight haldls::vx::SynapseQuad::Synapse::get_weight</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_weight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" line="187" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1a26c6b9dc0e1447d91ca00eeeea119e4d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::SynapseQuad::Synapse::operator!=</definition>
+        <argsstring>(Synapse const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse" kindref="compound">Synapse</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" line="207" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1a611a4200a938bae49874924607ccc7a6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::SynapseQuad::Synapse::operator==</definition>
+        <argsstring>(Synapse const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse" kindref="compound">Synapse</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" line="206" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1ae4a18bb822333e3155de71b00ea378ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::SynapseQuad::Synapse::set_address</definition>
+        <argsstring>(Address const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_address</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1_1_address" kindref="compound">Address</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" line="194" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1afc25292019937001d1ad39bff4707253" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::SynapseQuad::Synapse::set_amp_calib</definition>
+        <argsstring>(AmpCalib const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_amp_calib</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1_1_amp_calib" kindref="compound">AmpCalib</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" line="204" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1a089432da6b495957ca425e0b8941589c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::SynapseQuad::Synapse::set_time_calib</definition>
+        <argsstring>(TimeCalib const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_time_calib</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1_1_time_calib" kindref="compound">TimeCalib</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" line="199" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1a473681f1fce8b5fb0cec3c963fe5dd05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::SynapseQuad::Synapse::set_weight</definition>
+        <argsstring>(Weight const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_weight</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1_1_weight" kindref="compound">Weight</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" line="189" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1ae7bb2f1d378590782281e5a957eedc78" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::SynapseQuad::Synapse::serialize</definition>
+        <argsstring>(Archive &amp;ar)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" line="212" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Single synapse containing a 6 bit weight and address. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>For each synapse, individual calibration bits can control the STDP time constant and amplitude and may be used to compensate the synapse-to-synapse variations of the correlation measurements. <simplesect kind="note"><para>The calibration bits change both the causal and anticausal branch at once. In other words: causal and anticausal branches cannot be controlled individually. </para>
+</simplesect>
+<simplesect kind="see"><para><ulink url="http://www.kip.uni-heidelberg.de/Veroeffentlichungen/details.php?id=3380">Bachelor&apos;s Thesis by Timo Wunderlich</ulink> <ref refid="playback_8h_1a76584ca59c292130de206bd7ead2689a" kindref="member">for</ref> measurements. TODO: Still valid since CADC changed? </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" line="149" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/synapse.h" bodystart="148" bodyend="222"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseQuad::Synapse</scope><name>cereal::access</name></member>
+      <member refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1a605ed642246898615f9e9260307fa9f1" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseQuad::Synapse</scope><name>get_address</name></member>
+      <member refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1a0e7bc4aed2aabbd5d2f9dfc2dfca26e1" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseQuad::Synapse</scope><name>get_amp_calib</name></member>
+      <member refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1aeb4d1ab0bd8f73e742ed2b873dfeb26b" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseQuad::Synapse</scope><name>get_time_calib</name></member>
+      <member refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1a4f11a97594352ec1e4ee226847a35846" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseQuad::Synapse</scope><name>get_weight</name></member>
+      <member refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1aea21e7f406d4a767b80fb44957cc40f8" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseQuad::Synapse</scope><name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseMatrix &gt;</name></member>
+      <member refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1aa63689c8748d993c6e55bd8a35cbe2d0" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseQuad::Synapse</scope><name>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseRow &gt;</name></member>
+      <member refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1afd6ac3becf9915063e5c8df42e73cfe7" prot="private" virt="non-virtual"><scope>haldls::vx::SynapseQuad::Synapse</scope><name>m_address</name></member>
+      <member refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1af5d82d31676ae8344ca9c73f7d2362f7" prot="private" virt="non-virtual"><scope>haldls::vx::SynapseQuad::Synapse</scope><name>m_amp_calib</name></member>
+      <member refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1af9de784b1bd8716b7346d12dde1c6493" prot="private" virt="non-virtual"><scope>haldls::vx::SynapseQuad::Synapse</scope><name>m_time_calib</name></member>
+      <member refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1af17717c2f92cfac8c6a67a85822ccaaa" prot="private" virt="non-virtual"><scope>haldls::vx::SynapseQuad::Synapse</scope><name>m_weight</name></member>
+      <member refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1a26c6b9dc0e1447d91ca00eeeea119e4d" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseQuad::Synapse</scope><name>operator!=</name></member>
+      <member refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1a611a4200a938bae49874924607ccc7a6" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseQuad::Synapse</scope><name>operator==</name></member>
+      <member refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1ae7bb2f1d378590782281e5a957eedc78" prot="private" virt="non-virtual"><scope>haldls::vx::SynapseQuad::Synapse</scope><name>serialize</name></member>
+      <member refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1ae4a18bb822333e3155de71b00ea378ac" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseQuad::Synapse</scope><name>set_address</name></member>
+      <member refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1afc25292019937001d1ad39bff4707253" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseQuad::Synapse</scope><name>set_amp_calib</name></member>
+      <member refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1a089432da6b495957ca425e0b8941589c" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseQuad::Synapse</scope><name>set_time_calib</name></member>
+      <member refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1a473681f1fce8b5fb0cec3c963fe5dd05" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseQuad::Synapse</scope><name>set_weight</name></member>
+      <member refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1a919d01e8fcb5ade16916eaa7fc393315" prot="public" virt="non-virtual"><scope>haldls::vx::SynapseQuad::Synapse</scope><name>Synapse</name></member>
+      <member refid="structhaldls_1_1vx_1_1_synapse_quad_1_1_synapse_1a438edb021355d40a1b6d2928506506db" prot="private" virt="non-virtual"><scope>haldls::vx::SynapseQuad::Synapse</scope><name>SynapseQuad</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

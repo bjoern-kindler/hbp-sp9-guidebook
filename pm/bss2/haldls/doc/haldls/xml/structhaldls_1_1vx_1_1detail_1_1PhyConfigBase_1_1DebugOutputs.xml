@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1PhyConfigBase_1_1DebugOutputs" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::PhyConfigBase::DebugOutputs</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; DebugOutputs, uint_fast32_t, 1, 0 &gt;</basecompoundref>
+    <includes refid="phy_8h" local="no">phy.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1detail_1_1PhyConfigBase_1_1DebugOutputs_1a4cf22f9d70aa4c2f9b9a61645c7d6ca0" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::detail::PhyConfigBase::DebugOutputs::DebugOutputs</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>DebugOutputs</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/phy.h" line="49" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/phy.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="971">
+        <label>halco::common::detail::RantWrapper&lt; DebugOutputs, uint_fast32_t, 1, 0 &gt;</label>
+      </node>
+      <node id="970">
+        <label>haldls::vx::detail::PhyConfigBase::DebugOutputs</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1PhyConfigBase_1_1DebugOutputs"/>
+        <childnode refid="971" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="973">
+        <label>halco::common::detail::RantWrapper&lt; DebugOutputs, uint_fast32_t, 1, 0 &gt;</label>
+      </node>
+      <node id="972">
+        <label>haldls::vx::detail::PhyConfigBase::DebugOutputs</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1PhyConfigBase_1_1DebugOutputs"/>
+        <childnode refid="973" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/phy.h" line="48" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/phy.h" bodystart="46" bodyend="50"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1detail_1_1PhyConfigBase_1_1DebugOutputs_1a4cf22f9d70aa4c2f9b9a61645c7d6ca0" prot="public" virt="non-virtual"><scope>haldls::vx::detail::PhyConfigBase::DebugOutputs</scope><name>DebugOutputs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

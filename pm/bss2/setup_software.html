@@ -1,0 +1,185 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Experiment execution &#8212; HBP Neuromorphic Computing Platform Guidebook (WIP)</title>
+    <link rel="stylesheet" href="../../_static/hbpdoc.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../../_static/extra.js"></script>
+    <script type="text/javascript" src="../../_static/hbpdoc.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Building and Running PPU Programs" href="run_ppu.html" />
+    <link rel="prev" title="The BrainScaleS-2 “physical model” system" href="../bss2.html" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    .search .context {
+        display: none;
+    }
+</style>
+
+  </head><body>
+<div class="hbpdoc-page">
+    <section class="hbpdoc-title page-header">
+        <a class="project-title" href="../../index.html">HBP Neuromorphic Computing Platform Guidebook</a>
+
+        <a class="hbpdoc-toc-toggle pull-right" href>
+            <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+        </a>
+    </section>
+    <section class="hbpdoc-main">
+        <nav class="hbpdoc-sidebar hbpdoc-container">
+            <a class="hbpdoc-toc-toggle pull-right" href>
+                <span class="zmdi zmdi-menu"></span> <span class="sr-only icon-text">Menu</span>
+            </a>
+            
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../../index.html">
+              <img class="logo" src="../../_static/HBP_Primary_RGB_logoOnlyScaled68px.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="../../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Experiment execution</a><ul>
+<li><a class="reference internal" href="#login-to-uhei-cluster">Login to UHEI cluster</a></li>
+<li><a class="reference internal" href="#load-and-build-software">Load and build software</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="../bss2.html"
+                        title="previous chapter">The BrainScaleS-2 “physical model” system</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="run_ppu.html"
+                        title="next chapter">Building and Running PPU Programs</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/pm/bss2/setup_software.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+        </nav>
+
+        <article class="hbpdoc-content">
+
+            <div class="content">
+                
+                <div class="breadcrumb breadcrumb-meta expand">
+                    
+                    <a href="../bss2.html">The BrainScaleS-2 “physical model” system</a>
+                    
+                </div>
+                
+
+                <aside class="hbpdoc-hnav hbpdoc-hnav-top">
+                    
+                    <span class="hbpdoc-hnav-previous">
+                        previous: <a class="hbpdoc-hnav-link" href="../bss2.html">The BrainScaleS-2 “physical model” system</a>
+                    </span>
+                    
+                    
+                    <span class="hbpdoc-hnav-next">
+                        next: <a class="hbpdoc-hnav-link" href="run_ppu.html">Building and Running PPU Programs</a>
+                    </span>
+                    
+                </aside>
+
+                
+  <div class="section" id="experiment-execution">
+<h1>Experiment execution<a class="headerlink" href="#experiment-execution" title="Permalink to this headline">¶</a></h1>
+<p>Use the following instructions to login, load the pre-built software package and run experiments on the UHEI cluster.</p>
+<div class="section" id="login-to-uhei-cluster">
+<span id="label-clusterlogin-bss2"></span><h2>Login to UHEI cluster<a class="headerlink" href="#login-to-uhei-cluster" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>From the network of the Kirchhoff-Institute for Physics:</li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ssh KIPUSER@hel
+</pre></div>
+</div>
+<ul class="simple">
+<li>Otherwise:</li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ssh s1ext_someuser@gitviz.kip.uni-heidelberg.de -p <span class="m">11022</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="load-and-build-software">
+<span id="label-software-bss2"></span><h2>Load and build software<a class="headerlink" href="#load-and-build-software" title="Permalink to this headline">¶</a></h2>
+<p>To load and build software for the BSS-2 system these modules are needed. Get them by using:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>module load waf
+module load ppu-toolchain
+module load localdir
+</pre></div>
+</div>
+<p>These three commands must be loaded for every environment, and in particular, after logging in.</p>
+<p>To checkout all important software repositories use:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># leave out the --repo-db-url=... parameter to use the &quot;UHEI-internal&quot; repositories</span>
+waf setup --project template-experiment-dls --repo-db-url<span class="o">=</span>https://github.com/electronicvisions/projects
+</pre></div>
+</div>
+<p>To build the software use:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>srun -p compile -c <span class="m">8</span> --pty singularity <span class="nb">exec</span> --app visionary-dls /containers/stable/latest waf configure install
+</pre></div>
+</div>
+</div>
+</div>
+
+
+            </div>
+
+            <aside class="hbpdoc-hnav hbpdoc-hnav-bottom">
+                
+                <span class="hbpdoc-hnav-previous">
+                    previous: <a class="hbpdoc-hnav-link" href="../bss2.html">The BrainScaleS-2 “physical model” system</a>
+                </span>
+                
+                
+                <span class="hbpdoc-hnav-next">
+                    next: <a class="hbpdoc-hnav-link" href="run_ppu.html">Building and Running PPU Programs</a>
+                </span>
+                
+            </aside>
+        </article>
+    </section>
+
+
+    <div class="hbpdoc-footer">
+        HBP Neuromorphic Computing Platform Guidebook <small>2020-10-30 09:06:09 (69c910f)</small> 
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2016, Andrew P. Davison, Eric Müller, Sebastian Schmitt, Bernhard Vogginger, David Lester, Thomas Pfeil, ....
+      Last updated on Oct 30, 2020 (69c910f, preliminary documentation).
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.5.
+    </div>
+    </div>
+</div>
+
+  </body>
+</html>

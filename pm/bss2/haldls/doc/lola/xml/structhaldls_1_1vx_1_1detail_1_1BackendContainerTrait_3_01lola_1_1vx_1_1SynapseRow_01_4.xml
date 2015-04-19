@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1BackendContainerTrait_3_01lola_1_1vx_1_1SynapseRow_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseRow &gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BackendContainerBase&lt; lola::vx::SynapseRow, fisch::vx::OmnibusChip, fisch::vx::OmnibusChipOverJTAG &gt;</basecompoundref>
+    <includes refid="synapse_8h" local="no">synapse.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="20">
+        <label>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseRow &gt;</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1BackendContainerTrait_3_01lola_1_1vx_1_1SynapseRow_01_4"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>BackendContainerBase&lt; lola::vx::SynapseRow, fisch::vx::OmnibusChip, fisch::vx::OmnibusChipOverJTAG &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="22">
+        <label>haldls::vx::detail::BackendContainerTrait&lt; lola::vx::SynapseRow &gt;</label>
+        <link refid="structhaldls_1_1vx_1_1detail_1_1BackendContainerTrait_3_01lola_1_1vx_1_1SynapseRow_01_4"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>BackendContainerBase&lt; lola::vx::SynapseRow, fisch::vx::OmnibusChip, fisch::vx::OmnibusChipOverJTAG &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/lola/vx/synapse.h" line="360" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/lola/vx/synapse.h" bodystart="355" bodyend="360"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

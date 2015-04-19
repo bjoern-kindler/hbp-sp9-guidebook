@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1CapMemBlockConfig_1_1CurrentCellRes" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::CapMemBlockConfig::CurrentCellRes</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; CurrentCellRes, uint_fast16_t, 63, 0 &gt;</basecompoundref>
+    <includes refid="vx_2capmem_8h" local="no">capmem.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1CapMemBlockConfig_1_1CurrentCellRes_1ad4f1c580696e7fad950824c170d7d4c8" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::CapMemBlockConfig::CurrentCellRes::CurrentCellRes</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>CurrentCellRes</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/capmem.h" line="184" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/capmem.h" bodystart="184" bodyend="186"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="945">
+        <label>halco::common::detail::RantWrapper&lt; CurrentCellRes, uint_fast16_t, 63, 0 &gt;</label>
+      </node>
+      <node id="944">
+        <label>haldls::CapMemBlockConfig::CurrentCellRes</label>
+        <link refid="structhaldls_1_1CapMemBlockConfig_1_1CurrentCellRes"/>
+        <childnode refid="945" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="947">
+        <label>halco::common::detail::RantWrapper&lt; CurrentCellRes, uint_fast16_t, 63, 0 &gt;</label>
+      </node>
+      <node id="946">
+        <label>haldls::CapMemBlockConfig::CurrentCellRes</label>
+        <link refid="structhaldls_1_1CapMemBlockConfig_1_1CurrentCellRes"/>
+        <childnode refid="947" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/capmem.h" line="183" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/capmem.h" bodystart="181" bodyend="187"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1CapMemBlockConfig_1_1CurrentCellRes_1ad4f1c580696e7fad950824c170d7d4c8" prot="public" virt="non-virtual"><scope>haldls::CapMemBlockConfig::CurrentCellRes</scope><name>CurrentCellRes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

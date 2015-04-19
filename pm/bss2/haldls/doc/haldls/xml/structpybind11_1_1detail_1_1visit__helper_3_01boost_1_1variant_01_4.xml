@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structpybind11_1_1detail_1_1visit__helper_3_01boost_1_1variant_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>pybind11::detail::visit_helper&lt; boost::variant &gt;</compoundname>
+    <includes refid="capmem_8h" local="no">capmem.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structpybind11_1_1detail_1_1visit__helper_3_01boost_1_1variant_01_4_1a2d44d76618bac6f1afbb08f9ff0eab13" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>static auto pybind11::detail::visit_helper&lt; boost::variant &gt;::call</definition>
+        <argsstring>(Args &amp;&amp;... args) -&gt; decltype(boost::apply_visitor(args...))</argsstring>
+        <name>call</name>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzU5NA.x/haldls/include/haldls/vx/capmem.h" line="38" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzU5NA.x/haldls/include/haldls/vx/capmem.h" bodystart="38" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzU5NA.x/haldls/include/haldls/vx/capmem.h" line="36" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzU5NA.x/haldls/include/haldls/vx/capmem.h" bodystart="35" bodyend="42"/>
+    <listofallmembers>
+      <member refid="structpybind11_1_1detail_1_1visit__helper_3_01boost_1_1variant_01_4_1a2d44d76618bac6f1afbb08f9ff0eab13" prot="public" virt="non-virtual"><scope>pybind11::detail::visit_helper&lt; boost::variant &gt;</scope><name>call</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

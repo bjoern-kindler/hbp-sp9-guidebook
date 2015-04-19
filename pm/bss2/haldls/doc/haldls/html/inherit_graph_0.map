@@ -1,0 +1,99 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,3212,106,3240"/>
+<area shape="rect" id="node2" href="$struct_disable_refresh.html" title=" " alt="" coords="228,5,341,33"/>
+<area shape="rect" id="node3" href="$structhaldls_1_1_cap_mem_block_config_1_1_boost_a.html" title=" " alt="" coords="190,57,379,101"/>
+<area shape="rect" id="node4" href="$structhaldls_1_1_cap_mem_block_config_1_1_boost_b.html" title=" " alt="" coords="190,125,379,169"/>
+<area shape="rect" id="node5" href="$structhaldls_1_1_cap_mem_block_config_1_1_boost_factor.html" title=" " alt="" coords="190,193,379,237"/>
+<area shape="rect" id="node6" href="$structhaldls_1_1_cap_mem_block_config_1_1_current_cell_res.html" title=" " alt="" coords="190,261,379,305"/>
+<area shape="rect" id="node7" href="$structhaldls_1_1_cap_mem_block_config_1_1_level_shifter_bias.html" title=" " alt="" coords="190,329,379,373"/>
+<area shape="rect" id="node8" href="$structhaldls_1_1_cap_mem_block_config_1_1_out_amp_bias.html" title=" " alt="" coords="190,397,379,441"/>
+<area shape="rect" id="node9" href="$structhaldls_1_1_cap_mem_block_config_1_1_prescale_pause.html" title=" " alt="" coords="190,465,379,509"/>
+<area shape="rect" id="node10" href="$structhaldls_1_1_cap_mem_block_config_1_1_prescale_ramp.html" title=" " alt="" coords="190,533,379,577"/>
+<area shape="rect" id="node11" href="$structhaldls_1_1_cap_mem_block_config_1_1_pulse_a.html" title=" " alt="" coords="190,601,379,645"/>
+<area shape="rect" id="node12" href="$structhaldls_1_1_cap_mem_block_config_1_1_pulse_b.html" title=" " alt="" coords="190,669,379,713"/>
+<area shape="rect" id="node13" href="$structhaldls_1_1_cap_mem_block_config_1_1_source_follower_bias.html" title=" " alt="" coords="190,737,379,781"/>
+<area shape="rect" id="node14" href="$structhaldls_1_1_cap_mem_block_config_1_1_v_global_bias.html" title=" " alt="" coords="190,805,379,849"/>
+<area shape="rect" id="node15" href="$structhaldls_1_1_reference_generator_config_1_1_cap_mem_amplifier.html" title=" " alt="" coords="192,873,377,917"/>
+<area shape="rect" id="node16" href="$structhaldls_1_1_reference_generator_config_1_1_cap_mem_offset.html" title=" " alt="" coords="192,941,377,985"/>
+<area shape="rect" id="node17" href="$structhaldls_1_1_reference_generator_config_1_1_cap_mem_slope.html" title=" " alt="" coords="192,1009,377,1053"/>
+<area shape="rect" id="node18" href="$structhaldls_1_1_reference_generator_config_1_1_reference_control.html" title=" " alt="" coords="192,1077,377,1121"/>
+<area shape="rect" id="node19" href="$structhaldls_1_1_reference_generator_config_1_1_resistor_control.html" title=" " alt="" coords="192,1145,377,1189"/>
+<area shape="rect" id="node20" href="$structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_core_div_m0.html" title="Divider to set the output frequency f_clk_core0 (Together with PreDivP1)." alt="" coords="218,1213,352,1257"/>
+<area shape="rect" id="node21" href="$structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_core_div_m1.html" title="Divider to set the output frequency f_clk_core1 (Together with PreDivP1)." alt="" coords="218,1281,352,1325"/>
+<area shape="rect" id="node22" href="$structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_dco_power_switch.html" title="Number of activated PMOS header power switches during DCO operation." alt="" coords="218,1349,352,1393"/>
+<area shape="rect" id="node23" href="$structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_filter_shift.html" title="Loop filter gain boost by 2^n during lock&#45;in, leads to lock time reduction." alt="" coords="218,1417,352,1461"/>
+<area shape="rect" id="node24" href="$structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_div_n.html" title="Divider to set the frequency of the DCO f_dco (Together with PreDivP0)." alt="" coords="218,1485,352,1529"/>
+<area shape="rect" id="node25" href="$structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_filter_int.html" title="Integral part of the PID controller for the DCO." alt="" coords="218,1553,352,1597"/>
+<area shape="rect" id="node26" href="$structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_loop_filter_prop.html" title="Proportional part of the PID controller for the DCO." alt="" coords="218,1621,352,1665"/>
+<area shape="rect" id="node27" href="$structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_pre_div_p0.html" title="Divider to set the frequency of the DCO f_dco (Together with LoopDivN)." alt="" coords="218,1689,352,1733"/>
+<area shape="rect" id="node28" href="$structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_pre_div_p1.html" title="Divider for f_clk_core0 and f_clk_core1." alt="" coords="218,1757,352,1801"/>
+<area shape="rect" id="node29" href="$structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_pre_div_p2.html" title="Divider to set the output frequency f_clk_dco." alt="" coords="218,1825,352,1869"/>
+<area shape="rect" id="node30" href="$structhaldls_1_1vx_1_1_a_d_p_l_l_1_1_tune.html" title="Tune value of the DCO." alt="" coords="202,1893,367,1921"/>
+<area shape="rect" id="node31" href="$structhaldls_1_1vx_1_1_c_a_d_c_channel_config_1_1_offset.html" title="Offset value to add to measurement." alt="" coords="180,1945,390,1989"/>
+<area shape="rect" id="node32" href="$structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_dead_time.html" title="Dead time in cycles after linear ramp increase to wait for signal propagation to every channel to pre..." alt="" coords="204,2013,365,2057"/>
+<area shape="rect" id="node33" href="$structhaldls_1_1vx_1_1_c_a_d_c_config_1_1_reset_wait.html" title="Wait time in cycles after ramp drop to compensate for analog low&#45;pass filtering of ramp signal and pr..." alt="" coords="204,2081,365,2125"/>
+<area shape="rect" id="node34" href="$structhaldls_1_1vx_1_1_c_a_d_c_sample_quad_1_1_value.html" title="CADC measurement value (offset&#45;corrected, see CADCChannelConfig)." alt="" coords="185,2149,385,2193"/>
+<area shape="rect" id="node35" href="$structhaldls_1_1vx_1_1_cap_mem_cell_1_1_disable_refresh.html" title=" " alt="" coords="204,2217,365,2261"/>
+<area shape="rect" id="node36" href="$structhaldls_1_1vx_1_1_cap_mem_cell_1_1_value.html" title=" " alt="" coords="204,2285,365,2329"/>
+<area shape="rect" id="node37" href="$structhaldls_1_1vx_1_1_common_neuron_backend_config_1_1_clock_scale.html" title="The ClockScale determines the range of the clock and at its precision It&#39;s an exponential power&#45;of&#45;tw..." alt="" coords="192,2353,378,2397"/>
+<area shape="rect" id="node38" href="$structhaldls_1_1vx_1_1_common_neuron_backend_config_1_1_wait_fire_neuron.html" title="Duration of pulse triggering the artificial neuron spikes." alt="" coords="178,2421,391,2465"/>
+<area shape="rect" id="node39" href="$structhaldls_1_1vx_1_1_common_neuron_backend_config_1_1_wait_global_post_pulse.html" title="Duration of the pulse triggering global post pulses for all neurons connected to that backend block." alt="" coords="162,2489,407,2533"/>
+<area shape="rect" id="node40" href="$structhaldls_1_1vx_1_1_common_neuron_backend_config_1_1_wait_spike_counter_read.html" title="Wait time for letting the neuron backend circuits drive the counter content to the controller logic." alt="" coords="155,2557,414,2601"/>
+<area shape="rect" id="node41" href="$structhaldls_1_1vx_1_1_common_neuron_backend_config_1_1_wait_spike_counter_reset.html" title="Duration of the pulse triggering spike counter resets." alt="" coords="154,2625,415,2669"/>
+<area shape="rect" id="node42" href="$structhaldls_1_1vx_1_1_common_p_a_d_i_bus_config_1_1_dacen_pulse_extension.html" title=" " alt="" coords="186,2693,383,2737"/>
+<area shape="rect" id="node43" href="$structhaldls_1_1vx_1_1_common_s_t_p_config_1_1_recovery_clock_speed.html" title=" " alt="" coords="183,2761,386,2805"/>
+<area shape="rect" id="node44" href="$structhaldls_1_1vx_1_1_common_synram_config_1_1_p_c_conf.html" title="Precharge configuration." alt="" coords="192,2829,377,2873"/>
+<area shape="rect" id="node45" href="$structhaldls_1_1vx_1_1_common_synram_config_1_1_wait_ctr_clear.html" title=" " alt="" coords="192,2897,377,2941"/>
+<area shape="rect" id="node46" href="$structhaldls_1_1vx_1_1_common_synram_config_1_1_w_conf.html" title="Wordline activation delay." alt="" coords="192,2965,377,3009"/>
+<area shape="rect" id="node47" href="$structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_debug_outputs.html" title=" " alt="" coords="178,3033,392,3077"/>
+<area shape="rect" id="node48" href="$structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_manual_delay.html" title=" " alt="" coords="182,3101,388,3145"/>
+<area shape="rect" id="node49" href="$structhaldls_1_1vx_1_1detail_1_1_phy_config_base_1_1_v_bias.html" title=" " alt="" coords="203,3169,366,3213"/>
+<area shape="rect" id="node50" href="$structhaldls_1_1vx_1_1_external_p_p_u_memory_byte_1_1_value.html" title=" " alt="" coords="180,3237,389,3281"/>
+<area shape="rect" id="node51" href="$structhaldls_1_1vx_1_1_i_n_a219_status_1_1_bus_voltage.html" title="Bus voltage with linear conversion and LSB = 4mV." alt="" coords="201,3305,368,3349"/>
+<area shape="rect" id="node52" href="$structhaldls_1_1vx_1_1_i_n_a219_status_1_1_shunt_voltage.html" title="Shunt voltage with linear conversion and LSB = 10uV." alt="" coords="201,3373,368,3417"/>
+<area shape="rect" id="node53" href="$structhaldls_1_1vx_1_1_j_t_a_g_clock_scaler_1_1_value.html" title="Clock&#45;scaler value type." alt="" coords="190,3441,379,3485"/>
+<area shape="rect" id="node54" href="$structhaldls_1_1vx_1_1_j_t_a_g_id_code_1_1_manufacturer_id.html" title="JEDEC Manufacturer ID code, Heidelberg University has &#39;0x057&#39;." alt="" coords="204,3509,365,3553"/>
+<area shape="rect" id="node55" href="$structhaldls_1_1vx_1_1_j_t_a_g_id_code_1_1_part_number.html" title="Device identification number." alt="" coords="204,3577,365,3621"/>
+<area shape="rect" id="node56" href="$structhaldls_1_1vx_1_1_j_t_a_g_id_code_1_1_version.html" title="Hardware revision number, starting from 0." alt="" coords="204,3645,365,3689"/>
+<area shape="rect" id="node57" href="$structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_active_mux_input_select_length.html" title=" " alt="" coords="186,3713,383,3757"/>
+<area shape="rect" id="node58" href="$structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_calibration_wait_value.html" title=" " alt="" coords="204,3781,366,3825"/>
+<area shape="rect" id="node59" href="$structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_conversion_cycles_offset.html" title=" " alt="" coords="199,3849,370,3893"/>
+<area shape="rect" id="node60" href="$structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_m_a_d_c_clock_scale_value.html" title=" " alt="" coords="200,3917,369,3961"/>
+<area shape="rect" id="node61" href="$structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_number_of_samples.html" title=" " alt="" coords="204,3985,366,4029"/>
+<area shape="rect" id="node62" href="$structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_powerup_wait_value.html" title=" " alt="" coords="204,4053,366,4097"/>
+<area shape="rect" id="node63" href="$structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_preamp_gain_capacitor_size.html" title=" " alt="" coords="191,4121,378,4165"/>
+<area shape="rect" id="node64" href="$structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sample_duration_adjust.html" title=" " alt="" coords="204,4189,366,4233"/>
+<area shape="rect" id="node65" href="$structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_sampling_window_timing.html" title=" " alt="" coords="199,4257,370,4301"/>
+<area shape="rect" id="node66" href="$structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_s_a_r_reset_length.html" title=" " alt="" coords="204,4325,366,4369"/>
+<area shape="rect" id="node67" href="$structhaldls_1_1vx_1_1_m_a_d_c_config_1_1_s_a_r_reset_wait.html" title=" " alt="" coords="204,4393,366,4437"/>
+<area shape="rect" id="node68" href="$structhaldls_1_1vx_1_1_m_a_d_c_sample_from_chip_1_1_value.html" title="Sample value." alt="" coords="185,4461,385,4505"/>
+<area shape="rect" id="node69" href="$structhaldls_1_1vx_1_1_neuron_backend_config_1_1_address_out.html" title="Address of the spikes sent out by a neuron." alt="" coords="195,4529,375,4573"/>
+<area shape="rect" id="node70" href="$structhaldls_1_1vx_1_1_neuron_backend_config_1_1_input_clock.html" title="There are two independent but equivalent clocks available." alt="" coords="195,4597,375,4641"/>
+<area shape="rect" id="node71" href="$structhaldls_1_1vx_1_1_neuron_backend_config_1_1_refractory_time.html" title="The refractory time can be configured to be used for different applications (short and long) Refactor..." alt="" coords="195,4665,375,4709"/>
+<area shape="rect" id="node72" href="$structhaldls_1_1vx_1_1_neuron_backend_config_1_1_reset_holdoff.html" title="ResetHoldoff period: The time delta between the reset and the refractory period." alt="" coords="195,4733,375,4777"/>
+<area shape="rect" id="node73" href="$structhaldls_1_1vx_1_1_neuron_config_1_1_exponential_term_strength.html" title="Strength of exponential term." alt="" coords="195,4801,375,4845"/>
+<area shape="rect" id="node74" href="$structhaldls_1_1vx_1_1_neuron_config_1_1_membrane_capacitor_size.html" title="Size of membrane capacitor." alt="" coords="197,4869,372,4913"/>
+<area shape="rect" id="node75" href="$structhaldls_1_1vx_1_1_p_a_d_i_event_1_1_hagen_activation.html" title="Activation payload in Hagen&#45;mode." alt="" coords="210,4937,359,4981"/>
+<area shape="rect" id="node76" href="$structhaldls_1_1vx_1_1_p_a_d_i_event_1_1_hagen_address.html" title="Address in Hagen&#45;mode." alt="" coords="210,5005,359,5049"/>
+<area shape="rect" id="node77" href="$structhaldls_1_1vx_1_1_p_a_d_i_event_1_1_row_select_address.html" title=" " alt="" coords="210,5073,359,5117"/>
+<area shape="rect" id="node78" href="$structhaldls_1_1vx_1_1_perf_test_status_1_1_error_word.html" title="First non&#45;consecutive payload." alt="" coords="198,5141,371,5185"/>
+<area shape="rect" id="node79" href="$structhaldls_1_1vx_1_1_perf_test_status_1_1_in_order.html" title="Number of words received in order." alt="" coords="198,5209,371,5253"/>
+<area shape="rect" id="node80" href="$structhaldls_1_1vx_1_1_perf_test_status_1_1_received.html" title="Number of words received." alt="" coords="198,5277,371,5321"/>
+<area shape="rect" id="node81" href="$structhaldls_1_1vx_1_1_perf_test_status_1_1_sent.html" title="Number of words sent successfully." alt="" coords="198,5345,371,5389"/>
+<area shape="rect" id="node82" href="$structhaldls_1_1vx_1_1_p_l_l_self_test_1_1_check_range.html" title="Acceptance range for the internal counter compared to the expected counter." alt="" coords="206,5413,363,5457"/>
+<area shape="rect" id="node83" href="$structhaldls_1_1vx_1_1_p_l_l_self_test_1_1_pre_scaler_p.html" title="Selects counting window of the self test." alt="" coords="206,5481,363,5525"/>
+<area shape="rect" id="node84" href="$structhaldls_1_1vx_1_1_p_p_u_memory_word_1_1_value.html" title=" " alt="" coords="189,5549,380,5593"/>
+<area shape="rect" id="node85" href="$structhaldls_1_1vx_1_1_spike_counter_read_1_1_count.html" title="Count of rate counter." alt="" coords="202,5617,367,5661"/>
+<area shape="rect" id="node86" href="$structhaldls_1_1vx_1_1_spike_label_1_1_p_a_d_i_label.html" title="Label type processed by PADI&#45;bus, bits 0&#45;10." alt="" coords="209,5685,360,5729"/>
+<area shape="rect" id="node87" href="$structhaldls_1_1vx_1_1_synapse_correlation_calib_quad_1_1_amp_calib.html" title=" " alt="" coords="184,5753,385,5797"/>
+<area shape="rect" id="node88" href="$structhaldls_1_1vx_1_1_synapse_correlation_calib_quad_1_1_time_calib.html" title=" " alt="" coords="184,5821,385,5865"/>
+<area shape="rect" id="node89" href="$structhaldls_1_1vx_1_1_synapse_driver_config_1_1_offset.html" title=" " alt="" coords="199,5889,370,5933"/>
+<area shape="rect" id="node90" href="$structhaldls_1_1vx_1_1_synapse_driver_config_1_1_recovery.html" title=" " alt="" coords="199,5957,370,6001"/>
+<area shape="rect" id="node91" href="$structhaldls_1_1vx_1_1_synapse_driver_config_1_1_row_address_compare_mask.html" title=" " alt="" coords="170,6025,399,6069"/>
+<area shape="rect" id="node92" href="$structhaldls_1_1vx_1_1_synapse_driver_config_1_1_target_voltages.html" title=" " alt="" coords="199,6093,370,6137"/>
+<area shape="rect" id="node93" href="$structhaldls_1_1vx_1_1_synapse_driver_config_1_1_utilization.html" title=" " alt="" coords="199,6161,370,6205"/>
+<area shape="rect" id="node94" href="$structhaldls_1_1vx_1_1_synapse_label_quad_1_1_value.html" title=" " alt="" coords="200,6229,369,6273"/>
+<area shape="rect" id="node95" href="$structhaldls_1_1vx_1_1_synapse_weight_quad_1_1_value.html" title=" " alt="" coords="196,6297,373,6341"/>
+<area shape="rect" id="node96" href="$structhaldls_1_1vx_1_1_systime_sync_base_1_1_value.html" title=" " alt="" coords="189,6365,380,6409"/>
+<area shape="rect" id="node97" href="$struct_value.html" title=" " alt="" coords="257,6433,312,6461"/>
+</map>

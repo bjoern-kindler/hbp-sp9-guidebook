@@ -1,0 +1,559 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacestadls_1_1vx" kind="namespace" language="C++">
+    <compoundname>stadls::vx</compoundname>
+    <innerclass refid="classstadls_1_1vx_1_1_digital_init" prot="public">stadls::vx::DigitalInit</innerclass>
+    <innerclass refid="structstadls_1_1vx_1_1_dumper_done" prot="public">stadls::vx::DumperDone</innerclass>
+    <innerclass refid="classstadls_1_1vx_1_1_experiment_init" prot="public">stadls::vx::ExperimentInit</innerclass>
+    <innerclass refid="structstadls_1_1vx_1_1_playback_generator" prot="public">stadls::vx::PlaybackGenerator</innerclass>
+    <innerclass refid="structstadls_1_1vx_1_1_playback_generator_return" prot="public">stadls::vx::PlaybackGeneratorReturn</innerclass>
+    <innerclass refid="classstadls_1_1vx_1_1_playback_program" prot="public">stadls::vx::PlaybackProgram</innerclass>
+    <innernamespace refid="namespacestadls_1_1vx_1_1detail">stadls::vx::detail</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacestadls_1_1vx_1a130b5fbd43a12691e277eed19dc7c525" prot="public" static="no">
+        <type>fisch::vx::RunTimeInfo</type>
+        <definition>typedef fisch::vx::RunTimeInfo stadls::vx::RunTimeInfo</definition>
+        <argsstring></argsstring>
+        <name>RunTimeInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/run_time_info.h" line="8" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/run_time_info.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacestadls_1_1vx_1a9218ffa78feab236d99ea216c994538f" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structstadls_1_1vx_1_1_dumper_done" kindref="compound">stadls::vx::DumperDone</ref></type>
+        <definition>struct stadls::vx::DumperDone stadls::vx::access</definition>
+        <argsstring></argsstring>
+        <name>access</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacestadls_1_1vx_1a3cf7b4985a76326bd2fdc3928120bf81" prot="public" static="no" mutable="no">
+        <type>auto</type>
+        <definition>auto stadls::vx::attr</definition>
+        <argsstring></argsstring>
+        <name>attr</name>
+        <initializer>= parent.attr(&quot;madc_samples_type&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program.h" line="247" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacestadls_1_1vx_1a3880c59ccc60e57b9f4a890c325806ef" prot="public" static="no" mutable="no">
+        <type>auto</type>
+        <definition>auto stadls::vx::ism</definition>
+        <argsstring></argsstring>
+        <name>ism</name>
+        <initializer>= parent-&gt;py::is_method(<ref refid="namespacestadls_1_1vx_1a3cf7b4985a76326bd2fdc3928120bf81" kindref="member">attr</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program.h" line="247" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacestadls_1_1vx_1acd71ba56463f155e230fce0112751e98" prot="public" static="no" mutable="no">
+        <type>const</type>
+        <definition>const stadls::vx::override</definition>
+        <argsstring></argsstring>
+        <name>override</name>
+        <initializer>{ 			PYBIND11_OVERLOAD_PURE(pybind11::tuple, ::<ref refid="structstadls_1_1vx_1_1_playback_generator" kindref="compound">stadls::vx::PlaybackGenerator</ref>, <ref refid="namespacestadls_1_1vx_1afaf1817461388b1848f72340fb4a925c" kindref="member">generate</ref>, )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_generator.h" line="92" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_generator.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacestadls_1_1vx_1ab04502332db007f0a9c340dd0de88a03" prot="public" static="no" mutable="no">
+        <type><ref refid="playback__program__builder_8h_1a5d52b1689d3be3d921b49c3169460f53" kindref="member">constexpr</ref> size_t</type>
+        <definition>constexpr size_t stadls::vx::playback_memory_size_to_fpga</definition>
+        <argsstring></argsstring>
+        <name>playback_memory_size_to_fpga</name>
+        <initializer>=
+    fisch::vx::playback_memory_size_to_fpga</initializer>
+        <briefdescription>
+<para>Playback memory FIFO size on FPGA in instructions for playback execution. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/constants.h" line="7" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/constants.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacestadls_1_1vx_1aa773803e416e20f8c231a310dec2b034" prot="public" static="no" mutable="no">
+        <type>auto const</type>
+        <definition>auto const stadls::vx::to_numpy</definition>
+        <argsstring></argsstring>
+        <name>to_numpy</name>
+        <initializer>= [](_values_type const&amp; self) { 				pybind11::array_t&lt;haldls::vx::MADCSampleFromChip::MADCSampleFromChipDType&gt; ret( 				    {self.size()}, 				    reinterpret_cast&lt; 				        haldls::vx::MADCSampleFromChip::MADCSampleFromChipDType const*&gt;( 				        self.data())); 				return ret; 			}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program.h" line="247" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacestadls_1_1vx_1a6bcf3979814994cecc15d42e2790b00b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>attr</type>
+        <definition>attr stadls::vx::attr</definition>
+        <argsstring>(&quot;to_numpy&quot;)</argsstring>
+        <name>attr</name>
+        <param>
+          <type>&quot;to_numpy&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program.h" line="247" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1af233db2e50cbbeaf73dd3ec2652eca93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void stadls::vx::decode_ones</definition>
+        <argsstring>(T &amp;config)</argsstring>
+        <name>decode_ones</name>
+        <param>
+          <type>T &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+<para>Decode data with all bits set to one into a container. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Container type </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Filled container </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/decode.h" line="98" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/decode.h" bodystart="98" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1aee50def0dee4a7e519425a867839bddd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void stadls::vx::decode_ones</definition>
+        <argsstring>(haldls::vx::CapMemBlockConfig &amp;)</argsstring>
+        <name>decode_ones</name>
+        <param>
+          <type>haldls::vx::CapMemBlockConfig &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/decode.h" line="161" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/decode.h" bodystart="161" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1a83ee14efd4ef099f0e877b3f649a8f2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void stadls::vx::decode_random</definition>
+        <argsstring>(std::mt19937 &amp;gen, T &amp;config)</argsstring>
+        <name>decode_random</name>
+        <param>
+          <type>std::mt19937 &amp;</type>
+          <declname>gen</declname>
+        </param>
+        <param>
+          <type>T &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+<para>Decode random data into a container. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Container type </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>RNG </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>randomly filled container </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/decode.h" line="74" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/decode.h" bodystart="74" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1a0bcc82ec30f9ed83ee2d3ffb817e519d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void stadls::vx::decode_random</definition>
+        <argsstring>(std::mt19937 &amp;gen, haldls::vx::CapMemBlockConfig &amp;config)</argsstring>
+        <name>decode_random</name>
+        <param>
+          <type>std::mt19937 &amp;</type>
+          <declname>gen</declname>
+        </param>
+        <param>
+          <type>haldls::vx::CapMemBlockConfig &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/decode.h" line="118" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/decode.h" bodystart="118" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1ab39a26701bf643d6b19bf4256b977f73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void stadls::vx::decode_random</definition>
+        <argsstring>(std::mt19937 &amp;gen, haldls::vx::JTAGIdCode &amp;config)</argsstring>
+        <name>decode_random</name>
+        <param>
+          <type>std::mt19937 &amp;</type>
+          <declname>gen</declname>
+        </param>
+        <param>
+          <type>haldls::vx::JTAGIdCode &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/decode.h" line="167" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/decode.h" bodystart="167" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1afaf1817461388b1848f72340fb4a925c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Seq</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto stadls::vx::generate</definition>
+        <argsstring>(Seq const &amp;seq)</argsstring>
+        <name>generate</name>
+        <param>
+          <type>Seq const &amp;</type>
+          <declname>seq</declname>
+        </param>
+        <briefdescription>
+<para>Generate function to be called on an object implementing the <ref refid="structstadls_1_1vx_1_1_playback_generator" kindref="compound">PlaybackGenerator</ref> concept. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>The <ref refid="structstadls_1_1vx_1_1_playback_generator" kindref="compound">PlaybackGenerator</ref> concept for a type Generator is comprised of having a nested Result type and a constant function with signature <computeroutput><ref refid="structstadls_1_1vx_1_1_playback_generator_return" kindref="compound">PlaybackGeneratorReturn</ref>&lt;Generator::Result&gt; <ref refid="namespacestadls_1_1vx_1afaf1817461388b1848f72340fb4a925c" kindref="member">generate()</ref> const;</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_generator.h" line="30" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_generator.h" bodystart="30" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1af2f8af64383c1e9639596b435f16625d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template SYMBOL_VISIBLE std::ostream &amp;</type>
+        <definition>template SYMBOL_VISIBLE std::ostream&amp; stadls::vx::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;, PlaybackProgramBuilderAdapter&lt; fisch::vx::PlaybackProgramBuilder, stadls::vx::PlaybackProgram &gt; const &amp;)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="playback__program__builder_8h_1ab54bcef1897fcc561a0da2bc937c0af3" kindref="member">PlaybackProgramBuilderAdapter</ref>&lt; <ref refid="playback__program__builder_8h_1a36437f7c5444ddb05a668d46186a53c7" kindref="member">fisch::vx::PlaybackProgramBuilder</ref>, <ref refid="classstadls_1_1vx_1_1_playback_program" kindref="compound">stadls::vx::PlaybackProgram</ref> &gt; const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program_builder.h" line="263" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1a898872dc5079bcec942b59d07c00dd2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template SYMBOL_VISIBLE std::ostream &amp;</type>
+        <definition>template SYMBOL_VISIBLE std::ostream&amp; stadls::vx::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;, PlaybackProgramBuilderAdapter&lt; stadls::vx::Dumper, stadls::vx::Dumper::done_type &gt; const &amp;)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+        </param>
+        <param>
+          <type><ref refid="playback__program__builder_8h_1ab54bcef1897fcc561a0da2bc937c0af3" kindref="member">PlaybackProgramBuilderAdapter</ref>&lt; stadls::vx::Dumper, stadls::vx::Dumper::done_type &gt; const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program_builder.h" line="269" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1add6c62d85e08ba6153d8453f0c1929cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::vx::pybind11::bind_vector&lt; stadls::vx::PlaybackProgram::madc_samples_type &gt;</definition>
+        <argsstring>(parent, &quot;madc_samples_type&quot;)</argsstring>
+        <name>pybind11::bind_vector&lt; stadls::vx::PlaybackProgram::madc_samples_type &gt;</name>
+        <param>
+          <type>parent</type>
+        </param>
+        <param>
+          <type>&quot;madc_samples_type&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1a99cb458d1d034c8843db54f7fd28d24f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Connection</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="namespacestadls_1_1vx_1a130b5fbd43a12691e277eed19dc7c525" kindref="member">RunTimeInfo</ref></type>
+        <definition>RunTimeInfo stadls::vx::run</definition>
+        <argsstring>(Connection &amp;connection, PlaybackProgram &amp;&amp;program)</argsstring>
+        <name>run</name>
+        <param>
+          <type>Connection &amp;</type>
+          <declname>connection</declname>
+        </param>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1_playback_program" kindref="compound">PlaybackProgram</ref> &amp;&amp;</type>
+          <declname>program</declname>
+        </param>
+        <briefdescription>
+<para>Transfer and execute the given playback program and fetch results. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Connection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Connection type to be used for running the program </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>connection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Connection instance to be used for running the program </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>program</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classstadls_1_1vx_1_1_playback_program" kindref="compound">PlaybackProgram</ref> to run </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Run time information </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/run.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1a05bc5162f4ab0d74dfff7f9b0b98a4e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Connection</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="namespacestadls_1_1vx_1a130b5fbd43a12691e277eed19dc7c525" kindref="member">RunTimeInfo</ref></type>
+        <definition>RunTimeInfo stadls::vx::run</definition>
+        <argsstring>(Connection &amp;connection, PlaybackProgram &amp;program)</argsstring>
+        <name>run</name>
+        <param>
+          <type>Connection &amp;</type>
+          <declname>connection</declname>
+        </param>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1_playback_program" kindref="compound">PlaybackProgram</ref> &amp;</type>
+          <declname>program</declname>
+        </param>
+        <briefdescription>
+<para>Transfer and execute the given playback program and fetch results. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Connection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Connection type to be used for running the program </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>connection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Connection instance to be used for running the program </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>program</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classstadls_1_1vx_1_1_playback_program" kindref="compound">PlaybackProgram</ref> to run </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Run time information </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1ae46fd475ed49d3bae258eb2462efb9f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Connection</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="namespacestadls_1_1vx_1a130b5fbd43a12691e277eed19dc7c525" kindref="member">RunTimeInfo</ref></type>
+        <definition>RunTimeInfo stadls::vx::run</definition>
+        <argsstring>(Connection &amp;connection, std::shared_ptr&lt; fisch::vx::PlaybackProgram &gt; const &amp;program)</argsstring>
+        <name>run</name>
+        <param>
+          <type>Connection &amp;</type>
+          <declname>connection</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; fisch::vx::PlaybackProgram &gt; const &amp;</type>
+          <declname>program</declname>
+        </param>
+        <briefdescription>
+<para>Transfer and execute the given fisch playback program and fetch results. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Connection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Connection type to be used for running the program </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>connection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Connection instance to be used for running the program </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>program</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="classstadls_1_1vx_1_1_playback_program" kindref="compound">PlaybackProgram</ref> to run </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Run time information </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/run.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacestadls_1_1vx_1a591b429c6505e8ac418943f2e9f5abec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void stadls::vx::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h" line="69" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/constants.h" line="4" column="1"/>
+  </compounddef>
+</doxygen>

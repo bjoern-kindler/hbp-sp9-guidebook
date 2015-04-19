@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister" kind="class" language="C++" prot="public">
+    <compoundname>haldls::v2::detail::FlyspiRORegister</compoundname>
+    <includes refid="v2_2fpga_8h" local="no">fpga.h</includes>
+    <templateparamlist>
+      <param>
+        <type><ref refid="structhaldls_1_1v2_1_1ocp__address__type_1a3f0aae21122662047b799b7039c3189a" kindref="member">ocp_address_type::value_type</ref></type>
+        <declname>Address</declname>
+        <defname>Address</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1a45bcaad06e11e1936ed4eaed1a307bf0" prot="public" static="no">
+        <type>halco::common::Unique</type>
+        <definition>typedef halco::common::Unique haldls::v2::detail::FlyspiRORegister&lt; Address &gt;::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="56" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1ac80e5cc8281c48f60156950acf77bff8" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::v2::detail::FlyspiRORegister&lt; Address &gt;::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="57" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1aaecf82d67917f02a346a377eb4b3db4e" prot="private" static="no" mutable="no">
+        <type>hate::optional&lt; <ref refid="structhaldls_1_1v2_1_1ocp__word__type_1af000cd26c31dda668660bfd17b5fe099" kindref="member">ocp_word_type::value_type</ref> &gt;</type>
+        <definition>hate::optional&lt;ocp_word_type::value_type&gt; haldls::v2::detail::FlyspiRORegister&lt; Address &gt;::m_value</definition>
+        <argsstring></argsstring>
+        <name>m_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="78" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1a238fa159858ff982ba1c929758cf5bf5" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::v2::detail::FlyspiRORegister&lt; Address &gt;::FlyspiRORegister</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>FlyspiRORegister</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="59" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1a016904ef0c969c59bc9d694f963314af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::detail::FlyspiRORegister&lt; Address &gt;::decode</definition>
+        <argsstring>(std::array&lt; ocp_word_type, 1 &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; <ref refid="structhaldls_1_1v2_1_1ocp__word__type" kindref="compound">ocp_word_type</ref>, 1 &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="75" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1ac931922e8bb4bcbda8043d51d05809b6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; <ref refid="structhaldls_1_1v2_1_1ocp__word__type" kindref="compound">ocp_word_type</ref>, 0 &gt;</type>
+        <definition>std::array&lt;ocp_word_type, 0&gt; haldls::v2::detail::FlyspiRORegister&lt; Address &gt;::encode</definition>
+        <argsstring>(coordinate_type const &amp;) const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1a45bcaad06e11e1936ed4eaed1a307bf0" kindref="member">coordinate_type</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1a95d957ea270693a910f981c2625bae6a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>hate::optional&lt; <ref refid="structhaldls_1_1v2_1_1ocp__word__type_1af000cd26c31dda668660bfd17b5fe099" kindref="member">ocp_word_type::value_type</ref> &gt;</type>
+        <definition>hate::optional&lt;ocp_word_type::value_type&gt; haldls::v2::detail::FlyspiRORegister&lt; Address &gt;::get_value</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="63" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1a6687ba0d79971143c2920417240b394c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::detail::FlyspiRORegister&lt; Address &gt;::operator!=</definition>
+        <argsstring>(FlyspiRORegister&lt; Address &gt; const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister" kindref="compound">FlyspiRORegister</ref>&lt; Address &gt; const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1ae9002a745833cf230b537272c76a7767" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::detail::FlyspiRORegister&lt; Address &gt;::operator==</definition>
+        <argsstring>(FlyspiRORegister&lt; Address &gt; const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister" kindref="compound">FlyspiRORegister</ref>&lt; Address &gt; const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="66" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1a50592ec2dc225dddbe15229b47d4d930" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; <ref refid="structhaldls_1_1v2_1_1ocp__address__type" kindref="compound">ocp_address_type</ref>, 1 &gt;</type>
+        <definition>std::array&lt;ocp_address_type, 1&gt; haldls::v2::detail::FlyspiRORegister&lt; Address &gt;::read_addresses</definition>
+        <argsstring>(coordinate_type const &amp;) const SYMBOL_VISIBLE</argsstring>
+        <name>read_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1a45bcaad06e11e1936ed4eaed1a307bf0" kindref="member">coordinate_type</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1acfb4e51bf5e19c59e6d91c5fc1e99be4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; <ref refid="structhaldls_1_1v2_1_1ocp__address__type" kindref="compound">ocp_address_type</ref>, 0 &gt;</type>
+        <definition>std::array&lt;ocp_address_type, 0&gt; haldls::v2::detail::FlyspiRORegister&lt; Address &gt;::write_addresses</definition>
+        <argsstring>(coordinate_type const &amp;) const SYMBOL_VISIBLE</argsstring>
+        <name>write_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1a45bcaad06e11e1936ed4eaed1a307bf0" kindref="member">coordinate_type</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="70" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="54" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="53" bodyend="79"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1a45bcaad06e11e1936ed4eaed1a307bf0" prot="public" virt="non-virtual"><scope>haldls::v2::detail::FlyspiRORegister</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1a016904ef0c969c59bc9d694f963314af" prot="public" virt="non-virtual"><scope>haldls::v2::detail::FlyspiRORegister</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1ac931922e8bb4bcbda8043d51d05809b6" prot="public" virt="non-virtual"><scope>haldls::v2::detail::FlyspiRORegister</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1a238fa159858ff982ba1c929758cf5bf5" prot="public" virt="non-virtual"><scope>haldls::v2::detail::FlyspiRORegister</scope><name>FlyspiRORegister</name></member>
+      <member refid="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1a95d957ea270693a910f981c2625bae6a" prot="public" virt="non-virtual"><scope>haldls::v2::detail::FlyspiRORegister</scope><name>get_value</name></member>
+      <member refid="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1ac80e5cc8281c48f60156950acf77bff8" prot="public" virt="non-virtual"><scope>haldls::v2::detail::FlyspiRORegister</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1aaecf82d67917f02a346a377eb4b3db4e" prot="private" virt="non-virtual"><scope>haldls::v2::detail::FlyspiRORegister</scope><name>m_value</name></member>
+      <member refid="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1a6687ba0d79971143c2920417240b394c" prot="public" virt="non-virtual"><scope>haldls::v2::detail::FlyspiRORegister</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1ae9002a745833cf230b537272c76a7767" prot="public" virt="non-virtual"><scope>haldls::v2::detail::FlyspiRORegister</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1a50592ec2dc225dddbe15229b47d4d930" prot="public" virt="non-virtual"><scope>haldls::v2::detail::FlyspiRORegister</scope><name>read_addresses</name></member>
+      <member refid="classhaldls_1_1v2_1_1detail_1_1FlyspiRORegister_1acfb4e51bf5e19c59e6d91c5fc1e99be4" prot="public" virt="non-virtual"><scope>haldls::v2::detail::FlyspiRORegister</scope><name>write_addresses</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

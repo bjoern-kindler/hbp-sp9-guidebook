@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classstadls_1_1v2_1_1QuickQueueWorker" kind="class" language="C++" prot="public">
+    <compoundname>stadls::v2::QuickQueueWorker</compoundname>
+    <includes refid="quick__queue_8h" local="no">quick_queue.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classstadls_1_1v2_1_1QuickQueueWorker_1ad2dc613324cca1466b85b5356be4ea5d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool stadls::v2::QuickQueueWorker::m_has_slurm_allocation</definition>
+        <argsstring></argsstring>
+        <name>m_has_slurm_allocation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="115" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1v2_1_1QuickQueueWorker_1a593a3fc858a6aadd10b183081c8cfa5c" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classstadls_1_1v2_1_1LocalBoardControl" kindref="compound">LocalBoardControl</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;LocalBoardControl&gt; stadls::v2::QuickQueueWorker::m_local_board_ctrl</definition>
+        <argsstring></argsstring>
+        <name>m_local_board_ctrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="113" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1v2_1_1QuickQueueWorker_1a73a3c450237d77cb7a0d1d56fa74b5df" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool stadls::v2::QuickQueueWorker::m_mock_mode</definition>
+        <argsstring></argsstring>
+        <name>m_mock_mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="119" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1v2_1_1QuickQueueWorker_1a2bbb69a2b1f7eec697a2af5dd1379c51" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string stadls::v2::QuickQueueWorker::m_slurm_partition</definition>
+        <argsstring></argsstring>
+        <name>m_slurm_partition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="117" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1v2_1_1QuickQueueWorker_1af88448d3b82b89aba3af96a5b36abd54" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string stadls::v2::QuickQueueWorker::m_usb_serial</definition>
+        <argsstring></argsstring>
+        <name>m_usb_serial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="114" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classstadls_1_1v2_1_1QuickQueueWorker_1a1d1aa4f67f3f50a4bfd698f47b66ae49" prot="private" static="yes" mutable="no">
+        <type>constexpr char const  *const</type>
+        <definition>constexpr char const* const stadls::v2::QuickQueueWorker::m_env_name_partition</definition>
+        <argsstring></argsstring>
+        <name>m_env_name_partition</name>
+        <initializer>= &quot;SLURM_JOB_PARTITION&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="116" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classstadls_1_1v2_1_1QuickQueueWorker_1a4424bf406adb44b8ac5bca58536546ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::v2::QuickQueueWorker::QuickQueueWorker</definition>
+        <argsstring>(std::string const &amp;usb_serial) SYMBOL_VISIBLE</argsstring>
+        <name>QuickQueueWorker</name>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>usb_serial</declname>
+        </param>
+        <briefdescription>
+<para>sets up the Quick Queue Server </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="80" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1QuickQueueWorker_1a6197fe6ade4e38e19f6e8705ebf00bef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::v2::QuickQueueWorker::QuickQueueWorker</definition>
+        <argsstring>(QuickQueueWorker &amp;&amp;other)=default</argsstring>
+        <name>QuickQueueWorker</name>
+        <param>
+          <type><ref refid="classstadls_1_1v2_1_1QuickQueueWorker" kindref="compound">QuickQueueWorker</ref> &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="82" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1QuickQueueWorker_1aa7f284e33613b2613f658fb4d9aa4ffe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::v2::QuickQueueWorker::QuickQueueWorker</definition>
+        <argsstring>(QuickQueueWorker const &amp;other)=delete</argsstring>
+        <name>QuickQueueWorker</name>
+        <param>
+          <type><ref refid="classstadls_1_1v2_1_1QuickQueueWorker" kindref="compound">QuickQueueWorker</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1QuickQueueWorker_1a0406858e3b8906adee95b7a141cc8094" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::v2::QuickQueueWorker::~QuickQueueWorker</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>~QuickQueueWorker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="88" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1QuickQueueWorker_1a43dd044c0b7f9bad5384b92ab4043582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classstadls_1_1v2_1_1QuickQueueWorker" kindref="compound">QuickQueueWorker</ref> &amp;</type>
+        <definition>QuickQueueWorker&amp; stadls::v2::QuickQueueWorker::operator=</definition>
+        <argsstring>(QuickQueueWorker &amp;&amp;other)=default</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classstadls_1_1v2_1_1QuickQueueWorker" kindref="compound">QuickQueueWorker</ref> &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="83" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1QuickQueueWorker_1a2e277e5d4ad85ba7b8ced1f43fabb517" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classstadls_1_1v2_1_1QuickQueueWorker" kindref="compound">QuickQueueWorker</ref> &amp;</type>
+        <definition>QuickQueueWorker&amp; stadls::v2::QuickQueueWorker::operator=</definition>
+        <argsstring>(QuickQueueWorker const &amp;other)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classstadls_1_1v2_1_1QuickQueueWorker" kindref="compound">QuickQueueWorker</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="86" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1QuickQueueWorker_1a86d2b2228ffc59906e9f1cb6134e388d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::v2::QuickQueueWorker::set_mock_mode</definition>
+        <argsstring>(bool mode_enable) SYMBOL_VISIBLE</argsstring>
+        <name>set_mock_mode</name>
+        <param>
+          <type>bool</type>
+          <declname>mode_enable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="103" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" bodystart="103" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1QuickQueueWorker_1a2c21e2921d90ee40a737a2063497cd44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::v2::QuickQueueWorker::setup</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>setup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="91" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1QuickQueueWorker_1ace1f62b7cec3e84ac16a75b6e630a463" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::v2::QuickQueueWorker::teardown</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>teardown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="98" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1QuickQueueWorker_1adb582659e4780a123e3dfab3b804149c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; size_t &gt;</type>
+        <definition>std::optional&lt;size_t&gt; stadls::v2::QuickQueueWorker::verify_user</definition>
+        <argsstring>(std::string const &amp;user_data) SYMBOL_VISIBLE</argsstring>
+        <name>verify_user</name>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>user_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="93" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1QuickQueueWorker_1a8bc16929cc1e28c2d8485d96c708a111" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structstadls_1_1v2_1_1QuickQueueResponse" kindref="compound">QuickQueueResponse</ref></type>
+        <definition>QuickQueueResponse stadls::v2::QuickQueueWorker::work</definition>
+        <argsstring>(QuickQueueRequest const &amp;) SYMBOL_VISIBLE</argsstring>
+        <name>work</name>
+        <param>
+          <type><ref refid="structstadls_1_1v2_1_1QuickQueueRequest" kindref="compound">QuickQueueRequest</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="95" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classstadls_1_1v2_1_1QuickQueueWorker_1a28d96f72f2fa5e73bfbb0c9083d3bdfe" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::v2::QuickQueueWorker::free_slurm_allocation</definition>
+        <argsstring>()</argsstring>
+        <name>free_slurm_allocation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="110" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1QuickQueueWorker_1af8b291312002c02f18cb09f0b8cd4e6e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::v2::QuickQueueWorker::get_slurm_allocation</definition>
+        <argsstring>()</argsstring>
+        <name>get_slurm_allocation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="109" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1QuickQueueWorker_1aa49ff4970073a5acdfdf4f264fcf5457" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string stadls::v2::QuickQueueWorker::get_slurm_gres</definition>
+        <argsstring>()</argsstring>
+        <name>get_slurm_gres</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="108" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" bodystart="108" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1QuickQueueWorker_1a18dab40e9696be531d5801b5f0ee8e90" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string stadls::v2::QuickQueueWorker::get_slurm_jobname</definition>
+        <argsstring>()</argsstring>
+        <name>get_slurm_jobname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="107" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" bodystart="107" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" line="77" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/quick_queue.h" bodystart="76" bodyend="121"/>
+    <listofallmembers>
+      <member refid="classstadls_1_1v2_1_1QuickQueueWorker_1a28d96f72f2fa5e73bfbb0c9083d3bdfe" prot="private" virt="non-virtual"><scope>stadls::v2::QuickQueueWorker</scope><name>free_slurm_allocation</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueWorker_1af8b291312002c02f18cb09f0b8cd4e6e" prot="private" virt="non-virtual"><scope>stadls::v2::QuickQueueWorker</scope><name>get_slurm_allocation</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueWorker_1aa49ff4970073a5acdfdf4f264fcf5457" prot="private" virt="non-virtual"><scope>stadls::v2::QuickQueueWorker</scope><name>get_slurm_gres</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueWorker_1a18dab40e9696be531d5801b5f0ee8e90" prot="private" virt="non-virtual"><scope>stadls::v2::QuickQueueWorker</scope><name>get_slurm_jobname</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueWorker_1a1d1aa4f67f3f50a4bfd698f47b66ae49" prot="private" virt="non-virtual"><scope>stadls::v2::QuickQueueWorker</scope><name>m_env_name_partition</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueWorker_1ad2dc613324cca1466b85b5356be4ea5d" prot="private" virt="non-virtual"><scope>stadls::v2::QuickQueueWorker</scope><name>m_has_slurm_allocation</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueWorker_1a593a3fc858a6aadd10b183081c8cfa5c" prot="private" virt="non-virtual"><scope>stadls::v2::QuickQueueWorker</scope><name>m_local_board_ctrl</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueWorker_1a73a3c450237d77cb7a0d1d56fa74b5df" prot="private" virt="non-virtual"><scope>stadls::v2::QuickQueueWorker</scope><name>m_mock_mode</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueWorker_1a2bbb69a2b1f7eec697a2af5dd1379c51" prot="private" virt="non-virtual"><scope>stadls::v2::QuickQueueWorker</scope><name>m_slurm_partition</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueWorker_1af88448d3b82b89aba3af96a5b36abd54" prot="private" virt="non-virtual"><scope>stadls::v2::QuickQueueWorker</scope><name>m_usb_serial</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueWorker_1a43dd044c0b7f9bad5384b92ab4043582" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueWorker</scope><name>operator=</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueWorker_1a2e277e5d4ad85ba7b8ced1f43fabb517" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueWorker</scope><name>operator=</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueWorker_1a4424bf406adb44b8ac5bca58536546ed" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueWorker</scope><name>QuickQueueWorker</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueWorker_1a6197fe6ade4e38e19f6e8705ebf00bef" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueWorker</scope><name>QuickQueueWorker</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueWorker_1aa7f284e33613b2613f658fb4d9aa4ffe" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueWorker</scope><name>QuickQueueWorker</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueWorker_1a86d2b2228ffc59906e9f1cb6134e388d" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueWorker</scope><name>set_mock_mode</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueWorker_1a2c21e2921d90ee40a737a2063497cd44" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueWorker</scope><name>setup</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueWorker_1ace1f62b7cec3e84ac16a75b6e630a463" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueWorker</scope><name>teardown</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueWorker_1adb582659e4780a123e3dfab3b804149c" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueWorker</scope><name>verify_user</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueWorker_1a8bc16929cc1e28c2d8485d96c708a111" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueWorker</scope><name>work</name></member>
+      <member refid="classstadls_1_1v2_1_1QuickQueueWorker_1a0406858e3b8906adee95b7a141cc8094" prot="public" virt="non-virtual"><scope>stadls::v2::QuickQueueWorker</scope><name>~QuickQueueWorker</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

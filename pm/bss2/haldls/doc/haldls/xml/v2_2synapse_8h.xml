@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="v2_2synapse_8h" kind="file" language="C++">
+    <compoundname>synapse.h</compoundname>
+    <includes local="no">ostream</includes>
+    <includes local="yes">halco/common/typed_array.h</includes>
+    <includes local="yes">halco/hicann-dls/v2/coordinates.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includes refid="v2_2common_8h" local="yes">haldls/v2/common.h</includes>
+    <includes refid="v2_2genpybind_8h" local="yes">haldls/v2/genpybind.h</includes>
+    <includedby refid="v2_2fpga_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h</includedby>
+    <includedby refid="board_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/board.h</includedby>
+    <includedby refid="chip_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h</includedby>
+    <includedby refid="spike_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/spike.h</includedby>
+    <includedby refid="v2_2container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/container.h</includedby>
+    <incdepgraph>
+      <node id="497">
+        <label>cstdint</label>
+      </node>
+      <node id="500">
+        <label>haldls/v2/genpybind.h</label>
+        <link refid="v2_2genpybind_8h"/>
+        <childnode refid="500" relation="include">
+        </childnode>
+      </node>
+      <node id="492">
+        <label>ostream</label>
+      </node>
+      <node id="491">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h</label>
+        <link refid="v2_2synapse_8h"/>
+        <childnode refid="492" relation="include">
+        </childnode>
+        <childnode refid="493" relation="include">
+        </childnode>
+        <childnode refid="494" relation="include">
+        </childnode>
+        <childnode refid="495" relation="include">
+        </childnode>
+        <childnode refid="496" relation="include">
+        </childnode>
+        <childnode refid="500" relation="include">
+        </childnode>
+      </node>
+      <node id="493">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="499">
+        <label>utility</label>
+      </node>
+      <node id="495">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="494">
+        <label>halco/hicann-dls/v2/coordinates.h</label>
+      </node>
+      <node id="496">
+        <label>haldls/v2/common.h</label>
+        <link refid="v2_2common_8h"/>
+        <childnode refid="497" relation="include">
+        </childnode>
+        <childnode refid="498" relation="include">
+        </childnode>
+        <childnode refid="499" relation="include">
+        </childnode>
+      </node>
+      <node id="498">
+        <label>type_traits</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="505">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/chip.h</label>
+        <link refid="chip_8h"/>
+        <childnode refid="504" relation="include">
+        </childnode>
+        <childnode refid="506" relation="include">
+        </childnode>
+      </node>
+      <node id="503">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/board.h</label>
+        <link refid="board_8h"/>
+        <childnode refid="504" relation="include">
+        </childnode>
+      </node>
+      <node id="506">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/playback.h</label>
+        <link refid="playback_8h"/>
+        <childnode refid="504" relation="include">
+        </childnode>
+      </node>
+      <node id="504">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/container.h</label>
+        <link refid="v2_2container_8h"/>
+      </node>
+      <node id="507">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/spike.h</label>
+        <link refid="spike_8h"/>
+        <childnode refid="506" relation="include">
+        </childnode>
+        <childnode refid="504" relation="include">
+        </childnode>
+      </node>
+      <node id="501">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h</label>
+        <link refid="v2_2synapse_8h"/>
+        <childnode refid="502" relation="include">
+        </childnode>
+        <childnode refid="503" relation="include">
+        </childnode>
+        <childnode refid="505" relation="include">
+        </childnode>
+        <childnode refid="507" relation="include">
+        </childnode>
+        <childnode refid="504" relation="include">
+        </childnode>
+      </node>
+      <node id="502">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/fpga.h</label>
+        <link refid="v2_2fpga_8h"/>
+        <childnode refid="503" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1v2_1_1_synapse_block_1_1_synapse_1_1_address" prot="public">haldls::v2::SynapseBlock::Synapse::Address</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_synapse_block_1_1_synapse_1_1_amp_calib" prot="public">haldls::v2::SynapseBlock::Synapse::AmpCalib</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_column_correlation_block" prot="public">haldls::v2::ColumnCorrelationBlock</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_column_correlation_block_1_1_column_correlation_switch" prot="public">haldls::v2::ColumnCorrelationBlock::ColumnCorrelationSwitch</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_column_current_block" prot="public">haldls::v2::ColumnCurrentBlock</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_column_current_block_1_1_column_current_switch" prot="public">haldls::v2::ColumnCurrentBlock::ColumnCurrentSwitch</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_common_synram_config" prot="public">haldls::v2::CommonSynramConfig</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_common_synram_config_1_1_p_c_conf" prot="public">haldls::v2::CommonSynramConfig::PCConf</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_synapse_block_1_1_synapse" prot="public">haldls::v2::SynapseBlock::Synapse</innerclass>
+    <innerclass refid="classhaldls_1_1v2_1_1_synapse_block" prot="public">haldls::v2::SynapseBlock</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_synapse_block_1_1_synapse_1_1_time_calib" prot="public">haldls::v2::SynapseBlock::Synapse::TimeCalib</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_common_synram_config_1_1_wait_ctr_clear" prot="public">haldls::v2::CommonSynramConfig::WaitCtrClear</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_common_synram_config_1_1_w_conf" prot="public">haldls::v2::CommonSynramConfig::WConf</innerclass>
+    <innerclass refid="structhaldls_1_1v2_1_1_synapse_block_1_1_synapse_1_1_weight" prot="public">haldls::v2::SynapseBlock::Synapse::Weight</innerclass>
+    <innernamespace refid="namespacecereal">cereal</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1v2">haldls::v2</innernamespace>
+    <innernamespace refid="namespacestd">std</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h"/>
+  </compounddef>
+</doxygen>

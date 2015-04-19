@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="vx_2neuron_8h" kind="file" language="C++">
+    <compoundname>neuron.h</compoundname>
+    <includes local="no">array</includes>
+    <includes local="no">ostream</includes>
+    <includes local="yes">halco/common/geometry.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/neuron.h</includes>
+    <includes refid="vx_2genpybind_8h" local="yes">haldls/vx/genpybind.h</includes>
+    <includes refid="traits_8h" local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includedby refid="event_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/event.h</includedby>
+    <includedby refid="vx_2container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/container.h</includedby>
+    <incdepgraph>
+      <node id="390">
+        <label>fisch/vx/container.def</label>
+      </node>
+      <node id="381">
+        <label>halco/hicann-dls/vx/neuron.h</label>
+      </node>
+      <node id="385">
+        <label>boost/variant.hpp</label>
+      </node>
+      <node id="379">
+        <label>ostream</label>
+      </node>
+      <node id="382">
+        <label>haldls/vx/genpybind.h</label>
+        <link refid="vx_2genpybind_8h"/>
+        <childnode refid="382" relation="include">
+        </childnode>
+      </node>
+      <node id="378">
+        <label>array</label>
+      </node>
+      <node id="380">
+        <label>halco/common/geometry.h</label>
+      </node>
+      <node id="386">
+        <label>fisch/vx/container_fwd.h</label>
+      </node>
+      <node id="389">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="387">
+        <label>fisch/vx/container_ticket.h</label>
+      </node>
+      <node id="377">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/neuron.h</label>
+        <link refid="vx_2neuron_8h"/>
+        <childnode refid="378" relation="include">
+        </childnode>
+        <childnode refid="379" relation="include">
+        </childnode>
+        <childnode refid="380" relation="include">
+        </childnode>
+        <childnode refid="381" relation="include">
+        </childnode>
+        <childnode refid="382" relation="include">
+        </childnode>
+        <childnode refid="383" relation="include">
+        </childnode>
+        <childnode refid="389" relation="include">
+        </childnode>
+      </node>
+      <node id="383">
+        <label>haldls/vx/traits.h</label>
+        <link refid="traits_8h"/>
+        <childnode refid="384" relation="include">
+        </childnode>
+        <childnode refid="385" relation="include">
+        </childnode>
+        <childnode refid="386" relation="include">
+        </childnode>
+        <childnode refid="387" relation="include">
+        </childnode>
+        <childnode refid="382" relation="include">
+        </childnode>
+        <childnode refid="388" relation="include">
+        </childnode>
+        <childnode refid="389" relation="include">
+        </childnode>
+        <childnode refid="390" relation="include">
+        </childnode>
+      </node>
+      <node id="384">
+        <label>type_traits</label>
+      </node>
+      <node id="388">
+        <label>hate/type_list.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="395">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/is_readable.h</label>
+        <link refid="is__readable_8h"/>
+      </node>
+      <node id="393">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/container.h</label>
+        <link refid="vx_2container_8h"/>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="395" relation="include">
+        </childnode>
+      </node>
+      <node id="394">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/haldls.h</label>
+        <link refid="haldls_8h"/>
+      </node>
+      <node id="392">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/event.h</label>
+        <link refid="event_8h"/>
+        <childnode refid="393" relation="include">
+        </childnode>
+      </node>
+      <node id="391">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/neuron.h</label>
+        <link refid="vx_2neuron_8h"/>
+        <childnode refid="392" relation="include">
+        </childnode>
+        <childnode refid="393" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_address_out" prot="public">haldls::vx::NeuronBackendConfig::AddressOut</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_block_post_pulse_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; BlockPostPulse &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_common_neuron_backend_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CommonNeuronBackendConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_neuron_backend_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; NeuronBackendConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_neuron_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; NeuronConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_neuron_reset_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; NeuronReset &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_neuron_reset_quad_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; NeuronResetQuad &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_spike_counter_read_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SpikeCounterRead &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_spike_counter_reset_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; SpikeCounterReset &gt;</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_block_post_pulse" prot="public">haldls::vx::BlockPostPulse</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_common_neuron_backend_config_1_1_clock_scale" prot="public">haldls::vx::CommonNeuronBackendConfig::ClockScale</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_common_neuron_backend_config" prot="public">haldls::vx::CommonNeuronBackendConfig</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_spike_counter_read_1_1_count" prot="public">haldls::vx::SpikeCounterRead::Count</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_neuron_config_1_1_exponential_term_strength" prot="public">haldls::vx::NeuronConfig::ExponentialTermStrength</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_input_clock" prot="public">haldls::vx::NeuronBackendConfig::InputClock</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_neuron_config_1_1_membrane_capacitor_size" prot="public">haldls::vx::NeuronConfig::MembraneCapacitorSize</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_neuron_backend_config" prot="public">haldls::vx::NeuronBackendConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_neuron_config" prot="public">haldls::vx::NeuronConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_neuron_reset" prot="public">haldls::vx::NeuronReset</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_neuron_reset_quad" prot="public">haldls::vx::NeuronResetQuad</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_refractory_time" prot="public">haldls::vx::NeuronBackendConfig::RefractoryTime</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_reset_holdoff" prot="public">haldls::vx::NeuronBackendConfig::ResetHoldoff</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_spike_counter_read" prot="public">haldls::vx::SpikeCounterRead</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_spike_counter_reset" prot="public">haldls::vx::SpikeCounterReset</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_common_neuron_backend_config_1_1_wait_fire_neuron" prot="public">haldls::vx::CommonNeuronBackendConfig::WaitFireNeuron</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_common_neuron_backend_config_1_1_wait_global_post_pulse" prot="public">haldls::vx::CommonNeuronBackendConfig::WaitGlobalPostPulse</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_common_neuron_backend_config_1_1_wait_spike_counter_read" prot="public">haldls::vx::CommonNeuronBackendConfig::WaitSpikeCounterRead</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_common_neuron_backend_config_1_1_wait_spike_counter_reset" prot="public">haldls::vx::CommonNeuronBackendConfig::WaitSpikeCounterReset</innerclass>
+    <innernamespace refid="namespacecereal">cereal</innernamespace>
+    <innernamespace refid="namespacefisch">fisch</innernamespace>
+    <innernamespace refid="namespacefisch_1_1vx">fisch::vx</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/vx/neuron.h"/>
+  </compounddef>
+</doxygen>

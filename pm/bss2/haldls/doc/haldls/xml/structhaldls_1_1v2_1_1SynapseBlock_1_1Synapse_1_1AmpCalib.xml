@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1v2_1_1SynapseBlock_1_1Synapse_1_1AmpCalib" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::v2::SynapseBlock::Synapse::AmpCalib</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; AmpCalib, uint_fast16_t, 3, 0 &gt;</basecompoundref>
+    <includes refid="v2_2synapse_8h" local="no">synapse.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1SynapseBlock_1_1Synapse_1_1AmpCalib_1ab587094d7e0ac34e495b508f13e934eb" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::v2::SynapseBlock::Synapse::AmpCalib::AmpCalib</definition>
+        <argsstring>(uintmax_t const val=0) SYMBOL_VISIBLE</argsstring>
+        <name>AmpCalib</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapse.h" line="148" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapse.h" bodystart="148" bodyend="148"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="18">
+        <label>haldls::v2::SynapseBlock::Synapse::AmpCalib</label>
+        <link refid="structhaldls_1_1v2_1_1SynapseBlock_1_1Synapse_1_1AmpCalib"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>halco::common::detail::RantWrapper&lt; AmpCalib, uint_fast16_t, 3, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="20">
+        <label>haldls::v2::SynapseBlock::Synapse::AmpCalib</label>
+        <link refid="structhaldls_1_1v2_1_1SynapseBlock_1_1Synapse_1_1AmpCalib"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>halco::common::detail::RantWrapper&lt; AmpCalib, uint_fast16_t, 3, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapse.h" line="147" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapse.h" bodystart="146" bodyend="149"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1v2_1_1SynapseBlock_1_1Synapse_1_1AmpCalib_1ab587094d7e0ac34e495b508f13e934eb" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseBlock::Synapse::AmpCalib</scope><name>AmpCalib</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

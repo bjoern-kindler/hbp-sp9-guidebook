@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1detail_1_1VisitPreorderImpl_3_01lola_1_1vx_1_1SynapseRow_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseRow &gt;</compoundname>
+    <includes refid="synapse_8h" local="no">synapse.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1detail_1_1VisitPreorderImpl_3_01lola_1_1vx_1_1SynapseRow_01_4_1a8095c38cf03eb0d230fb4498091ec65e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ContainerT</type>
+          </param>
+          <param>
+            <type>typename VisitorT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseRow &gt;::call</definition>
+        <argsstring>(ContainerT &amp;config, lola::vx::SynapseRow::coordinate_type const &amp;coord, VisitorT &amp;&amp;visitor)</argsstring>
+        <name>call</name>
+        <param>
+          <type>ContainerT &amp;</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type><ref refid="classlola_1_1vx_1_1SynapseRow_1a9279620faaf728bb54d5f164dd2a8f60" kindref="member">lola::vx::SynapseRow::coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>VisitorT &amp;&amp;</type>
+          <declname>visitor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/lola/vx/synapse.h" line="366" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/lola/vx/synapse.h" bodystart="366" bodyend="401"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/lola/vx/synapse.h" line="364" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/lola/vx/synapse.h" bodystart="363" bodyend="402"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1detail_1_1VisitPreorderImpl_3_01lola_1_1vx_1_1SynapseRow_01_4_1a8095c38cf03eb0d230fb4498091ec65e" prot="public" virt="non-virtual"><scope>haldls::vx::detail::VisitPreorderImpl&lt; lola::vx::SynapseRow &gt;</scope><name>call</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,8 @@
+var searchData=
+[
+  ['readout',['readout',['../classlola_1_1vx_1_1v1_1_1_atomic_neuron.html#ac1424742028790ad405c356085b2066a',1,'lola::vx::v1::AtomicNeuron::readout()'],['../classlola_1_1vx_1_1v2_1_1_atomic_neuron.html#ace5c41f9884161234741b723b3516b41',1,'lola::vx::v2::AtomicNeuron::readout()']]],
+  ['refractory_5fperiod',['refractory_period',['../classlola_1_1vx_1_1v1_1_1_atomic_neuron.html#ac68bc929047815db58d5fba2b856e4a5',1,'lola::vx::v1::AtomicNeuron::refractory_period()'],['../classlola_1_1vx_1_1v2_1_1_atomic_neuron.html#a9e510068d0ad89e129ce7bb1d5462110',1,'lola::vx::v2::AtomicNeuron::refractory_period()']]],
+  ['refractory_5ftime',['refractory_time',['../structlola_1_1vx_1_1v1_1_1_atomic_neuron_1_1_refractory_period.html#abe66534d16c54eaa3f65228701bd646d',1,'lola::vx::v1::AtomicNeuron::RefractoryPeriod::refractory_time()'],['../structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_refractory_period.html#a26235f03743213a65006affffcbdbfaf',1,'lola::vx::v2::AtomicNeuron::RefractoryPeriod::refractory_time()']]],
+  ['reset',['reset',['../structlola_1_1vx_1_1v1_1_1_atomic_neuron_1_1_leak_reset.html#ac643e062174d4f02959b7c66343c72f6',1,'lola::vx::v1::AtomicNeuron::LeakReset::reset()'],['../classlola_1_1vx_1_1v2_1_1_atomic_neuron.html#acc53d8eade0e5c31312784c58362f455',1,'lola::vx::v2::AtomicNeuron::reset()']]],
+  ['reset_5fholdoff',['reset_holdoff',['../structlola_1_1vx_1_1v1_1_1_atomic_neuron_1_1_refractory_period.html#a58e543266ff4e3d804c487a32e86f221',1,'lola::vx::v1::AtomicNeuron::RefractoryPeriod::reset_holdoff()'],['../structlola_1_1vx_1_1v2_1_1_atomic_neuron_1_1_refractory_period.html#af867d935605ea2f7520a029f8fbd5db7',1,'lola::vx::v2::AtomicNeuron::RefractoryPeriod::reset_holdoff()']]]
+];

@@ -1,0 +1,4 @@
+<map id="haldls::vx::NeuronBackendConfig::ResetHoldoff" name="haldls::vx::NeuronBackendConfig::ResetHoldoff">
+<area shape="rect" id="node1" title="ResetHoldoff period: The time delta between the reset and the refractory period." alt="" coords="16,113,195,157"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,206,65"/>
+</map>

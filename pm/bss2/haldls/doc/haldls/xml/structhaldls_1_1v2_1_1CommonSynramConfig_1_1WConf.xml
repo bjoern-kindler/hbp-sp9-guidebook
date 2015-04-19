@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1v2_1_1CommonSynramConfig_1_1WConf" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::v2::CommonSynramConfig::WConf</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; WConf, uint_fast32_t, 255, 0 &gt;</basecompoundref>
+    <includes refid="v2_2synapse_8h" local="no">synapse.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1CommonSynramConfig_1_1WConf_1a231bc2f00f4fa06b073ff6b007c254f8" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::v2::CommonSynramConfig::WConf::WConf</definition>
+        <argsstring>(uintmax_t const val=0) SYMBOL_VISIBLE</argsstring>
+        <name>WConf</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapse.h" line="43" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapse.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Wordline activation delay. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>A higher value results in a shorter delay. See: Hock, Matthias. (2014). Modern Semiconductor Technologies for Neuromorphic Hardware, p.26ff, p.156f, <ulink url="http://doi.org/10.11588/heidok.00017129">http://doi.org/10.11588/heidok.00017129</ulink>. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1616">
+        <label>haldls::v2::CommonSynramConfig::WConf</label>
+        <link refid="structhaldls_1_1v2_1_1CommonSynramConfig_1_1WConf"/>
+        <childnode refid="1617" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1617">
+        <label>halco::common::detail::RantWrapper&lt; WConf, uint_fast32_t, 255, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1618">
+        <label>haldls::v2::CommonSynramConfig::WConf</label>
+        <link refid="structhaldls_1_1v2_1_1CommonSynramConfig_1_1WConf"/>
+        <childnode refid="1619" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1619">
+        <label>halco::common::detail::RantWrapper&lt; WConf, uint_fast32_t, 255, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapse.h" line="42" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapse.h" bodystart="41" bodyend="44"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1v2_1_1CommonSynramConfig_1_1WConf_1a231bc2f00f4fa06b073ff6b007c254f8" prot="public" virt="non-virtual"><scope>haldls::v2::CommonSynramConfig::WConf</scope><name>WConf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

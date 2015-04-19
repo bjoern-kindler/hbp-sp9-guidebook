@@ -1,0 +1,549 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classstadls_1_1v2_1_1LocalBoardControl" kind="class" language="C++" prot="public">
+    <compoundname>stadls::v2::LocalBoardControl</compoundname>
+    <includes refid="local__board__control_8h" local="no">local_board_control.h</includes>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classstadls_1_1v2_1_1LocalBoardControl_1ac5751d59754f83812e994956fb84222d" prot="public" static="yes" mutable="no">
+        <type>constexpr char const  *const</type>
+        <definition>constexpr char const* const stadls::v2::LocalBoardControl::env_name_board_id</definition>
+        <argsstring></argsstring>
+        <name>env_name_board_id</name>
+        <initializer>= &quot;SLURM_FLYSPI_ID&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="128" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classstadls_1_1v2_1_1LocalBoardControl_1ae5cd82f4e0f611430b28edf6ebabe520" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; Impl &gt;</type>
+        <definition>std::unique_ptr&lt;Impl&gt; stadls::v2::LocalBoardControl::m_impl</definition>
+        <argsstring></argsstring>
+        <name>m_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="132" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classstadls_1_1v2_1_1LocalBoardControl_1a3107375d395f532e4fb2f7b8db61f0a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::v2::LocalBoardControl::LocalBoardControl</definition>
+        <argsstring>(std::string const &amp;usb_serial_number) SYMBOL_VISIBLE</argsstring>
+        <name>LocalBoardControl</name>
+        <param>
+          <type>std::string const &amp;</type>
+          <declname>usb_serial_number</declname>
+        </param>
+        <briefdescription>
+<para>creates Flyspi communication object and calls soft_reset </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1LocalBoardControl_1aa04146e7cc0864e3632d51ddd38e10f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::v2::LocalBoardControl::LocalBoardControl</definition>
+        <argsstring>(LocalBoardControl &amp;&amp;other) noexcept SYMBOL_VISIBLE</argsstring>
+        <name>LocalBoardControl</name>
+        <param>
+          <type><ref refid="classstadls_1_1v2_1_1LocalBoardControl" kindref="compound">LocalBoardControl</ref> &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1LocalBoardControl_1ac91216d5042dcb8e489f1de46f9b55a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::v2::LocalBoardControl::LocalBoardControl</definition>
+        <argsstring>(LocalBoardControl const &amp;other)=delete</argsstring>
+        <name>LocalBoardControl</name>
+        <param>
+          <type><ref refid="classstadls_1_1v2_1_1LocalBoardControl" kindref="compound">LocalBoardControl</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1LocalBoardControl_1a29358403a620bdaf33a567202ced8cf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>stadls::v2::LocalBoardControl::~LocalBoardControl</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>~LocalBoardControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1LocalBoardControl_1a14dfba4974b971a4d9551f6af399d926" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::v2::LocalBoardControl::configure_static</definition>
+        <argsstring>(std::vector&lt; haldls::v2::ocp_address_type &gt; const &amp;board_addresses, std::vector&lt; haldls::v2::ocp_word_type &gt; const &amp;board_words, std::vector&lt; std::vector&lt; haldls::v2::instruction_word_type &gt; &gt; const &amp;chip_program_bytes) SYMBOL_VISIBLE</argsstring>
+        <name>configure_static</name>
+        <param>
+          <type>std::vector&lt; haldls::v2::ocp_address_type &gt; const &amp;</type>
+          <declname>board_addresses</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; haldls::v2::ocp_word_type &gt; const &amp;</type>
+          <declname>board_words</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::vector&lt; haldls::v2::instruction_word_type &gt; &gt; const &amp;</type>
+          <declname>chip_program_bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="78" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1LocalBoardControl_1ada518988cbfca48cb5fc71a49eb562ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::v2::LocalBoardControl::configure_static</definition>
+        <argsstring>(haldls::v2::Board const &amp;board, haldls::v2::Chip const &amp;chip) SYMBOL_VISIBLE</argsstring>
+        <name>configure_static</name>
+        <param>
+          <type>haldls::v2::Board const &amp;</type>
+          <declname>board</declname>
+        </param>
+        <param>
+          <type>haldls::v2::Chip const &amp;</type>
+          <declname>chip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="83" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1LocalBoardControl_1a6fab5eb57737702ef2250294dd82b9b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::v2::LocalBoardControl::execute</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>execute</name>
+        <briefdescription>
+<para>toggle the execute flag and wait until turned off again </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="94" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1LocalBoardControl_1a3ded23579158b9490a7ea4d9500270ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::v2::LocalBoardControl::execute</definition>
+        <argsstring>(std::chrono::microseconds min_wait_period, std::chrono::microseconds max_wait_period, std::chrono::microseconds max_wait, hate::optional&lt; std::chrono::microseconds &gt; expected_runtime=hate::nullopt) SYMBOL_VISIBLE</argsstring>
+        <name>execute</name>
+        <param>
+          <type>std::chrono::microseconds</type>
+          <declname>min_wait_period</declname>
+        </param>
+        <param>
+          <type>std::chrono::microseconds</type>
+          <declname>max_wait_period</declname>
+        </param>
+        <param>
+          <type>std::chrono::microseconds</type>
+          <declname>max_wait</declname>
+        </param>
+        <param>
+          <type>hate::optional&lt; std::chrono::microseconds &gt;</type>
+          <declname>expected_runtime</declname>
+          <defval>hate::nullopt</defval>
+        </param>
+        <briefdescription>
+<para>toggle the execute flag and wait until turned off again given timing parameter </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>min_wait_time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Minimal wait time between checks of execute flag </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_wait_time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Maximal wait time between checks of execute flag </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_wait</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Maximal wait time for execute flag to clear </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>expected_runtime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Time to wait until first check of execute flag and successive checks with exponentially increasing wait time </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="103" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1LocalBoardControl_1aca050de94e6e1d61deb8220392461437" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; haldls::v2::instruction_word_type &gt;</type>
+        <definition>std::vector&lt;haldls::v2::instruction_word_type&gt; stadls::v2::LocalBoardControl::fetch</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>fetch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="109" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1LocalBoardControl_1a18aa49f57dd16d1ba8f0cfc9f5019989" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::v2::LocalBoardControl::fetch</definition>
+        <argsstring>(std::shared_ptr&lt; haldls::v2::PlaybackProgram &gt; const &amp;playback_program) SYMBOL_VISIBLE</argsstring>
+        <name>fetch</name>
+        <param>
+          <type>std::shared_ptr&lt; haldls::v2::PlaybackProgram &gt; const &amp;</type>
+          <declname>playback_program</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="110" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1LocalBoardControl_1abdcda864e71acb95d12cac2ea13d99f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classstadls_1_1v2_1_1LocalBoardControl" kindref="compound">LocalBoardControl</ref> &amp;</type>
+        <definition>LocalBoardControl&amp; stadls::v2::LocalBoardControl::operator=</definition>
+        <argsstring>(LocalBoardControl &amp;&amp;other) noexcept SYMBOL_VISIBLE</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classstadls_1_1v2_1_1LocalBoardControl" kindref="compound">LocalBoardControl</ref> &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1LocalBoardControl_1ae295e4b94654abce84dbfa5309121c03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classstadls_1_1v2_1_1LocalBoardControl" kindref="compound">LocalBoardControl</ref> &amp;</type>
+        <definition>LocalBoardControl&amp; stadls::v2::LocalBoardControl::operator=</definition>
+        <argsstring>(LocalBoardControl const &amp;other)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classstadls_1_1v2_1_1LocalBoardControl" kindref="compound">LocalBoardControl</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1LocalBoardControl_1a7137c14564066686a3efbc55467665fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CoordinateT</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="structstadls_1_1v2_1_1detail_1_1coordinate__type__to__container__type" kindref="compound">detail::coordinate_type_to_container_type</ref>&lt; CoordinateT &gt;::type</type>
+        <definition>detail::coordinate_type_to_container_type&lt;CoordinateT&gt;::type stadls::v2::LocalBoardControl::read</definition>
+        <argsstring>(CoordinateT const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>read</name>
+        <param>
+          <type>CoordinateT const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+<para>read ocp based asynchronous container from FPGA </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordinate of to be read container </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="75" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1LocalBoardControl_1a31e09e1210cf9e1153af7dd7c5dc7adc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; haldls::v2::instruction_word_type &gt;</type>
+        <definition>std::vector&lt;haldls::v2::instruction_word_type&gt; stadls::v2::LocalBoardControl::run</definition>
+        <argsstring>(std::vector&lt; std::vector&lt; haldls::v2::instruction_word_type &gt; &gt; const &amp;program_byte) SYMBOL_VISIBLE</argsstring>
+        <name>run</name>
+        <param>
+          <type>std::vector&lt; std::vector&lt; haldls::v2::instruction_word_type &gt; &gt; const &amp;</type>
+          <declname>program_byte</declname>
+        </param>
+        <briefdescription>
+<para>this just wraps the sequence transfer-execute-fetch </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="117" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1LocalBoardControl_1acfa20f3bb25cb19b3d8f9da613139e74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::v2::LocalBoardControl::run</definition>
+        <argsstring>(std::shared_ptr&lt; haldls::v2::PlaybackProgram &gt; const &amp;playback_program) SYMBOL_VISIBLE</argsstring>
+        <name>run</name>
+        <param>
+          <type>std::shared_ptr&lt; haldls::v2::PlaybackProgram &gt; const &amp;</type>
+          <declname>playback_program</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="120" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1LocalBoardControl_1a6ce0ff88a0c1bd45f466470e225ae64e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::v2::LocalBoardControl::run_experiment</definition>
+        <argsstring>(haldls::v2::Board const &amp;board, haldls::v2::Chip const &amp;chip, std::shared_ptr&lt; haldls::v2::PlaybackProgram &gt; const &amp;playback_program) SYMBOL_VISIBLE</argsstring>
+        <name>run_experiment</name>
+        <param>
+          <type>haldls::v2::Board const &amp;</type>
+          <declname>board</declname>
+        </param>
+        <param>
+          <type>haldls::v2::Chip const &amp;</type>
+          <declname>chip</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; haldls::v2::PlaybackProgram &gt; const &amp;</type>
+          <declname>playback_program</declname>
+        </param>
+        <briefdescription>
+<para>Run experiment on given board and chip. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="123" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1LocalBoardControl_1a7b83ddd7f17fa4a04c441e3d4da677f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::v2::LocalBoardControl::soft_reset</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>soft_reset</name>
+        <briefdescription>
+<para>toggle soft reset and chip reset and restore fpga to default config </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="64" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1LocalBoardControl_1a527ea17df67780a760020a8f0666fd20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::v2::LocalBoardControl::transfer</definition>
+        <argsstring>(std::vector&lt; std::vector&lt; haldls::v2::instruction_word_type &gt; &gt; const &amp;program_bytes) SYMBOL_VISIBLE</argsstring>
+        <name>transfer</name>
+        <param>
+          <type>std::vector&lt; std::vector&lt; haldls::v2::instruction_word_type &gt; &gt; const &amp;</type>
+          <declname>program_bytes</declname>
+        </param>
+        <briefdescription>
+<para>transfers the program and sets the program size and address registers </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="88" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1LocalBoardControl_1ac1b3a18df7897d3e0b38783a41a84757" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void stadls::v2::LocalBoardControl::transfer</definition>
+        <argsstring>(std::shared_ptr&lt; haldls::v2::PlaybackProgram &gt; const &amp;playback_program) SYMBOL_VISIBLE</argsstring>
+        <name>transfer</name>
+        <param>
+          <type>std::shared_ptr&lt; haldls::v2::PlaybackProgram &gt; const &amp;</type>
+          <declname>playback_program</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="90" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1LocalBoardControl_1a326587f8875f64352dd5f46dffab281d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string stadls::v2::LocalBoardControl::usb_serial</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>usb_serial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="61" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1v2_1_1LocalBoardControl_1a8efb649e989a31237826c38632e8d954" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void stadls::v2::LocalBoardControl::write</definition>
+        <argsstring>(typename T::coordinate_type const &amp;coord, T const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>write</name>
+        <param>
+          <type>typename T::coordinate_type const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>T const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+<para>write ocp based asynchronous container to FPGA </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coord</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Coordinate of to be written container </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>To be written container </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="70" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classstadls_1_1v2_1_1LocalBoardControl_1ae69e0319cdd88b3cca7237d2153eeb1f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void stadls::v2::LocalBoardControl::decode_result_bytes</definition>
+        <argsstring>(std::vector&lt; haldls::v2::instruction_word_type &gt; const &amp;result_bytes, std::shared_ptr&lt; haldls::v2::PlaybackProgram &gt; const &amp;playback_program) SYMBOL_VISIBLE</argsstring>
+        <name>decode_result_bytes</name>
+        <param>
+          <type>std::vector&lt; haldls::v2::instruction_word_type &gt; const &amp;</type>
+          <declname>result_bytes</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; haldls::v2::PlaybackProgram &gt; const &amp;</type>
+          <declname>playback_program</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="112" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" line="48" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/v2/local_board_control.h" bodystart="47" bodyend="133"/>
+    <listofallmembers>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1a14dfba4974b971a4d9551f6af399d926" prot="public" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>configure_static</name></member>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1ada518988cbfca48cb5fc71a49eb562ee" prot="public" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>configure_static</name></member>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1ae69e0319cdd88b3cca7237d2153eeb1f" prot="public" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>decode_result_bytes</name></member>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1ac5751d59754f83812e994956fb84222d" prot="public" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>env_name_board_id</name></member>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1a6fab5eb57737702ef2250294dd82b9b9" prot="public" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>execute</name></member>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1a3ded23579158b9490a7ea4d9500270ff" prot="public" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>execute</name></member>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1aca050de94e6e1d61deb8220392461437" prot="public" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>fetch</name></member>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1a18aa49f57dd16d1ba8f0cfc9f5019989" prot="public" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>fetch</name></member>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1a3107375d395f532e4fb2f7b8db61f0a3" prot="public" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>LocalBoardControl</name></member>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1aa04146e7cc0864e3632d51ddd38e10f7" prot="public" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>LocalBoardControl</name></member>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1ac91216d5042dcb8e489f1de46f9b55a7" prot="public" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>LocalBoardControl</name></member>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1ae5cd82f4e0f611430b28edf6ebabe520" prot="private" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>m_impl</name></member>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1abdcda864e71acb95d12cac2ea13d99f2" prot="public" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>operator=</name></member>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1ae295e4b94654abce84dbfa5309121c03" prot="public" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>operator=</name></member>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1a7137c14564066686a3efbc55467665fb" prot="public" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>read</name></member>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1a31e09e1210cf9e1153af7dd7c5dc7adc" prot="public" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>run</name></member>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1acfa20f3bb25cb19b3d8f9da613139e74" prot="public" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>run</name></member>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1a6ce0ff88a0c1bd45f466470e225ae64e" prot="public" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>run_experiment</name></member>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1a7b83ddd7f17fa4a04c441e3d4da677f4" prot="public" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>soft_reset</name></member>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1a527ea17df67780a760020a8f0666fd20" prot="public" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>transfer</name></member>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1ac1b3a18df7897d3e0b38783a41a84757" prot="public" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>transfer</name></member>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1a326587f8875f64352dd5f46dffab281d" prot="public" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>usb_serial</name></member>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1a8efb649e989a31237826c38632e8d954" prot="public" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>write</name></member>
+      <member refid="classstadls_1_1v2_1_1LocalBoardControl_1a29358403a620bdaf33a567202ced8cf2" prot="public" virt="non-virtual"><scope>stadls::v2::LocalBoardControl</scope><name>~LocalBoardControl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

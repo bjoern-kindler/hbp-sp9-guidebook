@@ -1,0 +1,1744 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dumper_8h" kind="file" language="C++">
+    <compoundname>dumper.h</compoundname>
+    <includes local="no">memory</includes>
+    <includes local="no">utility</includes>
+    <includes local="no">variant</includes>
+    <includes local="no">vector</includes>
+    <includes local="yes">halco/hicann-dls/vx/barrier.h</includes>
+    <includes local="yes">haldls/vx/barrier.h</includes>
+    <includes local="yes">haldls/vx/container.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includes local="yes">lola/vx/container.h</includes>
+    <includes local="no">boost/hana/adapt_struct.hpp</includes>
+    <includes local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/common.h</includes>
+    <includes local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/neuron.h</includes>
+    <includes refid="genpybind_8h" local="yes">stadls/vx/genpybind.h</includes>
+    <includes refid="playback__program_8h" local="yes">stadls/vx/playback_program.h</includes>
+    <includes local="yes">haldls/vx/container.def</includes>
+    <includes local="yes">lola/vx/container.def</includes>
+    <includedby refid="playback__program__builder_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program_builder.h</includedby>
+    <incdepgraph>
+      <node id="46">
+        <label>cstdint</label>
+      </node>
+      <node id="31">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h</label>
+        <link refid="dumper_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>variant</label>
+      </node>
+      <node id="44">
+        <label>stadls/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>halco/hicann-dls/vx/barrier.h</label>
+      </node>
+      <node id="38">
+        <label>haldls/vx/container.h</label>
+      </node>
+      <node id="42">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/common.h</label>
+      </node>
+      <node id="48">
+        <label>string</label>
+      </node>
+      <node id="54">
+        <label>fisch/vx/run_time_info.h</label>
+      </node>
+      <node id="50">
+        <label>haldls/vx/common.h</label>
+      </node>
+      <node id="43">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/neuron.h</label>
+      </node>
+      <node id="51">
+        <label>haldls/vx/event.h</label>
+      </node>
+      <node id="55">
+        <label>pybind11/numpy.h</label>
+      </node>
+      <node id="58">
+        <label>lola/vx/container.def</label>
+      </node>
+      <node id="52">
+        <label>hxcomm/vx/target.h</label>
+      </node>
+      <node id="37">
+        <label>haldls/vx/barrier.h</label>
+      </node>
+      <node id="53">
+        <label>stadls/vx/run_time_info.h</label>
+        <link refid="run__time__info_8h"/>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>optional</label>
+      </node>
+      <node id="35">
+        <label>vector</label>
+      </node>
+      <node id="33">
+        <label>utility</label>
+      </node>
+      <node id="49">
+        <label>fisch/vx/playback_program.h</label>
+      </node>
+      <node id="39">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="45">
+        <label>stadls/vx/playback_program.h</label>
+        <link refid="playback__program_8h"/>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>lola/vx/container.h</label>
+      </node>
+      <node id="41">
+        <label>boost/hana/adapt_struct.hpp</label>
+      </node>
+      <node id="56">
+        <label>pybind11/stl_bind.h</label>
+      </node>
+      <node id="57">
+        <label>haldls/vx/container.def</label>
+      </node>
+      <node id="32">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="59">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h</label>
+        <link refid="dumper_8h"/>
+        <childnode refid="60" relation="include">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_program_builder.h</label>
+        <link refid="playback__program__builder_8h"/>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/playback_generator.h</label>
+        <link refid="playback__generator_8h"/>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/stadls.h</label>
+        <link refid="stadls_8h"/>
+        <childnode refid="64" relation="include">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/pystadls.h</label>
+        <link refid="pystadls_8h"/>
+      </node>
+      <node id="62">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/init_generator.h</label>
+        <link refid="init__generator_8h"/>
+        <childnode refid="63" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_dumper" prot="public">Dumper</innerclass>
+    <innerclass refid="structstadls_1_1vx_1_1_dumper_done" prot="public">stadls::vx::DumperDone</innerclass>
+    <innernamespace refid="namespacestadls">stadls</innernamespace>
+    <innernamespace refid="namespacestadls_1_1vx">stadls::vx</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="dumper_8h_1a6d32ec951a492e6c29f32f7b856e2869" prot="public" static="no">
+        <name>PLAYBACK_CONTAINER</name>
+        <param><defname>Name</defname></param>
+        <param><defname>Type</defname></param>
+        <initializer>std::pair&lt;typename Type::coordinate_type, Type&gt;,</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h" line="30" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dumper_8h_1a81489192049f471a239ebc8b4e314854" prot="public" static="no">
+        <name>PLAYBACK_CONTAINER</name>
+        <param><defname>_Name</defname></param>
+        <param><defname>Type</defname></param>
+        <initializer>extern template void <ref refid="class_dumper_1a731cab57589761cdba693a78f69eef17" kindref="member">Dumper::write</ref>&lt;Type&gt;(typename Type::coordinate_type const&amp;, Type const&amp;);  \
+	extern template PlaybackProgram::ContainerTicket&lt;Type&gt; <ref refid="class_dumper_1a77cd74305a8bc62d75be243be3de03ad" kindref="member">Dumper::read</ref>(                           \
+	    typename Type::coordinate_type const&amp;);</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h" line="185" column="9" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="dumper_8h_1ac147fc5e55395e5c352d3fe14d0acc37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::ADPLL &gt;</definition>
+        <argsstring>(typename haldls::vx::ADPLL ::coordinate_type const &amp;, haldls::vx::ADPLL const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::ADPLL &gt;</name>
+        <param>
+          <type>typename haldls::vx::ADPLL ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::ADPLL const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1adfcbf7c93289eeccd6fd8cf4d1637136" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::BackgroundSpikeSource &gt;</definition>
+        <argsstring>(typename haldls::vx::BackgroundSpikeSource ::coordinate_type const &amp;, haldls::vx::BackgroundSpikeSource const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::BackgroundSpikeSource &gt;</name>
+        <param>
+          <type>typename haldls::vx::BackgroundSpikeSource ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::BackgroundSpikeSource const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a7f1840c1cc03f8874ba562bbff2377d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::BlockPostPulse &gt;</definition>
+        <argsstring>(typename haldls::vx::BlockPostPulse ::coordinate_type const &amp;, haldls::vx::BlockPostPulse const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::BlockPostPulse &gt;</name>
+        <param>
+          <type>typename haldls::vx::BlockPostPulse ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::BlockPostPulse const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="86" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a650106fc57a22b7b13d6b42d8e7da438" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::CADCChannelConfig &gt;</definition>
+        <argsstring>(typename haldls::vx::CADCChannelConfig ::coordinate_type const &amp;, haldls::vx::CADCChannelConfig const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::CADCChannelConfig &gt;</name>
+        <param>
+          <type>typename haldls::vx::CADCChannelConfig ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::CADCChannelConfig const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a7ed9a7fcd828791cb902f87d5369a632" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::CADCConfig &gt;</definition>
+        <argsstring>(typename haldls::vx::CADCConfig ::coordinate_type const &amp;, haldls::vx::CADCConfig const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::CADCConfig &gt;</name>
+        <param>
+          <type>typename haldls::vx::CADCConfig ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::CADCConfig const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="64" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1af50806e39d0b111c4334427d9a9e2a66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::CADCOffsetSRAMTimingConfig &gt;</definition>
+        <argsstring>(typename haldls::vx::CADCOffsetSRAMTimingConfig ::coordinate_type const &amp;, haldls::vx::CADCOffsetSRAMTimingConfig const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::CADCOffsetSRAMTimingConfig &gt;</name>
+        <param>
+          <type>typename haldls::vx::CADCOffsetSRAMTimingConfig ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::CADCOffsetSRAMTimingConfig const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1ad6c5fafc197b7565c16170462eea41ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::CADCSampleQuad &gt;</definition>
+        <argsstring>(typename haldls::vx::CADCSampleQuad ::coordinate_type const &amp;, haldls::vx::CADCSampleQuad const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::CADCSampleQuad &gt;</name>
+        <param>
+          <type>typename haldls::vx::CADCSampleQuad ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::CADCSampleQuad const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="66" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a6c883f3788ccec2b23faa5dca4a275a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::CapMemBlock &gt;</definition>
+        <argsstring>(typename haldls::vx::CapMemBlock ::coordinate_type const &amp;, haldls::vx::CapMemBlock const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::CapMemBlock &gt;</name>
+        <param>
+          <type>typename haldls::vx::CapMemBlock ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::CapMemBlock const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a800a6ce87ece77ba99fa876bb33fefa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::CapMemBlockConfig &gt;</definition>
+        <argsstring>(typename haldls::vx::CapMemBlockConfig ::coordinate_type const &amp;, haldls::vx::CapMemBlockConfig const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::CapMemBlockConfig &gt;</name>
+        <param>
+          <type>typename haldls::vx::CapMemBlockConfig ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::CapMemBlockConfig const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a4e6e6fc8e1afe3de7d388abee89cb135" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::CapMemCell &gt;</definition>
+        <argsstring>(typename haldls::vx::CapMemCell ::coordinate_type const &amp;, haldls::vx::CapMemCell const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::CapMemCell &gt;</name>
+        <param>
+          <type>typename haldls::vx::CapMemCell ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::CapMemCell const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1aed13f9c1a55d1428fbc3c0530f69432d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::ColumnCorrelationQuad &gt;</definition>
+        <argsstring>(typename haldls::vx::ColumnCorrelationQuad ::coordinate_type const &amp;, haldls::vx::ColumnCorrelationQuad const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::ColumnCorrelationQuad &gt;</name>
+        <param>
+          <type>typename haldls::vx::ColumnCorrelationQuad ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::ColumnCorrelationQuad const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1af1cf73096ea544e2bdf370e805959e71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::ColumnCurrentQuad &gt;</definition>
+        <argsstring>(typename haldls::vx::ColumnCurrentQuad ::coordinate_type const &amp;, haldls::vx::ColumnCurrentQuad const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::ColumnCurrentQuad &gt;</name>
+        <param>
+          <type>typename haldls::vx::ColumnCurrentQuad ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::ColumnCurrentQuad const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="63" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1aed6b3f7fd80fffb2c74e9ddd4c354cbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::CommonCorrelationConfig &gt;</definition>
+        <argsstring>(typename haldls::vx::CommonCorrelationConfig ::coordinate_type const &amp;, haldls::vx::CommonCorrelationConfig const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::CommonCorrelationConfig &gt;</name>
+        <param>
+          <type>typename haldls::vx::CommonCorrelationConfig ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::CommonCorrelationConfig const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1aba9dbb36b01a0587676def885b426865" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::CommonNeuronBackendConfig &gt;</definition>
+        <argsstring>(typename haldls::vx::CommonNeuronBackendConfig ::coordinate_type const &amp;, haldls::vx::CommonNeuronBackendConfig const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::CommonNeuronBackendConfig &gt;</name>
+        <param>
+          <type>typename haldls::vx::CommonNeuronBackendConfig ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::CommonNeuronBackendConfig const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a847756856a9dd58835f1671c8eb64210" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::CommonPADIBusConfig &gt;</definition>
+        <argsstring>(typename haldls::vx::CommonPADIBusConfig ::coordinate_type const &amp;, haldls::vx::CommonPADIBusConfig const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::CommonPADIBusConfig &gt;</name>
+        <param>
+          <type>typename haldls::vx::CommonPADIBusConfig ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::CommonPADIBusConfig const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a4e9a8c36e7ffec580e29b5b28f61d780" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::CommonPhyConfigChip &gt;</definition>
+        <argsstring>(typename haldls::vx::CommonPhyConfigChip ::coordinate_type const &amp;, haldls::vx::CommonPhyConfigChip const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::CommonPhyConfigChip &gt;</name>
+        <param>
+          <type>typename haldls::vx::CommonPhyConfigChip ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::CommonPhyConfigChip const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a17646a70c4a23f6e8e7322cc2b6943ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::CommonPhyConfigFPGA &gt;</definition>
+        <argsstring>(typename haldls::vx::CommonPhyConfigFPGA ::coordinate_type const &amp;, haldls::vx::CommonPhyConfigFPGA const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::CommonPhyConfigFPGA &gt;</name>
+        <param>
+          <type>typename haldls::vx::CommonPhyConfigFPGA ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::CommonPhyConfigFPGA const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1af515b62907c8104aeda32e01e9e4f82d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::CommonSTPConfig &gt;</definition>
+        <argsstring>(typename haldls::vx::CommonSTPConfig ::coordinate_type const &amp;, haldls::vx::CommonSTPConfig const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::CommonSTPConfig &gt;</name>
+        <param>
+          <type>typename haldls::vx::CommonSTPConfig ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::CommonSTPConfig const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1af839227cbeb2d4e2360444f39e23a147" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::CommonSynramConfig &gt;</definition>
+        <argsstring>(typename haldls::vx::CommonSynramConfig ::coordinate_type const &amp;, haldls::vx::CommonSynramConfig const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::CommonSynramConfig &gt;</name>
+        <param>
+          <type>typename haldls::vx::CommonSynramConfig ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::CommonSynramConfig const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a7af1f830489673639394a52d16ffd54c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::CorrelationReset &gt;</definition>
+        <argsstring>(typename haldls::vx::CorrelationReset ::coordinate_type const &amp;, haldls::vx::CorrelationReset const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::CorrelationReset &gt;</name>
+        <param>
+          <type>typename haldls::vx::CorrelationReset ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::CorrelationReset const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="83" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1abe7833e95006b3af43ad8aa2c53e740d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::CrossbarInputDropCounter &gt;</definition>
+        <argsstring>(typename haldls::vx::CrossbarInputDropCounter ::coordinate_type const &amp;, haldls::vx::CrossbarInputDropCounter const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::CrossbarInputDropCounter &gt;</name>
+        <param>
+          <type>typename haldls::vx::CrossbarInputDropCounter ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::CrossbarInputDropCounter const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="75" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a05e4f43ab7d263f684acd01207ce2be0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::CrossbarNode &gt;</definition>
+        <argsstring>(typename haldls::vx::CrossbarNode ::coordinate_type const &amp;, haldls::vx::CrossbarNode const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::CrossbarNode &gt;</name>
+        <param>
+          <type>typename haldls::vx::CrossbarNode ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::CrossbarNode const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a685fd488d5f7bde920f37310a238ccf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::CrossbarOutputConfig &gt;</definition>
+        <argsstring>(typename haldls::vx::CrossbarOutputConfig ::coordinate_type const &amp;, haldls::vx::CrossbarOutputConfig const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::CrossbarOutputConfig &gt;</name>
+        <param>
+          <type>typename haldls::vx::CrossbarOutputConfig ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::CrossbarOutputConfig const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="73" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1ab3afc5e3a897ed6bea56a117f6d15773" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::CrossbarOutputEventCounter &gt;</definition>
+        <argsstring>(typename haldls::vx::CrossbarOutputEventCounter ::coordinate_type const &amp;, haldls::vx::CrossbarOutputEventCounter const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::CrossbarOutputEventCounter &gt;</name>
+        <param>
+          <type>typename haldls::vx::CrossbarOutputEventCounter ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::CrossbarOutputEventCounter const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="76" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a9ef6f8ae693c79704fd3a5827d1ab202" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::DACChannel &gt;</definition>
+        <argsstring>(typename haldls::vx::DACChannel ::coordinate_type const &amp;, haldls::vx::DACChannel const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::DACChannel &gt;</name>
+        <param>
+          <type>typename haldls::vx::DACChannel ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::DACChannel const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a9a1cda4bbd827719604d277cdb19e060" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::DACControl &gt;</definition>
+        <argsstring>(typename haldls::vx::DACControl ::coordinate_type const &amp;, haldls::vx::DACControl const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::DACControl &gt;</name>
+        <param>
+          <type>typename haldls::vx::DACControl ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::DACControl const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a1355546be75d38e9e0f8f5aac198fa8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::EventRecordingConfig &gt;</definition>
+        <argsstring>(typename haldls::vx::EventRecordingConfig ::coordinate_type const &amp;, haldls::vx::EventRecordingConfig const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::EventRecordingConfig &gt;</name>
+        <param>
+          <type>typename haldls::vx::EventRecordingConfig ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::EventRecordingConfig const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a0ab77ff64ec65678b0dbf3fa830f45c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::ExternalPPUMemoryByte &gt;</definition>
+        <argsstring>(typename haldls::vx::ExternalPPUMemoryByte ::coordinate_type const &amp;, haldls::vx::ExternalPPUMemoryByte const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::ExternalPPUMemoryByte &gt;</name>
+        <param>
+          <type>typename haldls::vx::ExternalPPUMemoryByte ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::ExternalPPUMemoryByte const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a87739b80961577cdff94e7c3442cec96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::FPGADeviceDNA &gt;</definition>
+        <argsstring>(typename haldls::vx::FPGADeviceDNA ::coordinate_type const &amp;, haldls::vx::FPGADeviceDNA const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::FPGADeviceDNA &gt;</name>
+        <param>
+          <type>typename haldls::vx::FPGADeviceDNA ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::FPGADeviceDNA const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="70" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a3b68ba0dea218a89c4b491fd5d564e9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::HicannARQStatus &gt;</definition>
+        <argsstring>(typename haldls::vx::HicannARQStatus ::coordinate_type const &amp;, haldls::vx::HicannARQStatus const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::HicannARQStatus &gt;</name>
+        <param>
+          <type>typename haldls::vx::HicannARQStatus ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::HicannARQStatus const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1ac752bbd21e2848242dbbd2458f3eff79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::INA219Config &gt;</definition>
+        <argsstring>(typename haldls::vx::INA219Config ::coordinate_type const &amp;, haldls::vx::INA219Config const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::INA219Config &gt;</name>
+        <param>
+          <type>typename haldls::vx::INA219Config ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::INA219Config const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="10" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a694b66cc71a05863e9a5ce91e15f86a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::INA219Status &gt;</definition>
+        <argsstring>(typename haldls::vx::INA219Status ::coordinate_type const &amp;, haldls::vx::INA219Status const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::INA219Status &gt;</name>
+        <param>
+          <type>typename haldls::vx::INA219Status ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::INA219Status const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="11" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1afba0a50e88aeebf4b079c7ab3bc2f115" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::JTAGClockScaler &gt;</definition>
+        <argsstring>(typename haldls::vx::JTAGClockScaler ::coordinate_type const &amp;, haldls::vx::JTAGClockScaler const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::JTAGClockScaler &gt;</name>
+        <param>
+          <type>typename haldls::vx::JTAGClockScaler ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::JTAGClockScaler const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a32fe057f53ffdd9ed7fc53defe516118" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::JTAGIdCode &gt;</definition>
+        <argsstring>(typename haldls::vx::JTAGIdCode ::coordinate_type const &amp;, haldls::vx::JTAGIdCode const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::JTAGIdCode &gt;</name>
+        <param>
+          <type>typename haldls::vx::JTAGIdCode ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::JTAGIdCode const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1aca61245920a62333c7e9e6fb500aa577" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::MADCConfig &gt;</definition>
+        <argsstring>(typename haldls::vx::MADCConfig ::coordinate_type const &amp;, haldls::vx::MADCConfig const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::MADCConfig &gt;</name>
+        <param>
+          <type>typename haldls::vx::MADCConfig ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::MADCConfig const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="82" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a134ed9debfecc55f756bc1e57e58f81d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::MADCControl &gt;</definition>
+        <argsstring>(typename haldls::vx::MADCControl ::coordinate_type const &amp;, haldls::vx::MADCControl const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::MADCControl &gt;</name>
+        <param>
+          <type>typename haldls::vx::MADCControl ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::MADCControl const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="81" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1ad8b307152eeb1e916ba776d2bd2d6227" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::NeuronBackendConfig &gt;</definition>
+        <argsstring>(typename haldls::vx::NeuronBackendConfig ::coordinate_type const &amp;, haldls::vx::NeuronBackendConfig const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::NeuronBackendConfig &gt;</name>
+        <param>
+          <type>typename haldls::vx::NeuronBackendConfig ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::NeuronBackendConfig const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1ab4b295695b1c9507809fb96083b2e3f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::NeuronBackendSRAMTimingConfig &gt;</definition>
+        <argsstring>(typename haldls::vx::NeuronBackendSRAMTimingConfig ::coordinate_type const &amp;, haldls::vx::NeuronBackendSRAMTimingConfig const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::NeuronBackendSRAMTimingConfig &gt;</name>
+        <param>
+          <type>typename haldls::vx::NeuronBackendSRAMTimingConfig ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::NeuronBackendSRAMTimingConfig const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1aacfd5cff3b2e7fb5756ce6a9ad211290" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::NeuronConfig &gt;</definition>
+        <argsstring>(typename haldls::vx::NeuronConfig ::coordinate_type const &amp;, haldls::vx::NeuronConfig const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::NeuronConfig &gt;</name>
+        <param>
+          <type>typename haldls::vx::NeuronConfig ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::NeuronConfig const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a1ffc0139f718b50d294823b37e7cc306" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::NeuronReset &gt;</definition>
+        <argsstring>(typename haldls::vx::NeuronReset ::coordinate_type const &amp;, haldls::vx::NeuronReset const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::NeuronReset &gt;</name>
+        <param>
+          <type>typename haldls::vx::NeuronReset ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::NeuronReset const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a1d5d1b5dfd33f4016ce0338d52935c88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::NeuronResetQuad &gt;</definition>
+        <argsstring>(typename haldls::vx::NeuronResetQuad ::coordinate_type const &amp;, haldls::vx::NeuronResetQuad const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::NeuronResetQuad &gt;</name>
+        <param>
+          <type>typename haldls::vx::NeuronResetQuad ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::NeuronResetQuad const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="84" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1ac073c3298b8cf54926928a53b42657fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::NeuronSRAMTimingConfig &gt;</definition>
+        <argsstring>(typename haldls::vx::NeuronSRAMTimingConfig ::coordinate_type const &amp;, haldls::vx::NeuronSRAMTimingConfig const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::NeuronSRAMTimingConfig &gt;</name>
+        <param>
+          <type>typename haldls::vx::NeuronSRAMTimingConfig ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::NeuronSRAMTimingConfig const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1ab132190da11e0c6403a67ebffa3c1d6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::NullPayloadReadable &gt;</definition>
+        <argsstring>(typename haldls::vx::NullPayloadReadable ::coordinate_type const &amp;, haldls::vx::NullPayloadReadable const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::NullPayloadReadable &gt;</name>
+        <param>
+          <type>typename haldls::vx::NullPayloadReadable ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::NullPayloadReadable const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="12" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1acbbbf5d6878077670720d8df912fc9a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::PADIEvent &gt;</definition>
+        <argsstring>(typename haldls::vx::PADIEvent ::coordinate_type const &amp;, haldls::vx::PADIEvent const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::PADIEvent &gt;</name>
+        <param>
+          <type>typename haldls::vx::PADIEvent ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::PADIEvent const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a0a2d654ecebb54c608af51e7a5140daf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::PadMultiplexerConfig &gt;</definition>
+        <argsstring>(typename haldls::vx::PadMultiplexerConfig ::coordinate_type const &amp;, haldls::vx::PadMultiplexerConfig const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::PadMultiplexerConfig &gt;</name>
+        <param>
+          <type>typename haldls::vx::PadMultiplexerConfig ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::PadMultiplexerConfig const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="79" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a49c85ff6feb1d98599b4c7fbb335f6a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::PerfTest &gt;</definition>
+        <argsstring>(typename haldls::vx::PerfTest ::coordinate_type const &amp;, haldls::vx::PerfTest const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::PerfTest &gt;</name>
+        <param>
+          <type>typename haldls::vx::PerfTest ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::PerfTest const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a10907e8b7fb2620b5027f475740438bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::PerfTestStatus &gt;</definition>
+        <argsstring>(typename haldls::vx::PerfTestStatus ::coordinate_type const &amp;, haldls::vx::PerfTestStatus const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::PerfTestStatus &gt;</name>
+        <param>
+          <type>typename haldls::vx::PerfTestStatus ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::PerfTestStatus const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a2f6ebfbea1e644871854f79a2b3aa758" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::PhyConfigChip &gt;</definition>
+        <argsstring>(typename haldls::vx::PhyConfigChip ::coordinate_type const &amp;, haldls::vx::PhyConfigChip const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::PhyConfigChip &gt;</name>
+        <param>
+          <type>typename haldls::vx::PhyConfigChip ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::PhyConfigChip const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1aab1840926bfd5dd1762bf1c9f2ef7765" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::PhyConfigFPGA &gt;</definition>
+        <argsstring>(typename haldls::vx::PhyConfigFPGA ::coordinate_type const &amp;, haldls::vx::PhyConfigFPGA const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::PhyConfigFPGA &gt;</name>
+        <param>
+          <type>typename haldls::vx::PhyConfigFPGA ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::PhyConfigFPGA const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a2616ae3863a765c08830552d9d83bd8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::PhyStatus &gt;</definition>
+        <argsstring>(typename haldls::vx::PhyStatus ::coordinate_type const &amp;, haldls::vx::PhyStatus const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::PhyStatus &gt;</name>
+        <param>
+          <type>typename haldls::vx::PhyStatus ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::PhyStatus const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a7e328f1414bd8b6c918d563033769811" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::PLLClockOutputBlock &gt;</definition>
+        <argsstring>(typename haldls::vx::PLLClockOutputBlock ::coordinate_type const &amp;, haldls::vx::PLLClockOutputBlock const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::PLLClockOutputBlock &gt;</name>
+        <param>
+          <type>typename haldls::vx::PLLClockOutputBlock ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::PLLClockOutputBlock const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a4c7825895e3a566048c44e0550464c72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::PLLSelfTest &gt;</definition>
+        <argsstring>(typename haldls::vx::PLLSelfTest ::coordinate_type const &amp;, haldls::vx::PLLSelfTest const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::PLLSelfTest &gt;</name>
+        <param>
+          <type>typename haldls::vx::PLLSelfTest ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::PLLSelfTest const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a40370f45348696a3105f7636822c4ecb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::PLLSelfTestStatus &gt;</definition>
+        <argsstring>(typename haldls::vx::PLLSelfTestStatus ::coordinate_type const &amp;, haldls::vx::PLLSelfTestStatus const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::PLLSelfTestStatus &gt;</name>
+        <param>
+          <type>typename haldls::vx::PLLSelfTestStatus ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::PLLSelfTestStatus const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a5a35630eeac0da3487f1228a67895add" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::PPUControlRegister &gt;</definition>
+        <argsstring>(typename haldls::vx::PPUControlRegister ::coordinate_type const &amp;, haldls::vx::PPUControlRegister const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::PPUControlRegister &gt;</name>
+        <param>
+          <type>typename haldls::vx::PPUControlRegister ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::PPUControlRegister const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a87ed8cf991305a449b78707f848297fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::PPUMemory &gt;</definition>
+        <argsstring>(typename haldls::vx::PPUMemory ::coordinate_type const &amp;, haldls::vx::PPUMemory const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::PPUMemory &gt;</name>
+        <param>
+          <type>typename haldls::vx::PPUMemory ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::PPUMemory const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1aae95d732931af0b8bcd378c8f82adc82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::PPUMemoryBlock &gt;</definition>
+        <argsstring>(typename haldls::vx::PPUMemoryBlock ::coordinate_type const &amp;, haldls::vx::PPUMemoryBlock const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::PPUMemoryBlock &gt;</name>
+        <param>
+          <type>typename haldls::vx::PPUMemoryBlock ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::PPUMemoryBlock const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a9dd54a73c53e785325b6545f8c286e84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::PPUMemoryWord &gt;</definition>
+        <argsstring>(typename haldls::vx::PPUMemoryWord ::coordinate_type const &amp;, haldls::vx::PPUMemoryWord const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::PPUMemoryWord &gt;</name>
+        <param>
+          <type>typename haldls::vx::PPUMemoryWord ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::PPUMemoryWord const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1abc465e2f57e6c9c131ff8a9c6435639f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::PPUStatusRegister &gt;</definition>
+        <argsstring>(typename haldls::vx::PPUStatusRegister ::coordinate_type const &amp;, haldls::vx::PPUStatusRegister const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::PPUStatusRegister &gt;</name>
+        <param>
+          <type>typename haldls::vx::PPUStatusRegister ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::PPUStatusRegister const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1ad5abe16f8b8a06674ffa79af06ecab5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::ReadoutSourceSelection &gt;</definition>
+        <argsstring>(typename haldls::vx::ReadoutSourceSelection ::coordinate_type const &amp;, haldls::vx::ReadoutSourceSelection const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::ReadoutSourceSelection &gt;</name>
+        <param>
+          <type>typename haldls::vx::ReadoutSourceSelection ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::ReadoutSourceSelection const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="80" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1aa9abf164232c8043f2250f4de2114211" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::ReferenceGeneratorConfig &gt;</definition>
+        <argsstring>(typename haldls::vx::ReferenceGeneratorConfig ::coordinate_type const &amp;, haldls::vx::ReferenceGeneratorConfig const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::ReferenceGeneratorConfig &gt;</name>
+        <param>
+          <type>typename haldls::vx::ReferenceGeneratorConfig ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::ReferenceGeneratorConfig const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="78" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a8f22fd2212b914e6ecbe4de991794d36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::ResetChip &gt;</definition>
+        <argsstring>(typename haldls::vx::ResetChip ::coordinate_type const &amp;, haldls::vx::ResetChip const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::ResetChip &gt;</name>
+        <param>
+          <type>typename haldls::vx::ResetChip ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::ResetChip const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a0e887ad0c4b8607865933edd532af591" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::ResetJTAGTap &gt;</definition>
+        <argsstring>(typename haldls::vx::ResetJTAGTap ::coordinate_type const &amp;, haldls::vx::ResetJTAGTap const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::ResetJTAGTap &gt;</name>
+        <param>
+          <type>typename haldls::vx::ResetJTAGTap ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::ResetJTAGTap const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1acabaa6799f7fcf641d53e3c568b09204" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::ShiftRegister &gt;</definition>
+        <argsstring>(typename haldls::vx::ShiftRegister ::coordinate_type const &amp;, haldls::vx::ShiftRegister const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::ShiftRegister &gt;</name>
+        <param>
+          <type>typename haldls::vx::ShiftRegister ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::ShiftRegister const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a65e072ed6f17dc2312b7620cecb6a4d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::SpikeCounterRead &gt;</definition>
+        <argsstring>(typename haldls::vx::SpikeCounterRead ::coordinate_type const &amp;, haldls::vx::SpikeCounterRead const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::SpikeCounterRead &gt;</name>
+        <param>
+          <type>typename haldls::vx::SpikeCounterRead ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::SpikeCounterRead const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a0a7d7f373514c5d395d7808cebb64bdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::SpikeCounterReset &gt;</definition>
+        <argsstring>(typename haldls::vx::SpikeCounterReset ::coordinate_type const &amp;, haldls::vx::SpikeCounterReset const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::SpikeCounterReset &gt;</name>
+        <param>
+          <type>typename haldls::vx::SpikeCounterReset ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::SpikeCounterReset const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a7b141c9bfd5e1771c4dbd9a43df654ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::SpikePack1ToChip &gt;</definition>
+        <argsstring>(typename haldls::vx::SpikePack1ToChip ::coordinate_type const &amp;, haldls::vx::SpikePack1ToChip const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::SpikePack1ToChip &gt;</name>
+        <param>
+          <type>typename haldls::vx::SpikePack1ToChip ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::SpikePack1ToChip const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a637da0a7c3c7c6a81a07977961a17ad3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::SpikePack2ToChip &gt;</definition>
+        <argsstring>(typename haldls::vx::SpikePack2ToChip ::coordinate_type const &amp;, haldls::vx::SpikePack2ToChip const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::SpikePack2ToChip &gt;</name>
+        <param>
+          <type>typename haldls::vx::SpikePack2ToChip ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::SpikePack2ToChip const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="68" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a217a583d682578b38de226197abcedf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::SpikePack3ToChip &gt;</definition>
+        <argsstring>(typename haldls::vx::SpikePack3ToChip ::coordinate_type const &amp;, haldls::vx::SpikePack3ToChip const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::SpikePack3ToChip &gt;</name>
+        <param>
+          <type>typename haldls::vx::SpikePack3ToChip ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::SpikePack3ToChip const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="69" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1af003eacbebbfaa758fefaf19dca44d89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::SynapseBiasSelection &gt;</definition>
+        <argsstring>(typename haldls::vx::SynapseBiasSelection ::coordinate_type const &amp;, haldls::vx::SynapseBiasSelection const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::SynapseBiasSelection &gt;</name>
+        <param>
+          <type>typename haldls::vx::SynapseBiasSelection ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::SynapseBiasSelection const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="77" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a4583662c79bb32f1b91a268a3647f102" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::SynapseCorrelationCalibQuad &gt;</definition>
+        <argsstring>(typename haldls::vx::SynapseCorrelationCalibQuad ::coordinate_type const &amp;, haldls::vx::SynapseCorrelationCalibQuad const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::SynapseCorrelationCalibQuad &gt;</name>
+        <param>
+          <type>typename haldls::vx::SynapseCorrelationCalibQuad ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::SynapseCorrelationCalibQuad const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="61" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1ac83948dab08fb44768fa03d29062cc3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::SynapseDriverConfig &gt;</definition>
+        <argsstring>(typename haldls::vx::SynapseDriverConfig ::coordinate_type const &amp;, haldls::vx::SynapseDriverConfig const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::SynapseDriverConfig &gt;</name>
+        <param>
+          <type>typename haldls::vx::SynapseDriverConfig ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::SynapseDriverConfig const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a4a7d7114833f7f80e6a74c036b92b9c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::SynapseDriverSRAMTimingConfig &gt;</definition>
+        <argsstring>(typename haldls::vx::SynapseDriverSRAMTimingConfig ::coordinate_type const &amp;, haldls::vx::SynapseDriverSRAMTimingConfig const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::SynapseDriverSRAMTimingConfig &gt;</name>
+        <param>
+          <type>typename haldls::vx::SynapseDriverSRAMTimingConfig ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::SynapseDriverSRAMTimingConfig const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1ae7f3feadaa852ce702f830721d9ac2ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::SynapseLabelQuad &gt;</definition>
+        <argsstring>(typename haldls::vx::SynapseLabelQuad ::coordinate_type const &amp;, haldls::vx::SynapseLabelQuad const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::SynapseLabelQuad &gt;</name>
+        <param>
+          <type>typename haldls::vx::SynapseLabelQuad ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::SynapseLabelQuad const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a94d51cce3fea13be55692c72bdbb6d24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::SynapseQuad &gt;</definition>
+        <argsstring>(typename haldls::vx::SynapseQuad ::coordinate_type const &amp;, haldls::vx::SynapseQuad const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::SynapseQuad &gt;</name>
+        <param>
+          <type>typename haldls::vx::SynapseQuad ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::SynapseQuad const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="58" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1afe0d709596845c770b01f663fe736045" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::SynapseWeightQuad &gt;</definition>
+        <argsstring>(typename haldls::vx::SynapseWeightQuad ::coordinate_type const &amp;, haldls::vx::SynapseWeightQuad const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::SynapseWeightQuad &gt;</name>
+        <param>
+          <type>typename haldls::vx::SynapseWeightQuad ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::SynapseWeightQuad const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1ae3d0fda37182281c59d1e7fb82c5cf8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::SystimeSync &gt;</definition>
+        <argsstring>(typename haldls::vx::SystimeSync ::coordinate_type const &amp;, haldls::vx::SystimeSync const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::SystimeSync &gt;</name>
+        <param>
+          <type>typename haldls::vx::SystimeSync ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::SystimeSync const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="87" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a9bbb1379f101d5cd9e8211cf1a00ea2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::SystimeSyncBase &gt;</definition>
+        <argsstring>(typename haldls::vx::SystimeSyncBase ::coordinate_type const &amp;, haldls::vx::SystimeSyncBase const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::SystimeSyncBase &gt;</name>
+        <param>
+          <type>typename haldls::vx::SystimeSyncBase ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::SystimeSyncBase const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dumper_8h_1a2f19c79187e596333b272b86035ee7e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>template void</type>
+        <definition>template void Dumper::write&lt; haldls::vx::Timer &gt;</definition>
+        <argsstring>(typename haldls::vx::Timer ::coordinate_type const &amp;, haldls::vx::Timer const &amp;)</argsstring>
+        <name>Dumper::write&lt; haldls::vx::Timer &gt;</name>
+        <param>
+          <type>typename haldls::vx::Timer ::coordinate_type const &amp;</type>
+        </param>
+        <param>
+          <type>haldls::vx::Timer const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.def" line="29" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/dumper.h"/>
+  </compounddef>
+</doxygen>

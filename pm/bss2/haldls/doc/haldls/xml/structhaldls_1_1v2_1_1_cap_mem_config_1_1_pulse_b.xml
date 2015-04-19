@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1v2_1_1_cap_mem_config_1_1_pulse_b" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::v2::CapMemConfig::PulseB</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; PulseB, uint_fast16_t, 65535, 0 &gt;</basecompoundref>
+    <includes refid="v2_2capmem_8h" local="no">capmem.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1_cap_mem_config_1_1_pulse_b_1a38a841b0f4f1b685bdaebdba44a73fba" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::v2::CapMemConfig::PulseB::PulseB</definition>
+        <argsstring>(uintmax_t const val=0) SYMBOL_VISIBLE</argsstring>
+        <name>PulseB</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" line="164" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" bodystart="164" bodyend="164"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1287">
+        <label>halco::common::detail::RantWrapper&lt; PulseB, uint_fast16_t, 65535, 0 &gt;</label>
+      </node>
+      <node id="1286">
+        <label>haldls::v2::CapMemConfig::PulseB</label>
+        <link refid="structhaldls_1_1v2_1_1_cap_mem_config_1_1_pulse_b"/>
+        <childnode refid="1287" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1289">
+        <label>halco::common::detail::RantWrapper&lt; PulseB, uint_fast16_t, 65535, 0 &gt;</label>
+      </node>
+      <node id="1288">
+        <label>haldls::v2::CapMemConfig::PulseB</label>
+        <link refid="structhaldls_1_1v2_1_1_cap_mem_config_1_1_pulse_b"/>
+        <childnode refid="1289" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" line="163" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/capmem.h" bodystart="161" bodyend="165"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1v2_1_1_cap_mem_config_1_1_pulse_b_1a38a841b0f4f1b685bdaebdba44a73fba" prot="public" virt="non-virtual"><scope>haldls::v2::CapMemConfig::PulseB</scope><name>PulseB</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

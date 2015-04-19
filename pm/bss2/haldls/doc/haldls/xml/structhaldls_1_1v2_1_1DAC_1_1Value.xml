@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1v2_1_1DAC_1_1Value" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::v2::DAC::Value</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; Value, uint_fast16_t, 4095, 0 &gt;</basecompoundref>
+    <includes refid="dac_8h" local="no">dac.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1DAC_1_1Value_1a4b4c0f032ddd11553fc943ec2977cbe8" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::v2::DAC::Value::Value</definition>
+        <argsstring>(uintmax_t const val=0) SYMBOL_VISIBLE</argsstring>
+        <name>Value</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/dac.h" line="32" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/dac.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1540">
+        <label>haldls::v2::DAC::Value</label>
+        <link refid="structhaldls_1_1v2_1_1DAC_1_1Value"/>
+        <childnode refid="1541" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1541">
+        <label>halco::common::detail::RantWrapper&lt; Value, uint_fast16_t, 4095, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1542">
+        <label>haldls::v2::DAC::Value</label>
+        <link refid="structhaldls_1_1v2_1_1DAC_1_1Value"/>
+        <childnode refid="1543" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1543">
+        <label>halco::common::detail::RantWrapper&lt; Value, uint_fast16_t, 4095, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/dac.h" line="31" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/dac.h" bodystart="29" bodyend="33"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1v2_1_1DAC_1_1Value_1a4b4c0f032ddd11553fc943ec2977cbe8" prot="public" virt="non-virtual"><scope>haldls::v2::DAC::Value</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

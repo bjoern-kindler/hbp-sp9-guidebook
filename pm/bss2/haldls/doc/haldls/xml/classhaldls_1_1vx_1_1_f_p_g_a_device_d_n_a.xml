@@ -1,0 +1,346 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a" kind="class" language="C++" prot="public">
+    <compoundname>haldls::vx::FPGADeviceDNA</compoundname>
+    <includes refid="fpga_8h" local="no">fpga.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1_1_value" prot="public">haldls::vx::FPGADeviceDNA::Value</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a7f172a081dd548d1ad18115c01a64660" prot="public" static="no">
+        <type>halco::hicann_dls::vx::FPGADeviceDNAOnFPGA</type>
+        <definition>typedef halco::hicann_dls::vx::FPGADeviceDNAOnFPGA haldls::vx::FPGADeviceDNA::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" line="28" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a5be67246dc08313aee9d547a9303d151" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::vx::FPGADeviceDNA::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" line="29" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a90dcde50164c7b228efe843314fade8b" prot="public" static="yes" mutable="no">
+        <type>size_t constexpr</type>
+        <definition>size_t constexpr haldls::vx::FPGADeviceDNA::read_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>read_config_size_in_words</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" line="66" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a382f235cc2f061c23f8b8635e9e95296" prot="public" static="yes" mutable="no">
+        <type>size_t constexpr</type>
+        <definition>size_t constexpr haldls::vx::FPGADeviceDNA::write_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>write_config_size_in_words</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" line="67" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" line="78" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1ad8620763292c9958f06b380d43a74ba8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, FPGADeviceDNA const &amp;config) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a" kindref="compound">FPGADeviceDNA</ref> const &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" line="64" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1ab6abf6a95c4f931da0e60f420f65af2e" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1_1_value" kindref="compound">Value</ref></type>
+        <definition>Value haldls::vx::FPGADeviceDNA::m_value</definition>
+        <argsstring></argsstring>
+        <name>m_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" line="82" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1af0a8d32da8b8d0ae74a5289dd9692e5e" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::FPGADeviceDNA::FPGADeviceDNA</definition>
+        <argsstring>(Value value=Value()) SYMBOL_VISIBLE</argsstring>
+        <name>FPGADeviceDNA</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1_1_value" kindref="compound">Value</ref></type>
+          <declname>value</declname>
+          <defval><ref refid="structhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1_1_value" kindref="compound">Value</ref>()</defval>
+        </param>
+        <briefdescription>
+<para>Construct FPGA identifier with value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1_1_value" kindref="compound">Value</ref> to construct with </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1af216037b29e876245ca7d32e9caded11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::FPGADeviceDNA::decode</definition>
+        <argsstring>(std::array&lt; fisch::vx::Omnibus, read_config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; fisch::vx::Omnibus, <ref refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a90dcde50164c7b228efe843314fade8b" kindref="member">read_config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a26e62e29168ae808c54d4be815c6f742" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; fisch::vx::Omnibus, <ref refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a382f235cc2f061c23f8b8635e9e95296" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;fisch::vx::Omnibus, write_config_size_in_words&gt; haldls::vx::FPGADeviceDNA::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1ab04bf0362fb73b8146665b1c2a210213" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1_1_value" kindref="compound">Value</ref></type>
+        <definition>Value haldls::vx::FPGADeviceDNA::get_value</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_value</name>
+        <briefdescription>
+<para>Get value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="structhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1_1_value" kindref="compound">Value</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1aa023423507816eccf38eaebc729d2464" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::FPGADeviceDNA::operator!=</definition>
+        <argsstring>(FPGADeviceDNA const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a" kindref="compound">FPGADeviceDNA</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" line="61" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1acd96c94703c264907ae8686e346a4178" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::vx::FPGADeviceDNA::operator==</definition>
+        <argsstring>(FPGADeviceDNA const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a" kindref="compound">FPGADeviceDNA</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a5df3c20aff4ae7fcb0ba47637b62b040" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::FPGADeviceDNA::set_value</definition>
+        <argsstring>(Value value) SYMBOL_VISIBLE</argsstring>
+        <name>set_value</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1_1_value" kindref="compound">Value</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Set value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="structhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1_1_value" kindref="compound">Value</ref> to set </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" line="58" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a5ba88b488cd552ae092ef7097ee94e49" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::OmnibusAddress, <ref refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a90dcde50164c7b228efe843314fade8b" kindref="member">read_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;halco::hicann_dls::vx::OmnibusAddress, read_config_size_in_words&gt; haldls::vx::FPGADeviceDNA::read_addresses</definition>
+        <argsstring>(coordinate_type const &amp;word) SYMBOL_VISIBLE</argsstring>
+        <name>read_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a7f172a081dd548d1ad18115c01a64660" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" line="69" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1af3a2b202ead55e3061d6a6007beb283f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; halco::hicann_dls::vx::OmnibusAddress, <ref refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a382f235cc2f061c23f8b8635e9e95296" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>static std::array&lt;halco::hicann_dls::vx::OmnibusAddress, write_config_size_in_words&gt; haldls::vx::FPGADeviceDNA::write_addresses</definition>
+        <argsstring>(coordinate_type const &amp;word) SYMBOL_VISIBLE</argsstring>
+        <name>write_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a7f172a081dd548d1ad18115c01a64660" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" line="71" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1aa515a861a2c6f1815b7f5241a95870d0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::vx::FPGADeviceDNA::serialize</definition>
+        <argsstring>(Archive &amp;ar, std::uint32_t const version) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <param>
+          <type>std::uint32_t const</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" line="80" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container for reading out the unique identifier of the FPGA. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" line="26" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h" bodystart="25" bodyend="83"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::vx::FPGADeviceDNA</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a7f172a081dd548d1ad18115c01a64660" prot="public" virt="non-virtual"><scope>haldls::vx::FPGADeviceDNA</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1af216037b29e876245ca7d32e9caded11" prot="public" virt="non-virtual"><scope>haldls::vx::FPGADeviceDNA</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a26e62e29168ae808c54d4be815c6f742" prot="public" virt="non-virtual"><scope>haldls::vx::FPGADeviceDNA</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1af0a8d32da8b8d0ae74a5289dd9692e5e" prot="public" virt="non-virtual"><scope>haldls::vx::FPGADeviceDNA</scope><name>FPGADeviceDNA</name></member>
+      <member refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1ab04bf0362fb73b8146665b1c2a210213" prot="public" virt="non-virtual"><scope>haldls::vx::FPGADeviceDNA</scope><name>get_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a5be67246dc08313aee9d547a9303d151" prot="public" virt="non-virtual"><scope>haldls::vx::FPGADeviceDNA</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1ab6abf6a95c4f931da0e60f420f65af2e" prot="private" virt="non-virtual"><scope>haldls::vx::FPGADeviceDNA</scope><name>m_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1aa023423507816eccf38eaebc729d2464" prot="public" virt="non-virtual"><scope>haldls::vx::FPGADeviceDNA</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1ad8620763292c9958f06b380d43a74ba8" prot="public" virt="non-virtual"><scope>haldls::vx::FPGADeviceDNA</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1acd96c94703c264907ae8686e346a4178" prot="public" virt="non-virtual"><scope>haldls::vx::FPGADeviceDNA</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a5ba88b488cd552ae092ef7097ee94e49" prot="public" virt="non-virtual"><scope>haldls::vx::FPGADeviceDNA</scope><name>read_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a90dcde50164c7b228efe843314fade8b" prot="public" virt="non-virtual"><scope>haldls::vx::FPGADeviceDNA</scope><name>read_config_size_in_words</name></member>
+      <member refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1aa515a861a2c6f1815b7f5241a95870d0" prot="private" virt="non-virtual"><scope>haldls::vx::FPGADeviceDNA</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a5df3c20aff4ae7fcb0ba47637b62b040" prot="public" virt="non-virtual"><scope>haldls::vx::FPGADeviceDNA</scope><name>set_value</name></member>
+      <member refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1af3a2b202ead55e3061d6a6007beb283f" prot="public" virt="non-virtual"><scope>haldls::vx::FPGADeviceDNA</scope><name>write_addresses</name></member>
+      <member refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1a382f235cc2f061c23f8b8635e9e95296" prot="public" virt="non-virtual"><scope>haldls::vx::FPGADeviceDNA</scope><name>write_config_size_in_words</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacehaldls_1_1exception" kind="namespace" language="C++">
+    <compoundname>haldls::exception</compoundname>
+    <innerclass refid="classhaldls_1_1exception_1_1_invalid_configuration" prot="public">haldls::exception::InvalidConfiguration</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/exception/exceptions.h" line="8" column="1"/>
+  </compounddef>
+</doxygen>

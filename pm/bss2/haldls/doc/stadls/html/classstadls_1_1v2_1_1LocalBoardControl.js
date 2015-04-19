@@ -1,0 +1,26 @@
+var classstadls_1_1v2_1_1LocalBoardControl =
+[
+    [ "LocalBoardControl", "classstadls_1_1v2_1_1LocalBoardControl.html#a3107375d395f532e4fb2f7b8db61f0a3", null ],
+    [ "LocalBoardControl", "classstadls_1_1v2_1_1LocalBoardControl.html#aa04146e7cc0864e3632d51ddd38e10f7", null ],
+    [ "LocalBoardControl", "classstadls_1_1v2_1_1LocalBoardControl.html#ac91216d5042dcb8e489f1de46f9b55a7", null ],
+    [ "~LocalBoardControl", "classstadls_1_1v2_1_1LocalBoardControl.html#a29358403a620bdaf33a567202ced8cf2", null ],
+    [ "configure_static", "classstadls_1_1v2_1_1LocalBoardControl.html#a14dfba4974b971a4d9551f6af399d926", null ],
+    [ "configure_static", "classstadls_1_1v2_1_1LocalBoardControl.html#ada518988cbfca48cb5fc71a49eb562ee", null ],
+    [ "decode_result_bytes", "classstadls_1_1v2_1_1LocalBoardControl.html#ae69e0319cdd88b3cca7237d2153eeb1f", null ],
+    [ "execute", "classstadls_1_1v2_1_1LocalBoardControl.html#a6fab5eb57737702ef2250294dd82b9b9", null ],
+    [ "execute", "classstadls_1_1v2_1_1LocalBoardControl.html#a3ded23579158b9490a7ea4d9500270ff", null ],
+    [ "fetch", "classstadls_1_1v2_1_1LocalBoardControl.html#aca050de94e6e1d61deb8220392461437", null ],
+    [ "fetch", "classstadls_1_1v2_1_1LocalBoardControl.html#a18aa49f57dd16d1ba8f0cfc9f5019989", null ],
+    [ "operator=", "classstadls_1_1v2_1_1LocalBoardControl.html#abdcda864e71acb95d12cac2ea13d99f2", null ],
+    [ "operator=", "classstadls_1_1v2_1_1LocalBoardControl.html#ae295e4b94654abce84dbfa5309121c03", null ],
+    [ "read", "classstadls_1_1v2_1_1LocalBoardControl.html#a7137c14564066686a3efbc55467665fb", null ],
+    [ "run", "classstadls_1_1v2_1_1LocalBoardControl.html#a31e09e1210cf9e1153af7dd7c5dc7adc", null ],
+    [ "run", "classstadls_1_1v2_1_1LocalBoardControl.html#acfa20f3bb25cb19b3d8f9da613139e74", null ],
+    [ "run_experiment", "classstadls_1_1v2_1_1LocalBoardControl.html#a6ce0ff88a0c1bd45f466470e225ae64e", null ],
+    [ "soft_reset", "classstadls_1_1v2_1_1LocalBoardControl.html#a7b83ddd7f17fa4a04c441e3d4da677f4", null ],
+    [ "transfer", "classstadls_1_1v2_1_1LocalBoardControl.html#a527ea17df67780a760020a8f0666fd20", null ],
+    [ "transfer", "classstadls_1_1v2_1_1LocalBoardControl.html#ac1b3a18df7897d3e0b38783a41a84757", null ],
+    [ "usb_serial", "classstadls_1_1v2_1_1LocalBoardControl.html#a326587f8875f64352dd5f46dffab281d", null ],
+    [ "write", "classstadls_1_1v2_1_1LocalBoardControl.html#a8efb649e989a31237826c38632e8d954", null ],
+    [ "env_name_board_id", "classstadls_1_1v2_1_1LocalBoardControl.html#ac5751d59754f83812e994956fb84222d", null ]
+];

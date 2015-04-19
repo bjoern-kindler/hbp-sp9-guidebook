@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="spi_8h" kind="file" language="C++">
+    <compoundname>spi.h</compoundname>
+    <includes local="no">array</includes>
+    <includes local="no">ostream</includes>
+    <includes local="yes">fisch/vx/constants.h</includes>
+    <includes local="yes">halco/common/geometry.h</includes>
+    <includes local="yes">halco/common/typed_array.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/dac.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/xboard.h</includes>
+    <includes refid="genpybind_8h" local="yes">haldls/vx/genpybind.h</includes>
+    <includes refid="traits_8h" local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includedby refid="container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.h</includedby>
+    <includedby refid="dac_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/dac.h</includedby>
+    <incdepgraph>
+      <node id="1089">
+        <label>fisch/vx/container.def</label>
+      </node>
+      <node id="1081">
+        <label>haldls/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="1081" relation="include">
+        </childnode>
+      </node>
+      <node id="1079">
+        <label>halco/hicann-dls/vx/dac.h</label>
+      </node>
+      <node id="1082">
+        <label>haldls/vx/traits.h</label>
+        <link refid="traits_8h"/>
+        <childnode refid="1083" relation="include">
+        </childnode>
+        <childnode refid="1084" relation="include">
+        </childnode>
+        <childnode refid="1085" relation="include">
+        </childnode>
+        <childnode refid="1086" relation="include">
+        </childnode>
+        <childnode refid="1081" relation="include">
+        </childnode>
+        <childnode refid="1087" relation="include">
+        </childnode>
+        <childnode refid="1088" relation="include">
+        </childnode>
+        <childnode refid="1089" relation="include">
+        </childnode>
+      </node>
+      <node id="1084">
+        <label>boost/variant.hpp</label>
+      </node>
+      <node id="1075">
+        <label>ostream</label>
+      </node>
+      <node id="1078">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="1080">
+        <label>halco/hicann-dls/vx/xboard.h</label>
+      </node>
+      <node id="1074">
+        <label>array</label>
+      </node>
+      <node id="1077">
+        <label>halco/common/geometry.h</label>
+      </node>
+      <node id="1085">
+        <label>fisch/vx/container_fwd.h</label>
+      </node>
+      <node id="1088">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="1086">
+        <label>fisch/vx/container_ticket.h</label>
+      </node>
+      <node id="1076">
+        <label>fisch/vx/constants.h</label>
+      </node>
+      <node id="1083">
+        <label>type_traits</label>
+      </node>
+      <node id="1073">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/spi.h</label>
+        <link refid="spi_8h"/>
+        <childnode refid="1074" relation="include">
+        </childnode>
+        <childnode refid="1075" relation="include">
+        </childnode>
+        <childnode refid="1076" relation="include">
+        </childnode>
+        <childnode refid="1077" relation="include">
+        </childnode>
+        <childnode refid="1078" relation="include">
+        </childnode>
+        <childnode refid="1079" relation="include">
+        </childnode>
+        <childnode refid="1080" relation="include">
+        </childnode>
+        <childnode refid="1081" relation="include">
+        </childnode>
+        <childnode refid="1082" relation="include">
+        </childnode>
+        <childnode refid="1088" relation="include">
+        </childnode>
+      </node>
+      <node id="1087">
+        <label>hate/type_list.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1093">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/pyhaldls.h</label>
+        <link refid="pyhaldls_8h"/>
+      </node>
+      <node id="1095">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_writereadable.h</label>
+        <link refid="is__writereadable_8h"/>
+      </node>
+      <node id="1092">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/haldls.h</label>
+        <link refid="haldls_8h"/>
+        <childnode refid="1093" relation="include">
+        </childnode>
+      </node>
+      <node id="1094">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_readable.h</label>
+        <link refid="is__readable_8h"/>
+        <childnode refid="1095" relation="include">
+        </childnode>
+      </node>
+      <node id="1097">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/container.h</label>
+        <link refid="container_8h"/>
+        <childnode refid="1094" relation="include">
+        </childnode>
+      </node>
+      <node id="1096">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/lola/vx/dac.h</label>
+        <link refid="dac_8h"/>
+        <childnode refid="1097" relation="include">
+        </childnode>
+      </node>
+      <node id="1091">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.h</label>
+        <link refid="container_8h"/>
+        <childnode refid="1092" relation="include">
+        </childnode>
+        <childnode refid="1094" relation="include">
+        </childnode>
+      </node>
+      <node id="1090">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/spi.h</label>
+        <link refid="spi_8h"/>
+        <childnode refid="1091" relation="include">
+        </childnode>
+        <childnode refid="1096" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_d_a_c_channel_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; DACChannel &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_d_a_c_control_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; DACControl &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_shift_register_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; ShiftRegister &gt;</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_d_a_c_channel" prot="public">haldls::vx::DACChannel</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_d_a_c_control" prot="public">haldls::vx::DACControl</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_shift_register" prot="public">haldls::vx::ShiftRegister</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_d_a_c_channel_1_1_value" prot="public">haldls::vx::DACChannel::Value</innerclass>
+    <innernamespace refid="namespacecereal">cereal</innernamespace>
+    <innernamespace refid="namespacehalco">halco</innernamespace>
+    <innernamespace refid="namespacehalco_1_1hicann__dls">halco::hicann_dls</innernamespace>
+    <innernamespace refid="namespacehalco_1_1hicann__dls_1_1vx">halco::hicann_dls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <innernamespace refid="namespacestd">std</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/spi.h"/>
+  </compounddef>
+</doxygen>

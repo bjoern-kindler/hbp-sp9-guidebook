@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1_background_spike_source_1_1_rate" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::BackgroundSpikeSource::Rate</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail:: RantWrapper&lt; Rate, uint_fast16_t, hate::math::pow(2, 8) - 1, 0 &gt;</basecompoundref>
+    <includes refid="background_8h" local="no">background.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_background_spike_source_1_1_rate_1a9f2057c77962d7768fb4737188c40678" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::BackgroundSpikeSource::Rate::Rate</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>Rate</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/background.h" line="66" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/background.h" bodystart="66" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_rate" kindref="compound">Rate</ref> of spike output in the Poisson spike generation mode, without effect in regular mode. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Every period, a random 8-bit number is compared to the rate value and a spike is generated if the random value is smaller-equal than the configured rate. This leads to a mean ISI of (period / (rate / 255)) and disabled spike output on rate = 0. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1378">
+        <label>haldls::vx::BackgroundSpikeSource::Rate</label>
+        <link refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_rate"/>
+        <childnode refid="1379" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1379">
+        <label>halco::common::detail:: RantWrapper&lt; Rate, uint_fast16_t, hate::math::pow(2, 8) - 1, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1380">
+        <label>haldls::vx::BackgroundSpikeSource::Rate</label>
+        <link refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_rate"/>
+        <childnode refid="1381" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1381">
+        <label>halco::common::detail:: RantWrapper&lt; Rate, uint_fast16_t, hate::math::pow(2, 8) - 1, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/background.h" line="65" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/background.h" bodystart="62" bodyend="69"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_background_spike_source_1_1_rate_1a9f2057c77962d7768fb4737188c40678" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource::Rate</scope><name>Rate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

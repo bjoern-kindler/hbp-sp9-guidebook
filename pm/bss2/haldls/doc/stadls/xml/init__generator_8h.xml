@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="init__generator_8h" kind="file" language="C++">
+    <compoundname>init_generator.h</compoundname>
+    <includes local="yes">halco/common/typed_array.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/coordinates.h</includes>
+    <includes local="yes">haldls/vx/capmem.h</includes>
+    <includes local="yes">haldls/vx/jtag.h</includes>
+    <includes local="yes">haldls/vx/phy.h</includes>
+    <includes local="yes">haldls/vx/pll.h</includes>
+    <includes local="yes">haldls/vx/spi.h</includes>
+    <includes local="yes">haldls/vx/synapse.h</includes>
+    <includes local="yes">hate/nil.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includes refid="genpybind_8h" local="yes">stadls/vx/genpybind.h</includes>
+    <includes refid="playback__generator_8h" local="yes">stadls/vx/playback_generator.h</includes>
+    <includes refid="playback__program_8h" local="yes">stadls/vx/playback_program.h</includes>
+    <includes refid="playback__program__builder_8h" local="yes">stadls/vx/playback_program_builder.h</includes>
+    <includedby refid="stadls_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/stadls.h</includedby>
+    <incdepgraph>
+      <node id="108">
+        <label>cstdint</label>
+      </node>
+      <node id="100">
+        <label>stadls/vx/dumper.h</label>
+        <link refid="dumper_8h"/>
+        <childnode refid="92" relation="include">
+        </childnode>
+        <childnode refid="101" relation="include">
+        </childnode>
+        <childnode refid="102" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+        <childnode refid="96" relation="include">
+        </childnode>
+        <childnode refid="97" relation="include">
+        </childnode>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+        <childnode refid="104" relation="include">
+        </childnode>
+        <childnode refid="105" relation="include">
+        </childnode>
+        <childnode refid="106" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="107" relation="include">
+        </childnode>
+        <childnode refid="117" relation="include">
+        </childnode>
+        <childnode refid="118" relation="include">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>variant</label>
+      </node>
+      <node id="87">
+        <label>stadls/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="87" relation="include">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>haldls/vx/synapse.h</label>
+      </node>
+      <node id="96">
+        <label>halco/hicann-dls/vx/barrier.h</label>
+      </node>
+      <node id="94">
+        <label>haldls/vx/container.h</label>
+      </node>
+      <node id="90">
+        <label>stadls/vx/playback_program_builder.h</label>
+        <link refid="playback__program__builder_8h"/>
+        <childnode refid="91" relation="include">
+        </childnode>
+        <childnode refid="92" relation="include">
+        </childnode>
+        <childnode refid="93" relation="include">
+        </childnode>
+        <childnode refid="94" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+        <childnode refid="96" relation="include">
+        </childnode>
+        <childnode refid="97" relation="include">
+        </childnode>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+        <childnode refid="100" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="107" relation="include">
+        </childnode>
+        <childnode refid="117" relation="include">
+        </childnode>
+        <childnode refid="118" relation="include">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/common.h</label>
+      </node>
+      <node id="110">
+        <label>string</label>
+      </node>
+      <node id="114">
+        <label>fisch/vx/run_time_info.h</label>
+      </node>
+      <node id="106">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/neuron.h</label>
+      </node>
+      <node id="98">
+        <label>haldls/vx/common.h</label>
+      </node>
+      <node id="93">
+        <label>unordered_set</label>
+      </node>
+      <node id="112">
+        <label>haldls/vx/event.h</label>
+      </node>
+      <node id="115">
+        <label>pybind11/numpy.h</label>
+      </node>
+      <node id="118">
+        <label>lola/vx/container.def</label>
+      </node>
+      <node id="99">
+        <label>hxcomm/vx/target.h</label>
+      </node>
+      <node id="81">
+        <label>haldls/vx/phy.h</label>
+      </node>
+      <node id="88">
+        <label>stadls/vx/playback_generator.h</label>
+        <link refid="playback__generator_8h"/>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="89" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+      </node>
+      <node id="97">
+        <label>haldls/vx/barrier.h</label>
+      </node>
+      <node id="113">
+        <label>stadls/vx/run_time_info.h</label>
+        <link refid="run__time__info_8h"/>
+        <childnode refid="114" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>halco/hicann-dls/vx/coordinates.h</label>
+      </node>
+      <node id="109">
+        <label>optional</label>
+      </node>
+      <node id="103">
+        <label>vector</label>
+      </node>
+      <node id="77">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="101">
+        <label>utility</label>
+      </node>
+      <node id="111">
+        <label>fisch/vx/playback_program.h</label>
+      </node>
+      <node id="80">
+        <label>haldls/vx/jtag.h</label>
+      </node>
+      <node id="86">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="79">
+        <label>haldls/vx/capmem.h</label>
+      </node>
+      <node id="107">
+        <label>stadls/vx/playback_program.h</label>
+        <link refid="playback__program_8h"/>
+        <childnode refid="108" relation="include">
+        </childnode>
+        <childnode refid="92" relation="include">
+        </childnode>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="110" relation="include">
+        </childnode>
+        <childnode refid="103" relation="include">
+        </childnode>
+        <childnode refid="111" relation="include">
+        </childnode>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="112" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="113" relation="include">
+        </childnode>
+        <childnode refid="115" relation="include">
+        </childnode>
+        <childnode refid="116" relation="include">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>iosfwd</label>
+      </node>
+      <node id="83">
+        <label>haldls/vx/spi.h</label>
+      </node>
+      <node id="89">
+        <label>hate/type_traits.h</label>
+      </node>
+      <node id="76">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/init_generator.h</label>
+        <link refid="init__generator_8h"/>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
+        </childnode>
+        <childnode refid="81" relation="include">
+        </childnode>
+        <childnode refid="82" relation="include">
+        </childnode>
+        <childnode refid="83" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="88" relation="include">
+        </childnode>
+        <childnode refid="107" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>lola/vx/container.h</label>
+      </node>
+      <node id="85">
+        <label>hate/nil.h</label>
+      </node>
+      <node id="104">
+        <label>boost/hana/adapt_struct.hpp</label>
+      </node>
+      <node id="82">
+        <label>haldls/vx/pll.h</label>
+      </node>
+      <node id="116">
+        <label>pybind11/stl_bind.h</label>
+      </node>
+      <node id="117">
+        <label>haldls/vx/container.def</label>
+      </node>
+      <node id="92">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="120">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/stadls.h</label>
+        <link refid="stadls_8h"/>
+        <childnode refid="121" relation="include">
+        </childnode>
+      </node>
+      <node id="121">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/pystadls.h</label>
+        <link refid="pystadls_8h"/>
+      </node>
+      <node id="119">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/init_generator.h</label>
+        <link refid="init__generator_8h"/>
+        <childnode refid="120" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classstadls_1_1vx_1_1_digital_init" prot="public">stadls::vx::DigitalInit</innerclass>
+    <innerclass refid="classstadls_1_1vx_1_1_experiment_init" prot="public">stadls::vx::ExperimentInit</innerclass>
+    <innerclass refid="structstadls_1_1vx_1_1detail_1_1_init_generator_1_1_highspeed_link" prot="public">stadls::vx::detail::InitGenerator::HighspeedLink</innerclass>
+    <innerclass refid="classstadls_1_1vx_1_1detail_1_1_init_generator" prot="public">stadls::vx::detail::InitGenerator</innerclass>
+    <innernamespace refid="namespacestadls">stadls</innernamespace>
+    <innernamespace refid="namespacestadls_1_1vx">stadls::vx</innernamespace>
+    <innernamespace refid="namespacestadls_1_1vx_1_1detail">stadls::vx::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/stadls/vx/init_generator.h"/>
+  </compounddef>
+</doxygen>

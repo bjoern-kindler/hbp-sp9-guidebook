@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1BackgroundSpikeSource_1_1Period" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::BackgroundSpikeSource::Period</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail:: RantWrapper&lt; Period, uint_fast32_t, hate::math::pow(2, 16) - 1, 0 &gt;</basecompoundref>
+    <includes refid="background_8h" local="no">background.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1BackgroundSpikeSource_1_1Period_1a8659018b10154de79eb95696bed4c969" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::BackgroundSpikeSource::Period::Period</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>Period</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/background.h" line="48" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/background.h" bodystart="48" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Inter-spike interval for regular and inter-bin interval for Poisson spike generation. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The period is set in units of clock cycles. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1166">
+        <label>halco::common::detail:: RantWrapper&lt; Period, uint_fast32_t, hate::math::pow(2, 16) - 1, 0 &gt;</label>
+      </node>
+      <node id="1165">
+        <label>haldls::vx::BackgroundSpikeSource::Period</label>
+        <link refid="structhaldls_1_1vx_1_1BackgroundSpikeSource_1_1Period"/>
+        <childnode refid="1166" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1168">
+        <label>halco::common::detail:: RantWrapper&lt; Period, uint_fast32_t, hate::math::pow(2, 16) - 1, 0 &gt;</label>
+      </node>
+      <node id="1167">
+        <label>haldls::vx::BackgroundSpikeSource::Period</label>
+        <link refid="structhaldls_1_1vx_1_1BackgroundSpikeSource_1_1Period"/>
+        <childnode refid="1168" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/background.h" line="47" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/background.h" bodystart="44" bodyend="51"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1BackgroundSpikeSource_1_1Period_1a8659018b10154de79eb95696bed4c969" prot="public" virt="non-virtual"><scope>haldls::vx::BackgroundSpikeSource::Period</scope><name>Period</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

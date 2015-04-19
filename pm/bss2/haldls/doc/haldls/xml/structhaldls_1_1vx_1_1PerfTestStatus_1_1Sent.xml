@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1PerfTestStatus_1_1Sent" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::PerfTestStatus::Sent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; Sent, uint_fast32_t, 0xffffffff, 0 &gt;</basecompoundref>
+    <includes refid="perftest_8h" local="no">perftest.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1PerfTestStatus_1_1Sent_1ae0c9ee2b1aead5341fea56926892e339" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::PerfTestStatus::Sent::Sent</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>Sent</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/perftest.h" line="101" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/perftest.h" bodystart="101" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Number of words sent successfully. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1386">
+        <label>haldls::vx::PerfTestStatus::Sent</label>
+        <link refid="structhaldls_1_1vx_1_1PerfTestStatus_1_1Sent"/>
+        <childnode refid="1387" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1387">
+        <label>halco::common::detail::RantWrapper&lt; Sent, uint_fast32_t, 0xffffffff, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1388">
+        <label>haldls::vx::PerfTestStatus::Sent</label>
+        <link refid="structhaldls_1_1vx_1_1PerfTestStatus_1_1Sent"/>
+        <childnode refid="1389" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1389">
+        <label>halco::common::detail::RantWrapper&lt; Sent, uint_fast32_t, 0xffffffff, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/perftest.h" line="100" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/perftest.h" bodystart="98" bodyend="102"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1PerfTestStatus_1_1Sent_1ae0c9ee2b1aead5341fea56926892e339" prot="public" virt="non-virtual"><scope>haldls::vx::PerfTestStatus::Sent</scope><name>Sent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

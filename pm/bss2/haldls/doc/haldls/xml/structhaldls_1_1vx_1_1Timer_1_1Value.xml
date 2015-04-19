@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1Timer_1_1Value" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::Timer::Value</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Value</basecompoundref>
+    <includes refid="timer_8h" local="no">timer.h</includes>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structhaldls_1_1vx_1_1Timer_1_1Value_1a4c3a5dc2b2c7cf2ffbf3c45e3ff6d6b1" prot="public" static="yes" mutable="no">
+        <type>const <ref refid="structhaldls_1_1vx_1_1Timer_1_1Value" kindref="compound">Value</ref> fpga_clock_cycles_per_us</type>
+        <definition>const Value fpga_clock_cycles_per_us haldls::vx::Timer::Value::SYMBOL_VISIBLE</definition>
+        <argsstring></argsstring>
+        <name>SYMBOL_VISIBLE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/timer.h" line="34" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/timer.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1Timer_1_1Value_1adf774bb460299a832183623f44815bc2" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>haldls::vx::Timer::Value::Value</definition>
+        <argsstring>(value_type const value=0)</argsstring>
+        <name>Value</name>
+        <param>
+          <type><ref refid="vx_2capmem_8h_1a83f4af897c1542bc93e821d3dfbd2f5a" kindref="member">value_type</ref> const</type>
+          <declname>value</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/timer.h" line="30" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/timer.h" bodystart="30" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1508">
+        <label>haldls::vx::Timer::Value</label>
+        <link refid="structhaldls_1_1vx_1_1Timer_1_1Value"/>
+        <childnode refid="1509" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1509">
+        <label>fisch::vx::Timer::Value</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1510">
+        <label>haldls::vx::Timer::Value</label>
+        <link refid="structhaldls_1_1vx_1_1Timer_1_1Value"/>
+        <childnode refid="1511" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1510" relation="usage">
+          <edgelabel>SYMBOL_VISIBLE</edgelabel>
+        </childnode>
+      </node>
+      <node id="1511">
+        <label>fisch::vx::Timer::Value</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/timer.h" line="29" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/timer.h" bodystart="28" bodyend="35"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1Timer_1_1Value_1a4c3a5dc2b2c7cf2ffbf3c45e3ff6d6b1" prot="public" virt="non-virtual"><scope>haldls::vx::Timer::Value</scope><name>SYMBOL_VISIBLE</name></member>
+      <member refid="structhaldls_1_1vx_1_1Timer_1_1Value_1adf774bb460299a832183623f44815bc2" prot="public" virt="non-virtual"><scope>haldls::vx::Timer::Value</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

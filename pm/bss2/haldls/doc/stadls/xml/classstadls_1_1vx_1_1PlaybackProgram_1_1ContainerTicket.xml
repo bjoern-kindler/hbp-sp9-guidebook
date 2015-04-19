@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket" kind="class" language="C++" prot="public">
+    <compoundname>stadls::vx::PlaybackProgram::ContainerTicket</compoundname>
+    <includes refid="playback__program_8h" local="no">playback_program.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket_1a95b904ecf28c537f983d02c7a628dc6d" prot="public" static="no">
+        <type>T::coordinate_type</type>
+        <definition>typedef T::coordinate_type stadls::vx::PlaybackProgram::ContainerTicket&lt; T &gt;::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/vx/playback_program.h" line="46" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/vx/playback_program.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket_1af02ec7fd64f5a28dffe7399d012e1ca7" prot="private" static="no">
+        <type>haldls::vx::detail::to_ticket_variant&lt; typename haldls::vx::detail::BackendContainerTrait&lt; T &gt;::container_list &gt;::type</type>
+        <definition>typedef haldls::vx::detail::to_ticket_variant&lt; typename haldls::vx::detail::BackendContainerTrait&lt;T&gt;::container_list&gt;::type stadls::vx::PlaybackProgram::ContainerTicket&lt; T &gt;::ticket_impl_type</definition>
+        <argsstring></argsstring>
+        <name>ticket_impl_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/vx/playback_program.h" line="79" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/vx/playback_program.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket_1a09043c8d73ba2f17a59f10229d4c2538" prot="private" static="no" mutable="no">
+        <type><ref refid="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket_1a95b904ecf28c537f983d02c7a628dc6d" kindref="member">coordinate_type</ref></type>
+        <definition>coordinate_type stadls::vx::PlaybackProgram::ContainerTicket&lt; T &gt;::m_coord</definition>
+        <argsstring></argsstring>
+        <name>m_coord</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/vx/playback_program.h" line="88" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/vx/playback_program.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket_1a91dcdc38e97e066ecf1bb92a2707fe91" prot="private" static="no" mutable="no">
+        <type>ticket_impl_type</type>
+        <definition>ticket_impl_type stadls::vx::PlaybackProgram::ContainerTicket&lt; T &gt;::m_ticket_impl</definition>
+        <argsstring></argsstring>
+        <name>m_ticket_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/vx/playback_program.h" line="89" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/vx/playback_program.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket_1a4a451ac7324736574edda76548c3c841" prot="private" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend stadls::vx::PlaybackProgram::ContainerTicket&lt; T &gt;::PlaybackProgramBuilder</definition>
+        <argsstring></argsstring>
+        <name>PlaybackProgramBuilder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/vx/playback_program.h" line="81" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/vx/playback_program.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket_1abb5d115747a8eea874c34cd65257b60e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>T</type>
+        <definition>T stadls::vx::PlaybackProgram::ContainerTicket&lt; T &gt;::get</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get</name>
+        <briefdescription>
+<para>Get container data if available. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>std::runtime_error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>On container data not available yet </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Container data </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/vx/playback_program.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket_1a8030742491577d1d03ff15f1bca9bcac" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket_1a95b904ecf28c537f983d02c7a628dc6d" kindref="member">coordinate_type</ref></type>
+        <definition>coordinate_type stadls::vx::PlaybackProgram::ContainerTicket&lt; T &gt;::get_coordinate</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_coordinate</name>
+        <briefdescription>
+<para>Get coordinate corresponding to location of (to-be) read container data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Coordinate value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/vx/playback_program.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket_1a76cec2f238ffa7ad9f2172edd6d70ba2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classstadls_1_1vx_1_1PlaybackProgram_1a318bab1a9d96f9c6c94ec341a1e3deb6" kindref="member">fpga_time_type</ref></type>
+        <definition>fpga_time_type stadls::vx::PlaybackProgram::ContainerTicket&lt; T &gt;::get_fpga_time</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_fpga_time</name>
+        <briefdescription>
+<para>Get FPGA executor timestamp of last container response if time annotation is enabled. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>If time annotation is not enabled, get message count since last time annotation or from the beginning of the response stream. <simplesect kind="return"><para>FPGATime value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/vx/playback_program.h" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket_1ab7308af7e4ac305468bab8cdc6e405b9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool stadls::vx::PlaybackProgram::ContainerTicket&lt; T &gt;::valid</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>valid</name>
+        <briefdescription>
+<para>Get whether container data is available. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Boolean value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/vx/playback_program.h" line="59" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket_1a8753d070028eaacdb77bdd6455a80fe5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>stadls::vx::PlaybackProgram::ContainerTicket&lt; T &gt;::ContainerTicket</definition>
+        <argsstring>(coordinate_type const &amp;coord, ticket_impl_type const &amp;ticket_impl)</argsstring>
+        <name>ContainerTicket</name>
+        <param>
+          <type><ref refid="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket_1a95b904ecf28c537f983d02c7a628dc6d" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>ticket_impl_type const &amp;</type>
+          <declname>ticket_impl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/vx/playback_program.h" line="83" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/vx/playback_program.h" bodystart="83" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Ticket for to-be-available container data corresponding to a read instruction. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Container type </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/vx/playback_program.h" line="44" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/stadls/vx/playback_program.h" bodystart="43" bodyend="90"/>
+    <listofallmembers>
+      <member refid="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket_1a8753d070028eaacdb77bdd6455a80fe5" prot="private" virt="non-virtual"><scope>stadls::vx::PlaybackProgram::ContainerTicket</scope><name>ContainerTicket</name></member>
+      <member refid="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket_1a95b904ecf28c537f983d02c7a628dc6d" prot="public" virt="non-virtual"><scope>stadls::vx::PlaybackProgram::ContainerTicket</scope><name>coordinate_type</name></member>
+      <member refid="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket_1abb5d115747a8eea874c34cd65257b60e" prot="public" virt="non-virtual"><scope>stadls::vx::PlaybackProgram::ContainerTicket</scope><name>get</name></member>
+      <member refid="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket_1a8030742491577d1d03ff15f1bca9bcac" prot="public" virt="non-virtual"><scope>stadls::vx::PlaybackProgram::ContainerTicket</scope><name>get_coordinate</name></member>
+      <member refid="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket_1a76cec2f238ffa7ad9f2172edd6d70ba2" prot="public" virt="non-virtual"><scope>stadls::vx::PlaybackProgram::ContainerTicket</scope><name>get_fpga_time</name></member>
+      <member refid="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket_1a09043c8d73ba2f17a59f10229d4c2538" prot="private" virt="non-virtual"><scope>stadls::vx::PlaybackProgram::ContainerTicket</scope><name>m_coord</name></member>
+      <member refid="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket_1a91dcdc38e97e066ecf1bb92a2707fe91" prot="private" virt="non-virtual"><scope>stadls::vx::PlaybackProgram::ContainerTicket</scope><name>m_ticket_impl</name></member>
+      <member refid="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket_1a4a451ac7324736574edda76548c3c841" prot="private" virt="non-virtual"><scope>stadls::vx::PlaybackProgram::ContainerTicket</scope><name>PlaybackProgramBuilder</name></member>
+      <member refid="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket_1af02ec7fd64f5a28dffe7399d012e1ca7" prot="private" virt="non-virtual"><scope>stadls::vx::PlaybackProgram::ContainerTicket</scope><name>ticket_impl_type</name></member>
+      <member refid="classstadls_1_1vx_1_1PlaybackProgram_1_1ContainerTicket_1ab7308af7e4ac305468bab8cdc6e405b9" prot="public" virt="non-virtual"><scope>stadls::vx::PlaybackProgram::ContainerTicket</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

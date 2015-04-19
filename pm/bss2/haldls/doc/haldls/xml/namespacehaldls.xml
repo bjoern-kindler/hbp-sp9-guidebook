@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespacehaldls" kind="namespace" language="C++">
+    <compoundname>haldls</compoundname>
+    <innerclass refid="classhaldls_1_1_cap_mem_block" prot="public">haldls::CapMemBlock</innerclass>
+    <innerclass refid="classhaldls_1_1_cap_mem_block_config" prot="public">haldls::CapMemBlockConfig</innerclass>
+    <innerclass refid="classhaldls_1_1_reference_generator_config" prot="public">haldls::ReferenceGeneratorConfig</innerclass>
+    <innernamespace refid="namespacehaldls_1_1detail">haldls::detail</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacehaldls_1ab0d2b0f41421cd54c00dfa7187b54a2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; haldls::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, CapMemCell::value_type const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="capmem_8h_1a10273cb3bf4332a5ca4e7a3a852526f8" kindref="member">CapMemCell::value_type</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/capmem.h" line="94" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/cerealization.h" line="12" column="1"/>
+  </compounddef>
+</doxygen>

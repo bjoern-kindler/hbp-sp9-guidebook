@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1v2_1_1_p_p_u_memory_word_1_1_value" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::v2::PPUMemoryWord::Value</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; Value, uint_fast32_t, 0xffffffff, 0 &gt;</basecompoundref>
+    <includes refid="v2_2ppu_8h" local="no">ppu.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1_p_p_u_memory_word_1_1_value_1ad1230e3a3609fe4413e14598330b72c6" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::v2::PPUMemoryWord::Value::Value</definition>
+        <argsstring>(uintmax_t const val=0) SYMBOL_VISIBLE</argsstring>
+        <name>Value</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/ppu.h" line="28" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/ppu.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1505">
+        <label>halco::common::detail::RantWrapper&lt; Value, uint_fast32_t, 0xffffffff, 0 &gt;</label>
+      </node>
+      <node id="1504">
+        <label>haldls::v2::PPUMemoryWord::Value</label>
+        <link refid="structhaldls_1_1v2_1_1_p_p_u_memory_word_1_1_value"/>
+        <childnode refid="1505" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1507">
+        <label>halco::common::detail::RantWrapper&lt; Value, uint_fast32_t, 0xffffffff, 0 &gt;</label>
+      </node>
+      <node id="1506">
+        <label>haldls::v2::PPUMemoryWord::Value</label>
+        <link refid="structhaldls_1_1v2_1_1_p_p_u_memory_word_1_1_value"/>
+        <childnode refid="1507" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/ppu.h" line="27" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/ppu.h" bodystart="25" bodyend="29"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1v2_1_1_p_p_u_memory_word_1_1_value_1ad1230e3a3609fe4413e14598330b72c6" prot="public" virt="non-virtual"><scope>haldls::v2::PPUMemoryWord::Value</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

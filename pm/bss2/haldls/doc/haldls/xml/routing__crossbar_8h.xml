@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="routing__crossbar_8h" kind="file" language="C++">
+    <compoundname>routing_crossbar.h</compoundname>
+    <includes local="no">array</includes>
+    <includes local="no">ostream</includes>
+    <includes local="yes">halco/common/geometry.h</includes>
+    <includes local="yes">halco/common/typed_array.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/event.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/routing_crossbar.h</includes>
+    <includes refid="genpybind_8h" local="yes">haldls/vx/genpybind.h</includes>
+    <includes refid="traits_8h" local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">hate/math.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includes local="yes">hxcomm/vx/target.h</includes>
+    <includedby refid="container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.h</includedby>
+    <incdepgraph>
+      <node id="1064">
+        <label>fisch/vx/container.def</label>
+      </node>
+      <node id="1056">
+        <label>haldls/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="1056" relation="include">
+        </childnode>
+      </node>
+      <node id="1057">
+        <label>haldls/vx/traits.h</label>
+        <link refid="traits_8h"/>
+        <childnode refid="1058" relation="include">
+        </childnode>
+        <childnode refid="1059" relation="include">
+        </childnode>
+        <childnode refid="1060" relation="include">
+        </childnode>
+        <childnode refid="1061" relation="include">
+        </childnode>
+        <childnode refid="1056" relation="include">
+        </childnode>
+        <childnode refid="1062" relation="include">
+        </childnode>
+        <childnode refid="1063" relation="include">
+        </childnode>
+        <childnode refid="1064" relation="include">
+        </childnode>
+      </node>
+      <node id="1059">
+        <label>boost/variant.hpp</label>
+      </node>
+      <node id="1051">
+        <label>ostream</label>
+      </node>
+      <node id="1066">
+        <label>hxcomm/vx/target.h</label>
+      </node>
+      <node id="1053">
+        <label>halco/common/typed_array.h</label>
+      </node>
+      <node id="1050">
+        <label>array</label>
+      </node>
+      <node id="1052">
+        <label>halco/common/geometry.h</label>
+      </node>
+      <node id="1060">
+        <label>fisch/vx/container_fwd.h</label>
+      </node>
+      <node id="1063">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="1061">
+        <label>fisch/vx/container_ticket.h</label>
+      </node>
+      <node id="1065">
+        <label>hate/math.h</label>
+      </node>
+      <node id="1049">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/routing_crossbar.h</label>
+        <link refid="routing__crossbar_8h"/>
+        <childnode refid="1050" relation="include">
+        </childnode>
+        <childnode refid="1051" relation="include">
+        </childnode>
+        <childnode refid="1052" relation="include">
+        </childnode>
+        <childnode refid="1053" relation="include">
+        </childnode>
+        <childnode refid="1054" relation="include">
+        </childnode>
+        <childnode refid="1055" relation="include">
+        </childnode>
+        <childnode refid="1056" relation="include">
+        </childnode>
+        <childnode refid="1057" relation="include">
+        </childnode>
+        <childnode refid="1065" relation="include">
+        </childnode>
+        <childnode refid="1063" relation="include">
+        </childnode>
+        <childnode refid="1066" relation="include">
+        </childnode>
+      </node>
+      <node id="1055">
+        <label>halco/hicann-dls/vx/routing_crossbar.h</label>
+      </node>
+      <node id="1058">
+        <label>type_traits</label>
+      </node>
+      <node id="1062">
+        <label>hate/type_list.h</label>
+      </node>
+      <node id="1054">
+        <label>halco/hicann-dls/vx/event.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1070">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/pyhaldls.h</label>
+        <link refid="pyhaldls_8h"/>
+      </node>
+      <node id="1072">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_writereadable.h</label>
+        <link refid="is__writereadable_8h"/>
+      </node>
+      <node id="1069">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/haldls.h</label>
+        <link refid="haldls_8h"/>
+        <childnode refid="1070" relation="include">
+        </childnode>
+      </node>
+      <node id="1071">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_readable.h</label>
+        <link refid="is__readable_8h"/>
+        <childnode refid="1072" relation="include">
+        </childnode>
+      </node>
+      <node id="1068">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.h</label>
+        <link refid="container_8h"/>
+        <childnode refid="1069" relation="include">
+        </childnode>
+        <childnode refid="1071" relation="include">
+        </childnode>
+      </node>
+      <node id="1067">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/routing_crossbar.h</label>
+        <link refid="routing__crossbar_8h"/>
+        <childnode refid="1068" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_crossbar_input_drop_counter_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CrossbarInputDropCounter &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_crossbar_node_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CrossbarNode &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_crossbar_output_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CrossbarOutputConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_crossbar_output_event_counter_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; CrossbarOutputEventCounter &gt;</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_crossbar_input_drop_counter" prot="public">haldls::vx::CrossbarInputDropCounter</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_crossbar_node" prot="public">haldls::vx::CrossbarNode</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_crossbar_output_config" prot="public">haldls::vx::CrossbarOutputConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_crossbar_output_event_counter" prot="public">haldls::vx::CrossbarOutputEventCounter</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_crossbar_output_event_counter_1_1_value" prot="public">haldls::vx::CrossbarOutputEventCounter::Value</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_crossbar_input_drop_counter_1_1_value" prot="public">haldls::vx::CrossbarInputDropCounter::Value</innerclass>
+    <innernamespace refid="namespacecereal">cereal</innernamespace>
+    <innernamespace refid="namespacefisch">fisch</innernamespace>
+    <innernamespace refid="namespacefisch_1_1vx">fisch::vx</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/routing_crossbar.h"/>
+  </compounddef>
+</doxygen>

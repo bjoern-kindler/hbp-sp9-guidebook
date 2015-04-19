@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_reset_holdoff" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::NeuronBackendConfig::ResetHoldoff</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; ResetHoldoff, uint_fast8_t, 15, 0 &gt;</basecompoundref>
+    <includes refid="neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_reset_holdoff_1a84cb777e8a79f2c0ef0742889c8f6e33" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::NeuronBackendConfig::ResetHoldoff::ResetHoldoff</definition>
+        <argsstring>(uintmax_t const val=15)</argsstring>
+        <name>ResetHoldoff</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>15</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/neuron.h" line="246" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/neuron.h" bodystart="246" bodyend="248"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_reset_holdoff" kindref="compound">ResetHoldoff</ref> period: The time delta between the reset and the refractory period. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The reset-holdoff time is configured by comparison with the four LSB of the refractory- counter: The mechanism stops the reset as soon as the bits programmed in the reset-holdoff mask match the LSB of the refractory-counter and all MSB of the refractory-counter are set. Until the end of the programmed refractory time, the circuit does still reject new threshold crossings. This combination of still rejecting spikes, but stopping the reset defines the reset-holdoff time. For the user it is important to note, that the reset-holdoff time is subtracted from the refractory period, to turn it off, one can use the maximum code (0xF) for the holdoff time, resulting in the reset-holdoff time dropping to zero.</para>
+<para>Example: The reset is turned off before the end of the refractory period. As the neuron is still refractory, no new spike is registered, although the fire signal is still high. Only after the end of the refractory period the circuits accepts new fire signals. The difference between refractory period and reset duration defines the reset-holdoff period. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1425">
+        <label>halco::common::detail::RantWrapper&lt; ResetHoldoff, uint_fast8_t, 15, 0 &gt;</label>
+      </node>
+      <node id="1424">
+        <label>haldls::vx::NeuronBackendConfig::ResetHoldoff</label>
+        <link refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_reset_holdoff"/>
+        <childnode refid="1425" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1427">
+        <label>halco::common::detail::RantWrapper&lt; ResetHoldoff, uint_fast8_t, 15, 0 &gt;</label>
+      </node>
+      <node id="1426">
+        <label>haldls::vx::NeuronBackendConfig::ResetHoldoff</label>
+        <link refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_reset_holdoff"/>
+        <childnode refid="1427" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/neuron.h" line="245" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/neuron.h" bodystart="243" bodyend="249"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1_neuron_backend_config_1_1_reset_holdoff_1a84cb777e8a79f2c0ef0742889c8f6e33" prot="public" virt="non-virtual"><scope>haldls::vx::NeuronBackendConfig::ResetHoldoff</scope><name>ResetHoldoff</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

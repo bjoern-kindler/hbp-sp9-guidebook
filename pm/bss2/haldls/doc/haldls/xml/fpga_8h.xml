@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="fpga_8h" kind="file" language="C++">
+    <compoundname>fpga.h</compoundname>
+    <includes local="no">array</includes>
+    <includes local="no">ostream</includes>
+    <includes local="yes">halco/common/geometry.h</includes>
+    <includes local="yes">halco/hicann-dls/vx/fpga.h</includes>
+    <includes refid="genpybind_8h" local="yes">haldls/vx/genpybind.h</includes>
+    <includes refid="traits_8h" local="yes">haldls/vx/traits.h</includes>
+    <includes local="yes">hate/visibility.h</includes>
+    <includedby refid="container_8h" local="yes">/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.h</includedby>
+    <incdepgraph>
+      <node id="340">
+        <label>fisch/vx/container.def</label>
+      </node>
+      <node id="332">
+        <label>haldls/vx/genpybind.h</label>
+        <link refid="genpybind_8h"/>
+        <childnode refid="332" relation="include">
+        </childnode>
+      </node>
+      <node id="333">
+        <label>haldls/vx/traits.h</label>
+        <link refid="traits_8h"/>
+        <childnode refid="334" relation="include">
+        </childnode>
+        <childnode refid="335" relation="include">
+        </childnode>
+        <childnode refid="336" relation="include">
+        </childnode>
+        <childnode refid="337" relation="include">
+        </childnode>
+        <childnode refid="332" relation="include">
+        </childnode>
+        <childnode refid="338" relation="include">
+        </childnode>
+        <childnode refid="339" relation="include">
+        </childnode>
+        <childnode refid="340" relation="include">
+        </childnode>
+      </node>
+      <node id="335">
+        <label>boost/variant.hpp</label>
+      </node>
+      <node id="329">
+        <label>ostream</label>
+      </node>
+      <node id="331">
+        <label>halco/hicann-dls/vx/fpga.h</label>
+      </node>
+      <node id="328">
+        <label>array</label>
+      </node>
+      <node id="330">
+        <label>halco/common/geometry.h</label>
+      </node>
+      <node id="336">
+        <label>fisch/vx/container_fwd.h</label>
+      </node>
+      <node id="339">
+        <label>hate/visibility.h</label>
+      </node>
+      <node id="337">
+        <label>fisch/vx/container_ticket.h</label>
+      </node>
+      <node id="334">
+        <label>type_traits</label>
+      </node>
+      <node id="327">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h</label>
+        <link refid="fpga_8h"/>
+        <childnode refid="328" relation="include">
+        </childnode>
+        <childnode refid="329" relation="include">
+        </childnode>
+        <childnode refid="330" relation="include">
+        </childnode>
+        <childnode refid="331" relation="include">
+        </childnode>
+        <childnode refid="332" relation="include">
+        </childnode>
+        <childnode refid="333" relation="include">
+        </childnode>
+        <childnode refid="339" relation="include">
+        </childnode>
+      </node>
+      <node id="338">
+        <label>hate/type_list.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="344">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/pyhaldls.h</label>
+        <link refid="pyhaldls_8h"/>
+      </node>
+      <node id="346">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_writereadable.h</label>
+        <link refid="is__writereadable_8h"/>
+      </node>
+      <node id="343">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/haldls.h</label>
+        <link refid="haldls_8h"/>
+        <childnode refid="344" relation="include">
+        </childnode>
+      </node>
+      <node id="345">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/is_readable.h</label>
+        <link refid="is__readable_8h"/>
+        <childnode refid="346" relation="include">
+        </childnode>
+      </node>
+      <node id="342">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/container.h</label>
+        <link refid="container_8h"/>
+        <childnode refid="343" relation="include">
+        </childnode>
+        <childnode refid="345" relation="include">
+        </childnode>
+      </node>
+      <node id="341">
+        <label>/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h</label>
+        <link refid="fpga_8h"/>
+        <childnode refid="342" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_event_recording_config_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; EventRecordingConfig &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_external_p_p_u_memory_byte_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; ExternalPPUMemoryByte &gt;</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1detail_1_1_backend_container_trait_3_01_f_p_g_a_device_d_n_a_01_4" prot="public">haldls::vx::detail::BackendContainerTrait&lt; FPGADeviceDNA &gt;</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_event_recording_config" prot="public">haldls::vx::EventRecordingConfig</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_external_p_p_u_memory_byte" prot="public">haldls::vx::ExternalPPUMemoryByte</innerclass>
+    <innerclass refid="classhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a" prot="public">haldls::vx::FPGADeviceDNA</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_external_p_p_u_memory_byte_1_1_value" prot="public">haldls::vx::ExternalPPUMemoryByte::Value</innerclass>
+    <innerclass refid="structhaldls_1_1vx_1_1_f_p_g_a_device_d_n_a_1_1_value" prot="public">haldls::vx::FPGADeviceDNA::Value</innerclass>
+    <innernamespace refid="namespacecereal">cereal</innernamespace>
+    <innernamespace refid="namespacehalco">halco</innernamespace>
+    <innernamespace refid="namespacehalco_1_1hicann__dls">halco::hicann_dls</innernamespace>
+    <innernamespace refid="namespacehalco_1_1hicann__dls_1_1vx">halco::hicann_dls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls">haldls</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx">haldls::vx</innernamespace>
+    <innernamespace refid="namespacehaldls_1_1vx_1_1detail">haldls::vx::detail</innernamespace>
+    <innernamespace refid="namespacestd">std</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzY1NQ.x/haldls/include/haldls/vx/fpga.h"/>
+  </compounddef>
+</doxygen>

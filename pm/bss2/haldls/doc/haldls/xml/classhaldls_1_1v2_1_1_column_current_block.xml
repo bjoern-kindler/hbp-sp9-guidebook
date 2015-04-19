@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classhaldls_1_1v2_1_1_column_current_block" kind="class" language="C++" prot="public">
+    <compoundname>haldls::v2::ColumnCurrentBlock</compoundname>
+    <includes refid="v2_2synapse_8h" local="no">synapse.h</includes>
+    <innerclass refid="structhaldls_1_1v2_1_1_column_current_block_1_1_column_current_switch" prot="public">haldls::v2::ColumnCurrentBlock::ColumnCurrentSwitch</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1_column_current_block_1a8b8cd6d426a1944acfe1e204e3847b26" prot="public" static="no">
+        <type>halco::hicann_dls::v2::ColumnCurrentBlockOnDLS</type>
+        <definition>typedef halco::hicann_dls::v2::ColumnCurrentBlockOnDLS haldls::v2::ColumnCurrentBlock::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="285" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1_column_current_block_1aa238d21bef4f141f77d1a1e322d77388" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::v2::ColumnCurrentBlock::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="286" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_column_current_block_1a4baca28cabb4c83b418970a402546bcc" prot="public" static="yes" mutable="no">
+        <type>size_t constexpr</type>
+        <definition>size_t constexpr haldls::v2::ColumnCurrentBlock::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="331" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1v2_1_1_column_current_block_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="341" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_column_current_block_1a19348e5415d55a9487cb2faf511d04e8" prot="private" static="no" mutable="no">
+        <type>halco::common::typed_array&lt; <ref refid="structhaldls_1_1v2_1_1_column_current_block_1_1_column_current_switch" kindref="compound">ColumnCurrentSwitch</ref>, halco::hicann_dls::v2::ColumnCurrentSwitchOnColumnCurrentBlock &gt;</type>
+        <definition>halco::common::typed_array&lt; ColumnCurrentSwitch, halco::hicann_dls::v2::ColumnCurrentSwitchOnColumnCurrentBlock&gt; haldls::v2::ColumnCurrentBlock::m_switches</definition>
+        <argsstring></argsstring>
+        <name>m_switches</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="348" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" bodystart="348" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_column_current_block_1af2cd5fadcfe536a5e5e2d6416854395b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::ColumnCurrentBlock::ColumnCurrentBlock</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>ColumnCurrentBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="322" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_column_current_block_1abebc68f3669bcda0a833d2f70732b340" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; <ref refid="namespacehaldls_1_1v2_1a3b19ef886ae4efa44f3633a0fe7e8bdb" kindref="member">hardware_address_type</ref>, <ref refid="classhaldls_1_1v2_1_1_column_current_block_1a4baca28cabb4c83b418970a402546bcc" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;hardware_address_type, config_size_in_words&gt; haldls::v2::ColumnCurrentBlock::addresses</definition>
+        <argsstring>(coordinate_type const &amp;block) const SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_column_current_block_1a8b8cd6d426a1944acfe1e204e3847b26" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="332" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_column_current_block_1aaeffd0f374686bf44b6aaff4154c37cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::ColumnCurrentBlock::decode</definition>
+        <argsstring>(std::array&lt; hardware_word_type, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; <ref refid="namespacehaldls_1_1v2_1a1cd09cb45aac9afc8a923535524121d9" kindref="member">hardware_word_type</ref>, <ref refid="classhaldls_1_1v2_1_1_column_current_block_1a4baca28cabb4c83b418970a402546bcc" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="335" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_column_current_block_1aef50396f5cc542b84ab9445bcc569280" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; <ref refid="namespacehaldls_1_1v2_1a1cd09cb45aac9afc8a923535524121d9" kindref="member">hardware_word_type</ref>, <ref refid="classhaldls_1_1v2_1_1_column_current_block_1a4baca28cabb4c83b418970a402546bcc" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;hardware_word_type, config_size_in_words&gt; haldls::v2::ColumnCurrentBlock::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="334" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_column_current_block_1aaa9cb0a4c423c40aa7b17b834a103d19" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1v2_1_1_column_current_block_1_1_column_current_switch" kindref="compound">ColumnCurrentSwitch</ref></type>
+        <definition>ColumnCurrentSwitch haldls::v2::ColumnCurrentBlock::get_switch</definition>
+        <argsstring>(halco::hicann_dls::v2::ColumnCurrentSwitchOnColumnCurrentBlock const &amp;current_switch) const SYMBOL_VISIBLE</argsstring>
+        <name>get_switch</name>
+        <param>
+          <type>halco::hicann_dls::v2::ColumnCurrentSwitchOnColumnCurrentBlock const &amp;</type>
+          <declname>current_switch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="324" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_column_current_block_1a3bf0f51f4439455f9d34fa9cdfd12992" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::ColumnCurrentBlock::operator!=</definition>
+        <argsstring>(ColumnCurrentBlock const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_column_current_block" kindref="compound">ColumnCurrentBlock</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="338" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_column_current_block_1ae084685720a08f175ec2ac9947ad0839" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::ColumnCurrentBlock::operator==</definition>
+        <argsstring>(ColumnCurrentBlock const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_column_current_block" kindref="compound">ColumnCurrentBlock</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="337" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_column_current_block_1a6fe59172bdcb5046cd76a7d6e3226037" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::ColumnCurrentBlock::set_switch</definition>
+        <argsstring>(halco::hicann_dls::v2::ColumnCurrentSwitchOnColumnCurrentBlock const &amp;current_switch, ColumnCurrentSwitch const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_switch</name>
+        <param>
+          <type>halco::hicann_dls::v2::ColumnCurrentSwitchOnColumnCurrentBlock const &amp;</type>
+          <declname>current_switch</declname>
+        </param>
+        <param>
+          <type><ref refid="structhaldls_1_1v2_1_1_column_current_block_1_1_column_current_switch" kindref="compound">ColumnCurrentSwitch</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="327" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_column_current_block_1aa4ae66e2347bc87729783e550269cc97" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::v2::ColumnCurrentBlock::serialize</definition>
+        <argsstring>(Archive &amp;ar) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="343" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="283" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" bodystart="282" bodyend="349"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1v2_1_1_column_current_block_1abebc68f3669bcda0a833d2f70732b340" prot="public" virt="non-virtual"><scope>haldls::v2::ColumnCurrentBlock</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1v2_1_1_column_current_block_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::v2::ColumnCurrentBlock</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1v2_1_1_column_current_block_1af2cd5fadcfe536a5e5e2d6416854395b" prot="public" virt="non-virtual"><scope>haldls::v2::ColumnCurrentBlock</scope><name>ColumnCurrentBlock</name></member>
+      <member refid="classhaldls_1_1v2_1_1_column_current_block_1a4baca28cabb4c83b418970a402546bcc" prot="public" virt="non-virtual"><scope>haldls::v2::ColumnCurrentBlock</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1v2_1_1_column_current_block_1a8b8cd6d426a1944acfe1e204e3847b26" prot="public" virt="non-virtual"><scope>haldls::v2::ColumnCurrentBlock</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1v2_1_1_column_current_block_1aaeffd0f374686bf44b6aaff4154c37cf" prot="public" virt="non-virtual"><scope>haldls::v2::ColumnCurrentBlock</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1v2_1_1_column_current_block_1aef50396f5cc542b84ab9445bcc569280" prot="public" virt="non-virtual"><scope>haldls::v2::ColumnCurrentBlock</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1v2_1_1_column_current_block_1aaa9cb0a4c423c40aa7b17b834a103d19" prot="public" virt="non-virtual"><scope>haldls::v2::ColumnCurrentBlock</scope><name>get_switch</name></member>
+      <member refid="classhaldls_1_1v2_1_1_column_current_block_1aa238d21bef4f141f77d1a1e322d77388" prot="public" virt="non-virtual"><scope>haldls::v2::ColumnCurrentBlock</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1v2_1_1_column_current_block_1a19348e5415d55a9487cb2faf511d04e8" prot="private" virt="non-virtual"><scope>haldls::v2::ColumnCurrentBlock</scope><name>m_switches</name></member>
+      <member refid="classhaldls_1_1v2_1_1_column_current_block_1a3bf0f51f4439455f9d34fa9cdfd12992" prot="public" virt="non-virtual"><scope>haldls::v2::ColumnCurrentBlock</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1v2_1_1_column_current_block_1ae084685720a08f175ec2ac9947ad0839" prot="public" virt="non-virtual"><scope>haldls::v2::ColumnCurrentBlock</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1v2_1_1_column_current_block_1aa4ae66e2347bc87729783e550269cc97" prot="private" virt="non-virtual"><scope>haldls::v2::ColumnCurrentBlock</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1v2_1_1_column_current_block_1a6fe59172bdcb5046cd76a7d6e3226037" prot="public" virt="non-virtual"><scope>haldls::v2::ColumnCurrentBlock</scope><name>set_switch</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

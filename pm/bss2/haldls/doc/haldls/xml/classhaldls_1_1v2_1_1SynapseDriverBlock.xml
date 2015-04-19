@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classhaldls_1_1v2_1_1SynapseDriverBlock" kind="class" language="C++" prot="public">
+    <compoundname>haldls::v2::SynapseDriverBlock</compoundname>
+    <includes refid="synapsedriver_8h" local="no">synapsedriver.h</includes>
+    <innerclass refid="structhaldls_1_1v2_1_1SynapseDriverBlock_1_1PulseLength" prot="public">haldls::v2::SynapseDriverBlock::PulseLength</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1SynapseDriverBlock_1af7fb359373bb2ac84a37644cca29b93f" prot="public" static="no">
+        <type>halco::hicann_dls::v2::SynapseDriverBlockOnDLS</type>
+        <definition>typedef halco::hicann_dls::v2::SynapseDriverBlockOnDLS haldls::v2::SynapseDriverBlock::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" line="20" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1SynapseDriverBlock_1afaa9ea32af798ef6263381ba4d67696b" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::v2::SynapseDriverBlock::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" line="21" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="enum" id="classhaldls_1_1v2_1_1SynapseDriverBlock_1a83843f9e333d4fa68f4ab3c2707d98dc" prot="public" static="no" strong="yes">
+        <type>uint_fast8_t</type>
+        <name>Mode</name>
+        <enumvalue id="classhaldls_1_1v2_1_1SynapseDriverBlock_1a83843f9e333d4fa68f4ab3c2707d98dca075ae3d2fc31640504f814f60e5ef713" prot="public">
+          <name>disabled</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1v2_1_1SynapseDriverBlock_1a83843f9e333d4fa68f4ab3c2707d98dca8c1b6dacef2cfff3a5407a8ba78a1409" prot="public">
+          <name>excitatory</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classhaldls_1_1v2_1_1SynapseDriverBlock_1a83843f9e333d4fa68f4ab3c2707d98dcadb5c541cbf37aac6096740257a856ab6" prot="public">
+          <name>inhibitory</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" line="30" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" bodystart="29" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1SynapseDriverBlock_1a506558cb69cbd83387334b61d0604ff6" prot="public" static="no">
+        <type>std::array&lt; <ref refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1a83843f9e333d4fa68f4ab3c2707d98dc" kindref="member">Mode</ref>, halco::hicann_dls::v2::SynapseDriverOnDLS::size &gt;</type>
+        <definition>typedef std::array&lt;Mode, halco::hicann_dls::v2::SynapseDriverOnDLS::size&gt; haldls::v2::SynapseDriverBlock::modes_type</definition>
+        <argsstring></argsstring>
+        <name>modes_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" line="36" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1SynapseDriverBlock_1aca58965d4b0dd2aab9971a6505129bcc" prot="public" static="yes" mutable="no">
+        <type><ref refid="namespacehaldls_1_1v2_1a3b19ef886ae4efa44f3633a0fe7e8bdb" kindref="member">hardware_address_type</ref> constexpr</type>
+        <definition>hardware_address_type constexpr haldls::v2::SynapseDriverBlock::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" line="58" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1v2_1_1SynapseDriverBlock_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" line="66" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1SynapseDriverBlock_1af75ac5199e5bfe44405b1a75985bc241" prot="private" static="no" mutable="no">
+        <type><ref refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1a506558cb69cbd83387334b61d0604ff6" kindref="member">modes_type</ref></type>
+        <definition>modes_type haldls::v2::SynapseDriverBlock::m_modes</definition>
+        <argsstring></argsstring>
+        <name>m_modes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" line="71" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1SynapseDriverBlock_1ac2c242f871479e36c0062f09494bfe8a" prot="private" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1v2_1_1SynapseDriverBlock_1_1PulseLength" kindref="compound">PulseLength</ref></type>
+        <definition>PulseLength haldls::v2::SynapseDriverBlock::m_pulse_length</definition>
+        <argsstring></argsstring>
+        <name>m_pulse_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" line="70" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1SynapseDriverBlock_1ab78315191025ae7e7923a495eb3561e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::SynapseDriverBlock::SynapseDriverBlock</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>SynapseDriverBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1SynapseDriverBlock_1a772a97fd5e3d0733bdacd2aa1a9957c5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; <ref refid="namespacehaldls_1_1v2_1a3b19ef886ae4efa44f3633a0fe7e8bdb" kindref="member">hardware_address_type</ref>, <ref refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1aca58965d4b0dd2aab9971a6505129bcc" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;hardware_address_type, config_size_in_words&gt; haldls::v2::SynapseDriverBlock::addresses</definition>
+        <argsstring>(coordinate_type const &amp;unique) const SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1af7fb359373bb2ac84a37644cca29b93f" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>unique</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1SynapseDriverBlock_1a56feb7d125889547925060527d6a1718" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::SynapseDriverBlock::decode</definition>
+        <argsstring>(std::array&lt; hardware_word_type, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; <ref refid="namespacehaldls_1_1v2_1a1cd09cb45aac9afc8a923535524121d9" kindref="member">hardware_word_type</ref>, <ref refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1aca58965d4b0dd2aab9971a6505129bcc" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" line="63" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1SynapseDriverBlock_1aaebcb03590d7c02fffa34eaee15ebe99" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; <ref refid="namespacehaldls_1_1v2_1a1cd09cb45aac9afc8a923535524121d9" kindref="member">hardware_word_type</ref>, <ref refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1aca58965d4b0dd2aab9971a6505129bcc" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;hardware_word_type, config_size_in_words&gt; haldls::v2::SynapseDriverBlock::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1SynapseDriverBlock_1ab084b01de34f559d0bc222f25d7e04aa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1a83843f9e333d4fa68f4ab3c2707d98dc" kindref="member">Mode</ref></type>
+        <definition>Mode haldls::v2::SynapseDriverBlock::get_mode</definition>
+        <argsstring>(halco::hicann_dls::v2::SynapseDriverOnDLS const &amp;synapse_driver) const SYMBOL_VISIBLE</argsstring>
+        <name>get_mode</name>
+        <param>
+          <type>halco::hicann_dls::v2::SynapseDriverOnDLS const &amp;</type>
+          <declname>synapse_driver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1SynapseDriverBlock_1a47d90421fd69b5fc41c71196ef2e7d14" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1a506558cb69cbd83387334b61d0604ff6" kindref="member">modes_type</ref></type>
+        <definition>modes_type haldls::v2::SynapseDriverBlock::get_modes</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_modes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1SynapseDriverBlock_1a2f201147077f2e6b29bf1e69e76a3fe5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1v2_1_1SynapseDriverBlock_1_1PulseLength" kindref="compound">PulseLength</ref></type>
+        <definition>PulseLength haldls::v2::SynapseDriverBlock::get_pulse_length</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_pulse_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1SynapseDriverBlock_1a9b7ef00a352c75a1bb24dbf0136677c0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::SynapseDriverBlock::operator!=</definition>
+        <argsstring>(SynapseDriverBlock const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1SynapseDriverBlock" kindref="compound">SynapseDriverBlock</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1SynapseDriverBlock_1a94bbd349b46b665eebfae0fa5af8c782" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::SynapseDriverBlock::operator==</definition>
+        <argsstring>(SynapseDriverBlock const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1SynapseDriverBlock" kindref="compound">SynapseDriverBlock</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1SynapseDriverBlock_1a3bf51a6a504f837c54ecbff982c2cfdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::SynapseDriverBlock::set_mode</definition>
+        <argsstring>(halco::hicann_dls::v2::SynapseDriverOnDLS const &amp;synapse_driver, Mode value) SYMBOL_VISIBLE</argsstring>
+        <name>set_mode</name>
+        <param>
+          <type>halco::hicann_dls::v2::SynapseDriverOnDLS const &amp;</type>
+          <declname>synapse_driver</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1a83843f9e333d4fa68f4ab3c2707d98dc" kindref="member">Mode</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1SynapseDriverBlock_1a9ee6cd408196241e27d8149f12561541" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::SynapseDriverBlock::set_modes</definition>
+        <argsstring>(modes_type const &amp;values) SYMBOL_VISIBLE</argsstring>
+        <name>set_modes</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1a506558cb69cbd83387334b61d0604ff6" kindref="member">modes_type</ref> const &amp;</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1SynapseDriverBlock_1a5d7f0dfcd5b1383c510fa9e3edf25753" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::SynapseDriverBlock::set_pulse_length</definition>
+        <argsstring>(PulseLength const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_pulse_length</name>
+        <param>
+          <type><ref refid="structhaldls_1_1v2_1_1SynapseDriverBlock_1_1PulseLength" kindref="compound">PulseLength</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" line="53" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1SynapseDriverBlock_1a4a2db8632540587b657f58985b665c7d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::v2::SynapseDriverBlock::serialize</definition>
+        <argsstring>(Archive &amp;ar) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" line="68" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" line="18" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/synapsedriver.h" bodystart="17" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1a772a97fd5e3d0733bdacd2aa1a9957c5" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseDriverBlock</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseDriverBlock</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1aca58965d4b0dd2aab9971a6505129bcc" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseDriverBlock</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1af7fb359373bb2ac84a37644cca29b93f" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseDriverBlock</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1a56feb7d125889547925060527d6a1718" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseDriverBlock</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1aaebcb03590d7c02fffa34eaee15ebe99" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseDriverBlock</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1ab084b01de34f559d0bc222f25d7e04aa" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseDriverBlock</scope><name>get_mode</name></member>
+      <member refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1a47d90421fd69b5fc41c71196ef2e7d14" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseDriverBlock</scope><name>get_modes</name></member>
+      <member refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1a2f201147077f2e6b29bf1e69e76a3fe5" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseDriverBlock</scope><name>get_pulse_length</name></member>
+      <member refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1afaa9ea32af798ef6263381ba4d67696b" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseDriverBlock</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1af75ac5199e5bfe44405b1a75985bc241" prot="private" virt="non-virtual"><scope>haldls::v2::SynapseDriverBlock</scope><name>m_modes</name></member>
+      <member refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1ac2c242f871479e36c0062f09494bfe8a" prot="private" virt="non-virtual"><scope>haldls::v2::SynapseDriverBlock</scope><name>m_pulse_length</name></member>
+      <member refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1a83843f9e333d4fa68f4ab3c2707d98dc" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseDriverBlock</scope><name>Mode</name></member>
+      <member refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1a506558cb69cbd83387334b61d0604ff6" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseDriverBlock</scope><name>modes_type</name></member>
+      <member refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1a9b7ef00a352c75a1bb24dbf0136677c0" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseDriverBlock</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1a94bbd349b46b665eebfae0fa5af8c782" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseDriverBlock</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1a4a2db8632540587b657f58985b665c7d" prot="private" virt="non-virtual"><scope>haldls::v2::SynapseDriverBlock</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1a3bf51a6a504f837c54ecbff982c2cfdb" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseDriverBlock</scope><name>set_mode</name></member>
+      <member refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1a9ee6cd408196241e27d8149f12561541" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseDriverBlock</scope><name>set_modes</name></member>
+      <member refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1a5d7f0dfcd5b1383c510fa9e3edf25753" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseDriverBlock</scope><name>set_pulse_length</name></member>
+      <member refid="classhaldls_1_1v2_1_1SynapseDriverBlock_1ab78315191025ae7e7923a495eb3561e7" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseDriverBlock</scope><name>SynapseDriverBlock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

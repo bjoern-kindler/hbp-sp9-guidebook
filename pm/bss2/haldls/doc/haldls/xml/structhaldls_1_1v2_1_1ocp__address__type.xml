@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1v2_1_1ocp__address__type" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::v2::ocp_address_type</compoundname>
+    <includes refid="v2_2common_8h" local="no">common.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structhaldls_1_1v2_1_1ocp__address__type_1a3f0aae21122662047b799b7039c3189a" prot="public" static="no">
+        <type>std::uint32_t</type>
+        <definition>typedef std::uint32_t haldls::v2::ocp_address_type::value_type</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/common.h" line="16" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/common.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structhaldls_1_1v2_1_1ocp__address__type_1a2637d191b65e930e66424c41c0f4ab8d" prot="public" static="no" mutable="no">
+        <type><ref refid="structhaldls_1_1v2_1_1ocp__address__type_1a3f0aae21122662047b799b7039c3189a" kindref="member">value_type</ref></type>
+        <definition>value_type haldls::v2::ocp_address_type::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/common.h" line="17" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/common.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1ocp__address__type_1afd6a8207d362e99cbfe6495a1dfb565b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::v2::ocp_address_type::serialize</definition>
+        <argsstring>(Archive &amp;archive)</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>archive</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/common.h" line="20" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/common.h" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/common.h" line="15" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/common.h" bodystart="15" bodyend="24"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1v2_1_1ocp__address__type_1afd6a8207d362e99cbfe6495a1dfb565b" prot="public" virt="non-virtual"><scope>haldls::v2::ocp_address_type</scope><name>serialize</name></member>
+      <member refid="structhaldls_1_1v2_1_1ocp__address__type_1a2637d191b65e930e66424c41c0f4ab8d" prot="public" virt="non-virtual"><scope>haldls::v2::ocp_address_type</scope><name>value</name></member>
+      <member refid="structhaldls_1_1v2_1_1ocp__address__type_1a3f0aae21122662047b799b7039c3189a" prot="public" virt="non-virtual"><scope>haldls::v2::ocp_address_type</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

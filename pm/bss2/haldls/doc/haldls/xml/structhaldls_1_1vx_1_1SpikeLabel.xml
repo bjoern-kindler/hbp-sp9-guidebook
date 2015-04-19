@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1SpikeLabel" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::SpikeLabel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::BaseType&lt; SpikeLabel, uint16_t &gt;</basecompoundref>
+    <includes refid="event_8h" local="no">event.h</includes>
+    <innerclass refid="structhaldls_1_1vx_1_1SpikeLabel_1_1PADILabel" prot="public">haldls::vx::SpikeLabel::PADILabel</innerclass>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1SpikeLabel_1af8a0c9d535313a889cf28c7fc5678d03" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::SpikeLabel::SpikeLabel</definition>
+        <argsstring>(value_type const value=value_type())</argsstring>
+        <name>SpikeLabel</name>
+        <param>
+          <type><ref refid="vx_2capmem_8h_1a83f4af897c1542bc93e821d3dfbd2f5a" kindref="member">value_type</ref> const</type>
+          <declname>value</declname>
+          <defval><ref refid="vx_2capmem_8h_1a83f4af897c1542bc93e821d3dfbd2f5a" kindref="member">value_type</ref>()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/event.h" line="20" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/event.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1SpikeLabel_1abed6c53dbb3e3fcb415d6f06935b1fee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1NeuronBackendConfig_1_1AddressOut" kindref="compound">NeuronBackendConfig::AddressOut</ref></type>
+        <definition>NeuronBackendConfig::AddressOut haldls::vx::SpikeLabel::get_neuron_backend_address_out</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_neuron_backend_address_out</name>
+        <briefdescription>
+<para>Configurable neuron backend output label, bits 0-7. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/event.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1SpikeLabel_1aefaa724a47eb36994613117fa1837f38" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>halco::hicann_dls::vx::NeuronLabel</type>
+        <definition>halco::hicann_dls::vx::NeuronLabel haldls::vx::SpikeLabel::get_neuron_label</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_neuron_label</name>
+        <briefdescription>
+<para>Label type processed by Crossbar, bits 0-13. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/event.h" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1SpikeLabel_1a70ba534c8db097ab9048edb526f5f152" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1SpikeLabel_1_1PADILabel" kindref="compound">PADILabel</ref></type>
+        <definition>PADILabel haldls::vx::SpikeLabel::get_padi_label</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_padi_label</name>
+        <briefdescription>
+<para>PADI-bus label, bits 0-10. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/event.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1SpikeLabel_1a0dc6fa80ab4b5f50e2e9a31b3160ab8a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>halco::hicann_dls::vx::SPL1Address</type>
+        <definition>halco::hicann_dls::vx::SPL1Address haldls::vx::SpikeLabel::get_spl1_address</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_spl1_address</name>
+        <briefdescription>
+<para>SPL1-label, bits 14-15. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/event.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1SpikeLabel_1aaceb7c681be20ff68348b7cfc557e640" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1vx_1_1SynapseQuad_1_1Synapse_1_1Address" kindref="compound">SynapseQuad::Synapse::Address</ref></type>
+        <definition>SynapseQuad::Synapse::Address haldls::vx::SpikeLabel::get_synapse_address</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_synapse_address</name>
+        <briefdescription>
+<para>Configurable synapse address, bits 0-5. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/event.h" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1SpikeLabel_1a9a193d3f3c835f49a6d8f9ae57b90c5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::SpikeLabel::set_neuron_backend_address_out</definition>
+        <argsstring>(NeuronBackendConfig::AddressOut value) SYMBOL_VISIBLE</argsstring>
+        <name>set_neuron_backend_address_out</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1NeuronBackendConfig_1_1AddressOut" kindref="compound">NeuronBackendConfig::AddressOut</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/event.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1SpikeLabel_1a3991a84ca64cf85a598a14ec29283be7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::SpikeLabel::set_neuron_label</definition>
+        <argsstring>(halco::hicann_dls::vx::NeuronLabel value) SYMBOL_VISIBLE</argsstring>
+        <name>set_neuron_label</name>
+        <param>
+          <type>halco::hicann_dls::vx::NeuronLabel</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/event.h" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1SpikeLabel_1a81fdac4612dc7a3620c28e91ba6ec3f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::SpikeLabel::set_padi_label</definition>
+        <argsstring>(PADILabel value) SYMBOL_VISIBLE</argsstring>
+        <name>set_padi_label</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1SpikeLabel_1_1PADILabel" kindref="compound">PADILabel</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/event.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1SpikeLabel_1a037a992193d5c2cfe92721da7d4147ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::SpikeLabel::set_spl1_address</definition>
+        <argsstring>(halco::hicann_dls::vx::SPL1Address value) SYMBOL_VISIBLE</argsstring>
+        <name>set_spl1_address</name>
+        <param>
+          <type>halco::hicann_dls::vx::SPL1Address</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/event.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1SpikeLabel_1ae6eb44cc13560c094652a069acd0e495" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::vx::SpikeLabel::set_synapse_address</definition>
+        <argsstring>(SynapseQuad::Synapse::Address value) SYMBOL_VISIBLE</argsstring>
+        <name>set_synapse_address</name>
+        <param>
+          <type><ref refid="structhaldls_1_1vx_1_1SynapseQuad_1_1Synapse_1_1Address" kindref="compound">SynapseQuad::Synapse::Address</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/event.h" line="59" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1412">
+        <label>haldls::vx::SpikeLabel</label>
+        <link refid="structhaldls_1_1vx_1_1SpikeLabel"/>
+        <childnode refid="1413" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1413">
+        <label>halco::common::detail::BaseType&lt; SpikeLabel, uint16_t &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1414">
+        <label>haldls::vx::SpikeLabel</label>
+        <link refid="structhaldls_1_1vx_1_1SpikeLabel"/>
+        <childnode refid="1415" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1415">
+        <label>halco::common::detail::BaseType&lt; SpikeLabel, uint16_t &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/event.h" line="19" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/event.h" bodystart="17" bodyend="60"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1SpikeLabel_1abed6c53dbb3e3fcb415d6f06935b1fee" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeLabel</scope><name>get_neuron_backend_address_out</name></member>
+      <member refid="structhaldls_1_1vx_1_1SpikeLabel_1aefaa724a47eb36994613117fa1837f38" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeLabel</scope><name>get_neuron_label</name></member>
+      <member refid="structhaldls_1_1vx_1_1SpikeLabel_1a70ba534c8db097ab9048edb526f5f152" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeLabel</scope><name>get_padi_label</name></member>
+      <member refid="structhaldls_1_1vx_1_1SpikeLabel_1a0dc6fa80ab4b5f50e2e9a31b3160ab8a" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeLabel</scope><name>get_spl1_address</name></member>
+      <member refid="structhaldls_1_1vx_1_1SpikeLabel_1aaceb7c681be20ff68348b7cfc557e640" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeLabel</scope><name>get_synapse_address</name></member>
+      <member refid="structhaldls_1_1vx_1_1SpikeLabel_1a9a193d3f3c835f49a6d8f9ae57b90c5e" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeLabel</scope><name>set_neuron_backend_address_out</name></member>
+      <member refid="structhaldls_1_1vx_1_1SpikeLabel_1a3991a84ca64cf85a598a14ec29283be7" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeLabel</scope><name>set_neuron_label</name></member>
+      <member refid="structhaldls_1_1vx_1_1SpikeLabel_1a81fdac4612dc7a3620c28e91ba6ec3f8" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeLabel</scope><name>set_padi_label</name></member>
+      <member refid="structhaldls_1_1vx_1_1SpikeLabel_1a037a992193d5c2cfe92721da7d4147ae" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeLabel</scope><name>set_spl1_address</name></member>
+      <member refid="structhaldls_1_1vx_1_1SpikeLabel_1ae6eb44cc13560c094652a069acd0e495" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeLabel</scope><name>set_synapse_address</name></member>
+      <member refid="structhaldls_1_1vx_1_1SpikeLabel_1af8a0c9d535313a889cf28c7fc5678d03" prot="public" virt="non-virtual"><scope>haldls::vx::SpikeLabel</scope><name>SpikeLabel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

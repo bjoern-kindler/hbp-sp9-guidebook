@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1PerfTestStatus_1_1ErrorWord" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::PerfTestStatus::ErrorWord</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; ErrorWord, uint_fast32_t, 0xffffffff, 0 &gt;</basecompoundref>
+    <includes refid="perftest_8h" local="no">perftest.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1PerfTestStatus_1_1ErrorWord_1a17342ede6bb75fd3b7ff02c07a2ef2e9" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::PerfTestStatus::ErrorWord::ErrorWord</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>ErrorWord</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/perftest.h" line="122" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/perftest.h" bodystart="122" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>First non-consecutive payload. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1007">
+        <label>haldls::vx::PerfTestStatus::ErrorWord</label>
+        <link refid="structhaldls_1_1vx_1_1PerfTestStatus_1_1ErrorWord"/>
+        <childnode refid="1008" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1008">
+        <label>halco::common::detail::RantWrapper&lt; ErrorWord, uint_fast32_t, 0xffffffff, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1009">
+        <label>haldls::vx::PerfTestStatus::ErrorWord</label>
+        <link refid="structhaldls_1_1vx_1_1PerfTestStatus_1_1ErrorWord"/>
+        <childnode refid="1010" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1010">
+        <label>halco::common::detail::RantWrapper&lt; ErrorWord, uint_fast32_t, 0xffffffff, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/perftest.h" line="121" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/perftest.h" bodystart="119" bodyend="123"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1PerfTestStatus_1_1ErrorWord_1a17342ede6bb75fd3b7ff02c07a2ef2e9" prot="public" virt="non-virtual"><scope>haldls::vx::PerfTestStatus::ErrorWord</scope><name>ErrorWord</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

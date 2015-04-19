@@ -1,0 +1,640 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classhaldls_1_1v2_1_1FlyspiException" kind="class" language="C++" prot="public">
+    <compoundname>haldls::v2::FlyspiException</compoundname>
+    <includes refid="v2_2fpga_8h" local="no">fpga.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1FlyspiException_1a0f2bd518042d440ed8cba1b9fe993929" prot="public" static="no">
+        <type>halco::hicann_dls::v2::FlyspiExceptionOnFPGA</type>
+        <definition>typedef halco::hicann_dls::v2::FlyspiExceptionOnFPGA haldls::v2::FlyspiException::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="239" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1FlyspiException_1a7fb9eb336489ee298a918b35ff89ab29" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::v2::FlyspiException::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="240" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiException_1ab799c691c638bf294c5cf015d14cdf4b" prot="public" static="yes" mutable="no">
+        <type>size_t const constexpr</type>
+        <definition>size_t const constexpr haldls::v2::FlyspiException::read_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>read_config_size_in_words</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="282" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiException_1a8a5f7f3f1e3fde5a81ac33eac1c2f8a9" prot="public" static="yes" mutable="no">
+        <type>size_t const constexpr</type>
+        <definition>size_t const constexpr haldls::v2::FlyspiException::write_config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>write_config_size_in_words</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="281" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1v2_1_1FlyspiException_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="293" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1v2_1_1FlyspiException_1a7e60bf6c0f1b4c7b7ddc533f5fbab57a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, FlyspiException const &amp;a) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1FlyspiException" kindref="compound">FlyspiException</ref> const &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="274" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiException_1adcf899ed27ead7c95ded97db807d37bc" prot="private" static="no" mutable="no">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::m_encode_overflow</definition>
+        <argsstring></argsstring>
+        <name>m_encode_overflow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="309" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiException_1a06f27d806cc5767931ff4f6d1cbb1e2b" prot="private" static="no" mutable="no">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::m_playback_read_error</definition>
+        <argsstring></argsstring>
+        <name>m_playback_read_error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="301" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiException_1a78f98b61bcc8adfbfdee72180e81c8f7" prot="private" static="no" mutable="no">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::m_playback_read_overflow</definition>
+        <argsstring></argsstring>
+        <name>m_playback_read_overflow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="302" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiException_1a87ae336114d410a25b5e958bd26c0e11" prot="private" static="no" mutable="no">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::m_playback_write_error</definition>
+        <argsstring></argsstring>
+        <name>m_playback_write_error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="303" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiException_1af92bd4b60c38c6d2d3904c667183a149" prot="private" static="no" mutable="no">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::m_playback_write_underrun</definition>
+        <argsstring></argsstring>
+        <name>m_playback_write_underrun</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="304" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiException_1a54765ba9260c92cfb8e655b54ae5cf16" prot="private" static="no" mutable="no">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::m_program_exception</definition>
+        <argsstring></argsstring>
+        <name>m_program_exception</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="305" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiException_1a125f3cc50756fc170bc135f87719940c" prot="private" static="no" mutable="no">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::m_result_read_error</definition>
+        <argsstring></argsstring>
+        <name>m_result_read_error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="297" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiException_1a32445aeda62611fd8494707c4a279e14" prot="private" static="no" mutable="no">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::m_result_read_overflow</definition>
+        <argsstring></argsstring>
+        <name>m_result_read_overflow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="298" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="298" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiException_1ac52d05e06e544b7c77cfdbb412752c9b" prot="private" static="no" mutable="no">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::m_result_write_error</definition>
+        <argsstring></argsstring>
+        <name>m_result_write_error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="299" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiException_1ac8c7ce32ce8e6be103c730f0982cf80e" prot="private" static="no" mutable="no">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::m_result_write_underrun</definition>
+        <argsstring></argsstring>
+        <name>m_result_write_underrun</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="300" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiException_1a7e4f0b66e5cc441ac383e3e14fabf7f7" prot="private" static="no" mutable="no">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::m_serdes_overflow</definition>
+        <argsstring></argsstring>
+        <name>m_serdes_overflow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="306" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="306" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiException_1a06ed7bc6f35a2f4997c42be7d22174f2" prot="private" static="no" mutable="no">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::m_serdes_pll_unlocked</definition>
+        <argsstring></argsstring>
+        <name>m_serdes_pll_unlocked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="307" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1FlyspiException_1a854bfa04b4395c08ef805df9fc514a07" prot="private" static="no" mutable="no">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::m_serdes_race</definition>
+        <argsstring></argsstring>
+        <name>m_serdes_race</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="308" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="308" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiException_1af43dc441567059b40dc4040eafe74008" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::FlyspiException::FlyspiException</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>FlyspiException</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="242" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiException_1afe75f7a6aa246b9d7090f8425bd1a290" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::check</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>check</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="272" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiException_1add1b62728076d89c8e0149fe4ec38af8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::FlyspiException::decode</definition>
+        <argsstring>(std::array&lt; ocp_word_type, read_config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; <ref refid="structhaldls_1_1v2_1_1ocp__word__type" kindref="compound">ocp_word_type</ref>, <ref refid="classhaldls_1_1v2_1_1FlyspiException_1ab799c691c638bf294c5cf015d14cdf4b" kindref="member">read_config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="289" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiException_1a8586d9a843480049f9aad8fbbaf3de74" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; <ref refid="structhaldls_1_1v2_1_1ocp__word__type" kindref="compound">ocp_word_type</ref>, <ref refid="classhaldls_1_1v2_1_1FlyspiException_1a8a5f7f3f1e3fde5a81ac33eac1c2f8a9" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;ocp_word_type, write_config_size_in_words&gt; haldls::v2::FlyspiException::encode</definition>
+        <argsstring>(coordinate_type const &amp;) const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1FlyspiException_1a0f2bd518042d440ed8cba1b9fe993929" kindref="member">coordinate_type</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="287" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiException_1a82185fa794b4636766f74e03957846e1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::get_encode_overflow</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_encode_overflow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="270" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiException_1a3cd4b386b9abd151a9e04486b0d079f1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::get_playback_read_error</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_playback_read_error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="254" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiException_1a0c1b348e20d0e08d66666383abe616b1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::get_playback_read_overflow</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_playback_read_overflow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="256" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiException_1af93fbeebb8abd6f907c02801555cd707" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::get_playback_write_error</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_playback_write_error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="258" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiException_1abaea2ab6c8995720a56a063d8628a1c1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::get_playback_write_underrun</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_playback_write_underrun</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="260" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiException_1afbccfcf4b512f52dd054b17213807135" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::get_program_exception</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_program_exception</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="262" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiException_1a6f0febf6dea19d38790f159e56dfb011" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::get_result_read_error</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_result_read_error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="246" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiException_1a03445726b9b41974f455a67a6f8e57b1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::get_result_read_overflow</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_result_read_overflow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="248" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiException_1a28762099236a2b3bd4f9a0e0976d4560" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::get_result_write_error</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_result_write_error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="250" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiException_1ab3a139fe32b2ca1780a54e4bf4262800" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::get_result_write_underrun</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_result_write_underrun</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="252" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiException_1a6112cac5e9fed0b5779924d553536577" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::get_serdes_overflow</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_serdes_overflow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="264" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiException_1a1daa9749cf8dd12fa523575554b365e7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::get_serdes_pll_unlocked</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_serdes_pll_unlocked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="266" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiException_1ac70179f6f2c611d55587e49cbf47b919" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>hate::optional&lt; bool &gt;</type>
+        <definition>hate::optional&lt;bool&gt; haldls::v2::FlyspiException::get_serdes_race</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_serdes_race</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="268" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiException_1a80d668ff468979ee5e50b09727ad47ab" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiException::operator!=</definition>
+        <argsstring>(FlyspiException const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1FlyspiException" kindref="compound">FlyspiException</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="278" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiException_1ae264bd883acba80e6c46b5028b42d74f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::FlyspiException::operator==</definition>
+        <argsstring>(FlyspiException const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1FlyspiException" kindref="compound">FlyspiException</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="277" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiException_1ac5321a84bd270617ef67a01537a8affe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; <ref refid="structhaldls_1_1v2_1_1ocp__address__type" kindref="compound">ocp_address_type</ref>, <ref refid="classhaldls_1_1v2_1_1FlyspiException_1ab799c691c638bf294c5cf015d14cdf4b" kindref="member">read_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;ocp_address_type, read_config_size_in_words&gt; haldls::v2::FlyspiException::read_addresses</definition>
+        <argsstring>(coordinate_type const &amp;) const SYMBOL_VISIBLE</argsstring>
+        <name>read_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1FlyspiException_1a0f2bd518042d440ed8cba1b9fe993929" kindref="member">coordinate_type</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="285" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiException_1a2dcc19d4b1e2793f991796e69e976a20" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; <ref refid="structhaldls_1_1v2_1_1ocp__address__type" kindref="compound">ocp_address_type</ref>, <ref refid="classhaldls_1_1v2_1_1FlyspiException_1a8a5f7f3f1e3fde5a81ac33eac1c2f8a9" kindref="member">write_config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;ocp_address_type, write_config_size_in_words&gt; haldls::v2::FlyspiException::write_addresses</definition>
+        <argsstring>(coordinate_type const &amp;) const SYMBOL_VISIBLE</argsstring>
+        <name>write_addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1FlyspiException_1a0f2bd518042d440ed8cba1b9fe993929" kindref="member">coordinate_type</ref> const &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="283" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1FlyspiException_1a528a7603628070d3b1a67ea08686140e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::v2::FlyspiException::serialize</definition>
+        <argsstring>(Archive &amp;ar) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="295" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="237" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="236" bodyend="310"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1afe75f7a6aa246b9d7090f8425bd1a290" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>check</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a0f2bd518042d440ed8cba1b9fe993929" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1add1b62728076d89c8e0149fe4ec38af8" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a8586d9a843480049f9aad8fbbaf3de74" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1af43dc441567059b40dc4040eafe74008" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>FlyspiException</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a82185fa794b4636766f74e03957846e1" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>get_encode_overflow</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a3cd4b386b9abd151a9e04486b0d079f1" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>get_playback_read_error</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a0c1b348e20d0e08d66666383abe616b1" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>get_playback_read_overflow</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1af93fbeebb8abd6f907c02801555cd707" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>get_playback_write_error</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1abaea2ab6c8995720a56a063d8628a1c1" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>get_playback_write_underrun</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1afbccfcf4b512f52dd054b17213807135" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>get_program_exception</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a6f0febf6dea19d38790f159e56dfb011" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>get_result_read_error</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a03445726b9b41974f455a67a6f8e57b1" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>get_result_read_overflow</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a28762099236a2b3bd4f9a0e0976d4560" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>get_result_write_error</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1ab3a139fe32b2ca1780a54e4bf4262800" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>get_result_write_underrun</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a6112cac5e9fed0b5779924d553536577" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>get_serdes_overflow</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a1daa9749cf8dd12fa523575554b365e7" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>get_serdes_pll_unlocked</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1ac70179f6f2c611d55587e49cbf47b919" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>get_serdes_race</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a7fb9eb336489ee298a918b35ff89ab29" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1adcf899ed27ead7c95ded97db807d37bc" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>m_encode_overflow</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a06f27d806cc5767931ff4f6d1cbb1e2b" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>m_playback_read_error</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a78f98b61bcc8adfbfdee72180e81c8f7" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>m_playback_read_overflow</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a87ae336114d410a25b5e958bd26c0e11" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>m_playback_write_error</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1af92bd4b60c38c6d2d3904c667183a149" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>m_playback_write_underrun</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a54765ba9260c92cfb8e655b54ae5cf16" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>m_program_exception</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a125f3cc50756fc170bc135f87719940c" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>m_result_read_error</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a32445aeda62611fd8494707c4a279e14" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>m_result_read_overflow</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1ac52d05e06e544b7c77cfdbb412752c9b" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>m_result_write_error</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1ac8c7ce32ce8e6be103c730f0982cf80e" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>m_result_write_underrun</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a7e4f0b66e5cc441ac383e3e14fabf7f7" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>m_serdes_overflow</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a06ed7bc6f35a2f4997c42be7d22174f2" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>m_serdes_pll_unlocked</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a854bfa04b4395c08ef805df9fc514a07" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>m_serdes_race</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a80d668ff468979ee5e50b09727ad47ab" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a7e60bf6c0f1b4c7b7ddc533f5fbab57a" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1ae264bd883acba80e6c46b5028b42d74f" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1ac5321a84bd270617ef67a01537a8affe" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>read_addresses</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1ab799c691c638bf294c5cf015d14cdf4b" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>read_config_size_in_words</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a528a7603628070d3b1a67ea08686140e" prot="private" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a2dcc19d4b1e2793f991796e69e976a20" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>write_addresses</name></member>
+      <member refid="classhaldls_1_1v2_1_1FlyspiException_1a8a5f7f3f1e3fde5a81ac33eac1c2f8a9" prot="public" virt="non-virtual"><scope>haldls::v2::FlyspiException</scope><name>write_config_size_in_words</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

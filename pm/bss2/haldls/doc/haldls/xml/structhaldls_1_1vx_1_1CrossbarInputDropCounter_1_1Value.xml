@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1CrossbarInputDropCounter_1_1Value" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::CrossbarInputDropCounter::Value</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail:: RantWrapper&lt; Value, uint_fast32_t, hate::math::pow(2, 16) - 1, 0 &gt;</basecompoundref>
+    <includes refid="routing__crossbar_8h" local="no">routing_crossbar.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1CrossbarInputDropCounter_1_1Value_1a9e115895546b736a683eede99261ab5a" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::CrossbarInputDropCounter::Value::Value</definition>
+        <argsstring>(uintmax_t const val=0)</argsstring>
+        <name>Value</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/routing_crossbar.h" line="115" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/routing_crossbar.h" bodystart="115" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1533">
+        <label>halco::common::detail:: RantWrapper&lt; Value, uint_fast32_t, hate::math::pow(2, 16) - 1, 0 &gt;</label>
+      </node>
+      <node id="1532">
+        <label>haldls::vx::CrossbarInputDropCounter::Value</label>
+        <link refid="structhaldls_1_1vx_1_1CrossbarInputDropCounter_1_1Value"/>
+        <childnode refid="1533" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1535">
+        <label>halco::common::detail:: RantWrapper&lt; Value, uint_fast32_t, hate::math::pow(2, 16) - 1, 0 &gt;</label>
+      </node>
+      <node id="1534">
+        <label>haldls::vx::CrossbarInputDropCounter::Value</label>
+        <link refid="structhaldls_1_1vx_1_1CrossbarInputDropCounter_1_1Value"/>
+        <childnode refid="1535" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/routing_crossbar.h" line="114" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/routing_crossbar.h" bodystart="111" bodyend="118"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1CrossbarInputDropCounter_1_1Value_1a9e115895546b736a683eede99261ab5a" prot="public" virt="non-virtual"><scope>haldls::vx::CrossbarInputDropCounter::Value</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

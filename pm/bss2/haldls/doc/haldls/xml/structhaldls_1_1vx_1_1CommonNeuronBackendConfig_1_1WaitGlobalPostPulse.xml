@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1CommonNeuronBackendConfig_1_1WaitGlobalPostPulse" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::CommonNeuronBackendConfig::WaitGlobalPostPulse</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; WaitGlobalPostPulse, uint_fast16_t, 255, 0 &gt;</basecompoundref>
+    <includes refid="vx_2neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1CommonNeuronBackendConfig_1_1WaitGlobalPostPulse_1a9bd12b54bdc86e753592359939a215e5" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::CommonNeuronBackendConfig::WaitGlobalPostPulse::WaitGlobalPostPulse</definition>
+        <argsstring>(uintmax_t const val=128)</argsstring>
+        <name>WaitGlobalPostPulse</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>128</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/neuron.h" line="54" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/neuron.h" bodystart="54" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Duration of the pulse triggering global post pulses for all neurons connected to that backend block. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1604">
+        <label>haldls::vx::CommonNeuronBackendConfig::WaitGlobalPostPulse</label>
+        <link refid="structhaldls_1_1vx_1_1CommonNeuronBackendConfig_1_1WaitGlobalPostPulse"/>
+        <childnode refid="1605" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1605">
+        <label>halco::common::detail::RantWrapper&lt; WaitGlobalPostPulse, uint_fast16_t, 255, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1606">
+        <label>haldls::vx::CommonNeuronBackendConfig::WaitGlobalPostPulse</label>
+        <link refid="structhaldls_1_1vx_1_1CommonNeuronBackendConfig_1_1WaitGlobalPostPulse"/>
+        <childnode refid="1607" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1607">
+        <label>halco::common::detail::RantWrapper&lt; WaitGlobalPostPulse, uint_fast16_t, 255, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/neuron.h" line="53" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/neuron.h" bodystart="51" bodyend="58"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1CommonNeuronBackendConfig_1_1WaitGlobalPostPulse_1a9bd12b54bdc86e753592359939a215e5" prot="public" virt="non-virtual"><scope>haldls::vx::CommonNeuronBackendConfig::WaitGlobalPostPulse</scope><name>WaitGlobalPostPulse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

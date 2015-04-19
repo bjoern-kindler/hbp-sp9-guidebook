@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1vx_1_1CommonNeuronBackendConfig_1_1WaitSpikeCounterRead" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::vx::CommonNeuronBackendConfig::WaitSpikeCounterRead</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; WaitSpikeCounterRead, uint_fast16_t, 255, 0 &gt;</basecompoundref>
+    <includes refid="vx_2neuron_8h" local="no">neuron.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1vx_1_1CommonNeuronBackendConfig_1_1WaitSpikeCounterRead_1a76afd6837ddbb59e819b175c7dc6f617" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::vx::CommonNeuronBackendConfig::WaitSpikeCounterRead::WaitSpikeCounterRead</definition>
+        <argsstring>(uintmax_t const val=112)</argsstring>
+        <name>WaitSpikeCounterRead</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>112</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/neuron.h" line="78" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/neuron.h" bodystart="78" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Wait time for letting the neuron backend circuits drive the counter content to the controller logic. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1608">
+        <label>haldls::vx::CommonNeuronBackendConfig::WaitSpikeCounterRead</label>
+        <link refid="structhaldls_1_1vx_1_1CommonNeuronBackendConfig_1_1WaitSpikeCounterRead"/>
+        <childnode refid="1609" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1609">
+        <label>halco::common::detail::RantWrapper&lt; WaitSpikeCounterRead, uint_fast16_t, 255, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1610">
+        <label>haldls::vx::CommonNeuronBackendConfig::WaitSpikeCounterRead</label>
+        <link refid="structhaldls_1_1vx_1_1CommonNeuronBackendConfig_1_1WaitSpikeCounterRead"/>
+        <childnode refid="1611" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1611">
+        <label>halco::common::detail::RantWrapper&lt; WaitSpikeCounterRead, uint_fast16_t, 255, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/neuron.h" line="77" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/vx/neuron.h" bodystart="75" bodyend="82"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1vx_1_1CommonNeuronBackendConfig_1_1WaitSpikeCounterRead_1a76afd6837ddbb59e819b175c7dc6f617" prot="public" virt="non-virtual"><scope>haldls::vx::CommonNeuronBackendConfig::WaitSpikeCounterRead</scope><name>WaitSpikeCounterRead</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1v2_1_1SpikeRouter_1_1Delay" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::v2::SpikeRouter::Delay</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">halco::common::detail::RantWrapper&lt; Delay, uint_fast16_t, 0x4000 - 1, 0 &gt;</basecompoundref>
+    <includes refid="v2_2fpga_8h" local="no">fpga.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1SpikeRouter_1_1Delay_1a7b8358311d517235a2632ca08f70a69d" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr haldls::v2::SpikeRouter::Delay::Delay</definition>
+        <argsstring>(uintmax_t const val=0) SYMBOL_VISIBLE</argsstring>
+        <name>Delay</name>
+        <param>
+          <type>uintmax_t const</type>
+          <declname>val</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="323" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="323" bodyend="323"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="978">
+        <label>haldls::v2::SpikeRouter::Delay</label>
+        <link refid="structhaldls_1_1v2_1_1SpikeRouter_1_1Delay"/>
+        <childnode refid="979" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="979">
+        <label>halco::common::detail::RantWrapper&lt; Delay, uint_fast16_t, 0x4000 - 1, 0 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="980">
+        <label>haldls::v2::SpikeRouter::Delay</label>
+        <link refid="structhaldls_1_1v2_1_1SpikeRouter_1_1Delay"/>
+        <childnode refid="981" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="981">
+        <label>halco::common::detail::RantWrapper&lt; Delay, uint_fast16_t, 0x4000 - 1, 0 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" line="322" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/fpga.h" bodystart="320" bodyend="324"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1v2_1_1SpikeRouter_1_1Delay_1a7b8358311d517235a2632ca08f70a69d" prot="public" virt="non-virtual"><scope>haldls::v2::SpikeRouter::Delay</scope><name>Delay</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

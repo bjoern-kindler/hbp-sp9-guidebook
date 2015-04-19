@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classhaldls_1_1v2_1_1_recorded_spike" kind="class" language="C++" prot="public">
+    <compoundname>haldls::v2::RecordedSpike</compoundname>
+    <includes refid="spike_8h" local="no">spike.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1v2_1_1_recorded_spike_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/spike.h" line="81" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/spike.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classhaldls_1_1v2_1_1_recorded_spike_1ab1f9c7ba2f3d561a2da16a7f27ca0e26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, RecordedSpike const &amp;spike) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_recorded_spike" kindref="compound">RecordedSpike</ref> const &amp;</type>
+          <declname>spike</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/spike.h" line="78" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_recorded_spike_1a6af12921ca96d9bbfd8df08db6e46377" prot="private" static="no" mutable="no">
+        <type>halco::hicann_dls::v2::NeuronOnDLS</type>
+        <definition>halco::hicann_dls::v2::NeuronOnDLS haldls::v2::RecordedSpike::m_neuron</definition>
+        <argsstring></argsstring>
+        <name>m_neuron</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/spike.h" line="86" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/spike.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_recorded_spike_1a10d4b8ca3e5c366d14f9dde0a31290e5" prot="private" static="no" mutable="no">
+        <type><ref refid="namespacehaldls_1_1v2_1a6fb6373c91c2c1c11e515ed45a961a29" kindref="member">hardware_time_type</ref></type>
+        <definition>hardware_time_type haldls::v2::RecordedSpike::m_time</definition>
+        <argsstring></argsstring>
+        <name>m_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/spike.h" line="85" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/spike.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_recorded_spike_1a75a0644cdfa71167f2ffb26a00dc0bb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::RecordedSpike::RecordedSpike</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>RecordedSpike</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/spike.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_recorded_spike_1a3ba6553e702aae78df768c9f2398e379" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::RecordedSpike::RecordedSpike</definition>
+        <argsstring>(hardware_time_type const time, halco::hicann_dls::v2::NeuronOnDLS const &amp;neuron) SYMBOL_VISIBLE</argsstring>
+        <name>RecordedSpike</name>
+        <param>
+          <type><ref refid="namespacehaldls_1_1v2_1a6fb6373c91c2c1c11e515ed45a961a29" kindref="member">hardware_time_type</ref> const</type>
+          <declname>time</declname>
+        </param>
+        <param>
+          <type>halco::hicann_dls::v2::NeuronOnDLS const &amp;</type>
+          <declname>neuron</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/spike.h" line="61" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_recorded_spike_1a10b281cb3ab461c9ec298ae7ae20390b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>halco::hicann_dls::v2::NeuronOnDLS</type>
+        <definition>halco::hicann_dls::v2::NeuronOnDLS haldls::v2::RecordedSpike::get_neuron</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_neuron</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/spike.h" line="68" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_recorded_spike_1a755d607d0edac831085e41f55b73c620" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacehaldls_1_1v2_1a6fb6373c91c2c1c11e515ed45a961a29" kindref="member">hardware_time_type</ref></type>
+        <definition>hardware_time_type haldls::v2::RecordedSpike::get_time</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>get_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/spike.h" line="66" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_recorded_spike_1a1390f8f20b5652e92a23bc6c1e420cba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::RecordedSpike::operator!=</definition>
+        <argsstring>(RecordedSpike const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_recorded_spike" kindref="compound">RecordedSpike</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/spike.h" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_recorded_spike_1a1e994f50eb533d89885890f941c0cf57" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::RecordedSpike::operator&lt;</definition>
+        <argsstring>(RecordedSpike const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_recorded_spike" kindref="compound">RecordedSpike</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/spike.h" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_recorded_spike_1a8c505ba87bfa058adda236810bd67b4f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::RecordedSpike::operator&lt;=</definition>
+        <argsstring>(RecordedSpike const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_recorded_spike" kindref="compound">RecordedSpike</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/spike.h" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_recorded_spike_1ad63405733aac9a7b8927d885d91da07f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::RecordedSpike::operator==</definition>
+        <argsstring>(RecordedSpike const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_recorded_spike" kindref="compound">RecordedSpike</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/spike.h" line="70" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_recorded_spike_1ac8aadf9cb651d0f2319f74c0cafb7d27" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::RecordedSpike::operator&gt;</definition>
+        <argsstring>(RecordedSpike const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator&gt;</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_recorded_spike" kindref="compound">RecordedSpike</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/spike.h" line="73" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_recorded_spike_1ad1636c1fb4aa5d74cfe4a0febc2b26cf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::RecordedSpike::operator&gt;=</definition>
+        <argsstring>(RecordedSpike const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator&gt;=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_recorded_spike" kindref="compound">RecordedSpike</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/spike.h" line="75" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_recorded_spike_1a6460a806665402b68d1f73ffb5dd3c58" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::v2::RecordedSpike::serialize</definition>
+        <argsstring>(Archive &amp;ar) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/spike.h" line="83" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/spike.h" line="57" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/spike.h" bodystart="56" bodyend="87"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1v2_1_1_recorded_spike_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::v2::RecordedSpike</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1v2_1_1_recorded_spike_1a10b281cb3ab461c9ec298ae7ae20390b" prot="public" virt="non-virtual"><scope>haldls::v2::RecordedSpike</scope><name>get_neuron</name></member>
+      <member refid="classhaldls_1_1v2_1_1_recorded_spike_1a755d607d0edac831085e41f55b73c620" prot="public" virt="non-virtual"><scope>haldls::v2::RecordedSpike</scope><name>get_time</name></member>
+      <member refid="classhaldls_1_1v2_1_1_recorded_spike_1a6af12921ca96d9bbfd8df08db6e46377" prot="private" virt="non-virtual"><scope>haldls::v2::RecordedSpike</scope><name>m_neuron</name></member>
+      <member refid="classhaldls_1_1v2_1_1_recorded_spike_1a10d4b8ca3e5c366d14f9dde0a31290e5" prot="private" virt="non-virtual"><scope>haldls::v2::RecordedSpike</scope><name>m_time</name></member>
+      <member refid="classhaldls_1_1v2_1_1_recorded_spike_1a1390f8f20b5652e92a23bc6c1e420cba" prot="public" virt="non-virtual"><scope>haldls::v2::RecordedSpike</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1v2_1_1_recorded_spike_1a1e994f50eb533d89885890f941c0cf57" prot="public" virt="non-virtual"><scope>haldls::v2::RecordedSpike</scope><name>operator&lt;</name></member>
+      <member refid="classhaldls_1_1v2_1_1_recorded_spike_1ab1f9c7ba2f3d561a2da16a7f27ca0e26" prot="public" virt="non-virtual"><scope>haldls::v2::RecordedSpike</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classhaldls_1_1v2_1_1_recorded_spike_1a8c505ba87bfa058adda236810bd67b4f" prot="public" virt="non-virtual"><scope>haldls::v2::RecordedSpike</scope><name>operator&lt;=</name></member>
+      <member refid="classhaldls_1_1v2_1_1_recorded_spike_1ad63405733aac9a7b8927d885d91da07f" prot="public" virt="non-virtual"><scope>haldls::v2::RecordedSpike</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1v2_1_1_recorded_spike_1ac8aadf9cb651d0f2319f74c0cafb7d27" prot="public" virt="non-virtual"><scope>haldls::v2::RecordedSpike</scope><name>operator&gt;</name></member>
+      <member refid="classhaldls_1_1v2_1_1_recorded_spike_1ad1636c1fb4aa5d74cfe4a0febc2b26cf" prot="public" virt="non-virtual"><scope>haldls::v2::RecordedSpike</scope><name>operator&gt;=</name></member>
+      <member refid="classhaldls_1_1v2_1_1_recorded_spike_1a75a0644cdfa71167f2ffb26a00dc0bb6" prot="public" virt="non-virtual"><scope>haldls::v2::RecordedSpike</scope><name>RecordedSpike</name></member>
+      <member refid="classhaldls_1_1v2_1_1_recorded_spike_1a3ba6553e702aae78df768c9f2398e379" prot="public" virt="non-virtual"><scope>haldls::v2::RecordedSpike</scope><name>RecordedSpike</name></member>
+      <member refid="classhaldls_1_1v2_1_1_recorded_spike_1a6460a806665402b68d1f73ffb5dd3c58" prot="private" virt="non-virtual"><scope>haldls::v2::RecordedSpike</scope><name>serialize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

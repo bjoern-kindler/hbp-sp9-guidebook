@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classhaldls_1_1v2_1_1_synapse_block" kind="class" language="C++" prot="public">
+    <compoundname>haldls::v2::SynapseBlock</compoundname>
+    <includes refid="v2_2synapse_8h" local="no">synapse.h</includes>
+    <innerclass refid="structhaldls_1_1v2_1_1_synapse_block_1_1_synapse" prot="public">haldls::v2::SynapseBlock::Synapse</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1_synapse_block_1a72935c571ed84c70fd74d9c3c07787cd" prot="public" static="no">
+        <type>halco::hicann_dls::v2::SynapseBlockOnDLS</type>
+        <definition>typedef halco::hicann_dls::v2::SynapseBlockOnDLS haldls::v2::SynapseBlock::coordinate_type</definition>
+        <argsstring></argsstring>
+        <name>coordinate_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="115" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classhaldls_1_1v2_1_1_synapse_block_1ac381b0243a75d8fea5ae793c46f30664" prot="public" static="no">
+        <type>std::true_type</type>
+        <definition>typedef std::true_type haldls::v2::SynapseBlock::is_leaf_node</definition>
+        <argsstring></argsstring>
+        <name>is_leaf_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="116" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_synapse_block_1a485a7788dee4919cb8b95aa74a96484f" prot="public" static="yes" mutable="no">
+        <type>size_t constexpr</type>
+        <definition>size_t constexpr haldls::v2::SynapseBlock::config_size_in_words</definition>
+        <argsstring></argsstring>
+        <name>config_size_in_words</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="195" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classhaldls_1_1v2_1_1_synapse_block_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="205" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classhaldls_1_1v2_1_1_synapse_block_1a43174d63bc066108abe642459757ea94" prot="private" static="no" mutable="no">
+        <type>halco::common::typed_array&lt; <ref refid="structhaldls_1_1v2_1_1_synapse_block_1_1_synapse" kindref="compound">Synapse</ref>, halco::hicann_dls::v2::SynapseOnSynapseBlock &gt;</type>
+        <definition>halco::common::typed_array&lt;Synapse, halco::hicann_dls::v2::SynapseOnSynapseBlock&gt; haldls::v2::SynapseBlock::m_synapses</definition>
+        <argsstring></argsstring>
+        <name>m_synapses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="209" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_synapse_block_1a604789c337af34573b298c3b3ffa6eb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>haldls::v2::SynapseBlock::SynapseBlock</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>SynapseBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="187" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_synapse_block_1a9ea863657a897daee35561d8f66adead" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; <ref refid="namespacehaldls_1_1v2_1a3b19ef886ae4efa44f3633a0fe7e8bdb" kindref="member">hardware_address_type</ref>, <ref refid="classhaldls_1_1v2_1_1_synapse_block_1a485a7788dee4919cb8b95aa74a96484f" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;hardware_address_type, config_size_in_words&gt; haldls::v2::SynapseBlock::addresses</definition>
+        <argsstring>(coordinate_type const &amp;block) const SYMBOL_VISIBLE</argsstring>
+        <name>addresses</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_synapse_block_1a72935c571ed84c70fd74d9c3c07787cd" kindref="member">coordinate_type</ref> const &amp;</type>
+          <declname>block</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="196" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_synapse_block_1a05a8350e7702e648dd97038191df82e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::SynapseBlock::decode</definition>
+        <argsstring>(std::array&lt; hardware_word_type, config_size_in_words &gt; const &amp;data) SYMBOL_VISIBLE</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::array&lt; <ref refid="namespacehaldls_1_1v2_1a1cd09cb45aac9afc8a923535524121d9" kindref="member">hardware_word_type</ref>, <ref refid="classhaldls_1_1v2_1_1_synapse_block_1a485a7788dee4919cb8b95aa74a96484f" kindref="member">config_size_in_words</ref> &gt; const &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="199" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_synapse_block_1ac6136b663304abd19a74c7d3d98f85ee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::array&lt; <ref refid="namespacehaldls_1_1v2_1a1cd09cb45aac9afc8a923535524121d9" kindref="member">hardware_word_type</ref>, <ref refid="classhaldls_1_1v2_1_1_synapse_block_1a485a7788dee4919cb8b95aa74a96484f" kindref="member">config_size_in_words</ref> &gt;</type>
+        <definition>std::array&lt;hardware_word_type, config_size_in_words&gt; haldls::v2::SynapseBlock::encode</definition>
+        <argsstring>() const SYMBOL_VISIBLE</argsstring>
+        <name>encode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="198" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_synapse_block_1a765838df360638706c12d228021fb2ce" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structhaldls_1_1v2_1_1_synapse_block_1_1_synapse" kindref="compound">Synapse</ref></type>
+        <definition>Synapse haldls::v2::SynapseBlock::get_synapse</definition>
+        <argsstring>(halco::hicann_dls::v2::SynapseOnSynapseBlock const &amp;synapse) const SYMBOL_VISIBLE</argsstring>
+        <name>get_synapse</name>
+        <param>
+          <type>halco::hicann_dls::v2::SynapseOnSynapseBlock const &amp;</type>
+          <declname>synapse</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="189" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_synapse_block_1abc6a1264010858e36a75053eec2873b6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::SynapseBlock::operator!=</definition>
+        <argsstring>(SynapseBlock const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_synapse_block" kindref="compound">SynapseBlock</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="202" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_synapse_block_1aba7bc1d175cf9ef8a0d3a54be103d597" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool haldls::v2::SynapseBlock::operator==</definition>
+        <argsstring>(SynapseBlock const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classhaldls_1_1v2_1_1_synapse_block" kindref="compound">SynapseBlock</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="201" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_synapse_block_1a63248ad35b12ac53d1ce0de05f4d833e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void haldls::v2::SynapseBlock::set_synapse</definition>
+        <argsstring>(halco::hicann_dls::v2::SynapseOnSynapseBlock const &amp;synapse, Synapse const &amp;value) SYMBOL_VISIBLE</argsstring>
+        <name>set_synapse</name>
+        <param>
+          <type>halco::hicann_dls::v2::SynapseOnSynapseBlock const &amp;</type>
+          <declname>synapse</declname>
+        </param>
+        <param>
+          <type><ref refid="structhaldls_1_1v2_1_1_synapse_block_1_1_synapse" kindref="compound">Synapse</ref> const &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="191" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classhaldls_1_1v2_1_1_synapse_block_1ad3bbdedebf7a3acca5b77231fb4727ef" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void haldls::v2::SynapseBlock::serialize</definition>
+        <argsstring>(Archive &amp;ar) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="207" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" line="113" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5OA.x/haldls/include/haldls/v2/synapse.h" bodystart="112" bodyend="210"/>
+    <listofallmembers>
+      <member refid="classhaldls_1_1v2_1_1_synapse_block_1a9ea863657a897daee35561d8f66adead" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseBlock</scope><name>addresses</name></member>
+      <member refid="classhaldls_1_1v2_1_1_synapse_block_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseBlock</scope><name>cereal::access</name></member>
+      <member refid="classhaldls_1_1v2_1_1_synapse_block_1a485a7788dee4919cb8b95aa74a96484f" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseBlock</scope><name>config_size_in_words</name></member>
+      <member refid="classhaldls_1_1v2_1_1_synapse_block_1a72935c571ed84c70fd74d9c3c07787cd" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseBlock</scope><name>coordinate_type</name></member>
+      <member refid="classhaldls_1_1v2_1_1_synapse_block_1a05a8350e7702e648dd97038191df82e2" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseBlock</scope><name>decode</name></member>
+      <member refid="classhaldls_1_1v2_1_1_synapse_block_1ac6136b663304abd19a74c7d3d98f85ee" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseBlock</scope><name>encode</name></member>
+      <member refid="classhaldls_1_1v2_1_1_synapse_block_1a765838df360638706c12d228021fb2ce" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseBlock</scope><name>get_synapse</name></member>
+      <member refid="classhaldls_1_1v2_1_1_synapse_block_1ac381b0243a75d8fea5ae793c46f30664" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseBlock</scope><name>is_leaf_node</name></member>
+      <member refid="classhaldls_1_1v2_1_1_synapse_block_1a43174d63bc066108abe642459757ea94" prot="private" virt="non-virtual"><scope>haldls::v2::SynapseBlock</scope><name>m_synapses</name></member>
+      <member refid="classhaldls_1_1v2_1_1_synapse_block_1abc6a1264010858e36a75053eec2873b6" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseBlock</scope><name>operator!=</name></member>
+      <member refid="classhaldls_1_1v2_1_1_synapse_block_1aba7bc1d175cf9ef8a0d3a54be103d597" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseBlock</scope><name>operator==</name></member>
+      <member refid="classhaldls_1_1v2_1_1_synapse_block_1ad3bbdedebf7a3acca5b77231fb4727ef" prot="private" virt="non-virtual"><scope>haldls::v2::SynapseBlock</scope><name>serialize</name></member>
+      <member refid="classhaldls_1_1v2_1_1_synapse_block_1a63248ad35b12ac53d1ce0de05f4d833e" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseBlock</scope><name>set_synapse</name></member>
+      <member refid="classhaldls_1_1v2_1_1_synapse_block_1a604789c337af34573b298c3b3ffa6eb9" prot="public" virt="non-virtual"><scope>haldls::v2::SynapseBlock</scope><name>SynapseBlock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

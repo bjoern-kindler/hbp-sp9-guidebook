@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structhaldls_1_1v2_1_1detail_1_1VisitPreorderImpl" kind="struct" language="C++" prot="public">
+    <compoundname>haldls::v2::detail::VisitPreorderImpl</compoundname>
+    <includes refid="v2_2common_8h" local="no">common.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>ContainerT</declname>
+        <defname>ContainerT</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structhaldls_1_1v2_1_1detail_1_1VisitPreorderImpl_1ad47987b759aa4722a58a223aea910d39" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ContainerU</type>
+          </param>
+          <param>
+            <type>typename VisitorT</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>static void haldls::v2::detail::VisitPreorderImpl&lt; ContainerT &gt;::call</definition>
+        <argsstring>(ContainerU &amp;config, typename ContainerT::coordinate_type const &amp;coord, VisitorT &amp;&amp;visitor)</argsstring>
+        <name>call</name>
+        <param>
+          <type>ContainerU &amp;</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type>typename <ref refid="vx_2capmem_8h_1ae41b4257216a0a9911203211a8cad8d0" kindref="member">ContainerT::coordinate_type</ref> const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <param>
+          <type>VisitorT &amp;&amp;</type>
+          <declname>visitor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>ContainerU</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the container, should be equal to <computeroutput>ContainerT</computeroutput> up to a const-specifier. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/common.h" line="52" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/common.h" bodystart="52" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implementation detail of the <ref refid="namespacehaldls_1_1v2_1a3c4e24d82517433719142cee81da8974" kindref="member">visit_preorder()</ref> free function (q.v.). </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>ContainerT</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Non-const-specified type of the container. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>This class needs to be specialized for non-leaf-node containers, i.e. those that contain other containers. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/common.h" line="44" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/haldls/v2/common.h" bodystart="44" bodyend="57"/>
+    <listofallmembers>
+      <member refid="structhaldls_1_1v2_1_1detail_1_1VisitPreorderImpl_1ad47987b759aa4722a58a223aea910d39" prot="public" virt="non-virtual"><scope>haldls::v2::detail::VisitPreorderImpl</scope><name>call</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

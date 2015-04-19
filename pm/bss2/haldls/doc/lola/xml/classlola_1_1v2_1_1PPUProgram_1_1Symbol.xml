@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="classlola_1_1v2_1_1PPUProgram_1_1Symbol" kind="class" language="C++" prot="public">
+    <compoundname>lola::v2::PPUProgram::Symbol</compoundname>
+    <includes refid="v2_2ppu_8h" local="no">ppu.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1af71ae2d908060dcc569a6d2d528a3de3" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Type</name>
+        <enumvalue id="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1af71ae2d908060dcc569a6d2d528a3de3aa8cfde6331bd59eb2ac96f8911c4b666" prot="public">
+          <name>object</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1af71ae2d908060dcc569a6d2d528a3de3ac1c425268e68385d1ab5074c17a94f14" prot="public">
+          <name>function</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1af71ae2d908060dcc569a6d2d528a3de3a795f3202b17cb6bc3d4b771d8c6c9eaf" prot="public">
+          <name>other</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para><ref refid="classlola_1_1v2_1_1PPUProgram_1_1Symbol" kindref="compound">Symbol</ref> type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/lola/v2/ppu.h" line="36" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/lola/v2/ppu.h" bodystart="35" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1a23854fbfb8d4e7cd56009b37e263b61e" prot="public" static="no" mutable="no">
+        <type>halco::hicann_dls::v2::PPUMemoryBlockOnDLS</type>
+        <definition>halco::hicann_dls::v2::PPUMemoryBlockOnDLS lola::v2::PPUProgram::Symbol::coordinate</definition>
+        <argsstring></argsstring>
+        <name>coordinate</name>
+        <briefdescription>
+<para>Location of memory block corresponding to symbol. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/lola/v2/ppu.h" line="57" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/lola/v2/ppu.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1a94de44c721c29f3a12643f2e7073cd56" prot="public" static="no" mutable="no">
+        <type><ref refid="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1af71ae2d908060dcc569a6d2d528a3de3" kindref="member">Type</ref></type>
+        <definition>Type lola::v2::PPUProgram::Symbol::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+<para>Type of symbol. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/lola/v2/ppu.h" line="54" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/lola/v2/ppu.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class cereal::access</definition>
+        <argsstring></argsstring>
+        <name>cereal::access</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/lola/v2/ppu.h" line="67" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/lola/v2/ppu.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1ab3f91c98a05e1672ae6054c5a342b015" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;os, Symbol const &amp;symbol) SYMBOL_VISIBLE</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type><ref refid="classlola_1_1v2_1_1PPUProgram_1_1Symbol" kindref="compound">Symbol</ref> const &amp;</type>
+          <declname>symbol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/lola/v2/ppu.h" line="64" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1a4d40d194d0c6f0645cd7fd74af2989a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::v2::PPUProgram::Symbol::Symbol</definition>
+        <argsstring>() SYMBOL_VISIBLE</argsstring>
+        <name>Symbol</name>
+        <briefdescription>
+<para>Default construct a symbol of type &apos;other&apos; and default coordinate. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/lola/v2/ppu.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1a8956789192f030364b23fc74e834fe7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>lola::v2::PPUProgram::Symbol::Symbol</definition>
+        <argsstring>(Type const &amp;type, halco::hicann_dls::v2::PPUMemoryBlockOnDLS const &amp;coord) SYMBOL_VISIBLE</argsstring>
+        <name>Symbol</name>
+        <param>
+          <type><ref refid="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1af71ae2d908060dcc569a6d2d528a3de3" kindref="member">Type</ref> const &amp;</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>halco::hicann_dls::v2::PPUMemoryBlockOnDLS const &amp;</type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+<para>Construct a symbol from a type and a coordinate. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/lola/v2/ppu.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1a751509b68ccc0dd78b4c4d15fdd77456" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::v2::PPUProgram::Symbol::operator!=</definition>
+        <argsstring>(Symbol const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="classlola_1_1v2_1_1PPUProgram_1_1Symbol" kindref="compound">Symbol</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/lola/v2/ppu.h" line="61" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1af76d3d4464c7d1fb3918c5f4acbcb9bb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool lola::v2::PPUProgram::Symbol::operator==</definition>
+        <argsstring>(Symbol const &amp;other) const SYMBOL_VISIBLE</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="classlola_1_1v2_1_1PPUProgram_1_1Symbol" kindref="compound">Symbol</ref> const &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/lola/v2/ppu.h" line="59" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1a94a3d4914ea24f6e326ddb48033eef68" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Archive</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void lola::v2::PPUProgram::Symbol::serialize</definition>
+        <argsstring>(Archive &amp;ar) SYMBOL_VISIBLE</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>Archive &amp;</type>
+          <declname>ar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/lola/v2/ppu.h" line="69" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="classlola_1_1v2_1_1PPUProgram_1_1Symbol" kindref="compound">Symbol</ref> of PPU program describing the location and type of a continuous block of memory. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Symbols can either describe an object, i.e. global data or executable code of a function. </para>
+    </detaileddescription>
+    <location file="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/lola/v2/ppu.h" line="30" column="1" bodyfile="/jenkins/jenlib_workspaces_f9/bld_nightly-haldls.YmxkX25pZ2h0bHktaGFsZGxzIzQ5Nw.x/haldls/include/lola/v2/ppu.h" bodystart="29" bodyend="70"/>
+    <listofallmembers>
+      <member refid="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1ab2f44cbb59a08132f4c843e5225bba0e" prot="public" virt="non-virtual"><scope>lola::v2::PPUProgram::Symbol</scope><name>cereal::access</name></member>
+      <member refid="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1a23854fbfb8d4e7cd56009b37e263b61e" prot="public" virt="non-virtual"><scope>lola::v2::PPUProgram::Symbol</scope><name>coordinate</name></member>
+      <member refid="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1a751509b68ccc0dd78b4c4d15fdd77456" prot="public" virt="non-virtual"><scope>lola::v2::PPUProgram::Symbol</scope><name>operator!=</name></member>
+      <member refid="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1ab3f91c98a05e1672ae6054c5a342b015" prot="public" virt="non-virtual"><scope>lola::v2::PPUProgram::Symbol</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1af76d3d4464c7d1fb3918c5f4acbcb9bb" prot="public" virt="non-virtual"><scope>lola::v2::PPUProgram::Symbol</scope><name>operator==</name></member>
+      <member refid="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1a94a3d4914ea24f6e326ddb48033eef68" prot="private" virt="non-virtual"><scope>lola::v2::PPUProgram::Symbol</scope><name>serialize</name></member>
+      <member refid="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1a4d40d194d0c6f0645cd7fd74af2989a4" prot="public" virt="non-virtual"><scope>lola::v2::PPUProgram::Symbol</scope><name>Symbol</name></member>
+      <member refid="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1a8956789192f030364b23fc74e834fe7c" prot="public" virt="non-virtual"><scope>lola::v2::PPUProgram::Symbol</scope><name>Symbol</name></member>
+      <member refid="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1af71ae2d908060dcc569a6d2d528a3de3" prot="public" virt="non-virtual"><scope>lola::v2::PPUProgram::Symbol</scope><name>Type</name></member>
+      <member refid="classlola_1_1v2_1_1PPUProgram_1_1Symbol_1a94de44c721c29f3a12643f2e7073cd56" prot="public" virt="non-virtual"><scope>lola::v2::PPUProgram::Symbol</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
